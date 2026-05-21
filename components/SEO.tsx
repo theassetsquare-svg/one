@@ -47,17 +47,22 @@ export default function SEO({
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" key="fav32" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" key="fav16" />
       <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" key="apple" />
-      <link rel="preconnect" href="https://cdn.jsdelivr.net" key="pre1" />
+      <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" key="dns1" />
+      <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" key="pre1" />
       <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
         key="pretendard"
       />
       <link rel="preload" as="image" href="/og/og-search-thumb.png" fetchPriority="high" key="lcp" />
+      <meta name="color-scheme" content="dark" key="color-scheme" />
+      <meta name="HandheldFriendly" content="True" key="hh" />
+      <meta name="MobileOptimized" content="320" key="mo" />
 
       <meta property="og:type" content="website" key="og:type" />
       <meta property="og:site_name" content="대전원나이트 막내" key="og:site" />
       <meta property="og:locale" content="ko_KR" key="og:locale" />
+      <meta property="og:locale:alternate" content="ko" key="og:loc:alt" />
       <meta property="og:title" content={ogTitle || title} key="og:title" />
       <meta property="og:description" content={ogDesc || description} key="og:desc" />
       <meta property="og:url" content={canonical} key="og:url" />

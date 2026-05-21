@@ -28,11 +28,11 @@ export default function Event() {
             <div className="bento">
               <div className="bic">
                 <h3>💵 차비 3만원 지급</h3>
-                <p>10시 이전 입장 여성 손님 전원. 현장 지급 / 한 분당 한 번.</p>
+                <p>22시 전 입장 여성 손님 전원. 현장 지급 / 한 분당 한 번.</p>
               </div>
               <div className="bic">
-                <h3>🍺 맥주 기본 서비스</h3>
-                <p>입장 즉시 기본 맥주 제공. 추가 주문 별도.</p>
+                <h3>🍺 기본 음료 서비스</h3>
+                <p>입장 즉시 시원한 한 잔 제공. 추가 주문 별도.</p>
               </div>
               <div className="bic">
                 <h3>⏰ 조건</h3>

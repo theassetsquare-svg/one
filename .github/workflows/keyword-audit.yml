@@ -1,0 +1,28 @@
+name: Keyword Stuffing Audit (24h)
+on:
+  schedule:
+    - cron: '15 4 * * *'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Wait for CF Pages deploy
+        run: |
+          set -e
+          for i in $(seq 1 30); do
+            S=$(curl -s -o /dev/null -w "%{http_code}" "https://one-5ei.pages.dev/")
+            if [ "$S" = "200" ]; then exit 0; fi
+            echo "wait... ($i/30) status=$S"
+            sleep 15
+          done
+          exit 1
+      - name: Run keyword stuffing audit
+        run: node scripts/keyword-audit.js

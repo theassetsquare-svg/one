@@ -43,6 +43,12 @@ export default function Schema({
           addressRegion: '대전',
           addressCountry: 'KR',
         },
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: 36.3504,
+          longitude: 127.3845,
+        },
+        hasMap: 'https://map.naver.com/v5/search/대전원나이트%20막내',
         openingHoursSpecification: [
           {
             '@type': 'OpeningHoursSpecification',

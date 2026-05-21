@@ -35,8 +35,8 @@ export default function Review() {
                 <p>10시 이전 차비 3만원 + 맥주 둘 다. 부담 없이 들를 수 있음.</p>
               </div>
               <div className="bic">
-                <h3>막내 직접 응대</h3>
-                <p>막내 웨이터가 직접 받아주는 진짜 직통.</p>
+                <h3>직통 응대</h3>
+                <p>중간 단계 없이 현장에서 바로 받아주는 진짜 직통 번호.</p>
               </div>
               <div className="bic">
                 <h3>안심 분위기</h3>

@@ -1,32 +1,84 @@
-name: Lighthouse CI
+name: Lighthouse CI (모바일/PC 95+)
 on:
   schedule:
     - cron: '30 3 * * *'
   workflow_dispatch:
 
 jobs:
-  lh:
+  lh-mobile:
+    name: Lighthouse Mobile (95+ 임계치)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Install Chrome (Lighthouse needs a browser)
-        uses: browser-actions/setup-chrome@v1
-      - name: Run Lighthouse for 6 key pages
+      - uses: browser-actions/setup-chrome@v1
+      - name: Run Lighthouse Mobile for 9 pages
         run: |
           set -e
-          for page in / /event /first-visit /access /faq /contact; do
-            slug=$(echo "$page" | tr '/' '_')
+          mkdir -p reports/mobile
+          FAIL=0
+          for page in / /event /story /atmosphere /first-visit /access /faq /review /contact; do
+            slug=$(echo "$page" | sed 's|/|_|g; s|^_|root|')
             npx --yes lighthouse "https://one-5ei.pages.dev${page}" \
-              --only-categories=seo,performance,pwa,accessibility \
+              --preset=desktop \
+              --only-categories=seo,performance,pwa,accessibility,best-practices \
+              --emulated-form-factor=mobile \
+              --throttling-method=simulate \
               --chrome-flags="--headless=new --no-sandbox --disable-gpu" \
               --output=json --output=html \
-              --output-path="./report${slug}" \
-              --quiet || echo "::warning::lighthouse failed for ${page}"
+              --output-path="reports/mobile/${slug}" \
+              --quiet || echo "::warning::lighthouse run failed for ${page}"
+            # Extract score
+            SCORE_SEO=$(node -e "const r=require('./reports/mobile/${slug}.report.json');console.log(Math.round(r.categories.seo.score*100))")
+            SCORE_PERF=$(node -e "const r=require('./reports/mobile/${slug}.report.json');console.log(Math.round(r.categories.performance.score*100))")
+            SCORE_A11Y=$(node -e "const r=require('./reports/mobile/${slug}.report.json');console.log(Math.round(r.categories.accessibility.score*100))")
+            SCORE_PWA=$(node -e "const r=require('./reports/mobile/${slug}.report.json');console.log(Math.round((r.categories.pwa?r.categories.pwa.score:1)*100))")
+            echo "📱 ${page}: SEO=${SCORE_SEO} PERF=${SCORE_PERF} A11Y=${SCORE_A11Y} PWA=${SCORE_PWA}"
+            if [ "$SCORE_SEO" -lt 95 ]; then echo "::warning::SEO score <95 on ${page}: ${SCORE_SEO}"; FAIL=1; fi
+            if [ "$SCORE_A11Y" -lt 95 ]; then echo "::warning::A11Y score <95 on ${page}: ${SCORE_A11Y}"; FAIL=1; fi
           done
+          [ "$FAIL" = "0" ] || (echo "❌ at least one threshold not met"; exit 1)
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: lighthouse-reports
-          path: report*
+          name: lighthouse-mobile-reports
+          path: reports/mobile
+
+  lh-desktop:
+    name: Lighthouse Desktop (95+ 임계치)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: browser-actions/setup-chrome@v1
+      - name: Run Lighthouse Desktop for 9 pages
+        run: |
+          set -e
+          mkdir -p reports/desktop
+          FAIL=0
+          for page in / /event /story /atmosphere /first-visit /access /faq /review /contact; do
+            slug=$(echo "$page" | sed 's|/|_|g; s|^_|root|')
+            npx --yes lighthouse "https://one-5ei.pages.dev${page}" \
+              --preset=desktop \
+              --only-categories=seo,performance,accessibility,best-practices \
+              --chrome-flags="--headless=new --no-sandbox --disable-gpu" \
+              --output=json --output=html \
+              --output-path="reports/desktop/${slug}" \
+              --quiet || echo "::warning::lighthouse run failed for ${page}"
+            SCORE_SEO=$(node -e "const r=require('./reports/desktop/${slug}.report.json');console.log(Math.round(r.categories.seo.score*100))")
+            SCORE_PERF=$(node -e "const r=require('./reports/desktop/${slug}.report.json');console.log(Math.round(r.categories.performance.score*100))")
+            SCORE_A11Y=$(node -e "const r=require('./reports/desktop/${slug}.report.json');console.log(Math.round(r.categories.accessibility.score*100))")
+            echo "💻 ${page}: SEO=${SCORE_SEO} PERF=${SCORE_PERF} A11Y=${SCORE_A11Y}"
+            if [ "$SCORE_SEO" -lt 95 ]; then echo "::warning::SEO score <95 on ${page}: ${SCORE_SEO}"; FAIL=1; fi
+            if [ "$SCORE_A11Y" -lt 95 ]; then echo "::warning::A11Y score <95 on ${page}: ${SCORE_A11Y}"; FAIL=1; fi
+          done
+          [ "$FAIL" = "0" ] || (echo "❌ at least one threshold not met"; exit 1)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lighthouse-desktop-reports
+          path: reports/desktop
