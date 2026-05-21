@@ -11,7 +11,7 @@ fs.mkdirSync(OUT_ICONS, { recursive: true });
 
 const tasks = [];
 
-// 1:1 Search thumbnail 1080x1080
+// 1:1 Search thumbnail 1080x1080 — 대전원나이트 막내 풀버전
 const ogThumbSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
 <defs>
 <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -26,21 +26,38 @@ const ogThumbSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height=
 <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity="0.5"/></filter>
 </defs>
 <rect width="1080" height="1080" fill="url(#bg)"/>
-<rect x="0" y="0" width="1080" height="260" fill="url(#dark)"/>
-<text x="540" y="130" font-family="sans-serif" font-size="80" font-weight="900" fill="#FFD700" text-anchor="middle" filter="url(#shadow)">대전원나이트</text>
-<text x="540" y="220" font-family="sans-serif" font-size="64" font-weight="900" fill="#FFFFFF" text-anchor="middle">막내</text>
-<rect x="60" y="300" width="960" height="140" rx="24" fill="rgba(0,0,0,0.9)" filter="url(#shadow)"/>
-<text x="540" y="360" font-family="sans-serif" font-size="50" font-weight="900" fill="#FFD700" text-anchor="middle">🎯 38세 이상 입장 가능</text>
-<text x="540" y="415" font-family="sans-serif" font-size="32" font-weight="700" fill="#FFFFFF" text-anchor="middle">신분증 필수</text>
-<rect x="40" y="475" width="1000" height="460" rx="28" fill="#FFFFFF" filter="url(#shadow)"/>
-<text x="540" y="555" font-family="sans-serif" font-size="56" font-weight="900" fill="#FF1744" text-anchor="middle">💎 10시 이전 여성 손님</text>
-<text x="540" y="625" font-family="sans-serif" font-size="64" font-weight="900" fill="#000000" text-anchor="middle">2가지 모두 받습니다!</text>
-<rect x="80" y="665" width="920" height="110" rx="18" fill="#FFE082"/>
-<text x="540" y="735" font-family="sans-serif" font-size="52" font-weight="900" fill="#000000" text-anchor="middle">💵 ① 차비 3만원 지급</text>
-<rect x="80" y="795" width="920" height="110" rx="18" fill="#FFD54F"/>
-<text x="540" y="865" font-family="sans-serif" font-size="52" font-weight="900" fill="#000000" text-anchor="middle">🍺 ② 맥주 기본 서비스</text>
-<rect x="40" y="970" width="1000" height="100" rx="20" fill="#000000" filter="url(#shadow)"/>
-<text x="540" y="1035" font-family="sans-serif" font-size="48" font-weight="900" fill="#FFFFFF" text-anchor="middle">📞 막내 010-8677-1258</text>
+
+<!-- HEADER: 대전원나이트 막내 (0~230) -->
+<rect x="0" y="0" width="1080" height="230" fill="url(#dark)"/>
+<text x="540" y="105" font-family="sans-serif" font-size="78" font-weight="900" fill="#FFD700" text-anchor="middle" filter="url(#shadow)">대전원나이트 막내</text>
+<text x="540" y="175" font-family="sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">대전나이트 · 대전 나이트클럽</text>
+
+<!-- 38세+ 입장 정책 (250~360) -->
+<rect x="50" y="250" width="980" height="110" rx="22" fill="rgba(0,0,0,0.88)" filter="url(#shadow)"/>
+<text x="540" y="298" font-family="sans-serif" font-size="44" font-weight="900" fill="#FFD700" text-anchor="middle">🎯 38세 이상 손님 입장</text>
+<text x="540" y="340" font-family="sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">막내 웨이터가 직접 응대 · 신분증 필수</text>
+
+<!-- 여성 손님 2가지 혜택 박스 (380~720) -->
+<rect x="30" y="380" width="1020" height="340" rx="26" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="540" y="438" font-family="sans-serif" font-size="44" font-weight="900" fill="#FF1744" text-anchor="middle">💎 10시 이전 입장 여성 손님</text>
+<text x="540" y="495" font-family="sans-serif" font-size="52" font-weight="900" fill="#000000" text-anchor="middle">2가지 모두 보장!</text>
+<rect x="70" y="525" width="940" height="80" rx="16" fill="#FFE082"/>
+<text x="540" y="580" font-family="sans-serif" font-size="38" font-weight="900" fill="#000000" text-anchor="middle">💵 ① 차비 3만원 지급</text>
+<rect x="70" y="620" width="940" height="80" rx="16" fill="#FFD54F"/>
+<text x="540" y="675" font-family="sans-serif" font-size="38" font-weight="900" fill="#000000" text-anchor="middle">🍺 ② 맥주 기본 서비스</text>
+
+<!-- 위치 + 직통 (740~1080) -->
+<rect x="50" y="740" width="980" height="100" rx="20" fill="rgba(0,0,0,0.85)"/>
+<text x="540" y="785" font-family="sans-serif" font-size="32" font-weight="900" fill="#FFD700" text-anchor="middle">🚗 대전 시내 · 청주 · 세종 30분 거리</text>
+<text x="540" y="822" font-family="sans-serif" font-size="22" font-weight="600" fill="#FFFFFF" text-anchor="middle">매일 20:00 ~ 05:00 영업</text>
+
+<rect x="30" y="860" width="1020" height="100" rx="22" fill="#000000" filter="url(#shadow)"/>
+<text x="540" y="908" font-family="sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">📞 막내 직통 010-8677-1258</text>
+<text x="540" y="945" font-family="sans-serif" font-size="22" font-weight="600" fill="#FFD700" text-anchor="middle">예약 · VIP · 단체 · 길안내 한 통이면 끝</text>
+
+<!-- 도메인 (980~1080) -->
+<text x="540" y="1015" font-family="sans-serif" font-size="26" font-weight="700" fill="#1a1a1a" text-anchor="middle">one-5ei.pages.dev</text>
+<text x="540" y="1055" font-family="sans-serif" font-size="22" font-weight="600" fill="#2a1a00" text-anchor="middle">대전원나이트 막내 · 38세+ 안전 운영</text>
 </svg>`;
 
 tasks.push(
