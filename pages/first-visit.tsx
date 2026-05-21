@@ -7,12 +7,12 @@ export default function FirstVisit() {
   return (
     <>
       <SEO
-        title="대전원나이트 첫 방문 6단계 ▶ 38세+ 입장 / 차비 / 드레스코드 한 번에"
-        description="대전나이트 처음 가는 사람 필독. 대전원나이트 막내 첫 방문 6단계 가이드 — 38세+ 신분증, 여성 손님 10시 이전 차비 3만원, 드레스코드, 주차, 결제까지 한 번에."
+        title="대전원나이트 막내 첫 방문 6단계 가이드 — 입장·드레스코드·예약"
+        description="대전원나이트 막내를 처음 가시는 분 필독. 38세 이상 신분증, 10시 이전 여성 차비 3만원, 드레스코드, 주차, 결제까지 6단계로 정리. 예약 010-8677-1258."
         path="/first-visit"
         ogImage="https://one-5ei.pages.dev/og/first-visit.png"
-        ogTitle="대전원나이트 첫 방문 6단계 가이드"
-        ogDesc="38세+ 처음 가는 분께 막내가 알려드림."
+        ogTitle="대전원나이트 막내 첫 방문 6단계 가이드"
+        ogDesc="38세+ 처음 가시는 분께 막내가 안내."
       />
       <Schema path="/first-visit" crumb="첫방문" />
       <Layout>

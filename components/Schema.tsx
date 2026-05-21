@@ -39,17 +39,15 @@ export default function Schema({ path = '/', crumb = '홈' }: SchemaProps) {
         openingHoursSpecification: [
           {
             '@type': 'OpeningHoursSpecification',
-            dayOfWeek: [
-              'Monday',
-              'Tuesday',
-              'Wednesday',
-              'Thursday',
-              'Friday',
-              'Saturday',
-              'Sunday',
-            ],
+            dayOfWeek: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday'],
             opens: '20:00',
-            closes: '05:00',
+            closes: '02:30',
+          },
+          {
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: ['Friday', 'Saturday'],
+            opens: '20:00',
+            closes: '03:30',
           },
         ],
         acceptsReservations: true,
@@ -65,7 +63,7 @@ export default function Schema({ path = '/', crumb = '홈' }: SchemaProps) {
         telephone: '+82-10-8677-1258',
         url: `${SITE}/`,
         priceRange: '₩₩',
-        openingHours: 'Mo-Su 20:00-05:00',
+        openingHours: ['Su-Th 20:00-02:30', 'Fr-Sa 20:00-03:30'],
         image: `${SITE}/og/og-search-thumb.png`,
         address: {
           '@type': 'PostalAddress',
@@ -155,7 +153,10 @@ export default function Schema({ path = '/', crumb = '홈' }: SchemaProps) {
       {
         '@type': 'Question',
         name: '영업 시간은?',
-        acceptedAnswer: { '@type': 'Answer', text: '매일 20:00 ~ 05:00 영업.' },
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: '평일(일~목) 20:00 ~ 02:30, 주말(금·토) 20:00 ~ 03:30.',
+        },
       },
       {
         '@type': 'Question',

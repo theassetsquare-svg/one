@@ -7,12 +7,12 @@ export default function Access() {
   return (
     <>
       <SEO
-        title="대전원나이트 오시는 길 ▶ 대전 시내 + 청주·세종 30분 + 주차 안내"
-        description="대전나이트 어디서 가? 대전원나이트 막내 오시는 길. 대전 시내 / 청주 30분 / 세종 30분 / 주차 / 택시 / 길안내 한 번에. 막내 도착 전 전화 권장."
+        title="대전원나이트 막내 오시는 길 — 대전 시내·청주·세종 30분, 주차 안내"
+        description="대전원나이트 막내 위치는 대전 시내. 청주·세종에서 자차로 약 30분 거리. 주차·택시·길안내 한 번에 정리. 도착 전 막내 010-8677-1258 전화 권장."
         path="/access"
         ogImage="https://one-5ei.pages.dev/og/access.png"
         ogTitle="대전원나이트 막내 오시는 길"
-        ogDesc="대전 시내 + 청주·세종 30분 + 주차·택시 안내."
+        ogDesc="대전 시내 + 청주·세종 30분 거리, 주차·택시 안내."
       />
       <Schema path="/access" crumb="오시는길" />
       <Layout>

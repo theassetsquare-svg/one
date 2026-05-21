@@ -66,7 +66,7 @@ const ogThumbSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height=
 
 <rect x="50" y="740" width="980" height="100" rx="20" fill="rgba(0,0,0,0.85)"/>
 <text x="540" y="788" font-family="Noto Sans KR" font-size="34" font-weight="900" fill="#FFD700" text-anchor="middle">대전 시내 · 청주 · 세종 30분 거리</text>
-<text x="540" y="824" font-family="Noto Sans KR" font-size="22" font-weight="600" fill="#FFFFFF" text-anchor="middle">매일 20:00 ~ 05:00 영업</text>
+<text x="540" y="824" font-family="Noto Sans KR" font-size="22" font-weight="600" fill="#FFFFFF" text-anchor="middle">평일 20:00~02:30 · 주말(금·토) 20:00~03:30</text>
 
 <rect x="30" y="860" width="1020" height="100" rx="22" fill="#000000"/>
 <text x="540" y="910" font-family="Noto Sans KR" font-size="46" font-weight="900" fill="#FFFFFF" text-anchor="middle">막내 직통 010-8677-1258</text>

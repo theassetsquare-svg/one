@@ -43,7 +43,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <p>
           <strong>대전원나이트 막내</strong>
         </p>
-        <p>매일 20:00 ~ 05:00 영업 · 38세 이상 입장</p>
+        <p>평일 20:00~02:30 · 주말(금·토) 20:00~03:30 · 38세 이상 입장</p>
         <p>광고문의 카카오톡 besta12</p>
         <p className="legal-note">© 2026 대전원나이트 막내</p>
       </footer>

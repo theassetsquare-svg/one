@@ -7,12 +7,12 @@ export default function Story() {
   return (
     <>
       <SEO
-        title="왜 38세+ 기준? 대전나이트의 새 기준이 된 막내 웨이터 이야기 | 대전원나이트"
-        description="대전원나이트가 왜 38세 이상만 받는지, 여성 손님께 왜 차비 3만원과 맥주를 함께 드리는지. 막내 웨이터가 직접 풀어주는 대전나이트라이프 진짜 스토리."
+        title="막내 웨이터 이야기 — 38세 이상 기준이 된 이유 | 대전원나이트"
+        description="대전원나이트가 38세 이상만 받는 이유, 여성 손님께 차비 3만원과 맥주를 함께 드리는 이유. 막내 웨이터가 직접 풀어주는 운영 철학과 응대 약속."
         path="/story"
         ogImage="https://one-5ei.pages.dev/og/story.png"
-        ogTitle="대전나이트 새 기준 — 막내 웨이터 이야기"
-        ogDesc="38세+ / 여성 차비 3만원 / 맥주 둘 다 — 막내 응대 철학."
+        ogTitle="막내 웨이터 이야기 — 38세+ 기준이 된 이유"
+        ogDesc="차비 3만원과 맥주를 함께 드리는 이유."
       />
       <Schema path="/story" crumb="이야기" />
       <Layout>

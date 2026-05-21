@@ -7,11 +7,11 @@ export default function Contact() {
   return (
     <>
       <SEO
-        title="막내 직통 010-8677-1258 ▶ 대전원나이트 예약·VIP·단체 모임"
-        description="대전나이트 예약 어디로? 대전원나이트 막내 웨이터 직통 010-8677-1258. 예약 / VIP룸 / 5인+ 단체 모임 / 길안내 / 이벤트 문의까지 막내 직접 응대."
+        title="대전원나이트 막내 예약·문의 — 직통 010-8677-1258"
+        description="대전원나이트 막내 예약은 직통 010-8677-1258 전화 한 통이면 끝. VIP룸, 5인 이상 단체 모임, 길안내, 이벤트 문의까지 막내 웨이터가 직접 응대합니다."
         path="/contact"
         ogImage="https://one-5ei.pages.dev/og/contact.png"
-        ogTitle="대전원나이트 막내 직통 010-8677-1258"
+        ogTitle="대전원나이트 막내 예약 직통 010-8677-1258"
         ogDesc="예약·VIP·단체·길안내 막내 웨이터 직접 응대."
       />
       <Schema path="/contact" crumb="연락처" />
@@ -40,7 +40,7 @@ export default function Contact() {
               </div>
               <div className="bic">
                 <h3>🕐 응대 시간</h3>
-                <p>매일 18:00 ~ 04:00 (영업 시간 중심).</p>
+                <p>평일 19:00 ~ 02:30 / 주말(금·토) 19:00 ~ 03:30 (영업 시간 중심).</p>
               </div>
               <div className="bic">
                 <h3>📋 문의 종류</h3>

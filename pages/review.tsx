@@ -7,11 +7,11 @@ export default function Review() {
   return (
     <>
       <SEO
-        title="대전원나이트 후기 ▶ 38세+ 단골들이 말하는 진짜 대전나이트 분위기"
-        description="대전원나이트 후기 어디서 봐? 대전나이트 막내를 직접 다녀온 38세+ 단골 손님들이 말하는 진짜 분위기. 가짜 별점 없음 · 사실 기반 정리."
+        title="대전원나이트 막내 후기 — 38세 이상 단골들이 말하는 진짜 분위기"
+        description="대전원나이트 막내를 다녀온 38세 이상 단골 손님들이 말하는 진짜 분위기. 같은 연령대 자리·여성 손님 혜택·막내 웨이터 응대까지 사실 기반 정리. 가짜 별점 없음."
         path="/review"
         ogImage="https://one-5ei.pages.dev/og/review.png"
-        ogTitle="대전원나이트 후기 — 단골들이 말하는 진짜 분위기"
+        ogTitle="대전원나이트 막내 후기 — 단골 진짜 분위기"
         ogDesc="가짜 별점 없음. 38세+ 손님 실제 의견 기반."
       />
       <Schema path="/review" crumb="후기" />

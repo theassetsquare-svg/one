@@ -7,12 +7,12 @@ export default function Atmosphere() {
   return (
     <>
       <SEO
-        title="대전원나이트 분위기 ▶ 38세+ 동년배만 모이는 안전한 자리 | 대전나이트 막내"
-        description="대전나이트 분위기 어때? 대전원나이트 막내는 38세 이상 동년배만 모이는 자리. 7080·90s·발라드 위주 음악, 여유로운 테이블, 막내 직접 관리."
+        title="대전원나이트 막내 분위기 — 38세 이상 동년배가 모이는 자리"
+        description="대전원나이트 막내는 38세 이상 동년배 손님들이 부담 없이 어울리는 분위기입니다. 7080·90s·발라드 위주 음악, 여유로운 테이블, 막내 웨이터 직접 응대. 신분증 검사 철저."
         path="/atmosphere"
         ogImage="https://one-5ei.pages.dev/og/atmosphere.png"
-        ogTitle="대전원나이트 분위기 — 38세+ 동년배만 모이는 자리"
-        ogDesc="음악·자리·손님층·안전 4가지 한눈에."
+        ogTitle="대전원나이트 막내 분위기 — 38세+ 동년배 자리"
+        ogDesc="음악·자리·손님층·안전 네 가지 한눈에."
       />
       <Schema path="/atmosphere" crumb="분위기" />
       <Layout>

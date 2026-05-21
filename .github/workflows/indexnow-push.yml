@@ -1,0 +1,56 @@
+name: IndexNow Push (Bing/Yandex)
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for Cloudflare Pages deploy
+        run: |
+          set -e
+          for i in $(seq 1 30); do
+            S=$(curl -s -o /dev/null -w "%{http_code}" "https://one-5ei.pages.dev/")
+            if [ "$S" = "200" ]; then
+              echo "✅ live"; exit 0
+            fi
+            echo "wait... ($i/30) status=$S"
+            sleep 15
+          done
+          echo "❌ live not reachable after wait"
+          exit 1
+      - name: Submit URLs to IndexNow
+        run: |
+          set -e
+          KEY="73db36672cca84c36716390378812042"
+          KEY_URL="https://one-5ei.pages.dev/${KEY}.txt"
+          # Confirm key file is hosted (IndexNow ownership verification)
+          curl -sfL "$KEY_URL" >/dev/null || (echo "❌ key file not reachable: $KEY_URL" && exit 1)
+          # Submit
+          RESP=$(curl -s -o /tmp/in.body -w "%{http_code}" -X POST "https://api.indexnow.org/IndexNow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{
+              \"host\": \"one-5ei.pages.dev\",
+              \"key\": \"${KEY}\",
+              \"keyLocation\": \"${KEY_URL}\",
+              \"urlList\": [
+                \"https://one-5ei.pages.dev/\",
+                \"https://one-5ei.pages.dev/event\",
+                \"https://one-5ei.pages.dev/story\",
+                \"https://one-5ei.pages.dev/atmosphere\",
+                \"https://one-5ei.pages.dev/first-visit\",
+                \"https://one-5ei.pages.dev/access\",
+                \"https://one-5ei.pages.dev/faq\",
+                \"https://one-5ei.pages.dev/review\",
+                \"https://one-5ei.pages.dev/contact\"
+              ]
+            }")
+          echo "IndexNow response: HTTP $RESP"
+          cat /tmp/in.body || true
+          # 200 / 202 are success; 422 means already submitted, also OK
+          case "$RESP" in
+            200|202|422) echo "✅ IndexNow accepted" ;;
+            *) echo "❌ IndexNow failed"; exit 1 ;;
+          esac
