@@ -40,11 +40,11 @@ jobs:
             exit 1
           fi
           echo "✅ 가짜 별점 0건"
-      - name: Schema 7종 라이브 검증
+      - name: Schema 9종 라이브 검증
         run: |
           set -e
           HTML=$(curl -sfL https://one-5ei.pages.dev/)
-          for t in "WebSite" "NightClub" "LocalBusiness" "Article" "BreadcrumbList" "FAQPage" "HowTo"; do
+          for t in "WebSite" "NightClub" "LocalBusiness" "Organization" "Person" "BreadcrumbList" "FAQPage" "HowTo" "GeoCoordinates"; do
             echo "$HTML" | grep -q "$t" || (echo "❌ $t 누락" && exit 1)
           done
-          echo "✅ Schema 7종 라이브"
+          echo "✅ Schema 9종 라이브 (GeoCoordinates 포함)"

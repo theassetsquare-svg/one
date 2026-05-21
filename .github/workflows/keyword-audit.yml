@@ -14,13 +14,17 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Wait for CF Pages deploy
+      - name: Wait for CF Pages new deploy (ETag changes)
         run: |
           set -e
-          for i in $(seq 1 30); do
+          # Wait for both: live + new build fingerprint (GeoCoordinates is in new build only)
+          for i in $(seq 1 40); do
             S=$(curl -s -o /dev/null -w "%{http_code}" "https://one-5ei.pages.dev/")
-            if [ "$S" = "200" ]; then exit 0; fi
-            echo "wait... ($i/30) status=$S"
+            HAS_NEW=$(curl -s "https://one-5ei.pages.dev/" | grep -c "GeoCoordinates" || true)
+            if [ "$S" = "200" ] && [ "$HAS_NEW" -gt 0 ]; then
+              echo "✅ live with new build"; exit 0
+            fi
+            echo "wait... ($i/40) status=$S has_new=$HAS_NEW"
             sleep 15
           done
           exit 1
