@@ -1,0 +1,38 @@
+name: Live Health Check
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 10 페이지 200 OK 검증
+        run: |
+          set -e
+          FAIL=0
+          for p in / /event /story /atmosphere /first-visit /access /faq /review /contact /legal; do
+            S=$(curl -s -o /dev/null -w "%{http_code}" "https://one-5ei.pages.dev${p}")
+            if [ "$S" = "200" ]; then
+              echo "✅ $p: 200"
+            else
+              echo "❌ $p: $S"
+              FAIL=1
+            fi
+          done
+          [ "$FAIL" = "0" ] || exit 1
+      - name: SEO + PWA 파일 200 OK 검증
+        run: |
+          set -e
+          FAIL=0
+          for f in /sitemap.xml /robots.txt /llms.txt /site.webmanifest /sw.js /og/og-search-thumb.png /icons/icon-192.png /icons/icon-512.png; do
+            S=$(curl -s -o /dev/null -w "%{http_code}" "https://one-5ei.pages.dev${f}")
+            if [ "$S" = "200" ]; then
+              echo "✅ $f: 200"
+            else
+              echo "❌ $f: $S"
+              FAIL=1
+            fi
+          done
+          [ "$FAIL" = "0" ] || exit 1

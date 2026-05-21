@@ -1,0 +1,50 @@
+name: Schema + Rule Validate
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 핵심 정책 키워드 검증
+        run: |
+          set -e
+          HTML=$(curl -sfL https://one-5ei.pages.dev/ || (echo "❌ 홈 페이지 접근 실패" && exit 1))
+          echo "$HTML" | grep -q "38세 이상" || (echo "❌ 38세 누락" && exit 1)
+          echo "$HTML" | grep -q "2가지 모두" || (echo "❌ 2가지 모두 누락" && exit 1)
+          echo "$HTML" | grep -q "차비 3만원" || (echo "❌ 차비 3만원 누락" && exit 1)
+          echo "$HTML" | grep -q "맥주" || (echo "❌ 맥주 누락" && exit 1)
+          echo "$HTML" | grep -qE "010-8677-1258|01086771258" || (echo "❌ 막내 전화 누락" && exit 1)
+          echo "✅ 핵심 정책 정상"
+      - name: 위험 단어 검증
+        run: |
+          set -e
+          HTML=$(curl -sfL https://one-5ei.pages.dev/)
+          for w in "초이스" "2차" "유흥" "밤문화"; do
+            if echo "$HTML" | grep -q "$w"; then
+              echo "❌ 위험 단어 발견: $w"
+              exit 1
+            fi
+          done
+          echo "✅ 위험 단어 0건"
+      - name: 가짜 별점 검증
+        run: |
+          set -e
+          HTML=$(curl -sfL https://one-5ei.pages.dev/)
+          if echo "$HTML" | grep -q "AggregateRating"; then
+            echo "❌ AggregateRating 발견"
+            exit 1
+          fi
+          echo "✅ 가짜 별점 0건"
+      - name: Schema 7종 라이브 검증
+        run: |
+          set -e
+          HTML=$(curl -sfL https://one-5ei.pages.dev/)
+          for t in "WebSite" "NightClub" "LocalBusiness" "Article" "BreadcrumbList" "FAQPage" "HowTo"; do
+            echo "$HTML" | grep -q "$t" || (echo "❌ $t 누락" && exit 1)
+          done
+          echo "✅ Schema 7종 라이브"

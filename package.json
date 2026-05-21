@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/generate-images.js",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "generate-images": "node scripts/generate-images.js"
   },
   "dependencies": {
     "next": "16.2.4",
@@ -16,6 +18,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "sharp": "^0.34.5",
     "typescript": "^5"
   }
 }

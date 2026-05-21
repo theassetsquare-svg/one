@@ -1,0 +1,23 @@
+{
+  "name": "대전원나이트 막내",
+  "short_name": "막내",
+  "description": "38세 이상 입장 + 10시 이전 여성 손님 2가지 모두 (차비 3만원 + 맥주)",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0a0a",
+  "theme_color": "#FF1744",
+  "lang": "ko-KR",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/og/og-search-thumb.png", "sizes": "1080x1080", "type": "image/png", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "막내 전화", "url": "tel:01086771258" },
+    { "name": "이벤트", "url": "/event" },
+    { "name": "첫 방문", "url": "/first-visit" },
+    { "name": "오시는길", "url": "/access" }
+  ]
+}

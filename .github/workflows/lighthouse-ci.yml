@@ -1,0 +1,32 @@
+name: Lighthouse CI
+on:
+  schedule:
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  lh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Chrome (Lighthouse needs a browser)
+        uses: browser-actions/setup-chrome@v1
+      - name: Run Lighthouse for 6 key pages
+        run: |
+          set -e
+          for page in / /event /first-visit /access /faq /contact; do
+            slug=$(echo "$page" | tr '/' '_')
+            npx --yes lighthouse "https://one-5ei.pages.dev${page}" \
+              --only-categories=seo,performance,pwa,accessibility \
+              --chrome-flags="--headless=new --no-sandbox --disable-gpu" \
+              --output=json --output=html \
+              --output-path="./report${slug}" \
+              --quiet || echo "::warning::lighthouse failed for ${page}"
+          done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports
+          path: report*
