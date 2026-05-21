@@ -8,26 +8,26 @@ jobs:
   indexnow:
     runs-on: ubuntu-latest
     steps:
-      - name: Wait for Cloudflare Pages deploy
+      - name: Wait for Cloudflare Pages deploy (root + key file)
         run: |
           set -e
-          for i in $(seq 1 30); do
+          KEY="73db36672cca84c36716390378812042"
+          for i in $(seq 1 40); do
             S=$(curl -s -o /dev/null -w "%{http_code}" "https://one-5ei.pages.dev/")
-            if [ "$S" = "200" ]; then
-              echo "✅ live"; exit 0
+            K=$(curl -s -o /dev/null -w "%{http_code}" "https://one-5ei.pages.dev/${KEY}.txt")
+            if [ "$S" = "200" ] && [ "$K" = "200" ]; then
+              echo "✅ live (/ → 200, key.txt → 200)"; exit 0
             fi
-            echo "wait... ($i/30) status=$S"
+            echo "wait... ($i/40) / → $S, key.txt → $K"
             sleep 15
           done
           echo "❌ live not reachable after wait"
           exit 1
       - name: Submit URLs to IndexNow
         run: |
-          set -e
+          set +e
           KEY="73db36672cca84c36716390378812042"
           KEY_URL="https://one-5ei.pages.dev/${KEY}.txt"
-          # Confirm key file is hosted (IndexNow ownership verification)
-          curl -sfL "$KEY_URL" >/dev/null || (echo "❌ key file not reachable: $KEY_URL" && exit 1)
           # Submit
           RESP=$(curl -s -o /tmp/in.body -w "%{http_code}" -X POST "https://api.indexnow.org/IndexNow" \
             -H "Content-Type: application/json; charset=utf-8" \
