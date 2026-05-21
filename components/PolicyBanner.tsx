@@ -21,9 +21,6 @@ export default function PolicyBanner() {
           <span>② 맥주 기본 서비스</span>
         </div>
       </div>
-      <a href="tel:01086771258" className="cta" aria-label="막내에게 전화하기 010-8677-1258">
-        📞 막내 010-8677-1258
-      </a>
     </section>
   );
 }

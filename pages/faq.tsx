@@ -19,17 +19,18 @@ const faqs = [
   { q: '단체 모임?', a: '5인 이상 예약 권장.' },
   { q: '청주에서 가는 법?', a: '자차 약 30분.' },
   { q: '신분증 필수?', a: '예 38세 이상 확인용 필수.' },
-  { q: '합법 운영?', a: '사업자 등록 정상. 38세+ 사업주 운영 정책.' },
 ];
 
 export default function FAQ() {
   return (
     <>
       <SEO
-        title="대전원나이트 자주 묻는 질문 — 13가지 답변"
-        description="대전원나이트 막내 FAQ. 입장 연령, 여성 손님 혜택, 영업 시간, 예약 등 13가지."
+        title="대전원나이트 FAQ ▶ 38세+ 입장 / 여성 혜택 / 영업 시간 12가지"
+        description="대전나이트 궁금증 한 번에. 대전원나이트 막내 FAQ — 입장 연령, 10시 이전 여성 손님 차비·맥주 2가지 혜택, 영업 시간, 예약, 드레스코드, 주차, VIP룸까지."
         path="/faq"
         ogImage="https://one-5ei.pages.dev/og/faq.png"
+        ogTitle="대전원나이트 FAQ 12가지"
+        ogDesc="입장·여성 혜택·예약·드레스코드 한눈에."
       />
       <Schema path="/faq" crumb="FAQ" />
       <Layout>

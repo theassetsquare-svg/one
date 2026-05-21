@@ -7,10 +7,12 @@ export default function Review() {
   return (
     <>
       <SEO
-        title="대전원나이트 후기 — 직접 다녀온 사람들의 솔직한 이야기"
-        description="대전원나이트 막내 후기. 38세 이상 손님들이 직접 다녀온 진짜 후기."
+        title="대전원나이트 후기 ▶ 38세+ 단골들이 말하는 진짜 대전나이트 분위기"
+        description="대전원나이트 후기 어디서 봐? 대전나이트 막내를 직접 다녀온 38세+ 단골 손님들이 말하는 진짜 분위기. 가짜 별점 없음 · 사실 기반 정리."
         path="/review"
         ogImage="https://one-5ei.pages.dev/og/review.png"
+        ogTitle="대전원나이트 후기 — 단골들이 말하는 진짜 분위기"
+        ogDesc="가짜 별점 없음. 38세+ 손님 실제 의견 기반."
       />
       <Schema path="/review" crumb="후기" />
       <Layout>
@@ -33,11 +35,11 @@ export default function Review() {
               </div>
               <div className="bic">
                 <h3>막내 직접 응대</h3>
-                <p>사업주가 직접 받아주는 진짜 직통.</p>
+                <p>막내 웨이터가 직접 받아주는 진짜 직통.</p>
               </div>
               <div className="bic">
-                <h3>합법 운영</h3>
-                <p>사업자 등록 정상. 안심하고 갈 수 있음.</p>
+                <h3>안심 분위기</h3>
+                <p>신분증 검사 철저 + 막내 웨이터 직접 응대. 처음도 부담 없음.</p>
               </div>
             </div>
             <p style={{ marginTop: 24, fontSize: '0.95rem', color: '#888', textAlign: 'center' }}>

@@ -104,7 +104,6 @@ const pages = [
   { name: 'faq',         title: '자주 묻는 질문',           sub: '13가지 답변 한 번에',                   bg1: '#FF9800', bg2: '#FFD700' },
   { name: 'review',      title: '후기',                     sub: '직접 가본 사람들 이야기',               bg1: '#4CAF50', bg2: '#FFD700' },
   { name: 'contact',     title: '예약 문의',                sub: '막내 010-8677-1258 직통',               bg1: '#000000', bg2: '#FF1744' },
-  { name: 'legal',       title: '합법 운영 정책',           sub: '사업주 운영 정책 안내',                 bg1: '#455A64', bg2: '#FFD700' },
 ];
 
 pages.forEach((p) => {

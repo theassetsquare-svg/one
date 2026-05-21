@@ -7,10 +7,12 @@ export default function Event() {
   return (
     <>
       <SEO
-        title="대전원나이트 막내 이벤트 — 10시 이전 여성 손님 2가지 모두 받습니다"
-        description="대전원나이트 막내 이벤트. 10시 이전 입장 여성 손님께 차비 3만원 + 맥주 기본 서비스. 한 가지가 아니라 둘 다 받습니다. 38세+ 신분증 필수. 010-8677-1258"
+        title="여성 차비 3만원 + 맥주 둘 다 ▶ 대전원나이트 막내 이벤트 (10시 이전 한정)"
+        description="대전나이트 여성 차비 어디 줘? 대전원나이트 막내는 10시 이전 입장 여성 손님께 차비 3만원 + 맥주 기본 서비스 2가지 모두 보장. 한 가지가 아니라 둘 다. 38세+ 신분증 필수."
         path="/event"
         ogImage="https://one-5ei.pages.dev/og/event.png"
+        ogTitle="대전원나이트 막내 이벤트 — 여성 차비 3만원 + 맥주 둘 다"
+        ogDesc="10시 이전 입장 여성 손님 2가지 모두 보장."
       />
       <Schema path="/event" crumb="이벤트" />
       <Layout>

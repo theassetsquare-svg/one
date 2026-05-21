@@ -97,7 +97,7 @@ export default function Schema({ path = '/', crumb = '홈' }: SchemaProps) {
         '@type': 'Person',
         '@id': `${SITE}/#person`,
         name: '막내',
-        jobTitle: '사업주',
+        jobTitle: '웨이터',
         telephone: '+82-10-8677-1258',
         worksFor: { '@id': `${SITE}/#org` },
       },
@@ -201,14 +201,6 @@ export default function Schema({ path = '/', crumb = '홈' }: SchemaProps) {
         '@type': 'Question',
         name: '신분증 필수?',
         acceptedAnswer: { '@type': 'Answer', text: '예 38세 이상 확인용 필수.' },
-      },
-      {
-        '@type': 'Question',
-        name: '합법 운영?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: '사업자 등록 정상. 38세+ 사업주 운영 정책.',
-        },
       },
     ],
   };

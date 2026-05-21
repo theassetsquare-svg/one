@@ -7,20 +7,33 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="대전원나이트 막내 — 38세 이상 입장 + 10시 이전 여성 손님 2가지 혜택"
-        description="대전원나이트 막내. 38세 이상 입장 가능. 10시 이전 여성 손님 2가지 모두 받습니다 (차비 3만원 + 맥주 서비스). 막내 010-8677-1258 직통."
+        title="대전원나이트 막내 ▶ 38세+ 여성 차비 3만원 + 맥주 둘 다 | 대전나이트 1위"
+        description="대전원나이트 어디 가? 38세 이상 입장 대전나이트 막내. 10시 이전 여성 손님은 차비 3만원 + 맥주 서비스 2가지 모두 보장. 대전 시내·청주·세종 30분. 막내 직통 010-8677-1258."
         path="/"
-        ogTitle="대전원나이트 막내 — 38세 이상 + 여성 손님 2가지 혜택"
-        ogDesc="38세 이상 입장. 10시 이전 여성 손님 차비 3만원 + 맥주 둘 다 받습니다."
+        ogTitle="대전원나이트 막내 — 38세+ 입장, 여성 차비 3만원 + 맥주 둘 다"
+        ogDesc="대전나이트 정식 클럽. 10시 이전 여성 손님 2가지 혜택 모두 보장."
       />
       <Schema path="/" crumb="홈" />
       <Layout>
         <div className="hero">
           <h1>대전원나이트 막내</h1>
-          <p>38세 이상 안전한 나이트라이프 — 막내 사장님이 직접 운영하는 합법 클럽</p>
+          <p>
+            대전나이트 · 대전 나이트클럽 · 38세 이상 안전한 나이트라이프 — 막내 웨이터가 직접
+            응대하는 정식 클럽
+          </p>
         </div>
         <div className="container">
           <PolicyBanner />
+          <section aria-labelledby="intro-h">
+            <h2 id="intro-h">대전원나이트 막내 한 줄 요약</h2>
+            <p>
+              <strong>대전원나이트</strong> · <strong>대전나이트</strong> · 대전 나이트클럽을
+              찾는 38세 이상 손님에게 <strong>막내 웨이터</strong>가 직접 응대하는 가게.
+              <strong> 10시 이전 입장 여성 손님</strong>에게는 차비 3만원과 맥주 기본 서비스{' '}
+              <strong>2가지 모두</strong> 보장. 대전 시내·청주·세종 30분 거리. 막내 직통
+              010-8677-1258 전화 한 통이면 예약·VIP·단체·길안내 한 번에 끝.
+            </p>
+          </section>
           <section aria-labelledby="lead-h">
             <h2 id="lead-h">🌟 대전 No.1 나이트라이프</h2>
             <div className="bento">
@@ -33,8 +46,8 @@ export default function Home() {
                 <p>10시 이전 입장 시 차비 3만원 + 맥주 둘 다 받음.</p>
               </div>
               <div className="bic">
-                <h3>🍺 합법 운영</h3>
-                <p>사업자 등록 정상. 사업주 운영 정책.</p>
+                <h3>🛡️ 안전 운영</h3>
+                <p>막내 웨이터가 직접 응대. 신분증 검사 철저.</p>
               </div>
               <div className="bic">
                 <h3>📞 막내 직통</h3>
@@ -87,10 +100,6 @@ export default function Home() {
             <details className="faq">
               <summary>단체 모임?</summary>
               <p>5인 이상 예약 권장.</p>
-            </details>
-            <details className="faq">
-              <summary>합법 운영?</summary>
-              <p>사업자 등록 정상. 38세+ = 사업주 운영 정책.</p>
             </details>
           </section>
         </div>

@@ -12,7 +12,7 @@ jobs:
         run: |
           set -e
           FAIL=0
-          for p in / /event /story /atmosphere /first-visit /access /faq /review /contact /legal; do
+          for p in / /event /story /atmosphere /first-visit /access /faq /review /contact; do
             S=$(curl -s -o /dev/null -w "%{http_code}" "https://one-5ei.pages.dev${p}")
             if [ "$S" = "200" ]; then
               echo "✅ $p: 200"

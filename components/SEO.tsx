@@ -36,6 +36,13 @@ export default function SEO({
       <meta name="theme-color" content="#FF1744" key="theme" />
       <meta name="format-detection" content="telephone=no" key="fmt" />
       <link rel="canonical" href={canonical} key="canonical" />
+      <link rel="alternate" hrefLang="ko-KR" href={canonical} key="hl:ko" />
+      <link rel="alternate" hrefLang="x-default" href={canonical} key="hl:xd" />
+      <meta name="geo.region" content="KR-30" key="geo:r" />
+      <meta name="geo.placename" content="대전광역시" key="geo:p" />
+      <meta name="ICBM" content="36.3504, 127.3845" key="icbm" />
+      <meta name="author" content="대전원나이트 막내" key="author" />
+      <meta name="publisher" content="대전원나이트 막내" key="pub" />
       <link rel="manifest" href="/site.webmanifest" key="manifest" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" key="fav32" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" key="fav16" />

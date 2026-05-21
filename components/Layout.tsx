@@ -8,6 +8,7 @@ const navItems = [
   { href: '/first-visit', label: '첫방문' },
   { href: '/access', label: '오시는길' },
   { href: '/faq', label: 'FAQ' },
+  { href: '/review', label: '후기' },
   { href: '/contact', label: '연락처' },
 ];
 
@@ -43,12 +44,8 @@ export default function Layout({ children }: { children: ReactNode }) {
           <strong>대전원나이트 막내</strong>
         </p>
         <p>매일 20:00 ~ 05:00 영업 · 38세 이상 입장</p>
-        <p>
-          📞 <a href="tel:01086771258">010-8677-1258</a> · 광고문의 카카오톡 besta12
-        </p>
-        <p className="legal-note">
-          © 2026 대전원나이트 막내 · 본 사이트는 합법 운영 사업장 광고 페이지입니다
-        </p>
+        <p>광고문의 카카오톡 besta12</p>
+        <p className="legal-note">© 2026 대전원나이트 막내</p>
       </footer>
       <a href="tel:01086771258" className="fcb" aria-label="막내에게 전화하기">
         📞 막내 010-8677-1258
