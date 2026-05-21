@@ -2,19 +2,20 @@ import SEO from '@/components/SEO';
 import Schema from '@/components/Schema';
 import Layout from '@/components/Layout';
 import PolicyBanner from '@/components/PolicyBanner';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export default function Review() {
   return (
     <>
       <SEO
         title="대전원나이트 막내 후기 — 38세 이상 단골들이 말하는 진짜 분위기"
-        description="대전원나이트 막내를 다녀온 38세 이상 단골 손님들이 말하는 진짜 분위기. 같은 연령대 자리·여성 손님 혜택·막내 웨이터 응대까지 사실 기반 정리. 가짜 별점 없음."
+        description="가게를 다녀가신 같은 연령대 단골 손님들이 직접 말해주신 진짜 분위기. 자리·여성 혜택·응대 만족도를 사실 그대로 정리했으며, 별점이나 평점은 사용하지 않습니다."
         path="/review"
         ogImage="https://one-5ei.pages.dev/og/review.png"
         ogTitle="대전원나이트 막내 후기 — 단골 진짜 분위기"
         ogDesc="가짜 별점 없음. 38세+ 손님 실제 의견 기반."
       />
-      <Schema path="/review" crumb="후기" />
+      <Schema path="/review" crumb="후기" pageType="WebPage" pageName="단골 후기" />
       <Layout>
         <div className="hero">
           <h1>후기</h1>
@@ -46,6 +47,7 @@ export default function Review() {
               ※ 본 페이지의 후기는 실 방문 손님 의견을 정리한 것이며, 별점·평점은 표시하지 않습니다.
             </p>
           </section>
+          <RelatedLinks current="/review" />
         </div>
       </Layout>
     </>

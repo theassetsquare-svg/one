@@ -2,19 +2,20 @@ import SEO from '@/components/SEO';
 import Schema from '@/components/Schema';
 import Layout from '@/components/Layout';
 import PolicyBanner from '@/components/PolicyBanner';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export default function FirstVisit() {
   return (
     <>
       <SEO
         title="대전원나이트 막내 첫 방문 6단계 가이드 — 입장·드레스코드·예약"
-        description="대전원나이트 막내를 처음 가시는 분 필독. 38세 이상 신분증, 10시 이전 여성 차비 3만원, 드레스코드, 주차, 결제까지 6단계로 정리. 예약 010-8677-1258."
+        description="처음 들르시는 분께 필요한 6단계. 38세 이상 신분증, 22시 전 여성 차비 3만원, 드레스코드, 주차, 결제까지 한 번에 정리했습니다. 도착 전 010-8677-1258 전화 권장."
         path="/first-visit"
         ogImage="https://one-5ei.pages.dev/og/first-visit.png"
         ogTitle="대전원나이트 막내 첫 방문 6단계 가이드"
         ogDesc="38세+ 처음 가시는 분께 막내가 안내."
       />
-      <Schema path="/first-visit" crumb="첫방문" />
+      <Schema path="/first-visit" crumb="첫방문" pageType="WebPage" pageName="첫 방문 6단계 가이드" />
       <Layout>
         <div className="hero">
           <h1>첫 방문 가이드</h1>
@@ -51,6 +52,7 @@ export default function FirstVisit() {
               </div>
             </div>
           </section>
+          <RelatedLinks current="/first-visit" />
         </div>
       </Layout>
     </>

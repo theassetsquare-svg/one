@@ -3,9 +3,16 @@ const SITE = 'https://one-5ei.pages.dev';
 type SchemaProps = {
   path?: string;
   crumb?: string;
+  pageType?: 'WebPage' | 'AboutPage' | 'ContactPage' | 'FAQPage' | 'CollectionPage';
+  pageName?: string;
 };
 
-export default function Schema({ path = '/', crumb = '홈' }: SchemaProps) {
+export default function Schema({
+  path = '/',
+  crumb = '홈',
+  pageType = 'WebPage',
+  pageName,
+}: SchemaProps) {
   const mainSchema = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -108,15 +115,16 @@ export default function Schema({ path = '/', crumb = '홈' }: SchemaProps) {
         caption: '대전원나이트 막내 — 38세 이상 + 여성 손님 2가지 혜택',
       },
       {
-        '@type': 'Article',
-        '@id': `${SITE}${path}#article`,
-        headline: '대전원나이트 막내 — 38세 이상 입장 + 여성 손님 2가지 혜택',
+        '@type': pageType,
+        '@id': `${SITE}${path}#page`,
+        name: pageName || crumb,
+        url: `${SITE}${path}`,
+        isPartOf: { '@id': `${SITE}/#website` },
+        about: { '@id': `${SITE}/#nightclub` },
+        inLanguage: 'ko-KR',
         datePublished: '2026-05-21T00:00:00+09:00',
         dateModified: '2026-05-21T00:00:00+09:00',
-        author: { '@id': `${SITE}/#person` },
-        publisher: { '@id': `${SITE}/#org` },
-        image: `${SITE}/og/og-search-thumb.png`,
-        mainEntityOfPage: `${SITE}${path}`,
+        primaryImageOfPage: `${SITE}/og/og-search-thumb.png`,
       },
       {
         '@type': 'BreadcrumbList',

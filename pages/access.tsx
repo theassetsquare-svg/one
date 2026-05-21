@@ -2,19 +2,20 @@ import SEO from '@/components/SEO';
 import Schema from '@/components/Schema';
 import Layout from '@/components/Layout';
 import PolicyBanner from '@/components/PolicyBanner';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export default function Access() {
   return (
     <>
       <SEO
         title="대전원나이트 막내 오시는 길 — 대전 시내·청주·세종 30분, 주차 안내"
-        description="대전원나이트 막내 위치는 대전 시내. 청주·세종에서 자차로 약 30분 거리. 주차·택시·길안내 한 번에 정리. 도착 전 막내 010-8677-1258 전화 권장."
+        description="가게는 시내에 있으며 청주·세종에서 자차로 약 30분 거리. 주차장·택시·교통편을 한 번에 정리했습니다. 도착 전 010-8677-1258로 전화하시면 자세히 안내해 드립니다."
         path="/access"
         ogImage="https://one-5ei.pages.dev/og/access.png"
         ogTitle="대전원나이트 막내 오시는 길"
         ogDesc="대전 시내 + 청주·세종 30분 거리, 주차·택시 안내."
       />
-      <Schema path="/access" crumb="오시는길" />
+      <Schema path="/access" crumb="오시는길" pageType="WebPage" pageName="오시는 길 — 시내·청주·세종 30분" />
       <Layout>
         <div className="hero">
           <h1>오시는 길</h1>
@@ -51,6 +52,7 @@ export default function Access() {
               </div>
             </div>
           </section>
+          <RelatedLinks current="/access" />
         </div>
       </Layout>
     </>

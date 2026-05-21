@@ -2,6 +2,7 @@ import SEO from '@/components/SEO';
 import Schema from '@/components/Schema';
 import Layout from '@/components/Layout';
 import PolicyBanner from '@/components/PolicyBanner';
+import RelatedLinks from '@/components/RelatedLinks';
 
 const faqs = [
   { q: '입장 가능 연령은?', a: '38세 이상부터 입장 가능. 신분증 필수.' },
@@ -26,17 +27,17 @@ export default function FAQ() {
     <>
       <SEO
         title="대전원나이트 막내 FAQ — 입장 연령·여성 혜택·영업 시간 12가지"
-        description="대전원나이트 막내 자주 묻는 질문 12가지. 입장 연령, 10시 이전 여성 손님 차비·맥주 두 가지 혜택, 평일·주말 영업 시간, 예약, 드레스코드, 주차, VIP룸까지 한눈에."
+        description="가게에 처음 오시는 분들이 가장 많이 묻는 질문 12가지를 한 페이지에 정리했습니다. 입장 연령, 22시 전 여성 차비·맥주 혜택, 평일·주말 운영 시간, 예약, 드레스코드, 주차, VIP룸까지. 예약 010-8677-1258."
         path="/faq"
         ogImage="https://one-5ei.pages.dev/og/faq.png"
         ogTitle="대전원나이트 막내 FAQ 12가지"
         ogDesc="입장·여성 혜택·예약·드레스코드 한눈에."
       />
-      <Schema path="/faq" crumb="FAQ" />
+      <Schema path="/faq" crumb="FAQ" pageType="FAQPage" pageName="자주 묻는 질문 12가지" />
       <Layout>
         <div className="hero">
           <h1>자주 묻는 질문</h1>
-          <p>13가지 답변 한 번에</p>
+          <p>12가지 답변 한 번에</p>
         </div>
         <div className="container">
           <PolicyBanner />
@@ -49,6 +50,7 @@ export default function FAQ() {
               </details>
             ))}
           </section>
+          <RelatedLinks current="/faq" />
         </div>
       </Layout>
     </>

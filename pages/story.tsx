@@ -2,19 +2,20 @@ import SEO from '@/components/SEO';
 import Schema from '@/components/Schema';
 import Layout from '@/components/Layout';
 import PolicyBanner from '@/components/PolicyBanner';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export default function Story() {
   return (
     <>
       <SEO
         title="막내 웨이터 이야기 — 38세 이상 기준이 된 이유 | 대전원나이트"
-        description="대전원나이트가 38세 이상만 받는 이유, 여성 손님께 차비 3만원과 맥주를 함께 드리는 이유. 막내 웨이터가 직접 풀어주는 운영 철학과 응대 약속."
+        description="가게가 같은 연령대만 받는 이유, 늦은 시간 여성 손님께 차비와 기본 맥주를 함께 드리는 이유. 현장에서 직접 들려드리는 운영 철학과 응대 약속을 정리했습니다."
         path="/story"
         ogImage="https://one-5ei.pages.dev/og/story.png"
         ogTitle="막내 웨이터 이야기 — 38세+ 기준이 된 이유"
         ogDesc="차비 3만원과 맥주를 함께 드리는 이유."
       />
-      <Schema path="/story" crumb="이야기" />
+      <Schema path="/story" crumb="이야기" pageType="AboutPage" pageName="막내 웨이터 이야기" />
       <Layout>
         <div className="hero">
           <h1>막내 웨이터 이야기</h1>
@@ -41,6 +42,7 @@ export default function Story() {
               막내 웨이터가 직접 응대합니다.
             </p>
           </section>
+          <RelatedLinks current="/story" />
         </div>
       </Layout>
     </>

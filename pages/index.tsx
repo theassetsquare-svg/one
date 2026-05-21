@@ -2,18 +2,19 @@ import SEO from '@/components/SEO';
 import Schema from '@/components/Schema';
 import Layout from '@/components/Layout';
 import PolicyBanner from '@/components/PolicyBanner';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export default function Home() {
   return (
     <>
       <SEO
         title="대전원나이트 막내 — 38세 이상 입장, 여성 손님 차비 3만원 + 맥주 둘 다"
-        description="대전원나이트 막내. 38세 이상 입장하는 정식 가게로, 10시 이전 여성 손님께는 차비 3만원과 맥주를 함께 드립니다. 평일 20:00~02:30, 주말(금·토) 20:00~03:30 운영. 예약 010-8677-1258."
+        description="38세 이상 손님이 부담 없이 어울리는 대전 시내 정식 가게. 10시 이전 입장 여성에게는 차비 3만원과 기본 맥주를 함께 드립니다. 평일 20:00~02:30, 주말(금·토) 20:00~03:30. 예약 010-8677-1258."
         path="/"
         ogTitle="대전원나이트 막내 — 38세+ 입장, 여성 차비 3만원 + 맥주"
         ogDesc="평일 20:00~02:30 / 주말 20:00~03:30. 예약 010-8677-1258."
       />
-      <Schema path="/" crumb="홈" />
+      <Schema path="/" crumb="홈" pageType="WebPage" pageName="대전원나이트 막내 — 홈" />
       <Layout>
         <div className="hero">
           <h1>대전원나이트 막내</h1>
@@ -109,6 +110,7 @@ export default function Home() {
               <p>5인 이상 예약 권장.</p>
             </details>
           </section>
+          <RelatedLinks current="/" />
         </div>
       </Layout>
     </>

@@ -2,19 +2,20 @@ import SEO from '@/components/SEO';
 import Schema from '@/components/Schema';
 import Layout from '@/components/Layout';
 import PolicyBanner from '@/components/PolicyBanner';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export default function Contact() {
   return (
     <>
       <SEO
         title="대전원나이트 막내 예약·문의 — 직통 010-8677-1258"
-        description="대전원나이트 막내 예약은 직통 010-8677-1258 전화 한 통이면 끝. VIP룸, 5인 이상 단체 모임, 길안내, 이벤트 문의까지 막내 웨이터가 직접 응대합니다."
+        description="010-8677-1258 전화 한 통이면 예약·VIP룸·5인 이상 단체 모임·길안내·이벤트 문의까지 한 번에. 가게 사정을 가장 잘 아는 직원이 직접 받습니다. 카카오톡 광고 문의 ID: besta12."
         path="/contact"
         ogImage="https://one-5ei.pages.dev/og/contact.png"
         ogTitle="대전원나이트 막내 예약 직통 010-8677-1258"
         ogDesc="예약·VIP·단체·길안내 막내 웨이터 직접 응대."
       />
-      <Schema path="/contact" crumb="연락처" />
+      <Schema path="/contact" crumb="연락처" pageType="ContactPage" pageName="예약·문의 직통 010-8677-1258" />
       <Layout>
         <div className="hero">
           <h1>예약 문의</h1>
@@ -48,6 +49,7 @@ export default function Contact() {
               </div>
             </div>
           </section>
+          <RelatedLinks current="/contact" />
         </div>
       </Layout>
     </>
