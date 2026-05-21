@@ -32,6 +32,7 @@ export default function SEO({
         key="kw"
       />
       <meta name="google-site-verification" content="HJjm7MRxykCQ7d_9L7glaTeeaWrmJIzAKY0BcNcfm88" key="gsv" />
+      <meta name="naver-site-verification" content="beb84ead3590ebed9e7d0931d0d73c2ab94adbd7" key="nsv" />
       <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" key="robots" />
       <meta name="theme-color" content="#FF1744" key="theme" />
       <meta name="format-detection" content="telephone=no" key="fmt" />
