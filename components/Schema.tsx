@@ -175,7 +175,7 @@ export default function Schema({
       {
         '@type': 'Question',
         name: '예약은?',
-        acceptedAnswer: { '@type': 'Answer', text: '막내  전화 예약 권장.' },
+        acceptedAnswer: { '@type': 'Answer', text: '막내 010-8677-1258 전화 예약 권장.' },
       },
       {
         '@type': 'Question',
@@ -239,7 +239,7 @@ export default function Schema({
         text: '여성 손님은 10시 이전 입장 (차비 3만원 + 맥주 둘 다 받음)',
       },
       { '@type': 'HowToStep', position: 3, name: '드레스코드', text: '깔끔한 캐주얼 옷차림' },
-      { '@type': 'HowToStep', position: 4, name: '예약', text: '막내  전화 예약' },
+      { '@type': 'HowToStep', position: 4, name: '예약', text: '막내 010-8677-1258 전화 예약' },
       { '@type': 'HowToStep', position: 5, name: '주차', text: '주변 공영주차장 이용' },
     ],
   };

@@ -47,8 +47,8 @@ export default function Layout({ children }: { children: ReactNode }) {
         <p>광고문의 카카오톡 besta12</p>
         <p className="legal-note">© 2026 대전원나이트 막내</p>
       </footer>
-      <a href="https://theassetsquare.com/" className="fcb" aria-label="막내에게 전화하기">
-        📞 막내 
+      <a href="tel:01086771258" className="fcb" aria-label="막내에게 전화하기">
+        📞 막내 010-8677-1258
       </a>
     </>
   );
