@@ -9,7 +9,7 @@ export default function Access() {
     <>
       <SEO
         title="대전원나이트 막내 오시는 길 — 대전 시내·청주·세종 30분, 주차 안내"
-        description="가게는 시내에 있으며 청주·세종에서 자차로 약 30분 거리. 주차장·택시·교통편을 한 번에 정리했습니다. 도착 전 010-8677-1258로 전화하시면 자세히 안내해 드립니다."
+        description="가게는 시내에 있으며 청주·세종에서 자차로 약 30분 거리. 주차장·택시·교통편을 한 번에 정리했습니다. 도착 전 로 전화하시면 자세히 안내해 드립니다."
         path="/access"
         ogImage="https://one-5ei.pages.dev/og/access.png"
         ogTitle="대전원나이트 막내 오시는 길"
@@ -48,7 +48,7 @@ export default function Access() {
               </div>
               <div className="bic">
                 <h3>📞 길안내</h3>
-                <p>막내 010-8677-1258. 도착 전 전화하면 자세히 안내.</p>
+                <p>막내 . 도착 전 전화하면 자세히 안내.</p>
               </div>
             </div>
           </section>

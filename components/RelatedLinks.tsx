@@ -11,7 +11,7 @@ const ALL: Record<string, Related> = {
   '/access': { href: '/access', label: '오시는 길', hint: '시내·청주·세종·주차' },
   '/faq': { href: '/faq', label: 'FAQ', hint: '자주 묻는 12가지' },
   '/review': { href: '/review', label: '후기', hint: '단골 진짜 분위기' },
-  '/contact': { href: '/contact', label: '예약 직통', hint: '010-8677-1258' },
+  '/contact': { href: '/contact', label: '예약 직통', hint: '' },
 };
 
 export default function RelatedLinks({ current }: { current: string }) {
