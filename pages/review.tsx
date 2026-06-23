@@ -8,11 +8,11 @@ export default function Review() {
   return (
     <>
       <SEO
-        title="대전원나이트 막내 후기 — 38세 이상 단골들이 말하는 진짜 분위기"
+        title="대전원나이트 까치 후기 — 38세 이상 단골들이 말하는 진짜 분위기"
         description="가게를 다녀가신 같은 연령대 단골 손님들이 직접 말해주신 진짜 분위기. 자리·여성 혜택·응대 만족도를 사실 그대로 정리했으며, 별점이나 평점은 사용하지 않습니다."
         path="/review"
         ogImage="https://one-5ei.pages.dev/og/review.png"
-        ogTitle="대전원나이트 막내 후기 — 단골 진짜 분위기"
+        ogTitle="대전원나이트 까치 후기 — 단골 진짜 분위기"
         ogDesc="가짜 별점 없음. 38세+ 손님 실제 의견 기반."
       />
       <Schema path="/review" crumb="후기" pageType="WebPage" pageName="단골 후기" />
@@ -40,7 +40,7 @@ export default function Review() {
               </div>
               <div className="bic">
                 <h3>안심 분위기</h3>
-                <p>신분증 검사 철저 + 막내 웨이터 직접 응대. 처음도 부담 없음.</p>
+                <p>신분증 검사 철저 + 까치 웨이터 직접 응대. 처음도 부담 없음.</p>
               </div>
             </div>
             <p style={{ marginTop: 24, fontSize: '0.95rem', color: '#888', textAlign: 'center' }}>

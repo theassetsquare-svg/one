@@ -28,7 +28,7 @@ export default function SEO({
       <meta name="description" content={description} key="desc" />
       <meta
         name="keywords"
-        content="대전원나이트, 대전 원나이트, 대전나이트, 대전 나이트, 대전 나이트클럽, 대전 38세 이상 나이트, 대전원나이트 막내, 대전원나이트 후기, 대전원나이트 예약, 대전 클럽"
+        content="대전원나이트, 대전 원나이트, 대전나이트, 대전 나이트, 대전 나이트클럽, 대전 38세 이상 나이트, 대전원나이트 까치, 대전원나이트 후기, 대전원나이트 예약, 대전 클럽"
         key="kw"
       />
       <meta name="google-site-verification" content="HJjm7MRxykCQ7d_9L7glaTeeaWrmJIzAKY0BcNcfm88" key="gsv" />
@@ -42,8 +42,8 @@ export default function SEO({
       <meta name="geo.region" content="KR-30" key="geo:r" />
       <meta name="geo.placename" content="대전광역시" key="geo:p" />
       <meta name="ICBM" content="36.3504, 127.3845" key="icbm" />
-      <meta name="author" content="대전원나이트 막내" key="author" />
-      <meta name="publisher" content="대전원나이트 막내" key="pub" />
+      <meta name="author" content="대전원나이트 까치" key="author" />
+      <meta name="publisher" content="대전원나이트 까치" key="pub" />
       <link rel="manifest" href="/site.webmanifest" key="manifest" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" key="fav32" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" key="fav16" />
@@ -61,7 +61,7 @@ export default function SEO({
       <meta name="MobileOptimized" content="320" key="mo" />
 
       <meta property="og:type" content="website" key="og:type" />
-      <meta property="og:site_name" content="대전원나이트 막내" key="og:site" />
+      <meta property="og:site_name" content="대전원나이트 까치" key="og:site" />
       <meta property="og:locale" content="ko_KR" key="og:locale" />
       <meta property="og:locale:alternate" content="ko" key="og:loc:alt" />
       <meta property="og:title" content={ogTitle || title} key="og:title" />
@@ -72,7 +72,7 @@ export default function SEO({
       <meta property="og:image:width" content="1080" key="og:w" />
       <meta property="og:image:height" content="1080" key="og:h" />
       <meta property="og:image:type" content="image/png" key="og:t" />
-      <meta property="og:image:alt" content="대전원나이트 막내 - 38세 이상 + 여성 손님 2가지 혜택" key="og:alt" />
+      <meta property="og:image:alt" content="대전원나이트 까치 - 38세 이상 + 여성 손님 2가지 혜택" key="og:alt" />
       <meta name="thumbnail" content={image} key="thumb" />
 
       <meta name="twitter:card" content="summary_large_image" key="tw:card" />

@@ -8,11 +8,11 @@ export default function Atmosphere() {
   return (
     <>
       <SEO
-        title="대전원나이트 막내 분위기 — 38세 이상 동년배가 모이는 자리"
+        title="대전원나이트 까치 분위기 — 38세 이상 동년배가 모이는 자리"
         description="같은 연령대 손님들이 부담 없이 어울릴 수 있는 가게 분위기. 7080·90s·발라드 위주 음악과 여유로운 테이블, 신분증 검사 철저, 응대는 현장 직원이 직접 맡습니다."
         path="/atmosphere"
         ogImage="https://one-5ei.pages.dev/og/atmosphere.png"
-        ogTitle="대전원나이트 막내 분위기 — 38세+ 동년배 자리"
+        ogTitle="대전원나이트 까치 분위기 — 38세+ 동년배 자리"
         ogDesc="음악·자리·손님층·안전 네 가지 한눈에."
       />
       <Schema path="/atmosphere" crumb="분위기" pageType="WebPage" pageName="분위기 — 38세+ 동년배 자리" />
@@ -40,7 +40,7 @@ export default function Atmosphere() {
               </div>
               <div className="bic">
                 <h3>🛡️ 안전</h3>
-                <p>신분증 검사 철저. 막내 웨이터 직접 응대.</p>
+                <p>신분증 검사 철저. 까치 웨이터 직접 응대.</p>
               </div>
             </div>
           </section>

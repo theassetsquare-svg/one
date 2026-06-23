@@ -8,17 +8,17 @@ export default function Event() {
   return (
     <>
       <SEO
-        title="대전원나이트 막내 이벤트 — 10시 이전 여성 손님 차비 3만원 + 맥주"
-        description="22시 전에 입장하는 여성 손님께 차비 3만원과 기본 맥주 두 가지를 함께 드리는 가게 이벤트. 한 가지가 아니라 둘 다. 38세 이상 신분증 필수. 예약 010-8677-1258."
+        title="대전원나이트 까치 이벤트 — 10시 이전 여성 손님 차비 3만원 + 맥주"
+        description="22시 전에 입장하는 여성 손님께 차비 3만원과 기본 맥주 두 가지를 함께 드리는 가게 이벤트. 한 가지가 아니라 둘 다. 38세 이상 신분증 필수. 예약 010-3918-9414."
         path="/event"
         ogImage="https://one-5ei.pages.dev/og/event.png"
-        ogTitle="대전원나이트 막내 이벤트 — 차비 3만원 + 맥주 둘 다"
+        ogTitle="대전원나이트 까치 이벤트 — 차비 3만원 + 맥주 둘 다"
         ogDesc="10시 이전 입장 여성 손님 두 가지 모두 보장."
       />
       <Schema path="/event" crumb="이벤트" pageType="WebPage" pageName="이벤트 — 여성 손님 차비 + 맥주" />
       <Layout>
         <div className="hero">
-          <h1>💎 막내 특별 이벤트</h1>
+          <h1>💎 까치 특별 이벤트</h1>
           <p>10시 이전 입장 여성 손님 — 차비 3만원 + 맥주 둘 다 받습니다</p>
         </div>
         <div className="container">
@@ -39,8 +39,8 @@ export default function Event() {
                 <p>10시(22:00) 이전 도착 + 38세 이상 신분증 확인.</p>
               </div>
               <div className="bic">
-                <h3>📞 막내 문의</h3>
-                <p>010-8677-1258. 단체·VIP 예약 별도 안내.</p>
+                <h3>📞 까치 문의</h3>
+                <p>010-3918-9414. 단체·VIP 예약 별도 안내.</p>
               </div>
             </div>
           </section>
@@ -48,7 +48,7 @@ export default function Event() {
             <h2 id="ev-q">🤝 어떻게 받나요?</h2>
             <ol>
               <li>10시 이전 입장 (신분증 지참).</li>
-              <li>막내에게 &quot;여성 손님 이벤트 받으러 왔어요&quot; 한마디.</li>
+              <li>까치에게 &quot;여성 손님 이벤트 받으러 왔어요&quot; 한마디.</li>
               <li>차비 3만원 현장 지급 + 맥주 기본 서비스. <strong>둘 다 받음.</strong></li>
             </ol>
           </section>

@@ -8,17 +8,17 @@ export default function Story() {
   return (
     <>
       <SEO
-        title="막내 웨이터 이야기 — 38세 이상 기준이 된 이유 | 대전원나이트"
+        title="까치 웨이터 이야기 — 38세 이상 기준이 된 이유 | 대전원나이트"
         description="가게가 같은 연령대만 받는 이유, 늦은 시간 여성 손님께 차비와 기본 맥주를 함께 드리는 이유. 현장에서 직접 들려드리는 운영 철학과 응대 약속을 정리했습니다."
         path="/story"
         ogImage="https://one-5ei.pages.dev/og/story.png"
-        ogTitle="막내 웨이터 이야기 — 38세+ 기준이 된 이유"
+        ogTitle="까치 웨이터 이야기 — 38세+ 기준이 된 이유"
         ogDesc="차비 3만원과 맥주를 함께 드리는 이유."
       />
-      <Schema path="/story" crumb="이야기" pageType="AboutPage" pageName="막내 웨이터 이야기" />
+      <Schema path="/story" crumb="이야기" pageType="AboutPage" pageName="까치 웨이터 이야기" />
       <Layout>
         <div className="hero">
-          <h1>막내 웨이터 이야기</h1>
+          <h1>까치 웨이터 이야기</h1>
           <p>대전 나이트라이프의 기준점이 된 이유</p>
         </div>
         <div className="container">
@@ -38,7 +38,7 @@ export default function Story() {
             </p>
             <h3>직통 응대 약속</h3>
             <p>
-              예약·VIP룸·단체 모임 모두 010-8677-1258로 바로 연결됩니다. 중간 단계 없이
+              예약·VIP룸·단체 모임 모두 010-3918-9414로 바로 연결됩니다. 중간 단계 없이
               현장 직원이 직접 받습니다.
             </p>
           </section>

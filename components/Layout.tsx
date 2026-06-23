@@ -22,7 +22,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       <nav aria-label="주요 메뉴">
         <div className="ni">
           <Link href="/" className="logo">
-            🌟 대전원나이트 막내
+            🌟 대전원나이트 까치
           </Link>
           <div className="nl">
             {navItems.map((item) => (
@@ -41,14 +41,14 @@ export default function Layout({ children }: { children: ReactNode }) {
       <main>{children}</main>
       <footer>
         <p>
-          <strong>대전원나이트 막내</strong>
+          <strong>대전원나이트 까치</strong>
         </p>
         <p>평일 20:00~02:30 · 주말(금·토) 20:00~03:30 · 38세 이상 입장</p>
         <p>광고문의 카카오톡 besta12</p>
-        <p className="legal-note">© 2026 대전원나이트 막내</p>
+        <p className="legal-note">© 2026 대전원나이트 까치</p>
       </footer>
-      <a href="tel:01086771258" className="fcb" aria-label="막내에게 전화하기">
-        📞 막내 010-8677-1258
+      <a href="tel:01039189414" className="fcb" aria-label="까치에게 전화하기">
+        📞 까치 010-3918-9414
       </a>
     </>
   );

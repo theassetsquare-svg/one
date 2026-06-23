@@ -15,14 +15,14 @@ const PAGES = [
 ];
 
 // Keywords to monitor for stuffing — primary brand/local keywords
-const KEYWORDS = ['대전원나이트', '대전나이트', '대전 나이트클럽', '막내', '38세', '차비 3만원', '맥주'];
+const KEYWORDS = ['대전원나이트', '대전나이트', '대전 나이트클럽', '까치', '38세', '차비 3만원', '맥주'];
 
 // Maximum acceptable density per VISIBLE body text (excluding scripts/meta)
 const MAX_BODY_OCCURRENCES = {
   '대전원나이트': 8,
   '대전나이트': 4,
   '대전 나이트클럽': 3,
-  '막내': 25,
+  '까치': 25,
   '38세': 12,
   '차비 3만원': 8,
   '맥주': 10,

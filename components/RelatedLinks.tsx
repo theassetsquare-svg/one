@@ -5,13 +5,13 @@ type Related = { href: string; label: string; hint: string };
 const ALL: Record<string, Related> = {
   '/': { href: '/', label: '홈', hint: '한눈에 보는 가게 안내' },
   '/event': { href: '/event', label: '이벤트', hint: '여성 손님 차비 + 맥주' },
-  '/story': { href: '/story', label: '막내 이야기', hint: '운영 철학과 응대 약속' },
+  '/story': { href: '/story', label: '까치 이야기', hint: '운영 철학과 응대 약속' },
   '/atmosphere': { href: '/atmosphere', label: '분위기', hint: '음악·자리·손님층' },
   '/first-visit': { href: '/first-visit', label: '첫 방문', hint: '6단계 가이드' },
   '/access': { href: '/access', label: '오시는 길', hint: '시내·청주·세종·주차' },
   '/faq': { href: '/faq', label: 'FAQ', hint: '자주 묻는 12가지' },
   '/review': { href: '/review', label: '후기', hint: '단골 진짜 분위기' },
-  '/contact': { href: '/contact', label: '예약 직통', hint: '010-8677-1258' },
+  '/contact': { href: '/contact', label: '예약 직통', hint: '010-3918-9414' },
 };
 
 export default function RelatedLinks({ current }: { current: string }) {

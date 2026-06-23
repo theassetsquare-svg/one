@@ -8,11 +8,11 @@ export default function Access() {
   return (
     <>
       <SEO
-        title="대전원나이트 막내 오시는 길 — 대전 시내·청주·세종 30분, 주차 안내"
-        description="가게는 시내에 있으며 청주·세종에서 자차로 약 30분 거리. 주차장·택시·교통편을 한 번에 정리했습니다. 도착 전 010-8677-1258로 전화하시면 자세히 안내해 드립니다."
+        title="대전원나이트 까치 오시는 길 — 대전 시내·청주·세종 30분, 주차 안내"
+        description="가게는 시내에 있으며 청주·세종에서 자차로 약 30분 거리. 주차장·택시·교통편을 한 번에 정리했습니다. 도착 전 010-3918-9414로 전화하시면 자세히 안내해 드립니다."
         path="/access"
         ogImage="https://one-5ei.pages.dev/og/access.png"
-        ogTitle="대전원나이트 막내 오시는 길"
+        ogTitle="대전원나이트 까치 오시는 길"
         ogDesc="대전 시내 + 청주·세종 30분 거리, 주차·택시 안내."
       />
       <Schema path="/access" crumb="오시는길" pageType="WebPage" pageName="오시는 길 — 시내·청주·세종 30분" />
@@ -28,7 +28,7 @@ export default function Access() {
             <div className="bento">
               <div className="bic">
                 <h3>📍 위치</h3>
-                <p>대전광역시 시내. 자세한 위치는 막내 전화 안내.</p>
+                <p>대전광역시 시내. 자세한 위치는 까치 전화 안내.</p>
               </div>
               <div className="bic">
                 <h3>🛣️ 청주에서</h3>
@@ -48,7 +48,7 @@ export default function Access() {
               </div>
               <div className="bic">
                 <h3>📞 길안내</h3>
-                <p>막내 010-8677-1258. 도착 전 전화하면 자세히 안내.</p>
+                <p>까치 010-3918-9414. 도착 전 전화하면 자세히 안내.</p>
               </div>
             </div>
           </section>

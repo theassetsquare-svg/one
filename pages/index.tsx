@@ -8,37 +8,37 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="대전원나이트 막내 — 38세 이상 입장, 여성 손님 차비 3만원 + 맥주 둘 다"
-        description="38세 이상 손님이 부담 없이 어울리는 대전 시내 정식 가게. 10시 이전 입장 여성에게는 차비 3만원과 기본 맥주를 함께 드립니다. 평일 20:00~02:30, 주말(금·토) 20:00~03:30. 예약 010-8677-1258."
+        title="대전원나이트 까치 — 38세 이상 입장, 여성 손님 차비 3만원 + 맥주 둘 다"
+        description="38세 이상 손님이 부담 없이 어울리는 대전 시내 정식 가게. 10시 이전 입장 여성에게는 차비 3만원과 기본 맥주를 함께 드립니다. 평일 20:00~02:30, 주말(금·토) 20:00~03:30. 예약 010-3918-9414."
         path="/"
-        ogTitle="대전원나이트 막내 — 38세+ 입장, 여성 차비 3만원 + 맥주"
-        ogDesc="평일 20:00~02:30 / 주말 20:00~03:30. 예약 010-8677-1258."
+        ogTitle="대전원나이트 까치 — 38세+ 입장, 여성 차비 3만원 + 맥주"
+        ogDesc="평일 20:00~02:30 / 주말 20:00~03:30. 예약 010-3918-9414."
       />
-      <Schema path="/" crumb="홈" pageType="WebPage" pageName="대전원나이트 막내 — 홈" />
+      <Schema path="/" crumb="홈" pageType="WebPage" pageName="대전원나이트 까치 — 홈" />
       <Layout>
         <div className="hero">
-          <h1>대전원나이트 막내</h1>
-          <p>38세 이상 손님이 부담 없이 어울리는 정식 클럽 — 막내 웨이터가 직접 응대합니다.</p>
+          <h1>대전원나이트 까치</h1>
+          <p>38세 이상 손님이 부담 없이 어울리는 정식 클럽 — 까치 웨이터가 직접 응대합니다.</p>
         </div>
         <div className="container">
           <PolicyBanner />
           <section aria-labelledby="intro-h">
-            <h2 id="intro-h">막내가 직접 알려드리는 가게 소개</h2>
+            <h2 id="intro-h">까치가 직접 알려드리는 가게 소개</h2>
             <p>
               <strong>대전원나이트</strong>를 찾는 38세 이상 손님이 부담 없이 어울릴 수 있도록
-              막내 웨이터가 직접 응대하는 가게입니다. 같은 연령대 손님들이 모이는 안전한
+              까치 웨이터가 직접 응대하는 가게입니다. 같은 연령대 손님들이 모이는 안전한
               자리를 기준으로 운영하며, 신분증 확인을 거쳐 입장합니다.
             </p>
             <p>
               <strong>10시 이전 입장</strong>하는 여성 손님께는 <strong>차비 3만원</strong>과
               기본 맥주 서비스를 함께 제공합니다. 한 가지가 아니라 둘 다 보장하는 것이
-              막내의 약속입니다.
+              까치의 약속입니다.
             </p>
             <p>
               위치는 <strong>대전 시내</strong>이며 청주·세종에서 자차로 약 30분 거리입니다.
               평일(일~목)은 20:00부터 새벽 02:30까지, 주말(금·토)은 20:00부터 새벽 03:30까지
               운영하는 대전 나이트클럽으로, <strong>대전나이트</strong>를
-              알아보시는 분이라면 막내 직통 010-8677-1258로 전화 한 통이면 예약·VIP룸·단체
+              알아보시는 분이라면 까치 직통 010-3918-9414로 전화 한 통이면 예약·VIP룸·단체
               모임·길안내까지 한 번에 정리해 드립니다.
             </p>
           </section>
@@ -55,11 +55,11 @@ export default function Home() {
               </div>
               <div className="bic">
                 <h3>🛡️ 안전 운영</h3>
-                <p>막내 웨이터가 직접 응대. 신분증 검사 철저.</p>
+                <p>까치 웨이터가 직접 응대. 신분증 검사 철저.</p>
               </div>
               <div className="bic">
-                <h3>📞 막내 직통</h3>
-                <p>010-8677-1258. 예약 / VIP / 단체 문의.</p>
+                <h3>📞 까치 직통</h3>
+                <p>010-3918-9414. 예약 / VIP / 단체 문의.</p>
               </div>
               <div className="bic">
                 <h3>🕐 영업 시간</h3>
@@ -87,7 +87,7 @@ export default function Home() {
             </details>
             <details className="faq">
               <summary>예약은?</summary>
-              <p>막내 010-8677-1258 전화 예약 권장.</p>
+              <p>까치 010-3918-9414 전화 예약 권장.</p>
             </details>
             <details className="faq">
               <summary>드레스코드?</summary>
@@ -103,7 +103,7 @@ export default function Home() {
             </details>
             <details className="faq">
               <summary>VIP 룸?</summary>
-              <p>예약 가능. 막내 직접 문의.</p>
+              <p>예약 가능. 까치 직접 문의.</p>
             </details>
             <details className="faq">
               <summary>단체 모임?</summary>

@@ -8,31 +8,31 @@ export default function Contact() {
   return (
     <>
       <SEO
-        title="대전원나이트 막내 예약·문의 — 직통 010-8677-1258"
-        description="010-8677-1258 전화 한 통이면 예약·VIP룸·5인 이상 단체 모임·길안내·이벤트 문의까지 한 번에. 가게 사정을 가장 잘 아는 직원이 직접 받습니다. 카카오톡 광고 문의 ID: besta12."
+        title="대전원나이트 까치 예약·문의 — 직통 010-3918-9414"
+        description="010-3918-9414 전화 한 통이면 예약·VIP룸·5인 이상 단체 모임·길안내·이벤트 문의까지 한 번에. 가게 사정을 가장 잘 아는 직원이 직접 받습니다. 카카오톡 광고 문의 ID: besta12."
         path="/contact"
         ogImage="https://one-5ei.pages.dev/og/contact.png"
-        ogTitle="대전원나이트 막내 예약 직통 010-8677-1258"
-        ogDesc="예약·VIP·단체·길안내 막내 웨이터 직접 응대."
+        ogTitle="대전원나이트 까치 예약 직통 010-3918-9414"
+        ogDesc="예약·VIP·단체·길안내 까치 웨이터 직접 응대."
       />
-      <Schema path="/contact" crumb="연락처" pageType="ContactPage" pageName="예약·문의 직통 010-8677-1258" />
+      <Schema path="/contact" crumb="연락처" pageType="ContactPage" pageName="예약·문의 직통 010-3918-9414" />
       <Layout>
         <div className="hero">
           <h1>예약 문의</h1>
-          <p>막내 010-8677-1258 직통</p>
+          <p>까치 010-3918-9414 직통</p>
         </div>
         <div className="container">
           <PolicyBanner />
           <section aria-labelledby="ct-h">
-            <h2 id="ct-h">📞 막내 직통</h2>
+            <h2 id="ct-h">📞 까치 직통</h2>
             <div className="bento">
               <div className="bic">
                 <h3>📞 전화</h3>
                 <p>
-                  <a href="tel:01086771258" style={{ color: '#FFD700', fontWeight: 900 }}>
-                    010-8677-1258
+                  <a href="tel:01039189414" style={{ color: '#FFD700', fontWeight: 900 }}>
+                    010-3918-9414
                   </a>{' '}
-                  — 막내 웨이터 직접 응대.
+                  — 까치 웨이터 직접 응대.
                 </p>
               </div>
               <div className="bic">
