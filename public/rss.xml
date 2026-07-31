@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>대전원나이트</title>
+    <link>https://onea-168.pages.dev/</link>
+    <atom:link href="https://onea-168.pages.dev/rss.xml" rel="self" type="application/rss+xml" />
+    <description>38세 이상 입장 · 10시 이전 여성 손님 차비 3만원 + 맥주 둘 다. 대전 시내 정식 나이트클럽.</description>
+    <language>ko-KR</language>
+    <lastBuildDate>Thu, 31 Jul 2026 00:00:00 +0900</lastBuildDate>
+    <item>
+      <title>대전원나이트 — 38세 이상 입장, 여성 손님 차비 3만원 + 맥주 둘 다</title>
+      <link>https://onea-168.pages.dev/</link>
+      <guid isPermaLink="true">https://onea-168.pages.dev/</guid>
+      <description>38세 이상 손님이 부담 없이 어울리는 대전 시내 정식 가게. 평일 20:00~02:30, 주말(금·토) 20:00~03:30.</description>
+      <pubDate>Thu, 31 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>이벤트 — 10시 이전 여성 손님 차비 3만원 + 맥주</title>
+      <link>https://onea-168.pages.dev/event</link>
+      <guid isPermaLink="true">https://onea-168.pages.dev/event</guid>
+      <description>22시 전 입장 여성 손님께 차비 3만원과 기본 맥주 두 가지 모두 제공.</description>
+      <pubDate>Thu, 31 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>웨이터 이야기 — 38세 이상 기준이 된 이유</title>
+      <link>https://onea-168.pages.dev/story</link>
+      <guid isPermaLink="true">https://onea-168.pages.dev/story</guid>
+      <description>같은 연령대만 받는 이유와 여성 손님께 차비·맥주를 함께 드리는 이유.</description>
+      <pubDate>Thu, 31 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>대전원나이트 분위기 — 38세 이상 동년배가 모이는 자리</title>
+      <link>https://onea-168.pages.dev/atmosphere</link>
+      <guid isPermaLink="true">https://onea-168.pages.dev/atmosphere</guid>
+      <description>7080·90s·발라드 위주 음악과 여유로운 테이블, 신분증 검사 철저.</description>
+      <pubDate>Thu, 31 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>첫 방문 6단계 가이드 — 입장·드레스코드·예약</title>
+      <link>https://onea-168.pages.dev/first-visit</link>
+      <guid isPermaLink="true">https://onea-168.pages.dev/first-visit</guid>
+      <description>38세 이상 신분증, 22시 전 여성 차비 3만원, 드레스코드, 주차, 결제까지 6단계 정리.</description>
+      <pubDate>Thu, 31 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>오시는 길 — 대전 시내·청주·세종 30분, 주차 안내</title>
+      <link>https://onea-168.pages.dev/access</link>
+      <guid isPermaLink="true">https://onea-168.pages.dev/access</guid>
+      <description>대전 시내 위치. 청주·세종에서 자차 약 30분. 주차·택시·교통편 안내.</description>
+      <pubDate>Thu, 31 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>FAQ — 입장 연령·여성 혜택·영업 시간 12가지</title>
+      <link>https://onea-168.pages.dev/faq</link>
+      <guid isPermaLink="true">https://onea-168.pages.dev/faq</guid>
+      <description>처음 오시는 분들이 가장 많이 묻는 질문 12가지를 한 페이지에 정리.</description>
+      <pubDate>Thu, 31 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>후기 — 38세 이상 단골들이 말하는 진짜 분위기</title>
+      <link>https://onea-168.pages.dev/review</link>
+      <guid isPermaLink="true">https://onea-168.pages.dev/review</guid>
+      <description>같은 연령대 단골 손님들이 직접 말해주신 진짜 분위기. 별점·평점 없음.</description>
+      <pubDate>Thu, 31 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>예약·문의 — 예약·VIP·단체·길안내</title>
+      <link>https://onea-168.pages.dev/contact</link>
+      <guid isPermaLink="true">https://onea-168.pages.dev/contact</guid>
+      <description>예약·VIP룸·단체 모임·길안내·이벤트 문의. 화면 하단 예약문의 전화 버튼으로 연결.</description>
+      <pubDate>Thu, 31 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

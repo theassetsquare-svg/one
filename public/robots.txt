@@ -28,4 +28,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://one-5ei.pages.dev/sitemap.xml
+Sitemap: https://onea-168.pages.dev/sitemap.xml

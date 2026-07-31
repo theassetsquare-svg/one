@@ -1,4 +1,4 @@
-const SITE = 'https://one-5ei.pages.dev';
+const SITE = 'https://onea-168.pages.dev';
 
 type SchemaProps = {
   path?: string;
@@ -19,7 +19,7 @@ export default function Schema({
       {
         '@type': 'WebSite',
         '@id': `${SITE}/#website`,
-        name: '대전원나이트 까치',
+        name: '대전원나이트',
         url: `${SITE}/`,
         inLanguage: 'ko-KR',
         potentialAction: {
@@ -34,9 +34,8 @@ export default function Schema({
       {
         '@type': 'NightClub',
         '@id': `${SITE}/#nightclub`,
-        name: '대전원나이트 까치',
+        name: '대전원나이트',
         url: `${SITE}/`,
-        telephone: '+82-10-3918-9414',
         address: {
           '@type': 'PostalAddress',
           addressLocality: '대전광역시',
@@ -48,7 +47,7 @@ export default function Schema({
           latitude: 36.3504,
           longitude: 127.3845,
         },
-        hasMap: 'https://map.naver.com/v5/search/대전원나이트%20까치',
+        hasMap: 'https://map.naver.com/v5/search/대전원나이트',
         openingHoursSpecification: [
           {
             '@type': 'OpeningHoursSpecification',
@@ -72,8 +71,7 @@ export default function Schema({
       {
         '@type': 'LocalBusiness',
         '@id': `${SITE}/#localbusiness`,
-        name: '대전원나이트 까치',
-        telephone: '+82-10-3918-9414',
+        name: '대전원나이트',
         url: `${SITE}/`,
         priceRange: '₩₩',
         openingHours: ['Su-Th 20:00-02:30', 'Fr-Sa 20:00-03:30'],
@@ -88,7 +86,7 @@ export default function Schema({
       {
         '@type': 'Organization',
         '@id': `${SITE}/#org`,
-        name: '대전원나이트 까치',
+        name: '대전원나이트',
         url: `${SITE}/`,
         logo: {
           '@type': 'ImageObject',
@@ -96,21 +94,6 @@ export default function Schema({
           width: 512,
           height: 512,
         },
-        contactPoint: {
-          '@type': 'ContactPoint',
-          telephone: '+82-10-3918-9414',
-          contactType: 'reservations',
-          areaServed: 'KR',
-          availableLanguage: 'Korean',
-        },
-      },
-      {
-        '@type': 'Person',
-        '@id': `${SITE}/#person`,
-        name: '까치',
-        jobTitle: '웨이터',
-        telephone: '+82-10-3918-9414',
-        worksFor: { '@id': `${SITE}/#org` },
       },
       {
         '@type': 'ImageObject',
@@ -118,7 +101,7 @@ export default function Schema({
         url: `${SITE}/og/og-search-thumb.png`,
         width: 1080,
         height: 1080,
-        caption: '대전원나이트 까치 — 38세 이상 + 여성 손님 2가지 혜택',
+        caption: '대전원나이트 — 38세 이상 + 여성 손님 2가지 혜택',
       },
       {
         '@type': pageType,
@@ -175,7 +158,7 @@ export default function Schema({
       {
         '@type': 'Question',
         name: '예약은?',
-        acceptedAnswer: { '@type': 'Answer', text: '까치 010-3918-9414 전화 예약 권장.' },
+        acceptedAnswer: { '@type': 'Answer', text: '전화 예약 권장.' },
       },
       {
         '@type': 'Question',
@@ -200,7 +183,7 @@ export default function Schema({
       {
         '@type': 'Question',
         name: 'VIP 룸?',
-        acceptedAnswer: { '@type': 'Answer', text: '예약 가능. 까치 문의.' },
+        acceptedAnswer: { '@type': 'Answer', text: '예약 가능. 전화 문의.' },
       },
       {
         '@type': 'Question',
@@ -223,7 +206,7 @@ export default function Schema({
   const howToSchema = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    name: '대전원나이트 까치 첫 방문 가이드',
+    name: '대전원나이트 첫 방문 가이드',
     totalTime: 'PT5M',
     estimatedCost: {
       '@type': 'MonetaryAmount',
@@ -239,7 +222,7 @@ export default function Schema({
         text: '여성 손님은 10시 이전 입장 (차비 3만원 + 맥주 둘 다 받음)',
       },
       { '@type': 'HowToStep', position: 3, name: '드레스코드', text: '깔끔한 캐주얼 옷차림' },
-      { '@type': 'HowToStep', position: 4, name: '예약', text: '까치 010-3918-9414 전화 예약' },
+      { '@type': 'HowToStep', position: 4, name: '예약', text: '전화 예약' },
       { '@type': 'HowToStep', position: 5, name: '주차', text: '주변 공영주차장 이용' },
     ],
   };
