@@ -9,10 +9,10 @@ export default function Home() {
     <>
       <SEO
         title="대전원나이트 — 38세 이상 입장, 여성 손님 차비 3만원 + 맥주 둘 다"
-        description="38세 이상 손님이 부담 없이 어울리는 대전 시내 정식 가게. 10시 이전 입장 여성에게는 차비 3만원과 기본 맥주를 함께 드립니다. 평일 20:00~02:30, 주말(금·토) 20:00~03:30. 전화 예약 환영."
+        description="38세 이상 손님이 부담 없이 어울리는 대전 시내 정식 가게. 10시 이전 입장 여성에게는 차비 3만원과 기본 맥주를 함께 드립니다. 평일 20:00~02:30, 주말(금·토) 20:00~03:30. 카톡 besta12 예약 환영."
         path="/"
         ogTitle="대전원나이트 — 38세+ 입장, 여성 차비 3만원 + 맥주"
-        ogDesc="평일 20:00~02:30 / 주말 20:00~03:30. 전화 예약 환영."
+        ogDesc="평일 20:00~02:30 / 주말 20:00~03:30. 카톡 besta12 예약 환영."
       />
       <Schema path="/" crumb="홈" pageType="WebPage" pageName="대전원나이트 — 홈" />
       <Layout>
@@ -38,7 +38,7 @@ export default function Home() {
               위치는 <strong>대전 시내</strong>이며 청주·세종에서 자차로 약 30분 거리입니다.
               평일(일~목)은 20:00부터 새벽 02:30까지, 주말(금·토)은 20:00부터 새벽 03:30까지
               운영하는 대전 나이트클럽으로, <strong>대전나이트</strong>를
-              알아보시는 분이라면 전화 한 통이면 예약·VIP룸·단체
+              알아보시는 분이라면 카톡 한 번이면 예약·VIP룸·단체
               모임·길안내까지 한 번에 정리해 드립니다.
             </p>
           </section>
@@ -58,8 +58,8 @@ export default function Home() {
                 <p>웨이터가 직접 응대. 신분증 검사 철저.</p>
               </div>
               <div className="bic">
-                <h3>📞 예약 문의</h3>
-                <p>화면 하단 예약문의 버튼으로 전화. 예약 / VIP / 단체.</p>
+                <h3>💬 광고문의</h3>
+                <p>화면 하단 광고문의 버튼 · 카톡 besta12. 예약 / VIP / 단체.</p>
               </div>
               <div className="bic">
                 <h3>🕐 영업 시간</h3>
@@ -87,7 +87,7 @@ export default function Home() {
             </details>
             <details className="faq">
               <summary>예약은?</summary>
-              <p>전화 예약 권장.</p>
+              <p>카톡 besta12 예약 권장.</p>
             </details>
             <details className="faq">
               <summary>드레스코드?</summary>
@@ -103,7 +103,7 @@ export default function Home() {
             </details>
             <details className="faq">
               <summary>VIP 룸?</summary>
-              <p>예약 가능. 전화 문의.</p>
+              <p>예약 가능. 카톡 besta12 문의.</p>
             </details>
             <details className="faq">
               <summary>단체 모임?</summary>

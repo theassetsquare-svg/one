@@ -8,33 +8,33 @@ export default function Contact() {
   return (
     <>
       <SEO
-        title="대전원나이트 예약·문의 — 예약·VIP·단체·길안내"
-        description="전화 한 통이면 예약·VIP룸·5인 이상 단체 모임·길안내·이벤트 문의까지 한 번에. 가게 사정을 가장 잘 아는 직원이 직접 받습니다. 카카오톡 광고 문의 ID: besta12."
+        title="대전원나이트 예약·문의 — 카톡 besta12"
+        description="카톡 besta12 한 번이면 예약·VIP룸·5인 이상 단체 모임·길안내·이벤트 문의까지 한 번에. 가게 사정을 가장 잘 아는 직원이 직접 받습니다. 광고문의 카카오톡 ID: besta12."
         path="/contact"
         ogImage="https://onea-168.pages.dev/og/contact.png"
-        ogTitle="대전원나이트 예약·문의"
-        ogDesc="예약·VIP·단체·길안내 웨이터 직접 응대."
+        ogTitle="대전원나이트 광고문의 카톡 besta12"
+        ogDesc="예약·VIP·단체·길안내 웨이터 직접 응대. 카톡 besta12."
       />
       <Schema path="/contact" crumb="연락처" pageType="ContactPage" pageName="예약·문의" />
       <Layout>
         <div className="hero">
-          <h1>예약 문의</h1>
-          <p>화면 하단 예약문의 버튼으로 전화 주세요</p>
+          <h1>광고문의 카톡 besta12</h1>
+          <p>카카오톡 ID <strong>besta12</strong>로 문의 주세요</p>
         </div>
         <div className="container">
           <PolicyBanner />
           <section aria-labelledby="ct-h">
-            <h2 id="ct-h">📞 예약·문의</h2>
+            <h2 id="ct-h">💬 광고문의 · 예약</h2>
             <div className="bento">
               <div className="bic">
-                <h3>📞 전화</h3>
+                <h3>💬 카카오톡</h3>
                 <p>
-                  화면 하단 <strong>📞 예약문의</strong> 버튼을 눌러 전화 주세요 — 웨이터 직접 응대.
+                  카카오톡에서 ID <strong>besta12</strong> 검색 후 문의 주세요 — 웨이터 직접 응대.
                 </p>
               </div>
               <div className="bic">
-                <h3>💬 카카오톡</h3>
-                <p>광고 문의 ID: besta12</p>
+                <h3>📣 광고문의</h3>
+                <p>광고문의 카톡 besta12</p>
               </div>
               <div className="bic">
                 <h3>🕐 응대 시간</h3>

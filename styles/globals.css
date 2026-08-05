@@ -59,7 +59,7 @@ section ol li{margin-bottom:8px;font-size:clamp(0.95rem,2.5vw,1.05rem)}
 .faq[open] summary::after{content:'－'}
 .faq p{padding:0 20px 20px;color:#ccc;font-size:clamp(0.9rem,2.4vw,1rem);margin:0}
 
-/* 모바일: 화면 맨 아래 좌우 꽉 찬 고정 전화바 (스크롤해도 움직이지 않음) */
+/* 모바일: 화면 맨 아래 좌우 꽉 찬 고정 광고문의 바 (스크롤해도 움직이지 않음) */
 .fcb{position:fixed;bottom:0;left:0;right:0;margin:0;background:linear-gradient(135deg,#FF1744 0%,#FF6B35 50%,#FFD700 100%);color:#000;padding:16px 24px;padding-bottom:calc(16px + env(safe-area-inset-bottom));border-radius:0;font-weight:900;font-size:clamp(1rem,3.6vw,1.15rem);box-shadow:0 -4px 20px rgba(0,0,0,0.45);z-index:9999;display:flex;align-items:center;justify-content:center;gap:8px;text-align:center}
 @keyframes pl{0%,100%{transform:scale(1);box-shadow:0 8px 32px rgba(255,23,68,0.6)}50%{transform:scale(1.04);box-shadow:0 12px 44px rgba(255,215,0,0.9)}}
 /* 데스크톱: 우하단 알약형 플로팅 버튼 유지 */

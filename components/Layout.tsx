@@ -47,9 +47,9 @@ export default function Layout({ children }: { children: ReactNode }) {
         <p>광고문의 카카오톡 besta12</p>
         <p className="legal-note">© 2026 대전원나이트</p>
       </footer>
-      <a href="tel:01090480767" className="fcb" aria-label="예약문의 전화하기">
-        📞 예약문의 010 9048 0767
-      </a>
+      <Link href="/contact" className="fcb" aria-label="광고문의 카카오톡 besta12">
+        💬 광고문의 카톡 besta12
+      </Link>
     </>
   );
 }
