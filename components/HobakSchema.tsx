@@ -24,7 +24,7 @@ export default function HobakSchema() {
         telephone: TEL,
         address: {
           '@type': 'PostalAddress',
-          streetAddress: '불광동',
+          streetAddress: '통일로 730 지하 1층',
           addressLocality: '은평구',
           addressRegion: '서울특별시',
           addressCountry: 'KR',
@@ -36,10 +36,27 @@ export default function HobakSchema() {
         },
         hasMap: 'https://map.naver.com/v5/search/불광동호박나이트',
         areaServed: ['불광동', '은평구', '서울특별시', '고양시', '일산', '구파발', '연신내'],
+        // 저녁 7시 ~ 새벽 5시 (자정을 넘기므로 closes < opens)
+        openingHoursSpecification: [
+          {
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: [
+              'Monday',
+              'Tuesday',
+              'Wednesday',
+              'Thursday',
+              'Friday',
+              'Saturday',
+              'Sunday',
+            ],
+            opens: '19:00',
+            closes: '05:00',
+          },
+        ],
         acceptsReservations: true,
         image: `${SITE}/og/bulgwangdong-hobak-night.png`,
         description:
-          '서울 은평구 불광동에 있는 호박나이트. 지하철 3호선·6호선 불광역 인근. 예약·룸·단체 모임 문의 손흥민 010-2221-1937.',
+          '서울 은평구 통일로 730 지하 1층에 있는 호박나이트. 지하철 3호선·6호선 불광역 인근. 영업시간 저녁 7시부터 새벽 5시까지. 예약·룸·단체 모임 문의 손흥민 010-2221-1937.',
       },
       {
         '@type': 'WebPage',
@@ -73,7 +90,15 @@ export default function HobakSchema() {
         name: '불광동호박나이트는 어디에 있나요?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: '서울특별시 은평구 불광동에 있습니다. 지하철 3호선·6호선 불광역에서 도보로 이동할 수 있고, 연신내·구파발에서도 가깝습니다. 자세한 위치는 손흥민 010-2221-1937로 문의하세요.',
+          text: '서울특별시 은평구 통일로 730 지하 1층입니다. 지하철 3호선·6호선 불광역에서 가깝고 연신내·구파발에서도 이동하기 좋습니다.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: '불광동호박나이트 영업시간은?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: '저녁 7시(19:00)부터 새벽 5시(05:00)까지 영업합니다.',
         },
       },
       {

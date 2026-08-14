@@ -33,7 +33,8 @@ export default function HobakLayout({ children }: { children: ReactNode }) {
         <p>
           <strong>불광동호박나이트</strong>
         </p>
-        <p>서울특별시 은평구 불광동 · 지하철 3호선·6호선 불광역 인근</p>
+        <p>서울특별시 은평구 통일로 730 지하 1층 · 지하철 3호선·6호선 불광역 인근</p>
+        <p>영업시간 저녁 7시 ~ 새벽 5시</p>
         <p>
           예약 {CALL_NAME} <a href={CALL_TEL_HREF}>{CALL_TEL_DISPLAY}</a>
         </p>

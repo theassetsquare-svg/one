@@ -105,7 +105,7 @@ const pages = [
   { name: 'review',      title: '후기',                     sub: '직접 가본 사람들 이야기',               bg1: '#4CAF50', bg2: '#FFD700' },
   { name: 'contact',     title: '예약 문의',                sub: '예약·VIP·단체·길안내 환영',              bg1: '#000000', bg2: '#FF1744' },
   // 불광동호박나이트는 대전원나이트와 별개 가게 — CTA도 따로 갑니다.
-  { name: 'bulgwangdong-hobak-night', title: '불광동호박나이트', sub: '서울 은평구 불광역 인근', bg1: '#FF6F00', bg2: '#FFD700', cta: '예약 010-2221-1937' },
+  { name: 'bulgwangdong-hobak-night', title: '불광동호박나이트', sub: '통일로 730 지하 1층 · 19:00~05:00', bg1: '#FF6F00', bg2: '#FFD700', cta: '예약 010-2221-1937' },
 ];
 
 const DEFAULT_CTA = '광고문의 카톡 besta12';
