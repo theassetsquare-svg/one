@@ -1,7 +1,10 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { ReactNode } from 'react';
+import AdContact from './AdContact';
 
+// 대전원나이트 전용 레이아웃.
+// 불광동호박나이트는 별개 가게이므로 여기 nav에 넣지 않습니다 (HobakLayout 사용).
 const navItems = [
   { href: '/', label: '홈' },
   { href: '/event', label: '이벤트' },
@@ -44,12 +47,9 @@ export default function Layout({ children }: { children: ReactNode }) {
           <strong>대전원나이트</strong>
         </p>
         <p>평일 20:00~02:30 · 주말(금·토) 20:00~03:30 · 38세 이상 입장</p>
-        <p>광고문의 카카오톡 besta12</p>
+        <AdContact />
         <p className="legal-note">© 2026 대전원나이트</p>
       </footer>
-      <Link href="/contact" className="fcb" aria-label="광고문의 카카오톡 besta12">
-        💬 광고문의 카톡 besta12
-      </Link>
     </>
   );
 }

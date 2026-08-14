@@ -11,14 +11,14 @@ export default function FirstVisit() {
         title="대전원나이트 첫 방문 6단계 가이드 — 입장·드레스코드·예약"
         description="처음 들르시는 분께 필요한 6단계. 38세 이상 신분증, 22시 전 여성 차비 3만원, 드레스코드, 주차, 결제까지 한 번에 정리했습니다. 도착 전 카톡 besta12 문의 권장."
         path="/first-visit"
-        ogImage="https://onea-168.pages.dev/og/first-visit.png"
+        ogImage="https://onec-9bc.pages.dev/og/first-visit.png"
         ogTitle="대전원나이트 첫 방문 6단계 가이드"
         ogDesc="38세+ 처음 가시는 분께 안내."
       />
       <Schema path="/first-visit" crumb="첫방문" pageType="WebPage" pageName="첫 방문 6단계 가이드" />
       <Layout>
         <div className="hero">
-          <h1>첫 방문 가이드</h1>
+          <h1>대전원나이트 첫 방문 가이드</h1>
           <p>38세 이상 처음 가는 사람을 위한 6단계</p>
         </div>
         <div className="container">
@@ -40,7 +40,7 @@ export default function FirstVisit() {
               </div>
               <div className="bic">
                 <h3>④ 예약</h3>
-                <p>화면 하단 광고문의 버튼 · 카톡 besta12 예약 권장. 당일 가능.</p>
+                <p>푸터의 광고문의 카톡 아이디 besta12로 예약 권장. 당일 가능.</p>
               </div>
               <div className="bic">
                 <h3>⑤ 주차</h3>

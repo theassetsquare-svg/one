@@ -59,7 +59,7 @@ export default function Home() {
               </div>
               <div className="bic">
                 <h3>💬 광고문의</h3>
-                <p>화면 하단 광고문의 버튼 · 카톡 besta12. 예약 / VIP / 단체.</p>
+                <p>푸터의 광고문의 카톡 아이디 besta12. 예약 / VIP / 단체.</p>
               </div>
               <div className="bic">
                 <h3>🕐 영업 시간</h3>

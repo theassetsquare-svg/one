@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const https = require('https');
 
-const SITE = 'https://onea-168.pages.dev';
+const SITE = 'https://onec-9bc.pages.dev';
 const PAGES = [
   '/',
   '/event',
@@ -56,9 +56,9 @@ function extractVisibleText(html) {
     .replace(/<noscript[\s\S]*?<\/noscript>/gi, '')
     .replace(/<nav[\s\S]*?<\/nav>/gi, '')
     .replace(/<footer[\s\S]*?<\/footer>/gi, '')
-    // Remove RelatedLinks (class="related") and sticky phone button (class="fcb")
+    // Remove RelatedLinks (class="related") and the sticky call bar (class="callbar")
     .replace(/<section[^>]*class="[^"]*related[^"]*"[\s\S]*?<\/section>/gi, '')
-    .replace(/<a[^>]*class="[^"]*fcb[^"]*"[\s\S]*?<\/a>/gi, '');
+    .replace(/<div[^>]*class="[^"]*callbar[^"]*"[\s\S]*?<\/div>/gi, '');
   return cleaned
     .replace(/<[^>]+>/g, ' ')
     .replace(/\s+/g, ' ')

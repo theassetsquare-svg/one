@@ -11,14 +11,14 @@ export default function Event() {
         title="대전원나이트 이벤트 — 10시 이전 여성 손님 차비 3만원 + 맥주"
         description="22시 전에 입장하는 여성 손님께 차비 3만원과 기본 맥주 두 가지를 함께 드리는 가게 이벤트. 한 가지가 아니라 둘 다. 38세 이상 신분증 필수. 카톡 besta12 예약 환영."
         path="/event"
-        ogImage="https://onea-168.pages.dev/og/event.png"
+        ogImage="https://onec-9bc.pages.dev/og/event.png"
         ogTitle="대전원나이트 이벤트 — 차비 3만원 + 맥주 둘 다"
         ogDesc="10시 이전 입장 여성 손님 두 가지 모두 보장."
       />
       <Schema path="/event" crumb="이벤트" pageType="WebPage" pageName="이벤트 — 여성 손님 차비 + 맥주" />
       <Layout>
         <div className="hero">
-          <h1>💎 특별 이벤트</h1>
+          <h1>대전원나이트 특별 이벤트</h1>
           <p>10시 이전 입장 여성 손님 — 차비 3만원 + 맥주 둘 다 받습니다</p>
         </div>
         <div className="container">
@@ -40,7 +40,7 @@ export default function Event() {
               </div>
               <div className="bic">
                 <h3>💬 광고문의</h3>
-                <p>화면 하단 광고문의 버튼 · 카톡 besta12. 단체·VIP 별도 안내.</p>
+                <p>푸터의 광고문의 카톡 아이디 besta12. 단체·VIP 별도 안내.</p>
               </div>
             </div>
           </section>

@@ -11,14 +11,14 @@ export default function Access() {
         title="대전원나이트 오시는 길 — 대전 시내·청주·세종 30분, 주차 안내"
         description="가게는 시내에 있으며 청주·세종에서 자차로 약 30분 거리. 주차장·택시·교통편을 한 번에 정리했습니다. 도착 전 카톡 besta12로 문의하시면 자세히 안내해 드립니다."
         path="/access"
-        ogImage="https://onea-168.pages.dev/og/access.png"
+        ogImage="https://onec-9bc.pages.dev/og/access.png"
         ogTitle="대전원나이트 오시는 길"
         ogDesc="대전 시내 + 청주·세종 30분 거리, 주차·택시 안내."
       />
       <Schema path="/access" crumb="오시는길" pageType="WebPage" pageName="오시는 길 — 시내·청주·세종 30분" />
       <Layout>
         <div className="hero">
-          <h1>오시는 길</h1>
+          <h1>대전원나이트 오시는 길</h1>
           <p>대전 시내 + 청주·세종 30분 거리</p>
         </div>
         <div className="container">
@@ -48,7 +48,7 @@ export default function Access() {
               </div>
               <div className="bic">
                 <h3>💬 길안내</h3>
-                <p>화면 하단 광고문의 버튼 · 카톡 besta12. 도착 전 문의하면 자세히 안내.</p>
+                <p>푸터의 광고문의 카톡 아이디 besta12. 도착 전 문의하면 자세히 안내.</p>
               </div>
             </div>
           </section>

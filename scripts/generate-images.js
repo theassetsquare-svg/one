@@ -69,10 +69,10 @@ const ogThumbSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height=
 <text x="540" y="824" font-family="Noto Sans KR" font-size="22" font-weight="600" fill="#FFFFFF" text-anchor="middle">평일 20:00~02:30 · 주말(금·토) 20:00~03:30</text>
 
 <rect x="30" y="860" width="1020" height="100" rx="22" fill="#000000"/>
-<text x="540" y="910" font-family="Noto Sans KR" font-size="46" font-weight="900" fill="#FFFFFF" text-anchor="middle">예약 · 문의 언제든 환영</text>
+<text x="540" y="910" font-family="Noto Sans KR" font-size="46" font-weight="900" fill="#FFFFFF" text-anchor="middle">광고문의 카톡 besta12</text>
 <text x="540" y="947" font-family="Noto Sans KR" font-size="22" font-weight="600" fill="#FFD700" text-anchor="middle">예약 · VIP · 단체 · 길안내 한 통이면 끝</text>
 
-<text x="540" y="1015" font-family="Noto Sans KR" font-size="26" font-weight="700" fill="#1a1a1a" text-anchor="middle">onea-168.pages.dev</text>
+<text x="540" y="1015" font-family="Noto Sans KR" font-size="26" font-weight="700" fill="#1a1a1a" text-anchor="middle">onec-9bc.pages.dev</text>
 <text x="540" y="1052" font-family="Noto Sans KR" font-size="22" font-weight="600" fill="#2a1a00" text-anchor="middle">대전원나이트 · 38세+ 안전 운영</text>
 </svg>`;
 
@@ -104,7 +104,11 @@ const pages = [
   { name: 'faq',         title: '자주 묻는 질문',           sub: '12가지 답변 한 번에',                   bg1: '#FF9800', bg2: '#FFD700' },
   { name: 'review',      title: '후기',                     sub: '직접 가본 사람들 이야기',               bg1: '#4CAF50', bg2: '#FFD700' },
   { name: 'contact',     title: '예약 문의',                sub: '예약·VIP·단체·길안내 환영',              bg1: '#000000', bg2: '#FF1744' },
+  // 불광동호박나이트는 대전원나이트와 별개 가게 — CTA도 따로 갑니다.
+  { name: 'bulgwangdong-hobak-night', title: '불광동호박나이트', sub: '서울 은평구 불광역 인근', bg1: '#FF6F00', bg2: '#FFD700', cta: '예약 010-2221-1937' },
 ];
+
+const DEFAULT_CTA = '광고문의 카톡 besta12';
 
 pages.forEach((p) => {
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
@@ -114,7 +118,7 @@ pages.forEach((p) => {
 <text x="600" y="220" font-family="Noto Sans KR" font-size="84" font-weight="900" fill="#FFD700" text-anchor="middle">${p.title}</text>
 <text x="600" y="320" font-family="Noto Sans KR" font-size="44" font-weight="700" fill="#FFFFFF" text-anchor="middle">${p.sub}</text>
 <rect x="300" y="420" width="600" height="100" rx="20" fill="#FFD700"/>
-<text x="600" y="485" font-family="Noto Sans KR" font-size="40" font-weight="900" fill="#000000" text-anchor="middle">예약 · 문의 언제든 환영</text>
+<text x="600" y="485" font-family="Noto Sans KR" font-size="40" font-weight="900" fill="#000000" text-anchor="middle">${p.cta || DEFAULT_CTA}</text>
 </svg>`;
   svgToPng(svg, path.join(OUT_OG, `${p.name}.png`));
 });

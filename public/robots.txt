@@ -28,4 +28,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://onea-168.pages.dev/sitemap.xml
+Sitemap: https://onec-9bc.pages.dev/sitemap.xml
