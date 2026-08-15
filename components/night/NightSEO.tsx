@@ -43,10 +43,24 @@ export default function NightSEO({ venue }: { venue: NightVenue }) {
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" key="fav16" />
       <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" key="apple" />
       <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" key="pre1" />
+      {/*
+        Pretendard 는 렌더 차단 자원입니다. 그대로 두면 폰트가 도착할 때까지 본문 글자가
+        그려지지 않아 FCP/LCP 가 무너집니다. media="print" 로 받아 두고 로드 완료 후 적용합니다.
+        도착 전에는 globals.css 의 시스템 폰트 폴백으로 글자가 먼저 보입니다.
+      */}
       <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+        media="print"
+        id="nb-font"
         key="pretendard"
+      />
+      <script
+        key="nb-font-swap"
+        dangerouslySetInnerHTML={{
+          __html:
+            "(function(){var l=document.getElementById('nb-font');if(!l)return;var a=function(){l.media='all'};if(l.sheet)a();else l.addEventListener('load',a)})()",
+        }}
       />
       <meta name="color-scheme" content="dark" key="color-scheme" />
 
