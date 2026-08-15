@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import AdContact from '@/components/AdContact';
 import { AD_KAKAO, SITE, VENUES, nightPath } from '@/lib/night';
+import { AREAS, areaPath } from '@/lib/area';
 
 /**
  * /night/ 목록 허브. 13개 업소 페이지로 1단계 직접 링크합니다.
@@ -98,6 +99,19 @@ export default function NightIndex() {
                   <a key={v.slug} href={nightPath(v.slug)} className="bic">
                     <h3>{v.nameA}</h3>
                     <p>{v.region}</p>
+                  </a>
+                ))}
+              </div>
+            </section>
+
+            {/* 지역 키워드 안내 13개로 1단계 직접 링크 */}
+            <section aria-labelledby="area-h">
+              <h2 id="area-h">지역별 안내 페이지</h2>
+              <div className="bento">
+                {AREAS.map((a) => (
+                  <a key={a.slug} href={areaPath(a.slug)} className="bic">
+                    <h3>{a.kwA}</h3>
+                    <p>{a.region}</p>
                   </a>
                 ))}
               </div>
