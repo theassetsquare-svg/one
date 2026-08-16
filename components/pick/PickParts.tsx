@@ -3,7 +3,7 @@ import { AD_KAKAO, PickSection, PickVenue, VENUES, pickPath } from '@/lib/pick';
 export function Crumb({ venue }: { venue: PickVenue }) {
   return (
     <nav className="pk-crumb" aria-label="위치 경로">
-      <a href="/">홈</a> › <a href="/pick/">전국 나이트 고르기 40</a> › <span>{venue.nameA}</span>
+      <a href="/">홈</a> › <a href="/pick">전국 나이트 고르기 40</a> › <span>{venue.nameA}</span>
     </nav>
   );
 }
@@ -130,7 +130,7 @@ export function RelatedPicks({ venue }: { venue: PickVenue }) {
             <span className="pk-axis">{p.axis}</span>
           </a>
         ))}
-        <a href="/pick/" className="pk-card">
+        <a href="/pick" className="pk-card">
           <h3>전국 나이트 고르기 40</h3>
           <p>40곳을 선택 축으로 한자리에서 비교</p>
           <span className="pk-axis">허브 페이지로 이동</span>

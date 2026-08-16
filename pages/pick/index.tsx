@@ -12,7 +12,7 @@ export default function PickHub() {
   const itemList = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    '@id': `${SITE}/pick/#list`,
+    '@id': `${SITE}/pick#list`,
     name: '전국 나이트 고르기 40',
     numberOfItems: VENUES.length,
     itemListElement: VENUES.map((v, i) => ({
@@ -25,10 +25,10 @@ export default function PickHub() {
   const crumbs = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
-    '@id': `${SITE}/pick/#breadcrumb`,
+    '@id': `${SITE}/pick#breadcrumb`,
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: '홈', item: `${SITE}/` },
-      { '@type': 'ListItem', position: 2, name: '전국 나이트 고르기 40', item: `${SITE}/pick/` },
+      { '@type': 'ListItem', position: 2, name: '전국 나이트 고르기 40', item: `${SITE}/pick` },
     ],
   };
 
@@ -37,7 +37,7 @@ export default function PickHub() {
       <PickSEO
         title={TITLE}
         description={DESC}
-        path="/pick/"
+        path="/pick"
         image="/og/pick-hub.png"
         imageAlt="전국 나이트 고르기 40 — 지역별 선택 기준 목록 카드"
         keywords={['전국 나이트', '나이트 고르는 기준', '지역별 나이트', '나이트클럽 목록', '나이트 선택 가이드']}

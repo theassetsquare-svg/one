@@ -203,13 +203,13 @@ push('G6 JSON-LD 3종 + FAQ 3개·답변 40~90자', g6fail.length === 0, g6fail.
 const g7fail = [];
 for (const v of VENUES) {
   const hrefs = [...HTML[v.slug].matchAll(/href="([^"]+)"/g)].map((x) => x[1]);
-  if (!hrefs.includes('/pick/')) g7fail.push(`${v.slug} no-hub`);
+  if (!hrefs.includes('/pick')) g7fail.push(`${v.slug} no-hub`);
   if (!hrefs.includes('/')) g7fail.push(`${v.slug} no-home`);
-  const rel = v.related.filter((r) => hrefs.includes(`/pick/${r}/`));
+  const rel = v.related.filter((r) => hrefs.includes(`/pick/${r}`));
   if (rel.length !== v.related.length) g7fail.push(`${v.slug} related ${rel.length}/${v.related.length}`);
 }
 const hubHrefs = [...HTML.hub.matchAll(/href="([^"]+)"/g)].map((x) => x[1]);
-const hubMissing = VENUES.filter((v) => !hubHrefs.includes(`/pick/${v.slug}/`)).map((v) => v.slug);
+const hubMissing = VENUES.filter((v) => !hubHrefs.includes(`/pick/${v.slug}`)).map((v) => v.slug);
 const arabia = HTML['incheon-arabian-night'].includes('인천아라비아나이트');
 const arabiaOwnPage = fs.existsSync(path.join(OUT, 'pick', 'incheon-arabia-night'));
 push(
@@ -282,11 +282,11 @@ for (const p of PAGES) {
 const sitemap = fs.readFileSync(path.join(OUT, 'sitemap.xml'), 'utf8');
 const smMissing = [
   'https://onec-9bc.pages.dev/',
-  'https://onec-9bc.pages.dev/pick/',
-  ...VENUES.map((v) => `https://onec-9bc.pages.dev/pick/${v.slug}/`),
+  'https://onec-9bc.pages.dev/pick',
+  ...VENUES.map((v) => `https://onec-9bc.pages.dev/pick/${v.slug}`),
 ].filter((u) => !sitemap.includes(`<loc>${u}</loc>`));
 const llms = fs.readFileSync(path.join(OUT, 'llms.txt'), 'utf8');
-const llmsMissing = VENUES.filter((v) => !llms.includes(`/pick/${v.slug}/`)).map((v) => v.slug);
+const llmsMissing = VENUES.filter((v) => !llms.includes(`/pick/${v.slug} `)).map((v) => v.slug);
 const robots = fs.readFileSync(path.join(OUT, 'robots.txt'), 'utf8');
 if (smMissing.length) g11fail.push(`sitemap 누락 ${smMissing.length}`);
 if (llmsMissing.length) g11fail.push(`llms 누락 ${llmsMissing.length}`);

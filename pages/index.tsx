@@ -139,13 +139,13 @@ export default function Home() {
               </p>
               <div className="pk-grid">
                 {REGION_GROUPS.map((g) => (
-                  <a key={g.id} href={`/pick/#pk-${g.id}`} className="pk-card">
+                  <a key={g.id} href={`/pick#pk-${g.id}`} className="pk-card">
                     <h3>{g.label}</h3>
                     <p>{g.slugs.length}곳</p>
                     <span className="pk-axis">목록에서 선택 축 보기</span>
                   </a>
                 ))}
-                <a href="/pick/" className="pk-card">
+                <a href="/pick" className="pk-card">
                   <h3>전체 40곳</h3>
                   <p>한 페이지에서 비교</p>
                   <span className="pk-axis">허브로 이동</span>
@@ -185,12 +185,12 @@ export default function Home() {
         <aside className="pk-rel" aria-labelledby="pk-rel-h">
           <h2 id="pk-rel-h">바로 보기</h2>
           <div className="pk-grid">
-            <a href="/pick/" className="pk-card">
+            <a href="/pick" className="pk-card">
               <h3>전국 나이트 고르기 40</h3>
               <p>지역별 목록과 선택 축 한자리에</p>
               <span className="pk-axis">허브 페이지</span>
             </a>
-            <a href="/pick/#pk-list" className="pk-card">
+            <a href="/pick#pk-list" className="pk-card">
               <h3>지역별 목록</h3>
               <p>서울 · 경기 인천 · 충청 · 영남 · 호남 제주</p>
               <span className="pk-axis">권역별로 좁혀 보기</span>

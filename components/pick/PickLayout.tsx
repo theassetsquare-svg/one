@@ -30,8 +30,8 @@ export default function PickLayout({
             전국 나이트, 고르는 기준
           </a>
           <div className="nl">
-            <a href="/pick/">업소 40곳</a>
-            <a href="/pick/#pk-list">지역별 보기</a>
+            <a href="/pick">업소 40곳</a>
+            <a href="/pick#pk-list">지역별 보기</a>
             <a href="/#pk-how">고르는 법</a>
           </div>
         </div>

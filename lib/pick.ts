@@ -4026,7 +4026,7 @@ export const bySlug = (slug: string): PickVenue => {
   return v;
 };
 
-export const pickPath = (slug: string) => `/pick/${slug}/`;
+export const pickPath = (slug: string) => `/pick/${slug}`;
 
 /** 허브·홈에서 쓰는 지역 묶음 (40곳 전부, 중복 없음) */
 export const REGION_GROUPS: { id: string; label: string; slugs: string[] }[] = [
