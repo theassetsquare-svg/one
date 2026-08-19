@@ -11,7 +11,7 @@ export default function FirstVisit() {
         title="대전원나이트 첫 방문 6단계 가이드 — 입장·드레스코드·예약"
         description="처음 들르시는 분께 필요한 6단계. 38세 이상 신분증, 22시 전 여성 차비 3만원, 드레스코드, 주차, 결제까지 한 번에 정리했습니다. 도착 전 카톡 besta12 문의 권장."
         path="/first-visit"
-        ogImage="https://onec-9bc.pages.dev/og/first-visit.png"
+        ogImage="https://oned-a0q.pages.dev/og/first-visit.png"
         ogTitle="대전원나이트 첫 방문 6단계 가이드"
         ogDesc="38세+ 처음 가시는 분께 안내."
       />

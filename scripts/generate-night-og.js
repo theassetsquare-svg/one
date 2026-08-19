@@ -24,7 +24,7 @@ if (!fs.existsSync(FONT_PATH)) {
 }
 
 const SIZE = 1200;
-const BRAND = 'onec-9bc.pages.dev';
+const BRAND = 'oned-a0q.pages.dev';
 const FONT_OPTS = { font: { fontFiles: [FONT_PATH], loadSystemFonts: false, defaultFontFamily: 'Noto Sans KR' } };
 
 // ── 대비 계산 (WCAG) ────────────────────────────────────────────

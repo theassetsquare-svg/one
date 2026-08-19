@@ -72,7 +72,7 @@ const ogThumbSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height=
 <text x="540" y="910" font-family="Noto Sans KR" font-size="46" font-weight="900" fill="#FFFFFF" text-anchor="middle">광고문의 카톡 besta12</text>
 <text x="540" y="947" font-family="Noto Sans KR" font-size="22" font-weight="600" fill="#FFD700" text-anchor="middle">예약 · VIP · 단체 · 길안내 한 통이면 끝</text>
 
-<text x="540" y="1015" font-family="Noto Sans KR" font-size="26" font-weight="700" fill="#1a1a1a" text-anchor="middle">onec-9bc.pages.dev</text>
+<text x="540" y="1015" font-family="Noto Sans KR" font-size="26" font-weight="700" fill="#1a1a1a" text-anchor="middle">oned-a0q.pages.dev</text>
 <text x="540" y="1052" font-family="Noto Sans KR" font-size="22" font-weight="600" fill="#2a1a00" text-anchor="middle">대전원나이트 · 38세+ 안전 운영</text>
 </svg>`;
 

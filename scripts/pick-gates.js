@@ -116,14 +116,20 @@ push(
 let g3 = 0;
 const SEM = ['<header', '<nav', '<main', '<article', '<section', '<aside', '<footer'];
 const g3fail = [];
-for (const p of PAGES) {
+// 홈은 헤더·푸터·고정바 없는 단독 글 페이지입니다(의도된 설계). 크롬 기반 게이트에서 제외합니다.
+const CHROME_PAGES = PAGES.filter((x) => x.key !== 'home');
+for (const p of CHROME_PAGES) {
   const h = HTML[p.key];
   const h1 = [...h.matchAll(/<h1[^>]*>/g)].length;
   const ok = h1 === 1 && SEM.every((t) => h.includes(t));
   if (ok) g3++;
   else g3fail.push(`${p.key}(h1=${h1})`);
 }
-push('G3 h1 1개 + 시맨틱 7종 42/42', g3 === PAGES.length, g3fail.join(',') || `${g3}/${PAGES.length}`);
+push(
+  'G3 h1 1개 + 시맨틱 7종 41/41 (홈 제외 — 홈은 단독 글 페이지)',
+  g3 === CHROME_PAGES.length && /<h1/.test(HTML.home),
+  g3fail.join(',') || `${g3}/${CHROME_PAGES.length} + 홈 h1 ${/<h1/.test(HTML.home) ? 'OK' : '없음'}`
+);
 
 // ── G4 본문 유사도 (40개 = 780쌍) ───────────────────────────────
 const slugs = VENUES.map((v) => v.slug);
@@ -223,7 +229,7 @@ const g8fail = [];
 for (const p of PAGES) {
   const hrefs = [...HTML[p.key].matchAll(/href="([^"]+)"/g)].map((x) => x[1]);
   const ext = hrefs.filter(
-    (u) => /^https?:\/\//.test(u) && !u.startsWith('https://onec-9bc.pages.dev') && !u.includes('cdn.jsdelivr.net') && u !== AD_LINK
+    (u) => /^https?:\/\//.test(u) && !u.startsWith('https://oned-a0q.pages.dev') && !u.includes('cdn.jsdelivr.net') && u !== AD_LINK
   );
   if (ext.length) g8fail.push(`${p.key}: ${ext.join(',')}`);
 }
@@ -232,7 +238,7 @@ push('G8 외부 아웃바운드 0 (광고문의 카톡 링크만 허용)', g8fai
 // ── G9 광고문의·연락처 표기 ─────────────────────────────────────
 let barAd = 0, barTel = 0, footerAd = 0;
 const g9fail = [];
-for (const p of PAGES) {
+for (const p of CHROME_PAGES) {
   const h = HTML[p.key];
   const bar = barOf(h);
   const isAdv = p.venue && p.venue.tel;
@@ -247,10 +253,11 @@ for (const p of PAGES) {
   if (/class="adkko"[\s\S]{0,300}besta12/.test(h)) footerAd++;
   else g9fail.push(`${p.key} 푸터 besta12 없음`);
 }
+const homeClean = !/class="pkbar"/.test(HTML.home) && !/<nav/.test(HTML.home) && !/<footer/.test(HTML.home);
 push(
-  'G9 고정바 — 광고주 3곳 전화 / 나머지 39곳 besta12 / 푸터 besta12 42',
-  g9fail.length === 0 && barTel === 3 && barAd === 39 && footerAd === 42,
-  `광고주 바 ${barTel}/3, 광고문의 바 ${barAd}/39, 푸터 ${footerAd}/42${g9fail.length ? ' — ' + g9fail.slice(0, 3).join(',') : ''}`
+  'G9 고정바 — 광고주 3곳 전화 / 나머지 38곳 besta12 / 푸터 besta12 41 / 홈 크롬 0',
+  g9fail.length === 0 && barTel === 3 && barAd === 38 && footerAd === 41 && homeClean,
+  `광고주 바 ${barTel}/3, 광고문의 바 ${barAd}/38, 푸터 ${footerAd}/41, 홈 크롬 ${homeClean ? '없음(정상)' : '남아있음(위반)'}${g9fail.length ? ' — ' + g9fail.slice(0, 3).join(',') : ''}`
 );
 
 // ── G10 전화번호 허용표 ─────────────────────────────────────────
@@ -281,16 +288,16 @@ for (const p of PAGES) {
 }
 const sitemap = fs.readFileSync(path.join(OUT, 'sitemap.xml'), 'utf8');
 const smMissing = [
-  'https://onec-9bc.pages.dev/',
-  'https://onec-9bc.pages.dev/pick',
-  ...VENUES.map((v) => `https://onec-9bc.pages.dev/pick/${v.slug}`),
+  'https://oned-a0q.pages.dev/',
+  'https://oned-a0q.pages.dev/pick',
+  ...VENUES.map((v) => `https://oned-a0q.pages.dev/pick/${v.slug}`),
 ].filter((u) => !sitemap.includes(`<loc>${u}</loc>`));
 const llms = fs.readFileSync(path.join(OUT, 'llms.txt'), 'utf8');
 const llmsMissing = VENUES.filter((v) => !llms.includes(`/pick/${v.slug} `)).map((v) => v.slug);
 const robots = fs.readFileSync(path.join(OUT, 'robots.txt'), 'utf8');
 if (smMissing.length) g11fail.push(`sitemap 누락 ${smMissing.length}`);
 if (llmsMissing.length) g11fail.push(`llms 누락 ${llmsMissing.length}`);
-if (!robots.includes('Sitemap: https://onec-9bc.pages.dev/sitemap.xml')) g11fail.push('robots sitemap 없음');
+if (!robots.includes('Sitemap: https://oned-a0q.pages.dev/sitemap.xml')) g11fail.push('robots sitemap 없음');
 push(
   'G11 연령 완전문 · sitemap 42 · llms 40 · robots',
   g11fail.length === 0,

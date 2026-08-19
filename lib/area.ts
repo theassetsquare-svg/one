@@ -11,7 +11,7 @@
  * 접미어 = 해당 각도 접미어 풀의 [업소번호]번째.
  */
 
-export const SITE = 'https://onec-9bc.pages.dev';
+export const SITE = 'https://oned-a0q.pages.dev';
 export const AD_KAKAO = 'besta12';
 
 export type AreaGroup = 'A' | 'B';

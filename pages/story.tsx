@@ -11,7 +11,7 @@ export default function Story() {
         title="대전원나이트 웨이터 이야기 — 38세 이상 기준이 된 이유"
         description="가게가 같은 연령대만 받는 이유, 늦은 시간 여성 손님께 차비와 기본 맥주를 함께 드리는 이유. 현장에서 직접 들려드리는 운영 철학과 응대 약속을 정리했습니다."
         path="/story"
-        ogImage="https://onec-9bc.pages.dev/og/story.png"
+        ogImage="https://oned-a0q.pages.dev/og/story.png"
         ogTitle="대전원나이트 웨이터 이야기 — 38세+ 기준이 된 이유"
         ogDesc="차비 3만원과 맥주를 함께 드리는 이유."
       />

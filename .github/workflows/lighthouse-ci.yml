@@ -21,7 +21,7 @@ jobs:
           FAIL=0
           for page in / /event /story /atmosphere /first-visit /access /faq /review /contact; do
             slug=$(echo "$page" | sed 's|/|_|g; s|^_|root|')
-            npx --yes lighthouse "https://onec-9bc.pages.dev${page}" \
+            npx --yes lighthouse "https://oned-a0q.pages.dev${page}" \
               --preset=desktop \
               --only-categories=seo,performance,pwa,accessibility,best-practices \
               --emulated-form-factor=mobile \
@@ -62,7 +62,7 @@ jobs:
           FAIL=0
           for page in / /event /story /atmosphere /first-visit /access /faq /review /contact; do
             slug=$(echo "$page" | sed 's|/|_|g; s|^_|root|')
-            npx --yes lighthouse "https://onec-9bc.pages.dev${page}" \
+            npx --yes lighthouse "https://oned-a0q.pages.dev${page}" \
               --preset=desktop \
               --only-categories=seo,performance,accessibility,best-practices \
               --chrome-flags="--headless=new --no-sandbox --disable-gpu" \

@@ -31,4 +31,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://onec-9bc.pages.dev/sitemap.xml
+Sitemap: https://oned-a0q.pages.dev/sitemap.xml

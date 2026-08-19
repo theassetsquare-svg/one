@@ -19,8 +19,8 @@ jobs:
           set -e
           # Wait for both: live + new build fingerprint (GeoCoordinates is in new build only)
           for i in $(seq 1 40); do
-            S=$(curl -s -o /dev/null -w "%{http_code}" "https://onec-9bc.pages.dev/")
-            HAS_NEW=$(curl -s "https://onec-9bc.pages.dev/" | grep -c "GeoCoordinates" || true)
+            S=$(curl -s -o /dev/null -w "%{http_code}" "https://oned-a0q.pages.dev/")
+            HAS_NEW=$(curl -s "https://oned-a0q.pages.dev/" | grep -c "GeoCoordinates" || true)
             if [ "$S" = "200" ] && [ "$HAS_NEW" -gt 0 ]; then
               echo "✅ live with new build"; exit 0
             fi

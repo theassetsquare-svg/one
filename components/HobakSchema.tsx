@@ -1,4 +1,4 @@
-const SITE = 'https://onec-9bc.pages.dev';
+const SITE = 'https://oned-a0q.pages.dev';
 const PATH = '/bulgwangdong-hobak-night';
 const TEL = '+82-10-2221-1937';
 

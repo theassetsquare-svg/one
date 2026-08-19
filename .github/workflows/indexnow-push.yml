@@ -13,8 +13,8 @@ jobs:
           set -e
           KEY="73db36672cca84c36716390378812042"
           for i in $(seq 1 40); do
-            S=$(curl -s -o /dev/null -w "%{http_code}" "https://onec-9bc.pages.dev/")
-            K=$(curl -s -o /dev/null -w "%{http_code}" "https://onec-9bc.pages.dev/${KEY}.txt")
+            S=$(curl -s -o /dev/null -w "%{http_code}" "https://oned-a0q.pages.dev/")
+            K=$(curl -s -o /dev/null -w "%{http_code}" "https://oned-a0q.pages.dev/${KEY}.txt")
             if [ "$S" = "200" ] && [ "$K" = "200" ]; then
               echo "✅ live (/ → 200, key.txt → 200)"; exit 0
             fi
@@ -27,25 +27,25 @@ jobs:
         run: |
           set +e
           KEY="73db36672cca84c36716390378812042"
-          KEY_URL="https://onec-9bc.pages.dev/${KEY}.txt"
+          KEY_URL="https://oned-a0q.pages.dev/${KEY}.txt"
           # Submit
           RESP=$(curl -s -o /tmp/in.body -w "%{http_code}" -X POST "https://api.indexnow.org/IndexNow" \
             -H "Content-Type: application/json; charset=utf-8" \
             -d "{
-              \"host\": \"onec-9bc.pages.dev\",
+              \"host\": \"oned-a0q.pages.dev\",
               \"key\": \"${KEY}\",
               \"keyLocation\": \"${KEY_URL}\",
               \"urlList\": [
-                \"https://onec-9bc.pages.dev/\",
-                \"https://onec-9bc.pages.dev/event\",
-                \"https://onec-9bc.pages.dev/story\",
-                \"https://onec-9bc.pages.dev/atmosphere\",
-                \"https://onec-9bc.pages.dev/first-visit\",
-                \"https://onec-9bc.pages.dev/access\",
-                \"https://onec-9bc.pages.dev/faq\",
-                \"https://onec-9bc.pages.dev/review\",
-                \"https://onec-9bc.pages.dev/contact\",
-                \"https://onec-9bc.pages.dev/bulgwangdong-hobak-night\"
+                \"https://oned-a0q.pages.dev/\",
+                \"https://oned-a0q.pages.dev/event\",
+                \"https://oned-a0q.pages.dev/story\",
+                \"https://oned-a0q.pages.dev/atmosphere\",
+                \"https://oned-a0q.pages.dev/first-visit\",
+                \"https://oned-a0q.pages.dev/access\",
+                \"https://oned-a0q.pages.dev/faq\",
+                \"https://oned-a0q.pages.dev/review\",
+                \"https://oned-a0q.pages.dev/contact\",
+                \"https://oned-a0q.pages.dev/bulgwangdong-hobak-night\"
               ]
             }")
           echo "IndexNow response: HTTP $RESP"
