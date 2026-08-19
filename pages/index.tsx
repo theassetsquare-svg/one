@@ -63,7 +63,7 @@ export default function Home() {
           key="kw"
         />
         <meta name="google-site-verification" content="HJjm7MRxykCQ7d_9L7glaTeeaWrmJIzAKY0BcNcfm88" key="gsv" />
-        <meta name="naver-site-verification" content="28b5456ceb80424d098fe8074ecd062efa66bbd9" key="nsv" />
+        <meta name="naver-site-verification" content="e08d28d4a8fb74602625d6ae1f2e4834aa71f2ed" key="nsv" />
         <meta name="robots" content="index,follow,max-snippet:-1" key="robots" />
         <meta name="theme-color" content="#0b0c0e" key="theme" />
         <meta name="color-scheme" content="dark" key="color-scheme" />

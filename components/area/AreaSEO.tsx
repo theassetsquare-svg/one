@@ -22,7 +22,7 @@ export default function AreaSEO({ area }: { area: Area }) {
       <meta name="description" content={area.description} key="desc" />
       <meta name="keywords" content={keywords} key="kw" />
       <meta name="google-site-verification" content="HJjm7MRxykCQ7d_9L7glaTeeaWrmJIzAKY0BcNcfm88" key="gsv" />
-      <meta name="naver-site-verification" content="28b5456ceb80424d098fe8074ecd062efa66bbd9" key="nsv" />
+      <meta name="naver-site-verification" content="e08d28d4a8fb74602625d6ae1f2e4834aa71f2ed" key="nsv" />
       <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" key="robots" />
       <meta name="theme-color" content="#111111" key="theme" />
       <link rel="canonical" href={canonical} key="canonical" />
