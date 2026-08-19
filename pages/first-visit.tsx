@@ -1,3 +1,4 @@
+import PageThumb from '@/components/PageThumb';
 import SEO from '@/components/SEO';
 import Schema from '@/components/Schema';
 import Layout from '@/components/Layout';
@@ -12,6 +13,7 @@ export default function FirstVisit() {
         description="처음 들르시는 분께 필요한 6단계. 38세 이상 신분증, 22시 전 여성 차비 3만원, 드레스코드, 주차, 결제까지 한 번에 정리했습니다. 도착 전 카톡 besta12 문의 권장."
         path="/first-visit"
         ogImage="https://oned-a0q.pages.dev/og/first-visit.png"
+        ogImageAlt="대전원나이트 첫 방문 가이드"
         ogTitle="대전원나이트 첫 방문 6단계 가이드"
         ogDesc="38세+ 처음 가시는 분께 안내."
       />
@@ -22,6 +24,9 @@ export default function FirstVisit() {
           <p>38세 이상 처음 가는 사람을 위한 6단계</p>
         </div>
         <div className="container">
+          {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
+          <PageThumb src="/og/first-visit.png" alt="대전원나이트 첫 방문 가이드" />
+
           <PolicyBanner />
           <section aria-labelledby="fv-h">
             <h2 id="fv-h">📘 6단계 가이드</h2>

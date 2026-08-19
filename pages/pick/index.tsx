@@ -1,3 +1,4 @@
+import PageThumb from '@/components/PageThumb';
 import PickSEO from '@/components/pick/PickSEO';
 import PickLayout from '@/components/pick/PickLayout';
 import { Checklist } from '@/components/pick/PickParts';
@@ -57,6 +58,9 @@ export default function PickHub() {
           </header>
 
           <div className="pk-wrap">
+            {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
+            <PageThumb src="/og/pick-hub.png" alt="전국 나이트 고르기 40 — 지역별 선택 기준 목록 카드" />
+
             <p className="pk-lead">
               같은 값을 내도 어디에 앉느냐에 따라 밤이 완전히 달라집니다. 그래서 이 목록은 순위를 매기지 않습니다.
               대신 40곳마다 하나씩 선택 축을 붙여 두었습니다. 오늘 인원과 시간과 이동 방법을 먼저 정하고 나면

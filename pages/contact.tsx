@@ -1,3 +1,4 @@
+import PageThumb from '@/components/PageThumb';
 import SEO from '@/components/SEO';
 import Schema from '@/components/Schema';
 import Layout from '@/components/Layout';
@@ -12,6 +13,7 @@ export default function Contact() {
         description="카톡 besta12 한 번이면 예약·VIP룸·5인 이상 단체 모임·길안내·이벤트 문의까지 한 번에. 가게 사정을 가장 잘 아는 직원이 직접 받습니다. 광고문의 카카오톡 아이디: besta12."
         path="/contact"
         ogImage="https://oned-a0q.pages.dev/og/contact.png"
+        ogImageAlt="대전원나이트 예약·광고문의 안내"
         ogTitle="대전원나이트 광고문의 카톡 아이디 besta12"
         ogDesc="예약·VIP·단체·길안내 웨이터 직접 응대. 카톡 besta12."
       />
@@ -24,6 +26,9 @@ export default function Contact() {
           </p>
         </div>
         <div className="container">
+          {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
+          <PageThumb src="/og/contact.png" alt="대전원나이트 예약·광고문의 안내" />
+
           <PolicyBanner />
           <section aria-labelledby="ct-h">
             <h2 id="ct-h">💬 광고문의 · 예약</h2>

@@ -1,3 +1,4 @@
+import PageThumb from '@/components/PageThumb';
 import SEO from '@/components/SEO';
 import Schema from '@/components/Schema';
 import Layout from '@/components/Layout';
@@ -12,6 +13,7 @@ export default function Story() {
         description="가게가 같은 연령대만 받는 이유, 늦은 시간 여성 손님께 차비와 기본 맥주를 함께 드리는 이유. 현장에서 직접 들려드리는 운영 철학과 응대 약속을 정리했습니다."
         path="/story"
         ogImage="https://oned-a0q.pages.dev/og/story.png"
+        ogImageAlt="대전원나이트 웨이터 이야기"
         ogTitle="대전원나이트 웨이터 이야기 — 38세+ 기준이 된 이유"
         ogDesc="차비 3만원과 맥주를 함께 드리는 이유."
       />
@@ -22,6 +24,9 @@ export default function Story() {
           <p>대전 나이트라이프의 기준점이 된 이유</p>
         </div>
         <div className="container">
+          {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
+          <PageThumb src="/og/story.png" alt="대전원나이트 웨이터 이야기" />
+
           <PolicyBanner />
           <section aria-labelledby="why-h">
             <h2 id="why-h">왜 38세 이상인가</h2>

@@ -15,6 +15,9 @@ import { SITE } from '@/lib/pick';
 const TITLE = '바닥에서 다시 올라온 1,247일 — 어느 재기의 기록';
 const DESC =
   '통장에 43,000원이 남아 있던 겨울부터 다시 자기 이름으로 일하게 되기까지, 한 사람이 1,247일 동안 지킨 규칙과 무너지지 않는 법에 대한 기록입니다.';
+/** 검색 썸네일 — 본문에는 이미지를 넣지 않는 페이지라 og/thumbnail 로만 노출합니다. */
+const OG_IMAGE = `${SITE}/og/home.png`;
+const OG_ALT = '바닥에서 다시 올라온 1,247일 — 어느 재기의 기록 표지';
 
 const CSS = `
 :root{--ink:#f2f3f5;--dim:#b9bcc4;--gold:#ffd166;--line:rgba(255,255,255,.12);--bg:#0b0c0e}
@@ -49,6 +52,7 @@ export default function Home() {
     datePublished: '2026-08-19',
     dateModified: '2026-08-19',
     mainEntityOfPage: `${SITE}/`,
+    image: OG_IMAGE,
   };
 
   return (
@@ -64,7 +68,7 @@ export default function Home() {
         />
         <meta name="google-site-verification" content="HJjm7MRxykCQ7d_9L7glaTeeaWrmJIzAKY0BcNcfm88" key="gsv" />
         <meta name="naver-site-verification" content="e08d28d4a8fb74602625d6ae1f2e4834aa71f2ed" key="nsv" />
-        <meta name="robots" content="index,follow,max-snippet:-1" key="robots" />
+        <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" key="robots" />
         <meta name="theme-color" content="#0b0c0e" key="theme" />
         <meta name="color-scheme" content="dark" key="color-scheme" />
         <link rel="canonical" href={`${SITE}/`} key="canonical" />
@@ -77,9 +81,19 @@ export default function Home() {
         <meta property="og:title" content={TITLE} key="og:title" />
         <meta property="og:description" content={DESC} key="og:desc" />
         <meta property="og:url" content={`${SITE}/`} key="og:url" />
+        <meta property="og:image" content={OG_IMAGE} key="og:img" />
+        <meta property="og:image:secure_url" content={OG_IMAGE} key="og:imgs" />
+        <meta property="og:image:width" content="1200" key="og:w" />
+        <meta property="og:image:height" content="1200" key="og:h" />
+        <meta property="og:image:type" content="image/png" key="og:t" />
+        <meta property="og:image:alt" content={OG_ALT} key="og:alt" />
+        <meta name="thumbnail" content={OG_IMAGE} key="thumb" />
+        {/* 1:1 정사각 이미지이므로 summary */}
         <meta name="twitter:card" content="summary" key="tw:card" />
         <meta name="twitter:title" content={TITLE} key="tw:title" />
         <meta name="twitter:description" content={DESC} key="tw:desc" />
+        <meta name="twitter:image" content={OG_IMAGE} key="tw:img" />
+        <meta name="twitter:image:alt" content={OG_ALT} key="tw:alt" />
       </Head>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(article) }} />
       <style dangerouslySetInnerHTML={{ __html: CSS }} />

@@ -1,3 +1,4 @@
+import PageThumb from '@/components/PageThumb';
 import SEO from '@/components/SEO';
 import Schema from '@/components/Schema';
 import Layout from '@/components/Layout';
@@ -12,6 +13,7 @@ export default function Access() {
         description="가게는 시내에 있으며 청주·세종에서 자차로 약 30분 거리. 주차장·택시·교통편을 한 번에 정리했습니다. 도착 전 카톡 besta12로 문의하시면 자세히 안내해 드립니다."
         path="/access"
         ogImage="https://oned-a0q.pages.dev/og/access.png"
+        ogImageAlt="대전원나이트 오시는 길 — 대전 시내·청주·세종 30분 거리 안내"
         ogTitle="대전원나이트 오시는 길"
         ogDesc="대전 시내 + 청주·세종 30분 거리, 주차·택시 안내."
       />
@@ -22,6 +24,9 @@ export default function Access() {
           <p>대전 시내 + 청주·세종 30분 거리</p>
         </div>
         <div className="container">
+          {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
+          <PageThumb src="/og/access.png" alt="대전원나이트 오시는 길 — 대전 시내·청주·세종 30분 거리 안내" />
+
           <PolicyBanner />
           <section aria-labelledby="ac-h">
             <h2 id="ac-h">🚗 위치 및 교통</h2>

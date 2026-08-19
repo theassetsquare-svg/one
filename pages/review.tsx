@@ -1,3 +1,4 @@
+import PageThumb from '@/components/PageThumb';
 import SEO from '@/components/SEO';
 import Schema from '@/components/Schema';
 import Layout from '@/components/Layout';
@@ -12,6 +13,7 @@ export default function Review() {
         description="가게를 다녀가신 같은 연령대 단골 손님들이 직접 말해주신 진짜 분위기. 자리·여성 혜택·응대 만족도를 사실 그대로 정리했으며, 별점이나 평점은 사용하지 않습니다."
         path="/review"
         ogImage="https://oned-a0q.pages.dev/og/review.png"
+        ogImageAlt="대전원나이트 후기 모음"
         ogTitle="대전원나이트 후기 — 단골 진짜 분위기"
         ogDesc="가짜 별점 없음. 38세+ 손님 실제 의견 기반."
       />
@@ -22,6 +24,9 @@ export default function Review() {
           <p>직접 가본 사람들 이야기</p>
         </div>
         <div className="container">
+          {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
+          <PageThumb src="/og/review.png" alt="대전원나이트 후기 모음" />
+
           <PolicyBanner />
           <section aria-labelledby="rv-h">
             <h2 id="rv-h">💬 왜 단골이 되었나</h2>

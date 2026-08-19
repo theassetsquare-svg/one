@@ -1,3 +1,4 @@
+import PageThumb from '../PageThumb';
 import { AD_KAKAO, Area, AREAS, areaPath } from '@/lib/area';
 import { bySlug, nightPath } from '@/lib/night';
 
@@ -167,6 +168,9 @@ export default function AreaPage({ area }: { area: Area }) {
                 <strong>{area.kwA}</strong>는 {area.region}의 나이트클럽 밤 문화를 뜻합니다. {area.answerLine}.
               </p>
             </div>
+
+            {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
+            <PageThumb src={`/og/${area.slug}-og.png`} alt={area.ogAlt} />
 
             {area.ageFull ? <p className="nb-age">연결 업소 출입 기준 {area.ageFull}</p> : null}
 

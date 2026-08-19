@@ -57,6 +57,8 @@ const VENUES = [
   { no: 11, slug: 'ansan-hit-night', lines: ['안산', '히트나이트'], region: '경기 안산 상록구', bg: '#4A1E6B', group: 'B' },
   { no: 12, slug: 'daejeon-seven-night', lines: ['대전', '세븐나이트'], region: '대전 중구 유천동', bg: '#1B3A6B', group: 'B' },
   { no: 13, slug: 'ilsan-shampoo-night', lines: ['일산', '샴푸나이트'], region: '경기 고양 일산동구', bg: '#6B1436', group: 'B' },
+  // 허브(/night) — 업소가 아니라 목록 페이지라 전화번호·연령 배지 없이 B그룹 규칙 그대로.
+  { no: 14, slug: 'night-hub', lines: ['나이트 안내', '13곳 목록'], region: '지역별 위치 · 시간 · 자리 정리', bg: '#243B55', group: 'B' },
 ];
 
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');

@@ -1,3 +1,4 @@
+import PageThumb from '@/components/PageThumb';
 import SEO from '@/components/SEO';
 import Schema from '@/components/Schema';
 import Layout from '@/components/Layout';
@@ -12,6 +13,7 @@ export default function Event() {
         description="22시 전에 입장하는 여성 손님께 차비 3만원과 기본 맥주 두 가지를 함께 드리는 가게 이벤트. 한 가지가 아니라 둘 다. 38세 이상 신분증 필수. 카톡 besta12 예약 환영."
         path="/event"
         ogImage="https://oned-a0q.pages.dev/og/event.png"
+        ogImageAlt="대전원나이트 이벤트 — 차비 3만원 + 맥주 기본 서비스"
         ogTitle="대전원나이트 이벤트 — 차비 3만원 + 맥주 둘 다"
         ogDesc="10시 이전 입장 여성 손님 두 가지 모두 보장."
       />
@@ -22,6 +24,9 @@ export default function Event() {
           <p>10시 이전 입장 여성 손님 — 차비 3만원 + 맥주 둘 다 받습니다</p>
         </div>
         <div className="container">
+          {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
+          <PageThumb src="/og/event.png" alt="대전원나이트 이벤트 — 차비 3만원 + 맥주 기본 서비스" />
+
           <PolicyBanner />
           <section aria-labelledby="ev-h">
             <h2 id="ev-h">🎁 이벤트 상세</h2>

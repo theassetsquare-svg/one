@@ -33,7 +33,8 @@ function svgToPng(svg, outPath, width) {
   console.log('✅', path.relative(ROOT, outPath));
 }
 
-// 1:1 Search thumbnail 1080x1080 — 대전원나이트 풀버전 (이모지 없는 깔끔한 디자인)
+// 1:1 Search thumbnail 1200x1200 — 대전원나이트 풀버전 (이모지 없는 깔끔한 디자인)
+// 원본은 1080 좌표계로 그린 뒤 1200 으로 스케일해 출력합니다(내용/배치 동일).
 const ogThumbSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
 <defs>
 <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -76,7 +77,7 @@ const ogThumbSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height=
 <text x="540" y="1052" font-family="Noto Sans KR" font-size="22" font-weight="600" fill="#2a1a00" text-anchor="middle">대전원나이트 · 38세+ 안전 운영</text>
 </svg>`;
 
-svgToPng(ogThumbSvg, path.join(OUT_OG, 'og-search-thumb.png'));
+svgToPng(ogThumbSvg, path.join(OUT_OG, 'og-search-thumb.png'), 1200);
 
 // PWA Icon master SVG (512x512)
 const iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
@@ -93,9 +94,10 @@ svgToPng(iconSvg, path.join(OUT_ICONS, 'apple-touch-icon.png'), 180);
 svgToPng(iconSvg, path.join(OUT_PUBLIC, 'favicon-32x32.png'), 32);
 svgToPng(iconSvg, path.join(OUT_PUBLIC, 'favicon-16x16.png'), 16);
 
-// Page-level OG images (1200x630)
+// Page-level OG images (1200x1200 — 네이버 검색 썸네일은 1:1 정사각을 씁니다)
 const pages = [
-  { name: 'home',        title: '대전원나이트',             sub: '38세 이상 + 여성 손님 2가지 혜택',     bg1: '#FF1744', bg2: '#FFD700' },
+  // 홈(/)은 업소 페이지가 아니라 단독 성공스토리 글 페이지입니다. 업종 단어를 넣지 않습니다.
+  { name: 'home',        title: '바닥에서 다시 올라온',      sub: '1,247일 — 어느 재기의 기록',           bg1: '#0F2027', bg2: '#FFD166', cta: '오늘, 한 줄부터' },
   { name: 'event',       title: '10시 이전 여성 혜택',      sub: '차비 3만원 + 맥주 기본 서비스',         bg1: '#E91E63', bg2: '#FFD700' },
   { name: 'story',       title: '웨이터 이야기',            sub: '대전 나이트라이프 기준점',              bg1: '#9C27B0', bg2: '#FF6B35' },
   { name: 'atmosphere',  title: '대전원나이트 분위기',      sub: '38세 이상 안전한 공간',                 bg1: '#3F51B5', bg2: '#FFD700' },
@@ -111,14 +113,14 @@ const pages = [
 const DEFAULT_CTA = '광고문의 카톡 besta12';
 
 pages.forEach((p) => {
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="${p.bg1}"/><stop offset="100%" stop-color="${p.bg2}"/></linearGradient></defs>
-<rect width="1200" height="630" fill="url(#bg)"/>
-<rect x="40" y="40" width="1120" height="550" rx="24" fill="rgba(0,0,0,0.78)"/>
-<text x="600" y="220" font-family="Noto Sans KR" font-size="84" font-weight="900" fill="#FFD700" text-anchor="middle">${p.title}</text>
-<text x="600" y="320" font-family="Noto Sans KR" font-size="44" font-weight="700" fill="#FFFFFF" text-anchor="middle">${p.sub}</text>
-<rect x="300" y="420" width="600" height="100" rx="20" fill="#FFD700"/>
-<text x="600" y="485" font-family="Noto Sans KR" font-size="40" font-weight="900" fill="#000000" text-anchor="middle">${p.cta || DEFAULT_CTA}</text>
+<rect width="1200" height="1200" fill="url(#bg)"/>
+<rect x="50" y="50" width="1100" height="1100" rx="32" fill="rgba(0,0,0,0.78)"/>
+<text x="600" y="470" font-family="Noto Sans KR" font-size="84" font-weight="900" fill="#FFD700" text-anchor="middle">${p.title}</text>
+<text x="600" y="580" font-family="Noto Sans KR" font-size="44" font-weight="700" fill="#FFFFFF" text-anchor="middle">${p.sub}</text>
+<rect x="300" y="700" width="600" height="110" rx="22" fill="#FFD700"/>
+<text x="600" y="772" font-family="Noto Sans KR" font-size="40" font-weight="900" fill="#000000" text-anchor="middle">${p.cta || DEFAULT_CTA}</text>
 </svg>`;
   svgToPng(svg, path.join(OUT_OG, `${p.name}.png`));
 });

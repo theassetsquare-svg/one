@@ -62,6 +62,9 @@ export default function AreaSEO({ area }: { area: Area }) {
       <meta property="og:image:type" content="image/png" key="og:t" />
       <meta property="og:image:alt" content={area.ogAlt} key="og:alt" />
 
+      {/* 네이버 썸네일 후보 — og:image 와 같은 파일 */}
+      <meta name="thumbnail" content={image} key="thumb" />
+
       {/* 1:1 정사각 이미지이므로 summary */}
       <meta name="twitter:card" content="summary" key="tw:card" />
       <meta name="twitter:title" content={area.title} key="tw:title" />

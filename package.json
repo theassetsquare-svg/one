@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/generate-images.js",
+    "prebuild": "node scripts/generate-images.js && node scripts/og-normalize.js",
     "build": "next build && node scripts/pick-dirify.js",
     "start": "next start",
     "generate-images": "node scripts/generate-images.js"

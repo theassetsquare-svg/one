@@ -1,14 +1,19 @@
+import PageThumb from '../PageThumb';
 import { AD_KAKAO, NightVenue, VENUES, nightPath } from '@/lib/night';
 
 /** [14] AI 인용 블록. 두 번째 문장은 13개 페이지 전부 다릅니다. */
 export function AnswerBox({ venue }: { venue: NightVenue }) {
   return (
-    <div className="answer-box" id="nb-answer">
-      <p>
-        <strong>{venue.nameA}</strong>은(는) {venue.region}에 있는 나이트클럽입니다. {venue.answerLine}.
-        {venue.ageFull ? ` 출입은 ${venue.ageFull}만 가능합니다.` : ''}
-      </p>
-    </div>
+    <>
+      <div className="answer-box" id="nb-answer">
+        <p>
+          <strong>{venue.nameA}</strong>은(는) {venue.region}에 있는 나이트클럽입니다. {venue.answerLine}.
+          {venue.ageFull ? ` 출입은 ${venue.ageFull}만 가능합니다.` : ''}
+        </p>
+      </div>
+      {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
+      <PageThumb src={`/og/${venue.slug}-og.png`} alt={venue.ogAlt} />
+    </>
   );
 }
 

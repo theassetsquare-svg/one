@@ -1,3 +1,4 @@
+import PageThumb from '@/components/PageThumb';
 import SEO from '@/components/SEO';
 import Schema from '@/components/Schema';
 import Layout from '@/components/Layout';
@@ -12,6 +13,7 @@ export default function Atmosphere() {
         description="같은 연령대 손님들이 부담 없이 어울릴 수 있는 가게 분위기. 7080·90s·발라드 위주 음악과 여유로운 테이블, 신분증 검사 철저, 응대는 현장 직원이 직접 맡습니다."
         path="/atmosphere"
         ogImage="https://oned-a0q.pages.dev/og/atmosphere.png"
+        ogImageAlt="대전원나이트 분위기 — 만 38세 이상 손님 중심 홀"
         ogTitle="대전원나이트 분위기 — 38세+ 동년배 자리"
         ogDesc="음악·자리·손님층·안전 네 가지 한눈에."
       />
@@ -22,6 +24,9 @@ export default function Atmosphere() {
           <p>38세 이상 안전하고 품격 있는 공간</p>
         </div>
         <div className="container">
+          {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
+          <PageThumb src="/og/atmosphere.png" alt="대전원나이트 분위기 — 만 38세 이상 손님 중심 홀" />
+
           <PolicyBanner />
           <section aria-labelledby="atm-h">
             <h2 id="atm-h">🎶 공간 소개</h2>

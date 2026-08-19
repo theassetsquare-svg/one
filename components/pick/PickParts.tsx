@@ -1,3 +1,4 @@
+import PageThumb from '../PageThumb';
 import { AD_KAKAO, PickSection, PickVenue, VENUES, pickPath } from '@/lib/pick';
 
 export function Crumb({ venue }: { venue: PickVenue }) {
@@ -11,14 +12,18 @@ export function Crumb({ venue }: { venue: PickVenue }) {
 /** ② 핵심 3줄 직답 박스 — AI 인용을 노린 블록입니다. */
 export function AnswerBox({ venue }: { venue: PickVenue }) {
   return (
-    <div className="pk-answer" id="pk-answer">
-      <h2>핵심 3줄</h2>
-      <ol>
-        {venue.answer3.map((a) => (
-          <li key={a}>{a}</li>
-        ))}
-      </ol>
-    </div>
+    <>
+      <div className="pk-answer" id="pk-answer">
+        <h2>핵심 3줄</h2>
+        <ol>
+          {venue.answer3.map((a) => (
+            <li key={a}>{a}</li>
+          ))}
+        </ol>
+      </div>
+      {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
+      <PageThumb src={`/og/pick-${venue.slug}.png`} alt={venue.ogAlt} />
+    </>
   );
 }
 

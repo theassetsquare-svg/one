@@ -1,3 +1,4 @@
+import PageThumb from '@/components/PageThumb';
 import SEO from '@/components/SEO';
 import HobakSchema from '@/components/HobakSchema';
 import HobakLayout from '@/components/HobakLayout';
@@ -36,7 +37,7 @@ export default function BulgwangdongHobakNight() {
         ogImage="https://oned-a0q.pages.dev/og/bulgwangdong-hobak-night.png"
         ogTitle="불광동호박나이트 — 통일로 730 지하 1층, 예약 010-2221-1937"
         ogDesc="은평구 불광역 인근 · 저녁 7시~새벽 5시 · 예약·룸·단체 문의 환영."
-        ogImageAlt="불광동호박나이트 - 서울 은평구 통일로 730 지하 1층"
+        ogImageAlt="불광동호박나이트 — 서울 은평구 통일로 730 지하 1층"
         keywords="불광동호박나이트, 불광동 호박나이트, 호박나이트, 불광호박나이트, 은평구 호박나이트, 불광역 나이트, 은평구 나이트, 불광동호박나이트 예약, 불광동호박나이트 위치, 불광동호박나이트 영업시간, 불광동호박나이트 전화번호"
         siteName="불광동호박나이트"
         rss={false}
@@ -51,6 +52,9 @@ export default function BulgwangdongHobakNight() {
           <p>서울 은평구 통일로 730 지하 1층 · 저녁 7시 ~ 새벽 5시</p>
         </div>
         <div className="container">
+          {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
+          <PageThumb src="/og/bulgwangdong-hobak-night.png" alt="불광동호박나이트 — 서울 은평구 통일로 730 지하 1층" />
+
           <section aria-labelledby="hb-intro">
             <h2 id="hb-intro">불광동호박나이트 안내</h2>
             <p>

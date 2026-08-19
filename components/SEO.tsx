@@ -82,7 +82,7 @@ export default function SEO({
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
         key="pretendard"
       />
-      <link rel="preload" as="image" href="/og/og-search-thumb.png" fetchPriority="high" key="lcp" />
+      <link rel="preload" as="image" href={image} fetchPriority="high" key="lcp" />
       <meta name="color-scheme" content="dark" key="color-scheme" />
       <meta name="HandheldFriendly" content="True" key="hh" />
       <meta name="MobileOptimized" content="320" key="mo" />
@@ -96,13 +96,14 @@ export default function SEO({
       <meta property="og:url" content={canonical} key="og:url" />
       <meta property="og:image" content={image} key="og:img" />
       <meta property="og:image:secure_url" content={image} key="og:imgs" />
-      <meta property="og:image:width" content="1080" key="og:w" />
-      <meta property="og:image:height" content="1080" key="og:h" />
+      <meta property="og:image:width" content="1200" key="og:w" />
+      <meta property="og:image:height" content="1200" key="og:h" />
       <meta property="og:image:type" content="image/png" key="og:t" />
       <meta property="og:image:alt" content={ogImageAlt} key="og:alt" />
       <meta name="thumbnail" content={image} key="thumb" />
 
-      <meta name="twitter:card" content="summary_large_image" key="tw:card" />
+      {/* 1:1 정사각 이미지이므로 summary */}
+      <meta name="twitter:card" content="summary" key="tw:card" />
       <meta name="twitter:title" content={ogTitle || title} key="tw:title" />
       <meta name="twitter:description" content={ogDesc || description} key="tw:desc" />
       <meta name="twitter:image" content={image} key="tw:img" />
