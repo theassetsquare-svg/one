@@ -4,7 +4,7 @@ import { AD_KAKAO, PickSection, PickVenue, VENUES, pickPath } from '@/lib/pick';
 export function Crumb({ venue }: { venue: PickVenue }) {
   return (
     <nav className="pk-crumb" aria-label="위치 경로">
-      <a href="/">홈</a> › <a href="/pick">전국 나이트 고르기 40</a> › <span>{venue.nameA}</span>
+      <a href="/pick">전국 나이트 고르기 40</a> › <span>{venue.nameA}</span>
     </nav>
   );
 }

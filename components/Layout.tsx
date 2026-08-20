@@ -6,7 +6,6 @@ import AdContact from './AdContact';
 // 대전원나이트 전용 레이아웃.
 // 불광동호박나이트는 별개 가게이므로 여기 nav에 넣지 않습니다 (HobakLayout 사용).
 const navItems = [
-  { href: '/', label: '홈' },
   { href: '/event', label: '이벤트' },
   { href: '/first-visit', label: '첫방문' },
   { href: '/access', label: '오시는길' },
@@ -24,9 +23,8 @@ export default function Layout({ children }: { children: ReactNode }) {
     <>
       <nav aria-label="주요 메뉴">
         <div className="ni">
-          <Link href="/" className="logo">
-            🌟 대전원나이트
-          </Link>
+          {/* 홈 링크 제거(H3) — 로고 글자는 남기고 <a> 만 뺍니다. */}
+          <span className="logo">🌟 대전원나이트</span>
           <div className="nl">
             {navItems.map((item) => (
               <Link

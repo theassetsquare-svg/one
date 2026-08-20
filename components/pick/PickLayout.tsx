@@ -13,10 +13,13 @@ import { PICK_CSS } from './PickTheme';
  */
 export default function PickLayout({
   contact,
+  barName,
   footerLines,
   children,
 }: {
   contact?: PickContact;
+  /** 고정바에 붙는 주체명 — 가게 페이지는 가게이름. 허브는 비웁니다. */
+  barName?: string;
   footerLines?: string[];
   children: ReactNode;
 }) {
@@ -26,13 +29,11 @@ export default function PickLayout({
 
       <nav aria-label="주요 메뉴">
         <div className="ni">
-          <a href="/" className="logo">
-            전국 나이트, 고르는 기준
-          </a>
+          {/* 홈 링크 제거(H3) — 사이트명 글자는 남기고 <a> 만 뺍니다. */}
+          <span className="logo">전국 나이트, 고르는 기준</span>
           <div className="nl">
             <a href="/pick">업소 40곳</a>
             <a href="/pick#pk-list">지역별 보기</a>
-            <a href="/#pk-how">고르는 법</a>
           </div>
         </div>
       </nav>
@@ -56,9 +57,12 @@ export default function PickLayout({
 
       {contact ? (
         <div className="pkbar" role="complementary" aria-label="전화 연결">
-          <a href={contact.href} aria-label={`예약 ${contact.nick} ${contact.display} 전화 걸기`}>
+          <a href={contact.href} aria-label={`${barName || ''} ${contact.nick} ${contact.display} 전화 걸기`.trim()}>
             <span aria-hidden="true">📞</span>
-            {contact.nick} {contact.display}
+            <span className="pkbar-sub">
+              {barName} {contact.nick}
+            </span>
+            <span className="pkbar-tel">{contact.display}</span>
           </a>
         </div>
       ) : (

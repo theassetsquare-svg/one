@@ -3,7 +3,6 @@ import Link from 'next/link';
 type Related = { href: string; label: string; hint: string };
 
 const ALL: Record<string, Related> = {
-  '/': { href: '/', label: '홈', hint: '한눈에 보는 가게 안내' },
   '/event': { href: '/event', label: '이벤트', hint: '여성 손님 차비 + 맥주' },
   '/story': { href: '/story', label: '가게 이야기', hint: '운영 철학과 응대 약속' },
   '/atmosphere': { href: '/atmosphere', label: '분위기', hint: '음악·자리·손님층' },

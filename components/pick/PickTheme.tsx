@@ -77,11 +77,14 @@ footer a{color:${PK_ORANGE}}
 .pk-rel h2{color:#fff;font-size:clamp(1.2rem,3.2vw,1.6rem);text-align:left;margin-bottom:16px;font-weight:900}
 
 div.pkbar{position:fixed;left:0;right:0;bottom:0;z-index:99999;display:flex;align-items:center;justify-content:center;
-  height:66px;box-sizing:content-box;padding:0;padding-bottom:env(safe-area-inset-bottom,0px);
+  height:80px;box-sizing:content-box;padding:0;padding-bottom:env(safe-area-inset-bottom,0px);
   background:${PK_ORANGE};color:#fff;font-weight:900;font-size:18px;box-shadow:0 -2px 14px rgba(0,0,0,.45);
   transform:translateZ(0);backface-visibility:hidden}
-div.pkbar a,div.pkbar span{color:#fff;display:flex;align-items:center;gap:10px;height:100%;padding:0 10px;white-space:nowrap;font-weight:900}
+div.pkbar a,div.pkbar span{color:#fff;display:flex;align-items:center;gap:8px;height:100%;padding:0 10px;white-space:nowrap;font-weight:900}
+div.pkbar a{width:100%;flex:1 1 auto;justify-content:center;text-decoration:none}
+div.pkbar .pkbar-sub{font-size:clamp(0.86rem,3.4vw,1.05rem);color:#141414;font-weight:800}
+div.pkbar .pkbar-tel{font-size:clamp(1.5rem,7.4vw,2.2rem);font-weight:900;letter-spacing:0.01em;color:#fff}
 div.pkbar b{color:#141414;background:#fff;border-radius:8px;padding:2px 10px;margin-left:2px}
-@media(max-width:480px){div.pkbar{height:60px;font-size:15px}body{padding-bottom:calc(80px + env(safe-area-inset-bottom,0px))}}
+@media(max-width:480px){div.pkbar{height:76px;font-size:15px}body{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))}}
 @media(max-width:360px){div.pkbar{font-size:13px}}
 `;

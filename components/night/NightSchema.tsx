@@ -56,9 +56,8 @@ export default function NightSchema({ venue }: { venue: NightVenue }) {
     '@type': 'BreadcrumbList',
     '@id': `${url}#breadcrumb`,
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '홈', item: `${SITE}/` },
-      { '@type': 'ListItem', position: 2, name: '나이트', item: `${SITE}/night` },
-      { '@type': 'ListItem', position: 3, name: venue.nameA, item: url },
+      { '@type': 'ListItem', position: 1, name: '나이트', item: `${SITE}/night` },
+      { '@type': 'ListItem', position: 2, name: venue.nameA, item: url },
     ],
   };
 

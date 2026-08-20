@@ -48,10 +48,10 @@ export default function HobakLayout({ children }: { children: ReactNode }) {
         <a
           href={CALL_TEL_HREF}
           className="cb-tel"
-          aria-label={`불광동호박나이트 예약 ${CALL_NAME} ${CALL_TEL_DISPLAY} 전화 걸기`}
+          aria-label={`불광동호박나이트 ${CALL_NAME} ${CALL_TEL_DISPLAY} 전화 걸기`}
         >
           <span aria-hidden="true">📞</span>
-          <span className="cb-nm">{CALL_NAME}</span>
+          <span className="cb-nm">불광동호박나이트 {CALL_NAME}</span>
           <span className="cb-no">{CALL_TEL_DISPLAY}</span>
         </a>
       </div>

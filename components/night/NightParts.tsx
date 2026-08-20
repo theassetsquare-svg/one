@@ -84,7 +84,7 @@ export function RelatedNights({ venue }: { venue: NightVenue }) {
 export function Crumb({ venue }: { venue: NightVenue }) {
   return (
     <nav className="nb-crumb" aria-label="위치 경로">
-      <a href="/">홈</a> › <a href="/night/">나이트</a> › <span>{venue.nameA}</span>
+      <a href="/night/">나이트</a> › <span>{venue.nameA}</span>
     </nav>
   );
 }

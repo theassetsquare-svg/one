@@ -67,15 +67,16 @@ section ol li{margin-bottom:8px;font-size:clamp(0.95rem,2.5vw,1.05rem)}
 
 /* 불광동호박나이트 전용 하단 고정 전화바 — 모바일/PC 모두 고정, 스크롤해도 움직이지 않음 */
 .callbar{position:fixed;bottom:0;left:0;right:0;z-index:9999;display:flex;align-items:stretch;background:#000;box-shadow:0 -4px 20px rgba(0,0,0,0.55);border-top:2px solid #FFD700;padding-bottom:env(safe-area-inset-bottom)}
-.callbar a{flex:1;display:flex;align-items:center;justify-content:center;gap:10px;padding:18px 12px;font-weight:900;text-align:center;line-height:1.25;transition:filter .2s;background:linear-gradient(135deg,#FF1744 0%,#FF6B35 55%,#FFD700 100%);color:#000;font-size:clamp(1.05rem,4.2vw,1.25rem);flex-wrap:wrap}
+.callbar a{flex:1 1 auto;width:100%;display:flex;align-items:center;justify-content:center;gap:8px;padding:14px 12px;font-weight:900;text-align:center;line-height:1.2;transition:filter .2s;background:linear-gradient(135deg,#FF1744 0%,#FF6B35 55%,#FFD700 100%);color:#000;font-size:clamp(1.05rem,4.2vw,1.25rem);flex-wrap:nowrap;text-decoration:none}
+.callbar .cb-nm{font-size:clamp(0.86rem,3.4vw,1.05rem);font-weight:800;white-space:nowrap}
 .callbar a:active{filter:brightness(0.92)}
-.callbar .cb-no{letter-spacing:0.02em;white-space:nowrap}
+.callbar .cb-no{letter-spacing:0.01em;white-space:nowrap;font-size:clamp(1.5rem,7.4vw,2.2rem);font-weight:900}
 /* 고정바에 본문이 가리지 않도록 확보하는 여백 */
-.cb-spacer{height:calc(76px + env(safe-area-inset-bottom))}
+.cb-spacer{height:calc(92px + env(safe-area-inset-bottom))}
 @media(min-width:769px){
   .callbar{justify-content:center;padding:12px 24px;padding-bottom:calc(12px + env(safe-area-inset-bottom))}
-  .callbar a{flex:0 0 auto;border-radius:50px;padding:16px 48px;font-size:1.35rem;box-shadow:0 6px 20px rgba(255,23,68,0.45)}
-  .cb-spacer{height:calc(84px + env(safe-area-inset-bottom))}
+  .callbar a{flex:0 0 auto;width:auto;border-radius:50px;padding:16px 48px;font-size:1.35rem;box-shadow:0 6px 20px rgba(255,23,68,0.45)}
+  .cb-spacer{height:calc(100px + env(safe-area-inset-bottom))}
 }
 
 footer{padding:48px 20px;text-align:center;background:#000;border-top:2px solid rgba(255,215,0,0.3);color:#888;font-size:clamp(0.85rem,2.2vw,0.95rem)}

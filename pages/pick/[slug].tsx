@@ -47,7 +47,7 @@ export default function PickPage({ slug }: { slug: string }) {
         keywords={keywords}
       />
       <PickSchema venue={venue} />
-      <PickLayout contact={venue.contact} footerLines={footerLines}>
+      <PickLayout contact={venue.contact} barName={venue.nameA} footerLines={footerLines}>
         <Crumb venue={venue} />
         <article>
           <header className="pk-hero">

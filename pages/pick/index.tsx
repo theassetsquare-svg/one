@@ -28,8 +28,7 @@ export default function PickHub() {
     '@type': 'BreadcrumbList',
     '@id': `${SITE}/pick#breadcrumb`,
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '홈', item: `${SITE}/` },
-      { '@type': 'ListItem', position: 2, name: '전국 나이트 고르기 40', item: `${SITE}/pick` },
+      { '@type': 'ListItem', position: 1, name: '전국 나이트 고르기 40', item: `${SITE}/pick` },
     ],
   };
 
@@ -47,7 +46,7 @@ export default function PickHub() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }} />
       <PickLayout footerLines={['전국 나이트 고르기 40', '지역별 선택 기준 안내']}>
         <nav className="pk-crumb" aria-label="위치 경로">
-          <a href="/">홈</a> › <span>전국 나이트 고르기 40</span>
+          <span>전국 나이트 고르기 40</span>
         </nav>
 
         <article>
@@ -126,11 +125,6 @@ export default function PickHub() {
         <aside className="pk-rel" aria-labelledby="pk-rel-h">
           <h2 id="pk-rel-h">업소를 운영하고 계신다면</h2>
           <div className="pk-grid">
-            <a href="/" className="pk-card">
-              <h3>사이트 소개</h3>
-              <p>이 사이트가 무엇을 하는 곳인지</p>
-              <span className="pk-axis">홈으로 이동</span>
-            </a>
             <div className="pk-card">
               <h3>광고문의</h3>
               <p>카카오톡 besta12 — 업소 사장님 대상 광고·제휴 입점 문의 채널입니다.</p>

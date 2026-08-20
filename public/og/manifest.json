@@ -1,0 +1,3769 @@
+[
+ {
+  "file": "home.png",
+  "pageUrl": "https://oned-a0q.pages.dev/",
+  "pageType": "홈",
+  "rule": "home",
+  "subject": "1,247일의 기록",
+  "advertiser": null,
+  "texts": [
+   "바닥에서",
+   "다시 올라온",
+   "1,247일",
+   "어느 재기의 기록"
+  ],
+  "metrics": [
+   {
+    "text": "바닥에서",
+    "widthPx": 669.6,
+    "heightPx": 181.7,
+    "widthPct": 62,
+    "fontSizePx": 200.5,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "다시 올라온",
+    "widthPx": 972,
+    "heightPx": 265.1,
+    "widthPct": 90,
+    "fontSizePx": 217.7,
+    "yScale": 1.344,
+    "hero": true
+   },
+   {
+    "text": "1,247일",
+    "widthPx": 756,
+    "heightPx": 226,
+    "widthPct": 70,
+    "fontSizePx": 222.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "어느 재기의 기록",
+    "widthPx": 540,
+    "heightPx": 76.1,
+    "widthPct": 50,
+    "fontSizePx": 83.9,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "다시 올라온",
+  "bytes": 12553,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "night-hub-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/",
+  "pageType": "허브",
+  "rule": "hub",
+  "subject": "나이트 전체 목록",
+  "advertiser": null,
+  "texts": [
+   "나이트 전체 목록",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "나이트 전체 목록",
+    "widthPx": 648,
+    "heightPx": 91.4,
+    "widthPct": 60,
+    "fontSizePx": 100.9,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10202,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-hub.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick",
+  "pageType": "허브",
+  "rule": "hub",
+  "subject": "전국 나이트 고르기 40",
+  "advertiser": null,
+  "texts": [
+   "전국 나이트 고르기 40",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "전국 나이트 고르기 40",
+    "widthPx": 648,
+    "heightPx": 66,
+    "widthPct": 60,
+    "fontSizePx": 72.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10397,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "event.png",
+  "pageUrl": "https://oned-a0q.pages.dev/event",
+  "pageType": "가게",
+  "rule": "own",
+  "subject": "대전원나이트",
+  "advertiser": null,
+  "texts": [
+   "대전원나이트",
+   "이벤트 안내",
+   "광고문의 카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "대전원나이트",
+    "widthPx": 972,
+    "heightPx": 171.8,
+    "widthPct": 90,
+    "fontSizePx": 189.6,
+    "yScale": 1,
+    "hero": true
+   },
+   {
+    "text": "이벤트 안내",
+    "widthPx": 432,
+    "heightPx": 88.2,
+    "widthPct": 40,
+    "fontSizePx": 97.4,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의 카카오톡 besta12",
+    "widthPx": 648,
+    "heightPx": 52.6,
+    "widthPct": 60,
+    "fontSizePx": 58,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "대전원나이트",
+  "bytes": 8310,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "first-visit.png",
+  "pageUrl": "https://oned-a0q.pages.dev/first-visit",
+  "pageType": "가게",
+  "rule": "own",
+  "subject": "대전원나이트",
+  "advertiser": null,
+  "texts": [
+   "대전원나이트",
+   "첫 방문 안내",
+   "광고문의 카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "대전원나이트",
+    "widthPx": 972,
+    "heightPx": 171.8,
+    "widthPct": 90,
+    "fontSizePx": 189.6,
+    "yScale": 1,
+    "hero": true
+   },
+   {
+    "text": "첫 방문 안내",
+    "widthPx": 432,
+    "heightPx": 83.6,
+    "widthPct": 40,
+    "fontSizePx": 92.2,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의 카카오톡 besta12",
+    "widthPx": 648,
+    "heightPx": 52.6,
+    "widthPct": 60,
+    "fontSizePx": 58,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "대전원나이트",
+  "bytes": 8288,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "access.png",
+  "pageUrl": "https://oned-a0q.pages.dev/access",
+  "pageType": "가게",
+  "rule": "own",
+  "subject": "대전원나이트",
+  "advertiser": null,
+  "texts": [
+   "대전원나이트",
+   "오시는 길",
+   "광고문의 카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "대전원나이트",
+    "widthPx": 972,
+    "heightPx": 171.8,
+    "widthPct": 90,
+    "fontSizePx": 189.6,
+    "yScale": 1,
+    "hero": true
+   },
+   {
+    "text": "오시는 길",
+    "widthPx": 432,
+    "heightPx": 109,
+    "widthPct": 40,
+    "fontSizePx": 120.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의 카카오톡 besta12",
+    "widthPx": 648,
+    "heightPx": 52.6,
+    "widthPct": 60,
+    "fontSizePx": 58,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "대전원나이트",
+  "bytes": 8441,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "faq.png",
+  "pageUrl": "https://oned-a0q.pages.dev/faq",
+  "pageType": "가게",
+  "rule": "own",
+  "subject": "대전원나이트",
+  "advertiser": null,
+  "texts": [
+   "대전원나이트",
+   "자주 묻는 질문",
+   "광고문의 카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "대전원나이트",
+    "widthPx": 972,
+    "heightPx": 171.8,
+    "widthPct": 90,
+    "fontSizePx": 189.6,
+    "yScale": 1,
+    "hero": true
+   },
+   {
+    "text": "자주 묻는 질문",
+    "widthPx": 432,
+    "heightPx": 69.7,
+    "widthPct": 40,
+    "fontSizePx": 77.1,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의 카카오톡 besta12",
+    "widthPx": 648,
+    "heightPx": 52.6,
+    "widthPct": 60,
+    "fontSizePx": 58,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "대전원나이트",
+  "bytes": 7763,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "review.png",
+  "pageUrl": "https://oned-a0q.pages.dev/review",
+  "pageType": "가게",
+  "rule": "own",
+  "subject": "대전원나이트",
+  "advertiser": null,
+  "texts": [
+   "대전원나이트",
+   "방문 후기",
+   "광고문의 카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "대전원나이트",
+    "widthPx": 972,
+    "heightPx": 171.8,
+    "widthPct": 90,
+    "fontSizePx": 189.6,
+    "yScale": 1,
+    "hero": true
+   },
+   {
+    "text": "방문 후기",
+    "widthPx": 432,
+    "heightPx": 110,
+    "widthPct": 40,
+    "fontSizePx": 121.4,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의 카카오톡 besta12",
+    "widthPx": 648,
+    "heightPx": 52.6,
+    "widthPct": 60,
+    "fontSizePx": 58,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "대전원나이트",
+  "bytes": 8111,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "contact.png",
+  "pageUrl": "https://oned-a0q.pages.dev/contact",
+  "pageType": "가게",
+  "rule": "own",
+  "subject": "대전원나이트",
+  "advertiser": null,
+  "texts": [
+   "대전원나이트",
+   "예약 문의",
+   "광고문의 카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "대전원나이트",
+    "widthPx": 972,
+    "heightPx": 171.8,
+    "widthPct": 90,
+    "fontSizePx": 189.6,
+    "yScale": 1,
+    "hero": true
+   },
+   {
+    "text": "예약 문의",
+    "widthPx": 432,
+    "heightPx": 109.5,
+    "widthPct": 40,
+    "fontSizePx": 120.9,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의 카카오톡 besta12",
+    "widthPx": 648,
+    "heightPx": 52.6,
+    "widthPct": 60,
+    "fontSizePx": 58,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "대전원나이트",
+  "bytes": 8849,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "atmosphere.png",
+  "pageUrl": "https://oned-a0q.pages.dev/atmosphere",
+  "pageType": "가게",
+  "rule": "own",
+  "subject": "대전원나이트",
+  "advertiser": null,
+  "texts": [
+   "대전원나이트",
+   "홀 분위기",
+   "광고문의 카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "대전원나이트",
+    "widthPx": 972,
+    "heightPx": 171.8,
+    "widthPct": 90,
+    "fontSizePx": 189.6,
+    "yScale": 1,
+    "hero": true
+   },
+   {
+    "text": "홀 분위기",
+    "widthPx": 432,
+    "heightPx": 109.6,
+    "widthPct": 40,
+    "fontSizePx": 120.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의 카카오톡 besta12",
+    "widthPx": 648,
+    "heightPx": 52.6,
+    "widthPct": 60,
+    "fontSizePx": 58,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "대전원나이트",
+  "bytes": 8450,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "story.png",
+  "pageUrl": "https://oned-a0q.pages.dev/story",
+  "pageType": "가게",
+  "rule": "own",
+  "subject": "대전원나이트",
+  "advertiser": null,
+  "texts": [
+   "대전원나이트",
+   "가게 이야기",
+   "광고문의 카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "대전원나이트",
+    "widthPx": 972,
+    "heightPx": 171.8,
+    "widthPct": 90,
+    "fontSizePx": 189.6,
+    "yScale": 1,
+    "hero": true
+   },
+   {
+    "text": "가게 이야기",
+    "widthPx": 432,
+    "heightPx": 87.8,
+    "widthPct": 40,
+    "fontSizePx": 96.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의 카카오톡 besta12",
+    "widthPx": 648,
+    "heightPx": 52.6,
+    "widthPct": 60,
+    "fontSizePx": 58,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "대전원나이트",
+  "bytes": 8759,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "bulgwangdong-hobak-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/bulgwangdong-hobak-night",
+  "pageType": "가게",
+  "rule": "A",
+  "subject": "불광동호박나이트",
+  "advertiser": {
+   "nick": "손흥민",
+   "tel": "010-2221-1937"
+  },
+  "texts": [
+   "불광동호박나이트",
+   "손흥민",
+   "010-2221-1937",
+   "광고문의 카톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "불광동호박나이트",
+    "widthPx": 648,
+    "heightPx": 85.4,
+    "widthPct": 60,
+    "fontSizePx": 94.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "손흥민",
+    "widthPx": 486,
+    "heightPx": 176.1,
+    "widthPct": 45,
+    "fontSizePx": 193.5,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-2221-1937",
+    "widthPx": 1004.4,
+    "heightPx": 209.2,
+    "widthPct": 93,
+    "fontSizePx": 134.2,
+    "yScale": 2.146,
+    "hero": true
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "010-2221-1937",
+  "bytes": 14993,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "bulgwang-hobak-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/bulgwang-hobak-night",
+  "pageType": "가게",
+  "rule": "A",
+  "subject": "불광동호박나이트",
+  "advertiser": {
+   "nick": "손흥민",
+   "tel": "010-2221-1937"
+  },
+  "texts": [
+   "불광동호박나이트",
+   "손흥민",
+   "010-2221-1937",
+   "광고문의 카톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "불광동호박나이트",
+    "widthPx": 648,
+    "heightPx": 85.4,
+    "widthPct": 60,
+    "fontSizePx": 94.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "손흥민",
+    "widthPx": 486,
+    "heightPx": 176.1,
+    "widthPct": 45,
+    "fontSizePx": 193.5,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-2221-1937",
+    "widthPx": 1004.4,
+    "heightPx": 209.2,
+    "widthPct": 93,
+    "fontSizePx": 134.2,
+    "yScale": 2.146,
+    "hero": true
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "010-2221-1937",
+  "bytes": 14948,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "changwon-lululala-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/changwon-lululala-night",
+  "pageType": "가게",
+  "rule": "A",
+  "subject": "창원룰루랄라나이트",
+  "advertiser": {
+   "nick": "로또",
+   "tel": "010-7528-4936"
+  },
+  "texts": [
+   "창원룰루랄라나이트",
+   "로또",
+   "010-7528-4936",
+   "광고문의 카톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "창원룰루랄라나이트",
+    "widthPx": 648,
+    "heightPx": 76,
+    "widthPct": 60,
+    "fontSizePx": 83.6,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "로또",
+    "widthPx": 486,
+    "heightPx": 217.7,
+    "widthPct": 45,
+    "fontSizePx": 287.7,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-7528-4936",
+    "widthPx": 1004.4,
+    "heightPx": 255.8,
+    "widthPct": 93,
+    "fontSizePx": 127.4,
+    "yScale": 2.763,
+    "hero": true
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "010-7528-4936",
+  "bytes": 17711,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "ulsan-champion-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/ulsan-champion-night",
+  "pageType": "가게",
+  "rule": "A",
+  "subject": "울산챔피언나이트",
+  "advertiser": {
+   "nick": "춘자",
+   "tel": "010-5653-0069"
+  },
+  "texts": [
+   "울산챔피언나이트",
+   "춘자",
+   "010-5653-0069",
+   "광고문의 카톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "울산챔피언나이트",
+    "widthPx": 648,
+    "heightPx": 85.4,
+    "widthPct": 60,
+    "fontSizePx": 94.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "춘자",
+    "widthPx": 486,
+    "heightPx": 257.2,
+    "widthPct": 45,
+    "fontSizePx": 284.7,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-5653-0069",
+    "widthPx": 1004.4,
+    "heightPx": 300,
+    "widthPct": 93,
+    "fontSizePx": 124.3,
+    "yScale": 3.322,
+    "hero": true
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "010-5653-0069",
+  "bytes": 20713,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "cheongdam-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/cheongdam-night",
+  "pageType": "가게",
+  "rule": "A",
+  "subject": "청담나이트",
+  "advertiser": {
+   "nick": "펩시맨",
+   "tel": "010-5655-4866"
+  },
+  "texts": [
+   "청담나이트",
+   "펩시맨",
+   "010-5655-4866",
+   "광고문의 카톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "청담나이트",
+    "widthPx": 648,
+    "heightPx": 137.2,
+    "widthPct": 60,
+    "fontSizePx": 150.9,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "펩시맨",
+    "widthPx": 491.4,
+    "heightPx": 175.3,
+    "widthPct": 45.5,
+    "fontSizePx": 193.4,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-5655-4866",
+    "widthPx": 1004.4,
+    "heightPx": 208.3,
+    "widthPct": 93,
+    "fontSizePx": 125.4,
+    "yScale": 2.286,
+    "hero": true
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "010-5655-4866",
+  "bytes": 16020,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "daejeon-one-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/daejeon-one-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "대전원나이트",
+  "advertiser": null,
+  "texts": [
+   "대전원나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "대전원나이트",
+    "widthPx": 648,
+    "heightPx": 114.6,
+    "widthPct": 60,
+    "fontSizePx": 126.4,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10505,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "sillim-grandprix-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/sillim-grandprix-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "신림그랑프리나이트",
+  "advertiser": null,
+  "texts": [
+   "신림그랑프리나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "신림그랑프리나이트",
+    "widthPx": 648,
+    "heightPx": 75.8,
+    "widthPct": 60,
+    "fontSizePx": 83.6,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10491,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "sangbong-hangukgwan-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/sangbong-hangukgwan-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "상봉동한국관나이트",
+  "advertiser": null,
+  "texts": [
+   "상봉동한국관나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "상봉동한국관나이트",
+    "widthPx": 648,
+    "heightPx": 75.7,
+    "widthPct": 60,
+    "fontSizePx": 83.5,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10513,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "suyu-shampoo-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/suyu-shampoo-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "수유샴푸나이트",
+  "advertiser": null,
+  "texts": [
+   "수유샴푸나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "수유샴푸나이트",
+    "widthPx": 648,
+    "heightPx": 97.7,
+    "widthPct": 60,
+    "fontSizePx": 107.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10748,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "busan-asiad-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/busan-asiad-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "부산아시아드나이트",
+  "advertiser": null,
+  "texts": [
+   "부산아시아드나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "부산아시아드나이트",
+    "widthPx": 648,
+    "heightPx": 75.9,
+    "widthPct": 60,
+    "fontSizePx": 83.7,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10737,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "suwon-chance-dome-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/suwon-chance-dome-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "수원찬스돔나이트",
+  "advertiser": null,
+  "texts": [
+   "수원찬스돔나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "수원찬스돔나이트",
+    "widthPx": 648,
+    "heightPx": 85.4,
+    "widthPct": 60,
+    "fontSizePx": 94.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10311,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "ansan-hit-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/ansan-hit-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "안산히트나이트",
+  "advertiser": null,
+  "texts": [
+   "안산히트나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "안산히트나이트",
+    "widthPx": 648,
+    "heightPx": 97.7,
+    "widthPct": 60,
+    "fontSizePx": 107.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10895,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "daejeon-seven-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/daejeon-seven-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "대전세븐나이트",
+  "advertiser": null,
+  "texts": [
+   "대전세븐나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "대전세븐나이트",
+    "widthPx": 648,
+    "heightPx": 98,
+    "widthPct": 60,
+    "fontSizePx": 108.2,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10474,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "ilsan-shampoo-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/ilsan-shampoo-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "일산샴푸나이트",
+  "advertiser": null,
+  "texts": [
+   "일산샴푸나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "일산샴푸나이트",
+    "widthPx": 648,
+    "heightPx": 97.9,
+    "widthPct": 60,
+    "fontSizePx": 108,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10775,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "eunpyeong-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/eunpyeong-night",
+  "pageType": "지역",
+  "rule": "D-A",
+  "subject": "은평나이트",
+  "advertiser": {
+   "nick": "손흥민",
+   "tel": "010-2221-1937"
+  },
+  "texts": [
+   "은평나이트",
+   "손흥민",
+   "010-2221-1937",
+   "광고문의 카톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "은평나이트",
+    "widthPx": 648,
+    "heightPx": 137.1,
+    "widthPct": 60,
+    "fontSizePx": 151.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "손흥민",
+    "widthPx": 486,
+    "heightPx": 176.1,
+    "widthPct": 45,
+    "fontSizePx": 193.5,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-2221-1937",
+    "widthPx": 1004.4,
+    "heightPx": 209.2,
+    "widthPct": 93,
+    "fontSizePx": 134.2,
+    "yScale": 2.146,
+    "hero": true
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "010-2221-1937",
+  "bytes": 14598,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "changwon-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/changwon-night",
+  "pageType": "지역",
+  "rule": "D-A",
+  "subject": "창원나이트",
+  "advertiser": {
+   "nick": "로또",
+   "tel": "010-7528-4936"
+  },
+  "texts": [
+   "창원나이트",
+   "로또",
+   "010-7528-4936",
+   "광고문의 카톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "창원나이트",
+    "widthPx": 648,
+    "heightPx": 137.2,
+    "widthPct": 60,
+    "fontSizePx": 150.9,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "로또",
+    "widthPx": 486,
+    "heightPx": 217.7,
+    "widthPct": 45,
+    "fontSizePx": 287.7,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-7528-4936",
+    "widthPx": 1004.4,
+    "heightPx": 255.8,
+    "widthPct": 93,
+    "fontSizePx": 127.4,
+    "yScale": 2.763,
+    "hero": true
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "010-7528-4936",
+  "bytes": 17399,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "ulsan-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/ulsan-night",
+  "pageType": "지역",
+  "rule": "D-A",
+  "subject": "울산나이트",
+  "advertiser": {
+   "nick": "춘자",
+   "tel": "010-5653-0069"
+  },
+  "texts": [
+   "울산나이트",
+   "춘자",
+   "010-5653-0069",
+   "광고문의 카톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "울산나이트",
+    "widthPx": 648,
+    "heightPx": 137.1,
+    "widthPct": 60,
+    "fontSizePx": 151.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "춘자",
+    "widthPx": 486,
+    "heightPx": 257.2,
+    "widthPct": 45,
+    "fontSizePx": 284.7,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-5653-0069",
+    "widthPx": 1004.4,
+    "heightPx": 300,
+    "widthPct": 93,
+    "fontSizePx": 124.3,
+    "yScale": 3.322,
+    "hero": true
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "010-5653-0069",
+  "bytes": 20236,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "gangnam-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/gangnam-night",
+  "pageType": "지역",
+  "rule": "D-A",
+  "subject": "강남나이트",
+  "advertiser": {
+   "nick": "펩시맨",
+   "tel": "010-5655-4866"
+  },
+  "texts": [
+   "강남나이트",
+   "펩시맨",
+   "010-5655-4866",
+   "광고문의 카톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "강남나이트",
+    "widthPx": 648,
+    "heightPx": 136.8,
+    "widthPct": 60,
+    "fontSizePx": 150.9,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "펩시맨",
+    "widthPx": 491.4,
+    "heightPx": 175.3,
+    "widthPct": 45.5,
+    "fontSizePx": 193.4,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-5655-4866",
+    "widthPx": 1004.4,
+    "heightPx": 208.3,
+    "widthPct": 93,
+    "fontSizePx": 125.4,
+    "yScale": 2.286,
+    "hero": true
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "010-5655-4866",
+  "bytes": 17527,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "daejeon-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/daejeon-night",
+  "pageType": "지역",
+  "rule": "D-B",
+  "subject": "대전나이트",
+  "advertiser": null,
+  "texts": [
+   "대전나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "대전나이트",
+    "widthPx": 648,
+    "heightPx": 137.8,
+    "widthPct": 60,
+    "fontSizePx": 152.1,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10385,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "sillim-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/sillim-night",
+  "pageType": "지역",
+  "rule": "D-B",
+  "subject": "신림나이트",
+  "advertiser": null,
+  "texts": [
+   "신림나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "신림나이트",
+    "widthPx": 648,
+    "heightPx": 136.8,
+    "widthPct": 60,
+    "fontSizePx": 150.9,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10388,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "sangbong-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/sangbong-night",
+  "pageType": "지역",
+  "rule": "D-B",
+  "subject": "상봉동나이트",
+  "advertiser": null,
+  "texts": [
+   "상봉동나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "상봉동나이트",
+    "widthPx": 648,
+    "heightPx": 113.7,
+    "widthPct": 60,
+    "fontSizePx": 125.4,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10788,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "suyu-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/suyu-night",
+  "pageType": "지역",
+  "rule": "D-B",
+  "subject": "수유나이트",
+  "advertiser": null,
+  "texts": [
+   "수유나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "수유나이트",
+    "widthPx": 648,
+    "heightPx": 137.1,
+    "widthPct": 60,
+    "fontSizePx": 151.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10594,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "busan-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/busan-night",
+  "pageType": "지역",
+  "rule": "D-B",
+  "subject": "부산나이트",
+  "advertiser": null,
+  "texts": [
+   "부산나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "부산나이트",
+    "widthPx": 648,
+    "heightPx": 137.1,
+    "widthPct": 60,
+    "fontSizePx": 151.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10292,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "suwon-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/suwon-night",
+  "pageType": "지역",
+  "rule": "D-B",
+  "subject": "수원나이트",
+  "advertiser": null,
+  "texts": [
+   "수원나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "수원나이트",
+    "widthPx": 648,
+    "heightPx": 137.1,
+    "widthPct": 60,
+    "fontSizePx": 151.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10646,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "ansan-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/ansan-night",
+  "pageType": "지역",
+  "rule": "D-B",
+  "subject": "안산나이트",
+  "advertiser": null,
+  "texts": [
+   "안산나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "안산나이트",
+    "widthPx": 648,
+    "heightPx": 137.1,
+    "widthPct": 60,
+    "fontSizePx": 151.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10452,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "yucheon-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/yucheon-night",
+  "pageType": "지역",
+  "rule": "D-B",
+  "subject": "유천동나이트",
+  "advertiser": null,
+  "texts": [
+   "유천동나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "유천동나이트",
+    "widthPx": 648,
+    "heightPx": 114.1,
+    "widthPct": 60,
+    "fontSizePx": 125.9,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10797,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "ilsan-night-og.png",
+  "pageUrl": "https://oned-a0q.pages.dev/night/ilsan-night",
+  "pageType": "지역",
+  "rule": "D-B",
+  "subject": "일산나이트",
+  "advertiser": null,
+  "texts": [
+   "일산나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "일산나이트",
+    "widthPx": 648,
+    "heightPx": 137.4,
+    "widthPct": 60,
+    "fontSizePx": 151.7,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10620,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-sillim-grandprix-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/sillim-grandprix-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "신림그랑프리나이트",
+  "advertiser": null,
+  "texts": [
+   "신림그랑프리나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "신림그랑프리나이트",
+    "widthPx": 648,
+    "heightPx": 75.8,
+    "widthPct": 60,
+    "fontSizePx": 83.6,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10264,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-sangbong-hangukgwan-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/sangbong-hangukgwan-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "상봉동한국관나이트",
+  "advertiser": null,
+  "texts": [
+   "상봉동한국관나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "상봉동한국관나이트",
+    "widthPx": 648,
+    "heightPx": 75.7,
+    "widthPct": 60,
+    "fontSizePx": 83.5,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10718,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-suyu-shampoo-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/suyu-shampoo-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "수유샴푸나이트",
+  "advertiser": null,
+  "texts": [
+   "수유샴푸나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "수유샴푸나이트",
+    "widthPx": 648,
+    "heightPx": 97.7,
+    "widthPct": 60,
+    "fontSizePx": 107.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10791,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-busan-asiad-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/busan-asiad-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "부산아시아드나이트",
+  "advertiser": null,
+  "texts": [
+   "부산아시아드나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "부산아시아드나이트",
+    "widthPx": 648,
+    "heightPx": 75.9,
+    "widthPct": 60,
+    "fontSizePx": 83.7,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10701,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-suwon-chance-dome-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/suwon-chance-dome-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "수원찬스돔나이트",
+  "advertiser": null,
+  "texts": [
+   "수원찬스돔나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "수원찬스돔나이트",
+    "widthPx": 648,
+    "heightPx": 85.4,
+    "widthPct": 60,
+    "fontSizePx": 94.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10673,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-ansan-hit-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/ansan-hit-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "안산히트나이트",
+  "advertiser": null,
+  "texts": [
+   "안산히트나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "안산히트나이트",
+    "widthPx": 648,
+    "heightPx": 97.7,
+    "widthPct": 60,
+    "fontSizePx": 107.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10743,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-daejeon-seven-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/daejeon-seven-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "대전세븐나이트",
+  "advertiser": null,
+  "texts": [
+   "대전세븐나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "대전세븐나이트",
+    "widthPx": 648,
+    "heightPx": 98,
+    "widthPct": 60,
+    "fontSizePx": 108.2,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10488,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-ilsan-shampoo-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/ilsan-shampoo-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "일산샴푸나이트",
+  "advertiser": null,
+  "texts": [
+   "일산샴푸나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "일산샴푸나이트",
+    "widthPx": 648,
+    "heightPx": 97.9,
+    "widthPct": 60,
+    "fontSizePx": 108,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10778,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-cheongdam-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/cheongdam-night",
+  "pageType": "가게",
+  "rule": "A",
+  "subject": "청담나이트",
+  "advertiser": {
+   "nick": "펩시맨",
+   "tel": "010-5655-4866"
+  },
+  "texts": [
+   "청담나이트",
+   "펩시맨",
+   "010-5655-4866",
+   "광고문의 카톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "청담나이트",
+    "widthPx": 648,
+    "heightPx": 137.2,
+    "widthPct": 60,
+    "fontSizePx": 150.9,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "펩시맨",
+    "widthPx": 491.4,
+    "heightPx": 175.3,
+    "widthPct": 45.5,
+    "fontSizePx": 193.4,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-5655-4866",
+    "widthPx": 1004.4,
+    "heightPx": 208.3,
+    "widthPct": 93,
+    "fontSizePx": 125.4,
+    "yScale": 2.286,
+    "hero": true
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "010-5655-4866",
+  "bytes": 16634,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-daejeon-one-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/daejeon-one-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "대전원나이트",
+  "advertiser": null,
+  "texts": [
+   "대전원나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "대전원나이트",
+    "widthPx": 648,
+    "heightPx": 114.6,
+    "widthPct": 60,
+    "fontSizePx": 126.4,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10447,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-changwon-lululala-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/changwon-lululala-night",
+  "pageType": "가게",
+  "rule": "A",
+  "subject": "창원룰루랄라나이트",
+  "advertiser": {
+   "nick": "로또",
+   "tel": "010-7528-4936"
+  },
+  "texts": [
+   "창원룰루랄라나이트",
+   "로또",
+   "010-7528-4936",
+   "광고문의 카톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "창원룰루랄라나이트",
+    "widthPx": 648,
+    "heightPx": 76,
+    "widthPct": 60,
+    "fontSizePx": 83.6,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "로또",
+    "widthPx": 486,
+    "heightPx": 217.7,
+    "widthPct": 45,
+    "fontSizePx": 287.7,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-7528-4936",
+    "widthPx": 1004.4,
+    "heightPx": 255.8,
+    "widthPct": 93,
+    "fontSizePx": 127.4,
+    "yScale": 2.763,
+    "hero": true
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "010-7528-4936",
+  "bytes": 17051,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-bulgwang-hobak-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/bulgwang-hobak-night",
+  "pageType": "가게",
+  "rule": "A",
+  "subject": "불광동호박나이트",
+  "advertiser": {
+   "nick": "손흥민",
+   "tel": "010-2221-1937"
+  },
+  "texts": [
+   "불광동호박나이트",
+   "손흥민",
+   "010-2221-1937",
+   "광고문의 카톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "불광동호박나이트",
+    "widthPx": 648,
+    "heightPx": 85.4,
+    "widthPct": 60,
+    "fontSizePx": 94.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "손흥민",
+    "widthPx": 486,
+    "heightPx": 176.1,
+    "widthPct": 45,
+    "fontSizePx": 193.5,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-2221-1937",
+    "widthPx": 1004.4,
+    "heightPx": 209.2,
+    "widthPct": 93,
+    "fontSizePx": 134.2,
+    "yScale": 2.146,
+    "hero": true
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "010-2221-1937",
+  "bytes": 14697,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-ulsan-champion-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/ulsan-champion-night",
+  "pageType": "가게",
+  "rule": "A",
+  "subject": "울산챔피언나이트",
+  "advertiser": {
+   "nick": "춘자",
+   "tel": "010-5653-0069"
+  },
+  "texts": [
+   "울산챔피언나이트",
+   "춘자",
+   "010-5653-0069",
+   "광고문의 카톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "울산챔피언나이트",
+    "widthPx": 648,
+    "heightPx": 85.4,
+    "widthPct": 60,
+    "fontSizePx": 94.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "춘자",
+    "widthPx": 486,
+    "heightPx": 257.2,
+    "widthPct": 45,
+    "fontSizePx": 284.7,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-5653-0069",
+    "widthPx": 1004.4,
+    "heightPx": 300,
+    "widthPct": 93,
+    "fontSizePx": 124.3,
+    "yScale": 3.322,
+    "hero": true
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "010-5653-0069",
+  "bytes": 19309,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-doksan-gukbingwan-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/doksan-gukbingwan-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "독산동국빈관나이트",
+  "advertiser": null,
+  "texts": [
+   "독산동국빈관나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "독산동국빈관나이트",
+    "widthPx": 648,
+    "heightPx": 75.9,
+    "widthPct": 60,
+    "fontSizePx": 83.7,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 11359,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-dapsimni-miracle-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/dapsimni-miracle-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "답십리미라클나이트",
+  "advertiser": null,
+  "texts": [
+   "답십리미라클나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "답십리미라클나이트",
+    "widthPx": 648,
+    "heightPx": 76.2,
+    "widthPct": 60,
+    "fontSizePx": 84.1,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 9973,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-gangseo-hobak-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/gangseo-hobak-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "강서호박나이트",
+  "advertiser": null,
+  "texts": [
+   "강서호박나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "강서호박나이트",
+    "widthPx": 648,
+    "heightPx": 97.5,
+    "widthPct": 60,
+    "fontSizePx": 107.6,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10394,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-yeongdeungpo-terminal-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/yeongdeungpo-terminal-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "영등포터미널나이트",
+  "advertiser": null,
+  "texts": [
+   "영등포터미널나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "영등포터미널나이트",
+    "widthPx": 648,
+    "heightPx": 76,
+    "widthPct": 60,
+    "fontSizePx": 83.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10155,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-nowon-hobak-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/nowon-hobak-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "노원호박나이트",
+  "advertiser": null,
+  "texts": [
+   "노원호박나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "노원호박나이트",
+    "widthPx": 648,
+    "heightPx": 97.7,
+    "widthPct": 60,
+    "fontSizePx": 107.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10665,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-gildong-chance-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/gildong-chance-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "길동찬스나이트",
+  "advertiser": null,
+  "texts": [
+   "길동찬스나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "길동찬스나이트",
+    "widthPx": 648,
+    "heightPx": 97.9,
+    "widthPct": 60,
+    "fontSizePx": 108,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10890,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-paju-yadang-skydome-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/paju-yadang-skydome-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "파주야당스카이돔나이트",
+  "advertiser": null,
+  "texts": [
+   "파주야당스카이돔나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "파주야당스카이돔나이트",
+    "widthPx": 648,
+    "heightPx": 61.9,
+    "widthPct": 60,
+    "fontSizePx": 68.4,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10701,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-guri-hobak-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/guri-hobak-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "구리호박나이트",
+  "advertiser": null,
+  "texts": [
+   "구리호박나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "구리호박나이트",
+    "widthPx": 648,
+    "heightPx": 97.7,
+    "widthPct": 60,
+    "fontSizePx": 107.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10165,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-uijeongbu-hangukgwan-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/uijeongbu-hangukgwan-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "의정부한국관나이트",
+  "advertiser": null,
+  "texts": [
+   "의정부한국관나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "의정부한국관나이트",
+    "widthPx": 648,
+    "heightPx": 75.9,
+    "widthPct": 60,
+    "fontSizePx": 83.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 11781,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-uijeongbu-baekakgwan-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/uijeongbu-baekakgwan-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "의정부백악관나이트",
+  "advertiser": null,
+  "texts": [
+   "의정부백악관나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "의정부백악관나이트",
+    "widthPx": 648,
+    "heightPx": 75.9,
+    "widthPct": 60,
+    "fontSizePx": 83.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10709,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-suwon-korea-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/suwon-korea-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "수원코리아나이트",
+  "advertiser": null,
+  "texts": [
+   "수원코리아나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "수원코리아나이트",
+    "widthPx": 648,
+    "heightPx": 85.4,
+    "widthPct": 60,
+    "fontSizePx": 94.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10408,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-osan-hobak-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/osan-hobak-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "오산호박나이트",
+  "advertiser": null,
+  "texts": [
+   "오산호박나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "오산호박나이트",
+    "widthPx": 648,
+    "heightPx": 97.7,
+    "widthPct": 60,
+    "fontSizePx": 107.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10331,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-indeogwon-gukbingwan-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/indeogwon-gukbingwan-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "인덕원국빈관나이트",
+  "advertiser": null,
+  "texts": [
+   "인덕원국빈관나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "인덕원국빈관나이트",
+    "widthPx": 648,
+    "heightPx": 76,
+    "widthPct": 60,
+    "fontSizePx": 83.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10579,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-seongnam-shampoo-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/seongnam-shampoo-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "성남샴푸나이트",
+  "advertiser": null,
+  "texts": [
+   "성남샴푸나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "성남샴푸나이트",
+    "widthPx": 648,
+    "heightPx": 97.5,
+    "widthPct": 60,
+    "fontSizePx": 107.6,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10515,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-incheon-arabian-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/incheon-arabian-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "인천아라비안나이트",
+  "advertiser": null,
+  "texts": [
+   "인천아라비안나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "인천아라비안나이트",
+    "widthPx": 648,
+    "heightPx": 76,
+    "widthPct": 60,
+    "fontSizePx": 83.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10467,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-bucheon-gorae-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/bucheon-gorae-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "부천고래나이트",
+  "advertiser": null,
+  "texts": [
+   "부천고래나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "부천고래나이트",
+    "widthPx": 648,
+    "heightPx": 97.7,
+    "widthPct": 60,
+    "fontSizePx": 107.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10184,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-pyeongtaek-hobak-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/pyeongtaek-hobak-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "평택호박나이트",
+  "advertiser": null,
+  "texts": [
+   "평택호박나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "평택호박나이트",
+    "widthPx": 648,
+    "heightPx": 97.7,
+    "widthPct": 60,
+    "fontSizePx": 107.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10325,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-cheonan-stardome-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/cheonan-stardome-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "천안스타돔나이트",
+  "advertiser": null,
+  "texts": [
+   "천안스타돔나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "천안스타돔나이트",
+    "widthPx": 648,
+    "heightPx": 85.3,
+    "widthPct": 60,
+    "fontSizePx": 94.1,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10718,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-cheonan-korea-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/cheonan-korea-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "천안코리아나이트",
+  "advertiser": null,
+  "texts": [
+   "천안코리아나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "천안코리아나이트",
+    "widthPx": 648,
+    "heightPx": 85.3,
+    "widthPct": 60,
+    "fontSizePx": 94.1,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10666,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-cheongju-hobak-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/cheongju-hobak-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "청주호박나이트",
+  "advertiser": null,
+  "texts": [
+   "청주호박나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "청주호박나이트",
+    "widthPx": 648,
+    "heightPx": 97.8,
+    "widthPct": 60,
+    "fontSizePx": 107.6,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10858,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-ulsan-newworld-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/ulsan-newworld-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "울산뉴월드나이트",
+  "advertiser": null,
+  "texts": [
+   "울산뉴월드나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "울산뉴월드나이트",
+    "widthPx": 648,
+    "heightPx": 85.4,
+    "widthPct": 60,
+    "fontSizePx": 94.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10287,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-seosan-hobak-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/seosan-hobak-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "서산호박나이트",
+  "advertiser": null,
+  "texts": [
+   "서산호박나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "서산호박나이트",
+    "widthPx": 648,
+    "heightPx": 97.4,
+    "widthPct": 60,
+    "fontSizePx": 107.4,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10880,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-daegu-hobak-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/daegu-hobak-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "대구호박나이트",
+  "advertiser": null,
+  "texts": [
+   "대구호박나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "대구호박나이트",
+    "widthPx": 648,
+    "heightPx": 98,
+    "widthPct": 60,
+    "fontSizePx": 108.2,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 9944,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-gumi-hobak-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/gumi-hobak-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "구미호박나이트",
+  "advertiser": null,
+  "texts": [
+   "구미호박나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "구미호박나이트",
+    "widthPx": 648,
+    "heightPx": 97.7,
+    "widthPct": 60,
+    "fontSizePx": 107.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10416,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-gwangju-sangmu-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/gwangju-sangmu-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "광주상무나이트",
+  "advertiser": null,
+  "texts": [
+   "광주상무나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "광주상무나이트",
+    "widthPx": 648,
+    "heightPx": 97.4,
+    "widthPct": 60,
+    "fontSizePx": 107.5,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 11775,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-gwangju-cheomdan-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/gwangju-cheomdan-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "광주첨단나이트",
+  "advertiser": null,
+  "texts": [
+   "광주첨단나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "광주첨단나이트",
+    "widthPx": 648,
+    "heightPx": 97.7,
+    "widthPct": 60,
+    "fontSizePx": 107.5,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10742,
+  "width": 1200,
+  "height": 1200
+ },
+ {
+  "file": "pick-jeju-do-night.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/jeju-do-night",
+  "pageType": "가게",
+  "rule": "B",
+  "subject": "제주도나이트",
+  "advertiser": null,
+  "texts": [
+   "제주도나이트",
+   "광고문의",
+   "카카오톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "제주도나이트",
+    "widthPx": 648,
+    "heightPx": 113.6,
+    "widthPct": 60,
+    "fontSizePx": 125.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "광고문의",
+    "widthPx": 864,
+    "heightPx": 250,
+    "widthPct": 80,
+    "fontSizePx": 255.7,
+    "yScale": 1.079,
+    "hero": true
+   },
+   {
+    "text": "카카오톡 besta12",
+    "widthPx": 810,
+    "heightPx": 130,
+    "widthPct": 75,
+    "fontSizePx": 108.2,
+    "yScale": 1.33,
+    "hero": false
+   }
+  ],
+  "hero": "광고문의",
+  "bytes": 10465,
+  "width": 1200,
+  "height": 1200
+ }
+]

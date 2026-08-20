@@ -32,10 +32,12 @@ console.log(JSON.stringify(VENUES.map((v) => ({
 }
 
 const VENUES = loadVenues();
+// ★광고주 정답표 2026-08-20 — 총 4명. scripts/advertisers.js 와 같은 값입니다.
 const PHONE_ALLOW = {
   '010-5653-0069': 'ulsan-champion-night',
   '010-7528-4936': 'changwon-lululala-night',
   '010-2221-1937': 'bulgwang-hobak-night',
+  '010-5655-4866': 'cheongdam-night',
 };
 const AD_LINK = 'https://open.kakao.com/o/sBesta12';
 
@@ -210,7 +212,8 @@ const g7fail = [];
 for (const v of VENUES) {
   const hrefs = [...HTML[v.slug].matchAll(/href="([^"]+)"/g)].map((x) => x[1]);
   if (!hrefs.includes('/pick')) g7fail.push(`${v.slug} no-hub`);
-  if (!hrefs.includes('/')) g7fail.push(`${v.slug} no-home`);
+  // 홈 단독화(H3): 홈 링크는 전 페이지에서 제거합니다. 남아 있으면 위반입니다.
+  if (hrefs.includes('/')) g7fail.push(`${v.slug} home-link-남음`);
   const rel = v.related.filter((r) => hrefs.includes(`/pick/${r}`));
   if (rel.length !== v.related.length) g7fail.push(`${v.slug} related ${rel.length}/${v.related.length}`);
 }
@@ -219,7 +222,7 @@ const hubMissing = VENUES.filter((v) => !hubHrefs.includes(`/pick/${v.slug}`)).m
 const arabia = HTML['incheon-arabian-night'].includes('인천아라비아나이트');
 const arabiaOwnPage = fs.existsSync(path.join(OUT, 'pick', 'incheon-arabia-night'));
 push(
-  'G7 내부링크 — 허브 40/40 · 각 페이지 관련+허브+홈 · 인천아라비아 표기 한 페이지',
+  'G7 내부링크 — 허브 40/40 · 각 페이지 관련+허브 · 홈 링크 0 · 인천아라비아 표기 한 페이지',
   g7fail.length === 0 && hubMissing.length === 0 && arabia && !arabiaOwnPage,
   `허브 누락 ${hubMissing.length}, 페이지 위반 ${g7fail.length}${g7fail.length ? ' — ' + g7fail.slice(0, 3).join(',') : ''}, 인천아라비아 표기 ${arabia ? '있음' : '없음'}, 별도 페이지 ${arabiaOwnPage ? '있음(위반)' : '없음'}`
 );
@@ -255,9 +258,9 @@ for (const p of CHROME_PAGES) {
 }
 const homeClean = !/class="pkbar"/.test(HTML.home) && !/<nav/.test(HTML.home) && !/<footer/.test(HTML.home);
 push(
-  'G9 고정바 — 광고주 3곳 전화 / 나머지 38곳 besta12 / 푸터 besta12 41 / 홈 크롬 0',
-  g9fail.length === 0 && barTel === 3 && barAd === 38 && footerAd === 41 && homeClean,
-  `광고주 바 ${barTel}/3, 광고문의 바 ${barAd}/38, 푸터 ${footerAd}/41, 홈 크롬 ${homeClean ? '없음(정상)' : '남아있음(위반)'}${g9fail.length ? ' — ' + g9fail.slice(0, 3).join(',') : ''}`
+  'G9 고정바 — 광고주 4곳 전화 / 나머지 37곳 besta12 / 푸터 besta12 41 / 홈 크롬 0',
+  g9fail.length === 0 && barTel === 4 && barAd === 37 && footerAd === 41 && homeClean,
+  `광고주 바 ${barTel}/4, 광고문의 바 ${barAd}/37, 푸터 ${footerAd}/41, 홈 크롬 ${homeClean ? '없음(정상)' : '남아있음(위반)'}${g9fail.length ? ' — ' + g9fail.slice(0, 3).join(',') : ''}`
 );
 
 // ── G10 전화번호 허용표 ─────────────────────────────────────────
@@ -274,9 +277,9 @@ for (const p of PAGES) {
   }
 }
 push(
-  'G10 전화번호 허용표 (춘자=울산챔피언 / 로또=창원룰루랄라 / 손흥민=불광동호박, 그 외 0)',
+  'G10 전화번호 허용표 (춘자=울산챔피언 / 로또=창원룰루랄라 / 손흥민=불광동호박 / 펩시맨=청담, 그 외 0)',
   g10fail.length === 0,
-  g10fail.slice(0, 5).join(' | ') || '위반 0건 (홈·허브·나머지 37곳 010- 패턴 0)'
+  g10fail.slice(0, 5).join(' | ') || '위반 0건 (허브·나머지 36곳 010- 패턴 0)'
 );
 
 // ── G11 연령 표기 · 확인 불가 · 배포 파일 ───────────────────────

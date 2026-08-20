@@ -18,12 +18,12 @@ import { AD_KAKAO, NightVenue, nightPath } from '@/lib/night';
 
 /** 기존 globals.css 의 .callbar 규칙보다 우선하도록 태그+클래스로 특이도를 올립니다. */
 const CALLBAR_CSS = `
-body{padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+body{padding-bottom:calc(98px + env(safe-area-inset-bottom,0px))}
 #__next{padding-bottom:0}
 div.callbar{
   position:fixed; left:0; right:0; bottom:0; z-index:99999;
   display:flex; align-items:center; justify-content:center; gap:12px;
-  height:64px; box-sizing:content-box;
+  height:78px; box-sizing:content-box;
   padding:0; padding-bottom:env(safe-area-inset-bottom,0px);
   background:#111; color:#fff; font-weight:800; font-size:18px;
   box-shadow:0 -2px 14px rgba(0,0,0,.35);
@@ -31,15 +31,17 @@ div.callbar{
   transform:translateZ(0); backface-visibility:hidden;
 }
 div.callbar a{
-  color:#fff; text-decoration:none; display:flex; align-items:center; height:100%;
-  flex:0 0 auto; background:none; padding:0 8px; font-size:inherit; font-weight:900;
-  gap:10px; border-radius:0; box-shadow:none; white-space:nowrap;
+  color:#fff; text-decoration:none; display:flex; align-items:center; justify-content:center;
+  height:100%; width:100%; flex:1 1 auto; background:none; padding:0 10px;
+  font-size:inherit; font-weight:900; gap:8px; border-radius:0; box-shadow:none; white-space:nowrap;
 }
+div.callbar .cbar-sub{font-size:clamp(0.86rem,3.4vw,1.05rem); color:#FFD700; font-weight:800}
+div.callbar .cbar-tel{font-size:clamp(1.5rem,7.4vw,2.2rem); font-weight:900; letter-spacing:0.01em; color:#fff}
 div.callbar span{display:flex; align-items:center; gap:6px; white-space:nowrap}
 div.callbar b{color:#FFD700}
 @media(max-width:480px){
-  div.callbar{height:60px; font-size:16px}
-  body{padding-bottom:calc(80px + env(safe-area-inset-bottom,0px))}
+  div.callbar{height:74px; font-size:16px}
+  body{padding-bottom:calc(94px + env(safe-area-inset-bottom,0px))}
 }
 @media(max-width:380px){
   div.callbar{font-size:14px}
@@ -109,9 +111,12 @@ export default function NightLayout({ venue, children }: { venue: NightVenue; ch
       {/* 하단 고정 전화바 — 스크롤해도 움직이지 않습니다. 조상 래퍼 없이 최상단에 둡니다. */}
       {isA && venue.contact ? (
         <div className="callbar" role="complementary" aria-label="전화 연결">
-          <a href={venue.contact.href} aria-label={`${venue.nameA} 예약 ${venue.contact.nick} ${venue.contact.display} 전화 걸기`}>
+          <a href={venue.contact.href} aria-label={`${venue.nameA} ${venue.contact.nick} ${venue.contact.display} 전화 걸기`}>
             <span aria-hidden="true">📞</span>
-            {venue.contact.nick} {venue.contact.display}
+            <span className="cbar-sub">
+              {venue.nameA} {venue.contact.nick}
+            </span>
+            <span className="cbar-tel">{venue.contact.display}</span>
           </a>
         </div>
       ) : (

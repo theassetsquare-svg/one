@@ -1,5 +1,16 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 /**
+ * ⛔ 사용 중지 (2026-08-20) — scripts/thumb-render.js 로 대체되었습니다.
+ *
+ * 이 생성기는 글자 폭을 근사치로 계산해 새 크기 규칙(주인공 글자 폭·높이 하한, G15)을
+ * 만족시키지 못하고, 지역 페이지 카드에 가게이름을 넣어 G13/G14 에도 걸립니다.
+ * 되살리려면 아래 가드를 지우기 전에 게이트부터 다시 맞추세요.
+ */
+console.error('⛔ 이 생성기는 사용 중지되었습니다. node scripts/thumb-render.js 를 쓰세요.');
+process.exit(1);
+
+/* eslint-disable @typescript-eslint/no-var-requires */
+/**
  * /night/* 13개 페이지 OG 이미지 생성기 — 1200x1200 정사각 PNG.
  *
  * 기존 scripts/generate-images.js 는 손대지 않습니다 (대전원나이트/불광동 전용).

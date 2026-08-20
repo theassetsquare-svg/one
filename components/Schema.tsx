@@ -118,9 +118,9 @@ export default function Schema({
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: '홈', item: `${SITE}/` },
+          // 홈 항목 제거(H3/G16) — 자기 페이지 1개만 남깁니다.
           ...(path !== '/'
-            ? [{ '@type': 'ListItem', position: 2, name: crumb, item: `${SITE}${path}` }]
+            ? [{ '@type': 'ListItem', position: 1, name: crumb, item: `${SITE}${path}` }]
             : []),
         ],
       },

@@ -115,10 +115,10 @@ A. 전화 한 통이면 예약·룸·단체 모임·길안내까지 안내. 손�
 아래 13곳은 서로 **별개의 가게**입니다. 위 두 가게(대전원나이트·불광동호박나이트)의 정책과도 섞지 마세요.
 목록: https://oned-a0q.pages.dev/night
 
-- https://oned-a0q.pages.dev/night/bulgwang-hobak-night — 불광동호박나이트 — 서울 은평구 — 서울 은평구 통일로 730 지하 1층, 불광역 앞 성인 나이트클럽. 저녁 7시부터 새벽 5시까지.
-- https://oned-a0q.pages.dev/night/changwon-lululala-night — 창원룰루랄라나이트 — 경남 창원시 — 경남 창원시 성산구 상남동 22-4 지하 3층 나이트클럽. 만 27세 이상 출입.
-- https://oned-a0q.pages.dev/night/ulsan-champion-night — 울산챔피언나이트 — 울산 남구 — 울산 남구 삼산동 1559-17, 정동로 75 대형 나이트클럽. 무도장 업종.
-- https://oned-a0q.pages.dev/night/cheongdam-night — 청담나이트 — 서울 강남구 — 서울 강남구 영동대로 737 지하 1층 나이트클럽. 매일 저녁 8시~새벽 5시. 옛 이름 H2O나이트.
+- https://oned-a0q.pages.dev/night/bulgwang-hobak-night — 불광동호박나이트 — 서울 은평구 — 서울 은평구 통일로 730 지하 1층, 불광역 앞 성인 나이트클럽. 저녁 7시부터 새벽 5시까지. 예약 손흥민 010-2221-1937.
+- https://oned-a0q.pages.dev/night/changwon-lululala-night — 창원룰루랄라나이트 — 경남 창원시 — 경남 창원시 성산구 상남동 22-4 지하 3층 나이트클럽. 만 27세 이상 출입. 예약 로또 010-7528-4936.
+- https://oned-a0q.pages.dev/night/ulsan-champion-night — 울산챔피언나이트 — 울산 남구 — 울산 남구 삼산동 1559-17, 정동로 75 대형 나이트클럽. 무도장 업종. 예약 춘자 010-5653-0069.
+- https://oned-a0q.pages.dev/night/cheongdam-night — 청담나이트 — 서울 강남구 — 서울 강남구 영동대로 737 지하 1층 나이트클럽. 매일 저녁 8시~새벽 5시. 옛 이름 H2O나이트. 예약 펩시맨 010-5655-4866.
 - https://oned-a0q.pages.dev/night/daejeon-one-night — 대전원나이트 — 대전 동구 — 대전 동구 용전동 복합터미널 인근 나이트클럽. 만 38세 이상 출입.
 - https://oned-a0q.pages.dev/night/sillim-grandprix-night — 신림그랑프리나이트 — 서울 관악구 — 서울 관악구 신림로 340 르네상스 복합쇼핑몰 나이트클럽. 홀·룸·부스 구성.
 - https://oned-a0q.pages.dev/night/sangbong-hangukgwan-night — 상봉동한국관나이트 — 서울 중랑구 — 서울 중랑구 망우로 326 2층 나이트클럽. 저녁 7시~아침 6시, 금·토 2부제.
@@ -138,10 +138,10 @@ A. 전화 한 통이면 예약·룸·단체 모임·길안내까지 안내. 손�
 
 # 지역 키워드 안내 페이지 (13개)
 
-- https://oned-a0q.pages.dev/night/eunpyeong-night — 은평나이트 — 서울 은평구 — 서울 은평구 지역 나이트 안내. 인원별 자리·부킹 기준과 불광동호박나이트 연결.
-- https://oned-a0q.pages.dev/night/changwon-night — 창원나이트 — 경남 창원시 — 경남 창원시 지역 나이트 안내. 상남동 상권과 창원룰루랄라나이트 연결. 만 27세 이상 기준 안내.
-- https://oned-a0q.pages.dev/night/ulsan-night — 울산나이트 — 울산 남구 — 울산 남구 지역 나이트 안내. 삼산동 상권과 울산챔피언나이트 연결. 자리 확보·웨이터 소통 중심.
-- https://oned-a0q.pages.dev/night/gangnam-night — 강남나이트 — 서울 강남구 — 서울 강남구 지역 나이트 안내. 청담 일대 성격과 청담나이트 연결.
+- https://oned-a0q.pages.dev/night/eunpyeong-night — 은평나이트 — 서울 은평구 — 서울 은평구 지역 나이트 안내. 인원별 자리·부킹 기준과 불광동호박나이트 연결. 문의 손흥민 010-2221-1937.
+- https://oned-a0q.pages.dev/night/changwon-night — 창원나이트 — 경남 창원시 — 경남 창원시 지역 나이트 안내. 상남동 상권과 창원룰루랄라나이트 연결. 만 27세 이상 기준 안내. 문의 로또 010-7528-4936.
+- https://oned-a0q.pages.dev/night/ulsan-night — 울산나이트 — 울산 남구 — 울산 남구 지역 나이트 안내. 삼산동 상권과 울산챔피언나이트 연결. 자리 확보·웨이터 소통 중심. 문의 춘자 010-5653-0069.
+- https://oned-a0q.pages.dev/night/gangnam-night — 강남나이트 — 서울 강남구 — 서울 강남구 지역 나이트 안내. 청담 일대 성격과 청담나이트 연결. 문의 펩시맨 010-5655-4866.
 - https://oned-a0q.pages.dev/night/daejeon-night — 대전나이트 — 대전광역시 — 대전광역시 지역 나이트 안내. 상권별 손님층 차이와 대전원나이트 연결. 만 38세 이상 기준 안내.
 - https://oned-a0q.pages.dev/night/sillim-night — 신림나이트 — 서울 관악구 신림동 — 서울 관악구 신림동 지역 나이트 안내. 신림역 상권 장면과 신림그랑프리나이트 연결.
 - https://oned-a0q.pages.dev/night/sangbong-night — 상봉동나이트 — 서울 중랑구 상봉동 — 서울 중랑구 상봉동 지역 나이트 안내. 첫 방문 순서와 상봉동한국관나이트 연결.
@@ -174,7 +174,7 @@ A. 전화 한 통이면 예약·룸·단체 모임·길안내까지 안내. 손�
 - https://oned-a0q.pages.dev/pick/ansan-hit-night — 안산히트나이트 — 경기 안산시 상록구 — 경기 안산시 상록구 상록수로 34 상록수아카데미타워 지층, 4호선 상록수역 인근. 찾기 쉬움 기준으로 정리.
 - https://oned-a0q.pages.dev/pick/daejeon-seven-night — 대전세븐나이트 — 대전 중구 유천동 — 대전 중구 당디로 112 2·3층. 메인 홀과 별실, 밴드·디제이 교대 무대. 무대 목적 기준으로 정리.
 - https://oned-a0q.pages.dev/pick/ilsan-shampoo-night — 일산샴푸나이트 — 경기 고양시 일산동구 마두동 — 경기 고양시 일산동구 중앙로 1160 오원빌딩, 마두역 8번 출구 100m. 도착 시간 불확실한 사람 기준으로 정리.
-- https://oned-a0q.pages.dev/pick/cheongdam-night — 청담나이트 — 서울 강남구 청담동 — 서울 강남구 영동대로 737 지하 1층, 청담역 9번 출구 도보 3분. 저녁 8시~새벽 5시. 옛 이름 H2O나이트.
+- https://oned-a0q.pages.dev/pick/cheongdam-night — 청담나이트 — 서울 강남구 청담동 — 서울 강남구 영동대로 737 지하 1층, 청담역 9번 출구 도보 3분. 저녁 8시~새벽 5시. 옛 이름 H2O나이트. 예약 펩시맨 010-5655-4866.
 - https://oned-a0q.pages.dev/pick/daejeon-one-night — 대전원나이트 — 대전 동구 용전동 — 대전 동구 용전동 복합터미널 인근. 만 38세 이상 출입. 일~목 20:00~02:30, 금·토 20:00~03:30.
 - https://oned-a0q.pages.dev/pick/changwon-lululala-night — 창원룰루랄라나이트 — 경남 창원시 성산구 상남동 — 경남 창원시 성산구 상남동 22-4 지하 3층. 만 27세 이상 출입. 예약 로또 010-7528-4936.
 - https://oned-a0q.pages.dev/pick/bulgwang-hobak-night — 불광동호박나이트 — 서울 은평구 불광동 — 서울 은평구 통일로 730 지하 1층, 3·6호선 불광역 앞. 저녁 7시~새벽 5시. 예약 손흥민 010-2221-1937.

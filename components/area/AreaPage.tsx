@@ -13,12 +13,12 @@ import { bySlug, nightPath } from '@/lib/night';
  *    position:fixed 가 그 조상 기준이 되어 함께 움직입니다.
  */
 const CSS = `
-body{padding-bottom:calc(104px + env(safe-area-inset-bottom,0px))}
+body{padding-bottom:calc(118px + env(safe-area-inset-bottom,0px))}
 #__next{padding-bottom:0}
 div.callbar{
   position:fixed; left:0; right:0; bottom:0; z-index:99999;
   display:flex; align-items:center; justify-content:center; gap:12px;
-  height:64px; box-sizing:content-box;
+  height:78px; box-sizing:content-box;
   padding:0; padding-bottom:env(safe-area-inset-bottom,0px);
   background:#111; color:#fff; font-weight:800; font-size:18px;
   box-shadow:0 -2px 14px rgba(0,0,0,.35);
@@ -26,15 +26,17 @@ div.callbar{
   transform:translateZ(0); backface-visibility:hidden;
 }
 div.callbar a{
-  color:#fff; text-decoration:none; display:flex; align-items:center; height:100%;
-  flex:0 0 auto; background:none; padding:0 8px; font-size:inherit; font-weight:900;
-  gap:10px; border-radius:0; box-shadow:none; white-space:nowrap;
+  color:#fff; text-decoration:none; display:flex; align-items:center; justify-content:center;
+  height:100%; width:100%; flex:1 1 auto; background:none; padding:0 10px;
+  font-size:inherit; font-weight:900; gap:8px; border-radius:0; box-shadow:none; white-space:nowrap;
 }
+div.callbar .cbar-sub{font-size:clamp(0.86rem,3.4vw,1.05rem); color:#FFD700; font-weight:800}
+div.callbar .cbar-tel{font-size:clamp(1.5rem,7.4vw,2.2rem); font-weight:900; letter-spacing:0.01em; color:#fff}
 div.callbar span{display:flex; align-items:center; gap:6px; white-space:nowrap}
 div.callbar b{color:#FFD700}
 @media(max-width:480px){
-  div.callbar{height:60px; font-size:16px}
-  body{padding-bottom:calc(100px + env(safe-area-inset-bottom,0px))}
+  div.callbar{height:74px; font-size:16px}
+  body{padding-bottom:calc(114px + env(safe-area-inset-bottom,0px))}
 }
 @media(max-width:380px){
   div.callbar{font-size:14px}
@@ -80,7 +82,7 @@ function VenueFacts({ area }: { area: Area }) {
   return (
     <div className="nb-wrap">
       <table className="nb-tbl">
-        <caption>{venue.nameA} 확인된 정보</caption>
+        <caption>{area.kwA} 연결 업소에서 확인된 정보</caption>
         <tbody>
           {venue.facts.map((f) => (
             <tr key={f.label}>
@@ -152,7 +154,7 @@ export default function AreaPage({ area }: { area: Area }) {
 
       <main>
         <nav className="nb-crumb" aria-label="위치 경로">
-          <a href="/">홈</a> › <a href="/night/">나이트</a> › <span>{area.kwA}</span>
+          <a href="/night/">나이트</a> › <span>{area.kwA}</span>
         </nav>
 
         <article>
@@ -259,9 +261,12 @@ export default function AreaPage({ area }: { area: Area }) {
       {/* 하단 고정 전화바 — 스크롤해도 움직이지 않습니다. 조상 래퍼 없이 최상단에 둡니다. */}
       {isA && area.contact ? (
         <div className="callbar" role="complementary" aria-label="전화 연결">
-          <a href={area.contact.href} aria-label={`${area.kwA} 문의 ${area.contact.nick} ${area.contact.display} 전화 걸기`}>
+          <a href={area.contact.href} aria-label={`${area.kwA} ${area.contact.nick} ${area.contact.display} 전화 걸기`}>
             <span aria-hidden="true">📞</span>
-            {area.contact.nick} {area.contact.display}
+            <span className="cbar-sub">
+              {area.kwA} {area.contact.nick}
+            </span>
+            <span className="cbar-tel">{area.contact.display}</span>
           </a>
         </div>
       ) : (

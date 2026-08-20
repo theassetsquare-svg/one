@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/generate-images.js && node scripts/og-normalize.js",
+    "prebuild": "node scripts/generate-images.js && node scripts/thumb-render.js && node scripts/og-normalize.js",
     "build": "next build && node scripts/pick-dirify.js",
     "start": "next start",
-    "generate-images": "node scripts/generate-images.js"
+    "generate-images": "node scripts/generate-images.js",
+    "thumbs": "node scripts/thumb-render.js",
+    "gates": "node scripts/thumb-gates.js"
   },
   "dependencies": {
     "next": "16.2.4",
@@ -20,6 +22,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "opentype.js": "^2.0.0",
     "sharp": "^0.34.5",
     "typescript": "^5"
   }
