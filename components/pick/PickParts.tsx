@@ -22,7 +22,7 @@ export function AnswerBox({ venue }: { venue: PickVenue }) {
         </ol>
       </div>
       {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
-      <PageThumb src={`/og/pick-${venue.slug}.png`} alt={venue.ogAlt} />
+      <PageThumb src={`/og/pick-${venue.slug}${venue.ogV ?? ""}.png`} alt={venue.ogAlt} />
     </>
   );
 }

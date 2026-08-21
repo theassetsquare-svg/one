@@ -36,6 +36,8 @@ export type NightVenue = {
   group: NightGroup;
   /** 고정바·본문 마지막에 노출할 담당자 (A그룹만) */
   contact?: { nick: string; display: string; href: string; e164: string };
+  /** 썸네일을 바꿨을 때 캐시를 피하려고 붙이는 판 번호. 없으면 기존 파일명 그대로. */
+  ogV?: string;
   /** JSON-LD address */
   addressLocality: string;
   addressRegion: string;
@@ -718,7 +720,9 @@ export const VENUES: NightVenue[] = [
     nameA: '대전세븐나이트',
     nameB: '대전 세븐나이트',
     nameC: '대전 나이트클럽',
-    group: 'B',
+    group: 'A',
+    contact: { nick: '영탁', display: '010-7770-0869', href: 'tel:01077700869', e164: '+82-10-7770-0869' },
+    ogV: '-v2',
     addressLocality: '중구',
     addressRegion: '대전광역시',
     streetAddress: '당디로 112 (유천동 332-28)',

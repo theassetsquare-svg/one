@@ -12,7 +12,7 @@ export function AnswerBox({ venue }: { venue: NightVenue }) {
         </p>
       </div>
       {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
-      <PageThumb src={`/og/${venue.slug}-og.png`} alt={venue.ogAlt} />
+      <PageThumb src={`/og/${venue.slug}-og${venue.ogV ?? ""}.png`} alt={venue.ogAlt} />
     </>
   );
 }

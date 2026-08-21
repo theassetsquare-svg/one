@@ -42,7 +42,7 @@ export default function PickPage({ slug }: { slug: string }) {
         title={venue.title}
         description={venue.description}
         path={pickPath(venue.slug)}
-        image={`/og/pick-${venue.slug}.png`}
+        image={`/og/pick-${venue.slug}${venue.ogV ?? ""}.png`}
         imageAlt={venue.ogAlt}
         keywords={keywords}
       />

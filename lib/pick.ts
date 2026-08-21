@@ -51,6 +51,8 @@ export type PickVenue = {
   streetAddress?: string;
   /** 광고주 3곳만. 나머지는 undefined = 광고문의 카톡 besta12 */
   contact?: PickContact;
+  /** 썸네일을 바꿨을 때 캐시를 피하려고 붙이는 판 번호. 없으면 기존 파일명 그대로. */
+  ogV?: string;
   ageFull?: string;
   openingHours?: { spec: { days: string[]; opens: string; closes: string }[]; humanText: string };
   /** 이 페이지가 잡은 선택 축 (허브 표·홈 목록에 노출, 40개 전부 상이) */
@@ -676,6 +678,8 @@ export const VENUES: PickVenue[] = [
     nameA: '대전세븐나이트',
     nameB: '대전 세븐나이트',
     nameC: '중구 나이트클럽',
+    contact: { nick: '영탁', display: '010-7770-0869', href: 'tel:01077700869', e164: '+82-10-7770-0869' },
+    ogV: '-v2',
     region: '대전 중구 유천동',
     addressLocality: '중구',
     addressRegion: '대전광역시',

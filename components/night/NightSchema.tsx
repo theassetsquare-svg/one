@@ -10,7 +10,7 @@ import { NightVenue, SITE, nightPath } from '@/lib/night';
  */
 export default function NightSchema({ venue }: { venue: NightVenue }) {
   const url = `${SITE}${nightPath(venue.slug)}`;
-  const image = `${SITE}/og/${venue.slug}-og.png`;
+  const image = `${SITE}/og/${venue.slug}-og${venue.ogV ?? ""}.png`;
 
   const nightClub: Record<string, unknown> = {
     '@context': 'https://schema.org',

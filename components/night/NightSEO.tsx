@@ -14,7 +14,7 @@ import { NightVenue, SITE, nightPath } from '@/lib/night';
  */
 export default function NightSEO({ venue }: { venue: NightVenue }) {
   const canonical = `${SITE}${nightPath(venue.slug)}`;
-  const image = `${SITE}/og/${venue.slug}-og.png`;
+  const image = `${SITE}/og/${venue.slug}-og${venue.ogV ?? ""}.png`;
   const keywords = [
     venue.nameA,
     venue.nameB,

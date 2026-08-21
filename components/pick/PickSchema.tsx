@@ -11,7 +11,7 @@ import { PickVenue, SITE, pickPath } from '@/lib/pick';
  */
 export default function PickSchema({ venue }: { venue: PickVenue }) {
   const url = `${SITE}${pickPath(venue.slug)}`;
-  const image = `${SITE}/og/pick-${venue.slug}.png`;
+  const image = `${SITE}/og/pick-${venue.slug}${venue.ogV ?? ""}.png`;
 
   const address: Record<string, unknown> = { '@type': 'PostalAddress', addressCountry: 'KR' };
   if (venue.streetAddress) address.streetAddress = venue.streetAddress;
