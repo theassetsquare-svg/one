@@ -13,7 +13,7 @@ jobs:
           set -e
           FAIL=0
           for p in / /event /story /atmosphere /first-visit /access /faq /review /contact /bulgwangdong-hobak-night; do
-            S=$(curl -s -o /dev/null -w "%{http_code}" "https://oned-a0q.pages.dev${p}")
+            S=$(curl -s -o /dev/null -w "%{http_code}" "https://ongeung.pages.dev${p}")
             if [ "$S" = "200" ]; then
               echo "✅ $p: 200"
             else
@@ -27,7 +27,7 @@ jobs:
           set -e
           FAIL=0
           for f in /sitemap.xml /robots.txt /llms.txt /site.webmanifest /sw.js /og/og-search-thumb.png /icons/icon-192.png /icons/icon-512.png; do
-            S=$(curl -s -o /dev/null -w "%{http_code}" "https://oned-a0q.pages.dev${f}")
+            S=$(curl -s -o /dev/null -w "%{http_code}" "https://ongeung.pages.dev${f}")
             if [ "$S" = "200" ]; then
               echo "✅ $f: 200"
             else
