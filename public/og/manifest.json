@@ -51,7 +51,7 @@
    }
   ],
   "hero": "다시 올라온",
-  "bytes": 12553,
+  "bytes": 12549,
   "width": 1200,
   "height": 1200
  },
@@ -517,7 +517,7 @@
  },
  {
   "file": "bulgwangdong-hobak-night.png",
-  "pageUrl": "https://oned-a0q.pages.dev/bulgwangdong-hobak-night",
+  "pageUrl": "https://oned-a0q.pages.dev/bulgwangdong-hobak-night-guide",
   "pageType": "가게",
   "rule": "A",
   "subject": "불광동호박나이트",
@@ -575,7 +575,7 @@
   "height": 1200
  },
  {
-  "file": "bulgwang-hobak-night-og.png",
+  "file": "bulgwang-hobak-night-guide-og.png",
   "pageUrl": "https://oned-a0q.pages.dev/night/bulgwang-hobak-night",
   "pageType": "가게",
   "rule": "A",
@@ -634,7 +634,7 @@
   "height": 1200
  },
  {
-  "file": "changwon-lululala-night-og.png",
+  "file": "changwon-lululala-night-guide-og.png",
   "pageUrl": "https://oned-a0q.pages.dev/night/changwon-lululala-night",
   "pageType": "가게",
   "rule": "A",
@@ -693,7 +693,7 @@
   "height": 1200
  },
  {
-  "file": "ulsan-champion-night-og.png",
+  "file": "ulsan-champion-night-guide-og.png",
   "pageUrl": "https://oned-a0q.pages.dev/night/ulsan-champion-night",
   "pageType": "가게",
   "rule": "A",
@@ -1036,7 +1036,7 @@
    }
   ],
   "hero": "광고문의",
-  "bytes": 10737,
+  "bytes": 11559,
   "width": 1200,
   "height": 1200
  },
@@ -1128,7 +1128,7 @@
    }
   ],
   "hero": "광고문의",
-  "bytes": 10895,
+  "bytes": 11693,
   "width": 1200,
   "height": 1200
  },
@@ -2008,7 +2008,7 @@
    }
   ],
   "hero": "광고문의",
-  "bytes": 10791,
+  "bytes": 11596,
   "width": 1200,
   "height": 1200
  },
@@ -2348,8 +2348,8 @@
   "height": 1200
  },
  {
-  "file": "pick-changwon-lululala-night.png",
-  "pageUrl": "https://oned-a0q.pages.dev/pick/changwon-lululala-night",
+  "file": "pick-changwon-lululala-night-guide.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/changwon-lululala-night-guide",
   "pageType": "가게",
   "rule": "A",
   "subject": "창원룰루랄라나이트",
@@ -2407,8 +2407,8 @@
   "height": 1200
  },
  {
-  "file": "pick-bulgwang-hobak-night.png",
-  "pageUrl": "https://oned-a0q.pages.dev/pick/bulgwang-hobak-night",
+  "file": "pick-bulgwang-hobak-night-guide.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/bulgwang-hobak-night-guide",
   "pageType": "가게",
   "rule": "A",
   "subject": "불광동호박나이트",
@@ -2466,8 +2466,8 @@
   "height": 1200
  },
  {
-  "file": "pick-ulsan-champion-night.png",
-  "pageUrl": "https://oned-a0q.pages.dev/pick/ulsan-champion-night",
+  "file": "pick-ulsan-champion-night-guide.png",
+  "pageUrl": "https://oned-a0q.pages.dev/pick/ulsan-champion-night-guide",
   "pageType": "가게",
   "rule": "A",
   "subject": "울산챔피언나이트",
@@ -2750,7 +2750,7 @@
    }
   ],
   "hero": "광고문의",
-  "bytes": 10665,
+  "bytes": 11462,
   "width": 1200,
   "height": 1200
  },
@@ -3440,7 +3440,7 @@
    }
   ],
   "hero": "광고문의",
-  "bytes": 10858,
+  "bytes": 11673,
   "width": 1200,
   "height": 1200
  },
@@ -3532,7 +3532,7 @@
    }
   ],
   "hero": "광고문의",
-  "bytes": 10880,
+  "bytes": 11660,
   "width": 1200,
   "height": 1200
  },
@@ -3624,7 +3624,7 @@
    }
   ],
   "hero": "광고문의",
-  "bytes": 10416,
+  "bytes": 11203,
   "width": 1200,
   "height": 1200
  },

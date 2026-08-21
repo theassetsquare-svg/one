@@ -55,7 +55,7 @@ A. 카카오톡 아이디 besta12로 문의.
 # 2. 불광동호박나이트 (Bulgwangdong Hobak Night)
 
 ## 사이트
-- URL: https://oned-a0q.pages.dev/bulgwangdong-hobak-night
+- URL: https://oned-a0q.pages.dev/bulgwangdong-hobak-night-guide
 - 업종: 나이트
 - 주소: 서울특별시 은평구 통일로 730 지하 1층 (지하철 3호선·6호선 불광역 인근)
 - 영업: 매일 저녁 7시(19:00) ~ 새벽 5시(05:00)
@@ -176,9 +176,9 @@ A. 전화 한 통이면 예약·룸·단체 모임·길안내까지 안내. 손�
 - https://oned-a0q.pages.dev/pick/ilsan-shampoo-night — 일산샴푸나이트 — 경기 고양시 일산동구 마두동 — 경기 고양시 일산동구 중앙로 1160 오원빌딩, 마두역 8번 출구 100m. 도착 시간 불확실한 사람 기준으로 정리.
 - https://oned-a0q.pages.dev/pick/cheongdam-night — 청담나이트 — 서울 강남구 청담동 — 서울 강남구 영동대로 737 지하 1층, 청담역 9번 출구 도보 3분. 저녁 8시~새벽 5시. 옛 이름 H2O나이트. 예약 펩시맨 010-5655-4866.
 - https://oned-a0q.pages.dev/pick/daejeon-one-night — 대전원나이트 — 대전 동구 용전동 — 대전 동구 용전동 복합터미널 인근. 만 38세 이상 출입. 일~목 20:00~02:30, 금·토 20:00~03:30.
-- https://oned-a0q.pages.dev/pick/changwon-lululala-night — 창원룰루랄라나이트 — 경남 창원시 성산구 상남동 — 경남 창원시 성산구 상남동 22-4 지하 3층. 만 27세 이상 출입. 예약 로또 010-7528-4936.
-- https://oned-a0q.pages.dev/pick/bulgwang-hobak-night — 불광동호박나이트 — 서울 은평구 불광동 — 서울 은평구 통일로 730 지하 1층, 3·6호선 불광역 앞. 저녁 7시~새벽 5시. 예약 손흥민 010-2221-1937.
-- https://oned-a0q.pages.dev/pick/ulsan-champion-night — 울산챔피언나이트 — 울산 남구 삼산동 — 울산 남구 삼산동 1559-17 정동로 75, 삼산동 번화가. 예약 춘자 010-5653-0069.
+- https://oned-a0q.pages.dev/pick/changwon-lululala-night-guide — 창원룰루랄라나이트 — 경남 창원시 성산구 상남동 — 경남 창원시 성산구 상남동 22-4 지하 3층. 만 27세 이상 출입. 예약 로또 010-7528-4936.
+- https://oned-a0q.pages.dev/pick/bulgwang-hobak-night-guide — 불광동호박나이트 — 서울 은평구 불광동 — 서울 은평구 통일로 730 지하 1층, 3·6호선 불광역 앞. 저녁 7시~새벽 5시. 예약 손흥민 010-2221-1937.
+- https://oned-a0q.pages.dev/pick/ulsan-champion-night-guide — 울산챔피언나이트 — 울산 남구 삼산동 — 울산 남구 삼산동 1559-17 정동로 75, 삼산동 번화가. 예약 춘자 010-5653-0069.
 - https://oned-a0q.pages.dev/pick/doksan-gukbingwan-night — 독산동국빈관나이트 — 서울 금천구 독산동 — 서울 금천구 범안로 1209 독산동 293-5 협진식품빌딩 3층. 지상 3층 구조. 저녁 7시~새벽 5시로 알려짐.
 - https://oned-a0q.pages.dev/pick/dapsimni-miracle-night — 답십리미라클나이트 — 서울 동대문구 답십리 일대 — 서울 동대문구 답십리 일대로 알려진 나이트. 주소·역·층·연령 모두 확인 불가. 추측 금지.
 - https://oned-a0q.pages.dev/pick/gangseo-hobak-night — 강서호박나이트 — 서울 강서구 화곡동 — 서울 강서구 화곡로 354-10 화곡동 1110-3 지하 1층(호텔 건물). 가까운 역은 자료 불일치로 확인 불가.

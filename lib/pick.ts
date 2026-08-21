@@ -470,7 +470,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '취향이 갈리는 일행일수록 층이 둘이라는 조건이 값을 합니다.',
-    related: ['ulsan-champion-night', 'ulsan-newworld-night', 'daegu-hobak-night'],
+    related: ['ulsan-champion-night-guide', 'ulsan-newworld-night', 'daegu-hobak-night'],
     llmsLine: '부산 동래구 온천장로107번길 32 지하 1~2층, 온천장역 도보 5분. 층을 옮겨 쓰는 기준으로 정리.',
   },
   {
@@ -1074,7 +1074,7 @@ export const VENUES: PickVenue[] = [
   },
   {
     no: 11,
-    slug: 'changwon-lululala-night',
+    slug: 'changwon-lululala-night-guide',
     nameA: '창원룰루랄라나이트',
     nameB: '창원 룰루랄라나이트',
     nameC: '창원 나이트클럽',
@@ -1169,12 +1169,12 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '연령 기준이 분명한 자리를 원한다면 계산이 가장 단순해집니다.',
-    related: ['ulsan-champion-night', 'busan-asiad-night', 'daegu-hobak-night'],
+    related: ['ulsan-champion-night-guide', 'busan-asiad-night', 'daegu-hobak-night'],
     llmsLine: '경남 창원시 성산구 상남동 22-4 지하 3층. 만 27세 이상 출입. 예약 로또 010-7528-4936.',
   },
   {
     no: 12,
-    slug: 'bulgwang-hobak-night',
+    slug: 'bulgwang-hobak-night-guide',
     nameA: '불광동호박나이트',
     nameB: '불광동 호박나이트',
     nameC: '은평구 나이트클럽',
@@ -1274,7 +1274,7 @@ export const VENUES: PickVenue[] = [
   },
   {
     no: 13,
-    slug: 'ulsan-champion-night',
+    slug: 'ulsan-champion-night-guide',
     nameA: '울산챔피언나이트',
     nameB: '울산 챔피언나이트',
     nameC: '울산 나이트클럽',
@@ -1368,7 +1368,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '이미 삼산동에 있다면 이동 비용이 0에 가까운 선택입니다.',
-    related: ['ulsan-newworld-night', 'busan-asiad-night', 'changwon-lululala-night'],
+    related: ['ulsan-newworld-night', 'busan-asiad-night', 'changwon-lululala-night-guide'],
     llmsLine: '울산 남구 삼산동 1559-17 정동로 75, 삼산동 번화가. 예약 춘자 010-5653-0069.',
   },
   {
@@ -3430,7 +3430,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '동선이 짧아야 하는 날에는 층 하나가 전부를 정합니다.',
-    related: ['ulsan-champion-night', 'busan-asiad-night', 'daegu-hobak-night'],
+    related: ['ulsan-champion-night-guide', 'busan-asiad-night', 'daegu-hobak-night'],
     llmsLine: '울산 남구 삼산로 375 삼산동 220-6 1층. 지상 1층 구조. 영업시간 확인 불가.',
   },
   {
@@ -3725,7 +3725,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '상권이 하나로 모인 도시에서는 거리보다 취향이 기준입니다.',
-    related: ['daegu-hobak-night', 'ulsan-newworld-night', 'changwon-lululala-night'],
+    related: ['daegu-hobak-night', 'ulsan-newworld-night', 'changwon-lululala-night-guide'],
     llmsLine: '경북 구미시 원평동 산업로 일대. 상세 번지·층·영업시간 확인 불가.',
   },
   {
@@ -4040,7 +4040,7 @@ export const REGION_GROUPS: { id: string; label: string; slugs: string[] }[] = [
       'sangbong-hangukgwan-night',
       'suyu-shampoo-night',
       'cheongdam-night',
-      'bulgwang-hobak-night',
+      'bulgwang-hobak-night-guide',
       'doksan-gukbingwan-night',
       'dapsimni-miracle-night',
       'gangseo-hobak-night',
@@ -4086,8 +4086,8 @@ export const REGION_GROUPS: { id: string; label: string; slugs: string[] }[] = [
     label: '부산 · 영남',
     slugs: [
       'busan-asiad-night',
-      'changwon-lululala-night',
-      'ulsan-champion-night',
+      'changwon-lululala-night-guide',
+      'ulsan-champion-night-guide',
       'ulsan-newworld-night',
       'daegu-hobak-night',
       'gumi-hobak-night',

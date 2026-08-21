@@ -109,8 +109,8 @@ function build() {
     });
   }
 
-  // /bulgwangdong-hobak-night — 불광동호박나이트 전용 페이지 (광고주 있음 → 규칙 A)
-  cards.push(venueCard('bulgwangdong-hobak-night.png', '/bulgwangdong-hobak-night', '불광동호박나이트', 'bulgwangdong-hobak-night', next()));
+  // /bulgwangdong-hobak-night-guide — 불광동호박나이트 전용 페이지 (광고주 있음 → 규칙 A)
+  cards.push(venueCard('bulgwangdong-hobak-night.png', '/bulgwangdong-hobak-night-guide', '불광동호박나이트', 'bulgwangdong-hobak-night', next()));
 
   // /night/{업소} 13장
   for (const v of NIGHT) cards.push(venueCard(`${v.slug}-og.png`, `/night/${v.slug}`, v.name, v.slug, next()));

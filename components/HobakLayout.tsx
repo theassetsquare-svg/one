@@ -17,7 +17,7 @@ export default function HobakLayout({ children }: { children: ReactNode }) {
     <>
       <nav aria-label="주요 메뉴">
         <div className="ni">
-          <a href="/bulgwangdong-hobak-night" className="logo">
+          <a href="/bulgwangdong-hobak-night-guide" className="logo">
             🍺 불광동호박나이트
           </a>
           <div className="nl">
