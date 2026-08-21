@@ -1,4 +1,4 @@
-const SITE = 'https://oned-a0q.pages.dev';
+const SITE = 'https://ongeung.pages.dev';
 
 type SchemaProps = {
   path?: string;

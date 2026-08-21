@@ -18,7 +18,7 @@
  * ⚠️ 다른 업소를 깎아내리지 않습니다. 기준을 제시하고 판단은 읽는 사람에게 넘깁니다.
  */
 
-export const SITE = 'https://oned-a0q.pages.dev';
+export const SITE = 'https://ongeung.pages.dev';
 
 /** 광고·제휴 입점 문의(업소 사장님 대상) 카톡 ID. 손님 예약용이 아닙니다. */
 export const AD_KAKAO = 'besta12';

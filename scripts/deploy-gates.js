@@ -21,7 +21,7 @@ const { build } = require('./thumb-spec');
 
 const ROOT = path.join(__dirname, '..');
 const OUT = path.join(ROOT, 'out');
-const DOMAIN = 'oned-a0q.pages.dev';
+const DOMAIN = 'ongeung.pages.dev';
 const SKIP = ['404.html', 'googlea4fecf0a9f9b8d59.html'];
 
 const files = [];

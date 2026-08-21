@@ -13,7 +13,7 @@
  *    축약(27+, 27세 단독, 만27세 등)은 어디에도 쓰지 않습니다.
  */
 
-export const SITE = 'https://oned-a0q.pages.dev';
+export const SITE = 'https://ongeung.pages.dev';
 
 /** 광고·제휴 입점 문의(업소 사장님 대상) 카톡 ID. 손님 예약용이 아닙니다. */
 export const AD_KAKAO = 'besta12';

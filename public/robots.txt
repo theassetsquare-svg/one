@@ -31,4 +31,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://oned-a0q.pages.dev/sitemap.xml
+Sitemap: https://ongeung.pages.dev/sitemap.xml

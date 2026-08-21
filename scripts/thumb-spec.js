@@ -14,7 +14,7 @@ const path = require('path');
 const { byVenueSlug, byAreaSlug } = require('./advertisers');
 
 const ROOT = path.join(__dirname, '..');
-const SITE = 'https://oned-a0q.pages.dev';
+const SITE = 'https://ongeung.pages.dev';
 
 const read = (p) => fs.readFileSync(path.join(ROOT, p), 'utf8');
 

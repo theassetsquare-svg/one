@@ -30,7 +30,7 @@ export default function FAQ() {
         title="대전원나이트 FAQ — 입장 연령·여성 혜택·영업 시간 12가지"
         description="가게에 처음 오시는 분들이 가장 많이 묻는 질문 12가지를 한 페이지에 정리했습니다. 입장 연령, 22시 전 여성 차비·맥주 혜택, 평일·주말 운영 시간, 예약, 드레스코드, 주차, VIP룸까지. 카톡 besta12 예약 환영."
         path="/faq"
-        ogImage="https://oned-a0q.pages.dev/og/faq.png"
+        ogImage="https://ongeung.pages.dev/og/faq.png"
         ogImageAlt="대전원나이트 자주 묻는 질문 12가지"
         ogTitle="대전원나이트 FAQ 12가지"
         ogDesc="입장·여성 혜택·예약·드레스코드 한눈에."

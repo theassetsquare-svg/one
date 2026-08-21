@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-const SITE = 'https://oned-a0q.pages.dev';
+const SITE = 'https://ongeung.pages.dev';
 
 type SEOProps = {
   title: string;
