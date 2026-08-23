@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 /**
- * ★광고주 정답표 — 2026-08-20 확정. 총 4명. 이 파일이 유일한 기준입니다.
+ * ★광고주 정답표 — 이 파일이 유일한 기준입니다.
  *
  * 각 번호는 "자기 가게 페이지" + "자기 지역 페이지" 에서만 허용됩니다.
  * 그 외 전 페이지 = 광고문의 카카오톡 besta12 (전화번호 0).
@@ -12,6 +12,7 @@ const ADVERTISERS = [
   { venue: '창원룰루랄라나이트', venueSlugs: ['changwon-lululala-night'], areaSlugs: ['changwon-night'], areaName: '창원나이트', nick: '로또', tel: '010-7528-4936' },
   { venue: '불광동호박나이트', venueSlugs: ['bulgwang-hobak-night', 'bulgwangdong-hobak-night'], areaSlugs: ['eunpyeong-night'], areaName: '은평나이트', nick: '손흥민', tel: '010-2221-1937' },
   { venue: '청담나이트', venueSlugs: ['cheongdam-night'], areaSlugs: ['gangnam-night'], areaName: '강남나이트', nick: '펩시맨', tel: '010-5655-4866' },
+  { venue: '답십리미라클나이트', venueSlugs: ['dapsimni-miracle-night'], areaSlugs: [], areaName: null, nick: '유재석', tel: '010-8156-6558' },
 ];
 
 const AD_KAKAO = 'besta12';

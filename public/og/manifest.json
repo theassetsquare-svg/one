@@ -2535,13 +2535,17 @@
   "file": "pick-dapsimni-miracle-night.png",
   "pageUrl": "https://ongeung.pages.dev/pick/dapsimni-miracle-night",
   "pageType": "가게",
-  "rule": "B",
+  "rule": "A",
   "subject": "답십리미라클나이트",
-  "advertiser": null,
+  "advertiser": {
+   "nick": "유재석",
+   "tel": "010-8156-6558"
+  },
   "texts": [
    "답십리미라클나이트",
-   "광고문의",
-   "카카오톡 besta12"
+   "유재석",
+   "010-8156-6558",
+   "광고문의 카톡 besta12"
   ],
   "metrics": [
    {
@@ -2554,26 +2558,35 @@
     "hero": false
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 250,
-    "widthPct": 80,
-    "fontSizePx": 255.7,
-    "yScale": 1.079,
+    "text": "유재석",
+    "widthPx": 486,
+    "heightPx": 175.8,
+    "widthPct": 45,
+    "fontSizePx": 194.6,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-8156-6558",
+    "widthPx": 1004.4,
+    "heightPx": 208.9,
+    "widthPct": 93,
+    "fontSizePx": 128.4,
+    "yScale": 2.24,
     "hero": true
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 130,
-    "widthPct": 75,
-    "fontSizePx": 108.2,
-    "yScale": 1.33,
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
     "hero": false
    }
   ],
-  "hero": "광고문의",
-  "bytes": 9973,
+  "hero": "010-8156-6558",
+  "bytes": 16976,
   "width": 1200,
   "height": 1200
  },
