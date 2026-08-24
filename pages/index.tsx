@@ -68,6 +68,9 @@ export default function Home() {
         />
         <meta name="google-site-verification" content="HJjm7MRxykCQ7d_9L7glaTeeaWrmJIzAKY0BcNcfm88" key="gsv" />
         <meta name="naver-site-verification" content="4c0c71d52261d939278fd1b9725cbd3ffc643045" key="nsv" />
+        {/* ★ key 를 nsv2 로 따로 준다 — Next.js Head 는 key 가 같으면 뒤엣것이 앞엣것을
+            덮어써서, key="nsv" 로 넣으면 인증 태그가 하나만 남는다. */}
+        <meta name="naver-site-verification" content="33eefebeaa6dbb2978f26cbc43783fc05e01ebf8" key="nsv2" />
         <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" key="robots" />
         <meta name="theme-color" content="#0b0c0e" key="theme" />
         <meta name="color-scheme" content="dark" key="color-scheme" />

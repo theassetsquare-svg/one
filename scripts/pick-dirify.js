@@ -38,4 +38,15 @@ for (const f of fs.readdirSync(PICK)) {
   moved.push(`/pick/${slug}/`);
 }
 
+// 3) ★ 숫자 주소 페이지 — out/1.html → out/1/index.html
+//    2026-08-23 대표님 확정: 미색인 업소는 도메인 바로 뒤 숫자 하나로 옮긴다.
+for (const f of fs.readdirSync(OUT)) {
+  if (!/^\d+\.html$/.test(f)) continue;
+  const num = f.replace(/\.html$/, '');
+  const dir = path.join(OUT, num);
+  fs.mkdirSync(dir, { recursive: true });
+  fs.renameSync(path.join(OUT, f), path.join(dir, 'index.html'));
+  moved.push(`/${num}/`);
+}
+
 console.log(`pick-dirify: ${moved.length}개 경로 정리 완료`);

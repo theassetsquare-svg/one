@@ -10,7 +10,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const SITE = 'https://ongeung.pages.dev';
+const SITE = 'https://c.nolcool.com';
 const rows = JSON.parse(fs.readFileSync(path.join(ROOT, '.thumb-report.json'), 'utf8'));
 
 const toUrl = (rel) => {

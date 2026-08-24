@@ -146,7 +146,7 @@ for (const [slug, A, B, C, venue] of AREAS) {
 
   // 링크
   const hrefs = [...h.matchAll(/href="([^"]+)"/g)].map((x) => x[1]);
-  const ext = hrefs.filter((u) => /^https?:\/\//.test(u) && !u.startsWith('https://ongeung.pages.dev') && !u.includes('cdn.jsdelivr.net'));
+  const ext = hrefs.filter((u) => /^https?:\/\//.test(u) && !u.startsWith('https://c.nolcool.com') && !u.includes('cdn.jsdelivr.net'));
   if (ext.length) g10fail.push(`${slug}: ${ext.join(',')}`);
   if (!hrefs.some((u) => u === `/night/${venue}`)) g34fail.push(slug);
 

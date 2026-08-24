@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const https = require('https');
 
-const SITE = 'https://ongeung.pages.dev';
+const SITE = 'https://c.nolcool.com';
 const PAGES = [
   '/',
   '/event',

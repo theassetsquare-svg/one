@@ -232,7 +232,7 @@ const g8fail = [];
 for (const p of PAGES) {
   const hrefs = [...HTML[p.key].matchAll(/href="([^"]+)"/g)].map((x) => x[1]);
   const ext = hrefs.filter(
-    (u) => /^https?:\/\//.test(u) && !u.startsWith('https://ongeung.pages.dev') && !u.includes('cdn.jsdelivr.net') && u !== AD_LINK
+    (u) => /^https?:\/\//.test(u) && !u.startsWith('https://c.nolcool.com') && !u.includes('cdn.jsdelivr.net') && u !== AD_LINK
   );
   if (ext.length) g8fail.push(`${p.key}: ${ext.join(',')}`);
 }
@@ -291,16 +291,16 @@ for (const p of PAGES) {
 }
 const sitemap = fs.readFileSync(path.join(OUT, 'sitemap.xml'), 'utf8');
 const smMissing = [
-  'https://ongeung.pages.dev/',
-  'https://ongeung.pages.dev/pick',
-  ...VENUES.map((v) => `https://ongeung.pages.dev/pick/${v.slug}`),
+  'https://c.nolcool.com/',
+  'https://c.nolcool.com/pick',
+  ...VENUES.map((v) => `https://c.nolcool.com/pick/${v.slug}`),
 ].filter((u) => !sitemap.includes(`<loc>${u}</loc>`));
 const llms = fs.readFileSync(path.join(OUT, 'llms.txt'), 'utf8');
 const llmsMissing = VENUES.filter((v) => !llms.includes(`/pick/${v.slug} `)).map((v) => v.slug);
 const robots = fs.readFileSync(path.join(OUT, 'robots.txt'), 'utf8');
 if (smMissing.length) g11fail.push(`sitemap 누락 ${smMissing.length}`);
 if (llmsMissing.length) g11fail.push(`llms 누락 ${llmsMissing.length}`);
-if (!robots.includes('Sitemap: https://ongeung.pages.dev/sitemap.xml')) g11fail.push('robots sitemap 없음');
+if (!robots.includes('Sitemap: https://c.nolcool.com/sitemap.xml')) g11fail.push('robots sitemap 없음');
 push(
   'G11 연령 완전문 · sitemap 42 · llms 40 · robots',
   g11fail.length === 0,

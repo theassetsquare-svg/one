@@ -12,7 +12,7 @@ export default function Atmosphere() {
         title="대전원나이트 분위기 — 38세 이상 동년배가 모이는 자리"
         description="같은 연령대 손님들이 부담 없이 어울릴 수 있는 가게 분위기. 7080·90s·발라드 위주 음악과 여유로운 테이블, 신분증 검사 철저, 응대는 현장 직원이 직접 맡습니다."
         path="/atmosphere"
-        ogImage="https://ongeung.pages.dev/og/atmosphere.png"
+        ogImage="https://c.nolcool.com/og/atmosphere.png"
         ogImageAlt="대전원나이트 분위기 — 만 38세 이상 손님 중심 홀"
         ogTitle="대전원나이트 분위기 — 38세+ 동년배 자리"
         ogDesc="음악·자리·손님층·안전 네 가지 한눈에."

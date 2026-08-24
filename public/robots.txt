@@ -31,4 +31,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://ongeung.pages.dev/sitemap.xml
+Sitemap: https://c.nolcool.com/sitemap.xml

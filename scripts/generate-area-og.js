@@ -35,7 +35,7 @@ if (!fs.existsSync(FONT_PATH)) {
 }
 
 const SIZE = 1200;
-const BRAND = 'ongeung.pages.dev';
+const BRAND = 'c.nolcool.com';
 const FONT_OPTS = { font: { fontFiles: [FONT_PATH], loadSystemFonts: false, defaultFontFamily: 'Noto Sans KR' } };
 
 // ── 대비 계산 (WCAG) ────────────────────────────────────────────

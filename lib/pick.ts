@@ -18,7 +18,7 @@
  * ⚠️ 다른 업소를 깎아내리지 않습니다. 기준을 제시하고 판단은 읽는 사람에게 넘깁니다.
  */
 
-export const SITE = 'https://ongeung.pages.dev';
+export const SITE = 'https://c.nolcool.com';
 
 /** 광고·제휴 입점 문의(업소 사장님 대상) 카톡 ID. 손님 예약용이 아닙니다. */
 export const AD_KAKAO = 'besta12';
@@ -36,6 +36,9 @@ export type PickVenue = {
   /** 1~40 */
   no: number;
   slug: string;
+  /** ★ 미색인이라 도메인 바로 뒤 숫자 주소로 옮긴 경우의 번호 (예: '1' → https://…/1)
+   *  붙어 있으면 이 업소의 주소는 /pick/{slug} 가 아니라 /{num} 이다. 2026-08-23 대표님 확정. */
+  num?: string;
   /** 형태소 A형: 붙여쓰기 */
   nameA: string;
   /** 형태소 B형: 띄어쓰기 */
@@ -4033,7 +4036,10 @@ export const bySlug = (slug: string): PickVenue => {
   return v;
 };
 
-export const pickPath = (slug: string) => `/pick/${slug}`;
+export const pickPath = (slug: string) => {
+  const v = VENUES.find((x) => x.slug === slug);
+  return v?.num ? `/${v.num}` : `/pick/${slug}`;
+};
 
 /** 허브·홈에서 쓰는 지역 묶음 (40곳 전부, 중복 없음) */
 export const REGION_GROUPS: { id: string; label: string; slugs: string[] }[] = [

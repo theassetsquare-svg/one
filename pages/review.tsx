@@ -12,7 +12,7 @@ export default function Review() {
         title="대전원나이트 후기 — 38세 이상 단골들이 말하는 진짜 분위기"
         description="가게를 다녀가신 같은 연령대 단골 손님들이 직접 말해주신 진짜 분위기. 자리·여성 혜택·응대 만족도를 사실 그대로 정리했으며, 별점이나 평점은 사용하지 않습니다."
         path="/review"
-        ogImage="https://ongeung.pages.dev/og/review.png"
+        ogImage="https://c.nolcool.com/og/review.png"
         ogImageAlt="대전원나이트 후기 모음"
         ogTitle="대전원나이트 후기 — 단골 진짜 분위기"
         ogDesc="가짜 별점 없음. 38세+ 손님 실제 의견 기반."
