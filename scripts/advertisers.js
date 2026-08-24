@@ -13,6 +13,11 @@ const ADVERTISERS = [
   { venue: '불광동호박나이트', venueSlugs: ['bulgwang-hobak-night', 'bulgwangdong-hobak-night'], areaSlugs: ['eunpyeong-night'], areaName: '은평나이트', nick: '손흥민', tel: '010-2221-1937' },
   { venue: '청담나이트', venueSlugs: ['cheongdam-night'], areaSlugs: ['gangnam-night'], areaName: '강남나이트', nick: '펩시맨', tel: '010-5655-4866' },
   { venue: '답십리미라클나이트', venueSlugs: ['dapsimni-miracle-night'], areaSlugs: [], areaName: null, nick: '유재석', tel: '010-8156-6558' },
+  // 지역 페이지(부산나이트)는 이 가게 페이지가 아니므로 넣지 않는다 — 대표님 지시
+  //   "그 페이지 가게이름 페이지에 맞게 광고주 번호를 넣으라"(2026-08-24)
+  { venue: '부산아시아드나이트', venueSlugs: ['busan-asiad-night'], areaSlugs: [], areaName: null, nick: '새우깡', tel: '010-3614-1056' },
+  // ★ lib/pick.ts 에는 contact 로 들어가 있었는데 "유일 기준"인 이 표에만 빠져 있었다(2026-08-24 확인)
+  { venue: '대전세븐나이트', venueSlugs: ['daejeon-seven-night'], areaSlugs: [], areaName: null, nick: '영탁', tel: '010-7770-0869' },
 ];
 
 const AD_KAKAO = 'besta12';

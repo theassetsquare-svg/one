@@ -31,12 +31,24 @@ const files = [];
     if (e.isDirectory()) {
       if (['_next', 'og', 'icons'].includes(e.name)) continue;
       walk(p);
-    } else if (e.name.endsWith('.html') && !SKIP.includes(e.name)) files.push(p);
+    } else if (e.name.endsWith('.html')) {
+      /* ★ 예전에는 파일 이름만 비교해서, 빌드가 404 를 "404/index.html" 로 내보내면
+         걸러지지 않고 "썸네일 미정의"로 계속 실패했다(2026-08-24 확인).
+         저장소 기준 상대경로로 비교한다. */
+      const rel = path.relative(OUT, p).split(path.sep).join('/');
+      if (!SKIP.includes(e.name) && !SKIP.some((s) => rel === s || rel === s.replace(/\.html$/, '/index.html'))) {
+        files.push(p);
+      }
+    }
   }
 })(OUT);
 files.sort();
 
-const urlOf = (rel) => {
+const urlOf = (relRaw) => {
+  /* ★ 윈도우는 경로 구분자가 역슬래시다. 그대로 쓰면 "/night\busan-asiad-night" 이 되어
+     cardByUrl 에서 페이지를 못 찾고, 주체=null 이 되어 **정상 광고주 페이지가 전부**
+     "허용되지 않은 번호"로 잡힌다(2026-08-24 확인). 슬래시로 맞춘 뒤 계산한다. */
+  const rel = String(relRaw).split(path.sep).join('/');
   if (rel === 'index.html') return '/';
   if (rel === 'night.html') return '/night/';
   if (rel === 'pick/index.html') return '/pick';

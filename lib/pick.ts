@@ -386,6 +386,7 @@ export const VENUES: PickVenue[] = [
     nameA: '부산아시아드나이트',
     nameB: '부산 아시아드나이트',
     nameC: '동래구 나이트클럽',
+    contact: { nick: '새우깡', display: '010-3614-1056', href: 'tel:01036141056', e164: '+82-10-3614-1056' },
     region: '부산 동래구 온천동',
     addressLocality: '동래구',
     addressRegion: '부산광역시',

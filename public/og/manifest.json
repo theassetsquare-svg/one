@@ -998,13 +998,17 @@
   "file": "busan-asiad-night-og.png",
   "pageUrl": "https://c.nolcool.com/night/busan-asiad-night",
   "pageType": "가게",
-  "rule": "B",
+  "rule": "A",
   "subject": "부산아시아드나이트",
-  "advertiser": null,
+  "advertiser": {
+   "nick": "새우깡",
+   "tel": "010-3614-1056"
+  },
   "texts": [
    "부산아시아드나이트",
-   "광고문의",
-   "카카오톡 besta12"
+   "새우깡",
+   "010-3614-1056",
+   "광고문의 카톡 besta12"
   ],
   "metrics": [
    {
@@ -1017,26 +1021,35 @@
     "hero": false
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 250,
-    "widthPct": 80,
-    "fontSizePx": 255.7,
-    "yScale": 1.079,
+    "text": "새우깡",
+    "widthPx": 502.2,
+    "heightPx": 175.9,
+    "widthPct": 46.5,
+    "fontSizePx": 194.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-3614-1056",
+    "widthPx": 1004.4,
+    "heightPx": 209,
+    "widthPct": 93,
+    "fontSizePx": 130.2,
+    "yScale": 2.21,
     "hero": true
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 130,
-    "widthPct": 75,
-    "fontSizePx": 108.2,
-    "yScale": 1.33,
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
     "hero": false
    }
   ],
-  "hero": "광고문의",
-  "bytes": 11559,
+  "hero": "010-3614-1056",
+  "bytes": 17194,
   "width": 1200,
   "height": 1200
  },
@@ -1136,13 +1149,17 @@
   "file": "daejeon-seven-night-og.png",
   "pageUrl": "https://c.nolcool.com/night/daejeon-seven-night",
   "pageType": "가게",
-  "rule": "B",
+  "rule": "A",
   "subject": "대전세븐나이트",
-  "advertiser": null,
+  "advertiser": {
+   "nick": "영탁",
+   "tel": "010-7770-0869"
+  },
   "texts": [
    "대전세븐나이트",
-   "광고문의",
-   "카카오톡 besta12"
+   "영탁",
+   "010-7770-0869",
+   "광고문의 카톡 besta12"
   ],
   "metrics": [
    {
@@ -1155,26 +1172,35 @@
     "hero": false
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 250,
-    "widthPct": 80,
-    "fontSizePx": 255.7,
-    "yScale": 1.079,
+    "text": "영탁",
+    "widthPx": 486,
+    "heightPx": 260.4,
+    "widthPct": 45,
+    "fontSizePx": 287.7,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-7770-0869",
+    "widthPx": 1004.4,
+    "heightPx": 303.7,
+    "widthPct": 93,
+    "fontSizePx": 127.1,
+    "yScale": 3.288,
     "hero": true
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 130,
-    "widthPct": 75,
-    "fontSizePx": 108.2,
-    "yScale": 1.33,
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
     "hero": false
    }
   ],
-  "hero": "광고문의",
-  "bytes": 10474,
+  "hero": "010-7770-0869",
+  "bytes": 19392,
   "width": 1200,
   "height": 1200
  },
@@ -2016,13 +2042,17 @@
   "file": "pick-busan-asiad-night.png",
   "pageUrl": "https://c.nolcool.com/pick/busan-asiad-night",
   "pageType": "가게",
-  "rule": "B",
+  "rule": "A",
   "subject": "부산아시아드나이트",
-  "advertiser": null,
+  "advertiser": {
+   "nick": "새우깡",
+   "tel": "010-3614-1056"
+  },
   "texts": [
    "부산아시아드나이트",
-   "광고문의",
-   "카카오톡 besta12"
+   "새우깡",
+   "010-3614-1056",
+   "광고문의 카톡 besta12"
   ],
   "metrics": [
    {
@@ -2035,26 +2065,35 @@
     "hero": false
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 250,
-    "widthPct": 80,
-    "fontSizePx": 255.7,
-    "yScale": 1.079,
+    "text": "새우깡",
+    "widthPx": 502.2,
+    "heightPx": 175.9,
+    "widthPct": 46.5,
+    "fontSizePx": 194.3,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-3614-1056",
+    "widthPx": 1004.4,
+    "heightPx": 209,
+    "widthPct": 93,
+    "fontSizePx": 130.2,
+    "yScale": 2.21,
     "hero": true
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 130,
-    "widthPct": 75,
-    "fontSizePx": 108.2,
-    "yScale": 1.33,
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
     "hero": false
    }
   ],
-  "hero": "광고문의",
-  "bytes": 10701,
+  "hero": "010-3614-1056",
+  "bytes": 17373,
   "width": 1200,
   "height": 1200
  },
@@ -2154,13 +2193,17 @@
   "file": "pick-daejeon-seven-night.png",
   "pageUrl": "https://c.nolcool.com/pick/daejeon-seven-night",
   "pageType": "가게",
-  "rule": "B",
+  "rule": "A",
   "subject": "대전세븐나이트",
-  "advertiser": null,
+  "advertiser": {
+   "nick": "영탁",
+   "tel": "010-7770-0869"
+  },
   "texts": [
    "대전세븐나이트",
-   "광고문의",
-   "카카오톡 besta12"
+   "영탁",
+   "010-7770-0869",
+   "광고문의 카톡 besta12"
   ],
   "metrics": [
    {
@@ -2173,26 +2216,35 @@
     "hero": false
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 250,
-    "widthPct": 80,
-    "fontSizePx": 255.7,
-    "yScale": 1.079,
+    "text": "영탁",
+    "widthPx": 486,
+    "heightPx": 260.4,
+    "widthPct": 45,
+    "fontSizePx": 287.7,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-7770-0869",
+    "widthPx": 1004.4,
+    "heightPx": 303.7,
+    "widthPct": 93,
+    "fontSizePx": 127.1,
+    "yScale": 3.288,
     "hero": true
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 130,
-    "widthPct": 75,
-    "fontSizePx": 108.2,
-    "yScale": 1.33,
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
     "hero": false
    }
   ],
-  "hero": "광고문의",
-  "bytes": 10488,
+  "hero": "010-7770-0869",
+  "bytes": 18706,
   "width": 1200,
   "height": 1200
  },
