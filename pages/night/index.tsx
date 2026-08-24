@@ -59,6 +59,11 @@ export default function NightIndex() {
           content="서울·경기·대전·부산·울산·창원 나이트 13곳을 한자리에 모았습니다. 업소별 위치와 영업시간, 좌석 구성, 문의 방법을 페이지마다 따로 정리했습니다."
         />
         <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
+        {/* ★ 2026-08-25 — 이 허브만 사이트 인증 태그가 빠져 있었다.
+            홈과 가게 페이지에는 다 들어 있는데 여기만 없어서, 전수 점검에서 유일하게 걸렸다.
+            소유 확인 자체는 홈으로 되지만 사이트 안에서 규칙이 어긋나 있으면 안 된다. */}
+        <meta name="google-site-verification" content="HJjm7MRxykCQ7d_9L7glaTeeaWrmJIzAKY0BcNcfm88" key="gsv" />
+        <meta name="naver-site-verification" content="4c0c71d52261d939278fd1b9725cbd3ffc643045" key="nsv" />
         <link rel="canonical" href={canonical} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="나이트 안내 13곳 목록" />
