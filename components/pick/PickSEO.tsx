@@ -19,7 +19,7 @@ export default function PickSEO({
 }: {
   title: string;
   description: string;
-  /** 예: '/pick/sillim-grandprix-night/' 또는 '/' */
+  /** 예: '/sillim-grandprix-night/' 또는 '/' */
   path: string;
   /** 예: '/og/pick-sillim-grandprix-night.png' */
   image: string;
