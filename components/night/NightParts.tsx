@@ -71,7 +71,7 @@ export function RelatedNights({ venue }: { venue: NightVenue }) {
             <p>{p.region}</p>
           </a>
         ))}
-        <a href="/night/" className="bic">
+        <a href="/night" className="bic">
           <h3>나이트 전체 목록</h3>
           <p>13곳 한자리에서 비교</p>
         </a>
@@ -84,7 +84,7 @@ export function RelatedNights({ venue }: { venue: NightVenue }) {
 export function Crumb({ venue }: { venue: NightVenue }) {
   return (
     <nav className="nb-crumb" aria-label="위치 경로">
-      <a href="/night/">나이트</a> › <span>{venue.nameA}</span>
+      <a href="/night">나이트</a> › <span>{venue.nameA}</span>
     </nav>
   );
 }

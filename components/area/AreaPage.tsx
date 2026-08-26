@@ -140,21 +140,21 @@ export default function AreaPage({ area }: { area: Area }) {
 
       <nav aria-label="주요 메뉴">
         <div className="ni">
-          <a href="/night/" className="logo">
+          <a href="/night" className="logo">
             나이트 안내
           </a>
           <div className="nl">
             <a href={`${areaPath(area.slug)}#nb-answer`}>지역 소개</a>
             <a href={`${areaPath(area.slug)}#nb-area`}>밤 상권</a>
             <a href={`${areaPath(area.slug)}#nb-venue`}>추천 업소</a>
-            <a href="/night/">전체 목록</a>
+            <a href="/night">전체 목록</a>
           </div>
         </div>
       </nav>
 
       <main>
         <nav className="nb-crumb" aria-label="위치 경로">
-          <a href="/night/">나이트</a> › <span>{area.kwA}</span>
+          <a href="/night">나이트</a> › <span>{area.kwA}</span>
         </nav>
 
         <article>

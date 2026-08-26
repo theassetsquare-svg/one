@@ -107,7 +107,7 @@ export default function NightIndex() {
 
       <nav aria-label="주요 메뉴">
         <div className="ni">
-          <a href="/night/" className="logo">
+          <a href="/night" className="logo">
             나이트 안내
           </a>
         </div>
