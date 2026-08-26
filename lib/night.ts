@@ -839,4 +839,35 @@ export const bySlug = (slug: string): NightVenue => {
   return v;
 };
 
-export const nightPath = (slug: string) => `/night/${slug}`;
+/* ★ 2026-08-26 대표님 확정 — 메인주소 바로 뒤에 이름. 중간에 /night/ 를 넣지 않는다.
+ *   루트에 같은 이름이 이미 있으면 뒤에 숫자를 붙여 둔다(아래 이름표). */
+const NIGHT_URL_MAP: Record<string, string> = {
+  "ansan-hit-night": "ansan-hit-night-1",
+  "ansan-night": "ansan-night",
+  "bulgwang-hobak-night": "bulgwang-hobak-night",
+  "busan-asiad-night": "busan-asiad-night-1",
+  "busan-night": "busan-night",
+  "changwon-lululala-night": "changwon-lululala-night",
+  "changwon-night": "changwon-night",
+  "cheongdam-night": "cheongdam-night-1",
+  "daejeon-night": "daejeon-night",
+  "daejeon-one-night": "daejeon-one-night-1",
+  "daejeon-seven-night": "daejeon-seven-night-1",
+  "eunpyeong-night": "eunpyeong-night",
+  "gangnam-night": "gangnam-night",
+  "ilsan-night": "ilsan-night",
+  "ilsan-shampoo-night": "ilsan-shampoo-night-1",
+  "index": "index-1",
+  "sangbong-hangukgwan-night": "sangbong-hangukgwan-night-1",
+  "sangbong-night": "sangbong-night",
+  "sillim-grandprix-night": "sillim-grandprix-night-1",
+  "sillim-night": "sillim-night",
+  "suwon-chance-dome-night": "suwon-chance-dome-night-1",
+  "suwon-night": "suwon-night",
+  "suyu-night": "suyu-night",
+  "suyu-shampoo-night": "suyu-shampoo-night-1",
+  "ulsan-champion-night": "ulsan-champion-night",
+  "ulsan-night": "ulsan-night",
+  "yucheon-night": "yucheon-night",
+};
+export const nightPath = (slug: string) => `/${NIGHT_URL_MAP[slug] ?? slug}`;

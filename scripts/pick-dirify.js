@@ -47,4 +47,27 @@ for (const slug of VENUES) {
   moved.push('/' + slug + '/');
 }
 
+// 3) ★ /night/ 에서 옮겨 온 페이지들 — out/<이름>.html → out/<이름>/index.html
+//    2026-08-26: 나이트·지역 페이지도 메인주소 바로 뒤로 옮겼다.
+const NIGHT_SLUGS = (() => {
+  const out = new Set();
+  for (const f of ["night.ts", "area.ts"]) {
+    const p = path.join(__dirname, "..", "lib", f);
+    if (!fs.existsSync(p)) continue;
+    const src = fs.readFileSync(p, "utf8");
+    const block = src.match(/NIGHT_URL_MAP[^{]*{([^}]*)}/);
+    if (!block) continue;
+    for (const m of block[1].matchAll(/:s*"([^"]+)"/g)) out.add(m[1]);
+  }
+  return [...out];
+})();
+for (const slug of NIGHT_SLUGS) {
+  const flat = path.join(OUT, slug + ".html");
+  if (!fs.existsSync(flat)) continue;
+  const dir = path.join(OUT, slug);
+  fs.mkdirSync(dir, { recursive: true });
+  fs.renameSync(flat, path.join(dir, "index.html"));
+  moved.push("/" + slug + "/");
+}
+
 console.log('pick-dirify: ' + moved.length + '개 경로 정리 완료');
