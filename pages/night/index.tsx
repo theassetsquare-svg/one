@@ -66,7 +66,7 @@ export default function NightIndex() {
         <meta name="naver-site-verification" content="4c0c71d52261d939278fd1b9725cbd3ffc643045" key="nsv" />
         <link rel="canonical" href={canonical} />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="나이트 안내 13곳 목록" />
+        <meta property="og:title" content="나이트 안내 13곳 목록 — 지역별 위치·시간·자리 정리" />
         <meta
           property="og:description"
           content="서울·경기·대전·부산·울산·창원 나이트 13곳의 위치와 영업시간, 좌석 구성을 업소별로 정리한 목록입니다."
