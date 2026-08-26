@@ -91,7 +91,8 @@ export default function SEO({
       <meta property="og:site_name" content={siteName} key="og:site" />
       <meta property="og:locale" content="ko_KR" key="og:locale" />
       <meta property="og:locale:alternate" content="ko" key="og:loc:alt" />
-      <meta property="og:title" content={ogTitle || title} key="og:title" />
+      {/* ★ 2026-08-26 — 네이버 가이드: og:title 은 title 과 같게 쓴다 */}
+      <meta property="og:title" content={title} key="og:title" />
       <meta property="og:description" content={ogDesc || description} key="og:desc" />
       <meta property="og:url" content={canonical} key="og:url" />
       <meta property="og:image" content={image} key="og:img" />
