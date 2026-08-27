@@ -78,4 +78,10 @@
 <url><loc>https://c.nolcool.com/gwangju-sangmu-night</loc><lastmod>2026-08-26</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><image:image><image:loc>https://c.nolcool.com/og/pick-gwangju-sangmu-night.png</image:loc><image:caption>광주상무나이트 광주 서구 상무번영로 30 치평동 선택 기준 안내 카드</image:caption></image:image></url>
 <url><loc>https://c.nolcool.com/gwangju-cheomdan-night</loc><lastmod>2026-08-26</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><image:image><image:loc>https://c.nolcool.com/og/pick-gwangju-cheomdan-night.png</image:loc><image:caption>광주첨단나이트 광주 광산구 임방울대로800번길 52 선택 기준 안내 카드</image:caption></image:image></url>
 <url><loc>https://c.nolcool.com/jeju-do-night</loc><lastmod>2026-08-26</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><image:image><image:loc>https://c.nolcool.com/og/pick-jeju-do-night.png</image:loc><image:caption>제주도나이트 제주 제주시 연동 선택 기준 안내 카드</image:caption></image:image></url>
+  <url>
+    <loc>https://c.nolcool.com/time-guide/</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
