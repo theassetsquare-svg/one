@@ -3,11 +3,8 @@ import PickVenuePage from '@/components/pick/PickVenuePage';
 import { VENUES } from '@/lib/pick';
 
 /**
- * ★ 가게 페이지 — 메인주소 바로 뒤에 가게이름 (/sillim-grandprix-night)
- *   2026-08-26 대표님 확정. 중간에 /pick/ 같은 단어를 넣지 않는다.
- *
- * 주의: Next.js 는 고정 라우트(/faq, /access …)를 동적 라우트보다 먼저 찾으므로
- *       기존 루트 페이지들과 부딪히지 않습니다.
+ * ★★ 2026-08-29 — 가게 페이지를 /info/ 폴더 안으로 옮겼다.
+ *   평면 주소는 색인 0.2%, 폴더 주소는 100% [[index-cause-flat-url-2026-08-28]]
  */
 export default function VenuePage({ slug }: { slug: string }) {
   return <PickVenuePage slug={slug} />;

@@ -4041,7 +4041,7 @@ export const bySlug = (slug: string): PickVenue => {
  * ★ 가게 페이지 주소 — 메인주소 바로 뒤에 가게이름 (2026-08-26 대표님 확정)
  *   중간에 /pick/ 같은 쓸데없는 단어를 넣지 않는다.
  */
-export const pickPath = (slug: string) => `/${slug}`;
+export const pickPath = (slug: string) => `/info/${slug}`;   /* ★ 2026-08-29 폴더 주소로 [[index-cause-flat-url-2026-08-28]] */
 
 /** 허브·홈에서 쓰는 지역 묶음 (40곳 전부, 중복 없음) */
 export const REGION_GROUPS: { id: string; label: string; slugs: string[] }[] = [
