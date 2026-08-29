@@ -7,7 +7,7 @@ const PAGES = [
   '/event',
   '/story',
   '/atmosphere',
-  '/first-visit',
+  '/area/first-visit/',
   '/access',
   '/faq',
   '/review',

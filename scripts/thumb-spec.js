@@ -43,7 +43,7 @@ const PICK = collect(read('lib/pick.ts'), 'nameA');
 /** 대전원나이트 전용 사이트 8페이지 — 규칙 C. 소제목만 페이지별로 다르게 둡니다. */
 const OWN_PAGES = [
   { file: 'event.png', url: '/event', topic: '이벤트 안내' },
-  { file: 'first-visit.png', url: '/first-visit', topic: '첫 방문 안내' },
+  { file: 'first-visit.png', url: '/area/first-visit/', topic: '첫 방문 안내' },
   { file: 'access.png', url: '/access', topic: '오시는 길' },
   { file: 'faq.png', url: '/faq', topic: '자주 묻는 질문' },
   { file: 'review.png', url: '/review', topic: '방문 후기' },
@@ -110,7 +110,7 @@ function build() {
   }
 
   // /bulgwangdong-hobak-night-guide — 불광동호박나이트 전용 페이지 (광고주 있음 → 규칙 A)
-  cards.push(venueCard('bulgwangdong-hobak-night.png', '/bulgwangdong-hobak-night-guide', '불광동호박나이트', 'bulgwangdong-hobak-night', next()));
+  cards.push(venueCard('bulgwangdong-hobak-night.png', '/area/bulgwangdong-hobak-night-guide/', '불광동호박나이트', 'bulgwangdong-hobak-night', next()));
 
   // /night/{업소} 13장
   for (const v of NIGHT) cards.push(venueCard(`${v.slug}-og.png`, `/night/${v.slug}`, v.name, v.slug, next()));

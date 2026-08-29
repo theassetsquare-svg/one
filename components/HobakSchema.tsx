@@ -1,5 +1,5 @@
 const SITE = 'https://c.nolcool.com';
-const PATH = '/bulgwangdong-hobak-night-guide';
+const PATH = '/area/bulgwangdong-hobak-night-guide/';
 const TEL = '+82-10-2221-1937';
 
 /**

@@ -195,7 +195,7 @@
  },
  {
   "file": "first-visit.png",
-  "pageUrl": "https://c.nolcool.com/first-visit",
+  "pageUrl": "https://c.nolcool.com/area/first-visit/",
   "pageType": "가게",
   "rule": "own",
   "subject": "대전원나이트",
@@ -517,7 +517,7 @@
  },
  {
   "file": "bulgwangdong-hobak-night.png",
-  "pageUrl": "https://c.nolcool.com/bulgwangdong-hobak-night-guide",
+  "pageUrl": "https://c.nolcool.com/area/bulgwangdong-hobak-night-guide/",
   "pageType": "가게",
   "rule": "A",
   "subject": "불광동호박나이트",
@@ -576,7 +576,7 @@
  },
  {
   "file": "bulgwang-hobak-night-og.png",
-  "pageUrl": "https://c.nolcool.com/bulgwang-hobak-night",
+  "pageUrl": "https://c.nolcool.com/info/bulgwang-hobak-night/",
   "pageType": "가게",
   "rule": "A",
   "subject": "불광동호박나이트",
@@ -635,7 +635,7 @@
  },
  {
   "file": "changwon-lululala-night-og.png",
-  "pageUrl": "https://c.nolcool.com/changwon-lululala-night",
+  "pageUrl": "https://c.nolcool.com/info/changwon-lululala-night/",
   "pageType": "가게",
   "rule": "A",
   "subject": "창원룰루랄라나이트",
@@ -694,7 +694,7 @@
  },
  {
   "file": "ulsan-champion-night-og.png",
-  "pageUrl": "https://c.nolcool.com/ulsan-champion-night",
+  "pageUrl": "https://c.nolcool.com/info/ulsan-champion-night/",
   "pageType": "가게",
   "rule": "A",
   "subject": "울산챔피언나이트",
@@ -753,7 +753,7 @@
  },
  {
   "file": "cheongdam-night-og.png",
-  "pageUrl": "https://c.nolcool.com/cheongdam-night-1",
+  "pageUrl": "https://c.nolcool.com/info/cheongdam-night-1/",
   "pageType": "가게",
   "rule": "A",
   "subject": "청담나이트",
@@ -812,7 +812,7 @@
  },
  {
   "file": "daejeon-one-night-og.png",
-  "pageUrl": "https://c.nolcool.com/daejeon-one-night-1",
+  "pageUrl": "https://c.nolcool.com/info/daejeon-one-night-1/",
   "pageType": "가게",
   "rule": "B",
   "subject": "대전원나이트",
@@ -858,7 +858,7 @@
  },
  {
   "file": "sillim-grandprix-night-og.png",
-  "pageUrl": "https://c.nolcool.com/sillim-grandprix-night-1",
+  "pageUrl": "https://c.nolcool.com/info/sillim-grandprix-night-1/",
   "pageType": "가게",
   "rule": "B",
   "subject": "신림그랑프리나이트",
@@ -904,7 +904,7 @@
  },
  {
   "file": "sangbong-hangukgwan-night-og.png",
-  "pageUrl": "https://c.nolcool.com/sangbong-hangukgwan-night-1",
+  "pageUrl": "https://c.nolcool.com/info/sangbong-hangukgwan-night-1/",
   "pageType": "가게",
   "rule": "B",
   "subject": "상봉동한국관나이트",
@@ -950,7 +950,7 @@
  },
  {
   "file": "suyu-shampoo-night-og.png",
-  "pageUrl": "https://c.nolcool.com/suyu-shampoo-night-1",
+  "pageUrl": "https://c.nolcool.com/info/suyu-shampoo-night-1/",
   "pageType": "가게",
   "rule": "B",
   "subject": "수유샴푸나이트",
@@ -996,7 +996,7 @@
  },
  {
   "file": "busan-asiad-night-og.png",
-  "pageUrl": "https://c.nolcool.com/busan-asiad-night-1",
+  "pageUrl": "https://c.nolcool.com/info/busan-asiad-night-1/",
   "pageType": "가게",
   "rule": "A",
   "subject": "부산아시아드나이트",
@@ -1055,7 +1055,7 @@
  },
  {
   "file": "suwon-chance-dome-night-og.png",
-  "pageUrl": "https://c.nolcool.com/suwon-chance-dome-night-1",
+  "pageUrl": "https://c.nolcool.com/area/suwon-chance-dome-night-1/",
   "pageType": "가게",
   "rule": "B",
   "subject": "수원찬스돔나이트",
@@ -1101,7 +1101,7 @@
  },
  {
   "file": "ansan-hit-night-og.png",
-  "pageUrl": "https://c.nolcool.com/ansan-hit-night-1",
+  "pageUrl": "https://c.nolcool.com/info/ansan-hit-night-1/",
   "pageType": "가게",
   "rule": "B",
   "subject": "안산히트나이트",
@@ -1147,7 +1147,7 @@
  },
  {
   "file": "daejeon-seven-night-og.png",
-  "pageUrl": "https://c.nolcool.com/daejeon-seven-night-1",
+  "pageUrl": "https://c.nolcool.com/info/daejeon-seven-night-1/",
   "pageType": "가게",
   "rule": "A",
   "subject": "대전세븐나이트",
@@ -1206,7 +1206,7 @@
  },
  {
   "file": "ilsan-shampoo-night-og.png",
-  "pageUrl": "https://c.nolcool.com/ilsan-shampoo-night-1",
+  "pageUrl": "https://c.nolcool.com/info/ilsan-shampoo-night-1/",
   "pageType": "가게",
   "rule": "B",
   "subject": "일산샴푸나이트",
@@ -1252,7 +1252,7 @@
  },
  {
   "file": "eunpyeong-night-og.png",
-  "pageUrl": "https://c.nolcool.com/eunpyeong-night",
+  "pageUrl": "https://c.nolcool.com/area/eunpyeong-night/",
   "pageType": "지역",
   "rule": "D-A",
   "subject": "은평나이트",
@@ -1311,7 +1311,7 @@
  },
  {
   "file": "changwon-night-og.png",
-  "pageUrl": "https://c.nolcool.com/changwon-night",
+  "pageUrl": "https://c.nolcool.com/area/changwon-night/",
   "pageType": "지역",
   "rule": "D-A",
   "subject": "창원나이트",
@@ -1370,7 +1370,7 @@
  },
  {
   "file": "ulsan-night-og.png",
-  "pageUrl": "https://c.nolcool.com/ulsan-night",
+  "pageUrl": "https://c.nolcool.com/area/ulsan-night/",
   "pageType": "지역",
   "rule": "D-A",
   "subject": "울산나이트",
@@ -1429,7 +1429,7 @@
  },
  {
   "file": "gangnam-night-og.png",
-  "pageUrl": "https://c.nolcool.com/gangnam-night",
+  "pageUrl": "https://c.nolcool.com/area/gangnam-night/",
   "pageType": "지역",
   "rule": "D-A",
   "subject": "강남나이트",
@@ -1488,7 +1488,7 @@
  },
  {
   "file": "daejeon-night-og.png",
-  "pageUrl": "https://c.nolcool.com/daejeon-night",
+  "pageUrl": "https://c.nolcool.com/area/daejeon-night/",
   "pageType": "지역",
   "rule": "D-B",
   "subject": "대전나이트",
@@ -1534,7 +1534,7 @@
  },
  {
   "file": "sillim-night-og.png",
-  "pageUrl": "https://c.nolcool.com/sillim-night",
+  "pageUrl": "https://c.nolcool.com/area/sillim-night/",
   "pageType": "지역",
   "rule": "D-B",
   "subject": "신림나이트",
@@ -1580,7 +1580,7 @@
  },
  {
   "file": "sangbong-night-og.png",
-  "pageUrl": "https://c.nolcool.com/sangbong-night",
+  "pageUrl": "https://c.nolcool.com/area/sangbong-night/",
   "pageType": "지역",
   "rule": "D-B",
   "subject": "상봉동나이트",
@@ -1626,7 +1626,7 @@
  },
  {
   "file": "suyu-night-og.png",
-  "pageUrl": "https://c.nolcool.com/suyu-night",
+  "pageUrl": "https://c.nolcool.com/area/suyu-night/",
   "pageType": "지역",
   "rule": "D-B",
   "subject": "수유나이트",
@@ -1672,7 +1672,7 @@
  },
  {
   "file": "busan-night-og.png",
-  "pageUrl": "https://c.nolcool.com/busan-night",
+  "pageUrl": "https://c.nolcool.com/area/busan-night/",
   "pageType": "지역",
   "rule": "D-B",
   "subject": "부산나이트",
@@ -1718,7 +1718,7 @@
  },
  {
   "file": "suwon-night-og.png",
-  "pageUrl": "https://c.nolcool.com/suwon-night",
+  "pageUrl": "https://c.nolcool.com/area/suwon-night/",
   "pageType": "지역",
   "rule": "D-B",
   "subject": "수원나이트",
@@ -1764,7 +1764,7 @@
  },
  {
   "file": "ansan-night-og.png",
-  "pageUrl": "https://c.nolcool.com/ansan-night",
+  "pageUrl": "https://c.nolcool.com/area/ansan-night/",
   "pageType": "지역",
   "rule": "D-B",
   "subject": "안산나이트",
@@ -1810,7 +1810,7 @@
  },
  {
   "file": "yucheon-night-og.png",
-  "pageUrl": "https://c.nolcool.com/yucheon-night",
+  "pageUrl": "https://c.nolcool.com/area/yucheon-night/",
   "pageType": "지역",
   "rule": "D-B",
   "subject": "유천동나이트",
@@ -1856,7 +1856,7 @@
  },
  {
   "file": "ilsan-night-og.png",
-  "pageUrl": "https://c.nolcool.com/ilsan-night",
+  "pageUrl": "https://c.nolcool.com/area/ilsan-night/",
   "pageType": "지역",
   "rule": "D-B",
   "subject": "일산나이트",
@@ -2401,7 +2401,7 @@
  },
  {
   "file": "pick-changwon-lululala-night-guide.png",
-  "pageUrl": "https://c.nolcool.com/changwon-lululala-night-guide",
+  "pageUrl": "https://c.nolcool.com/info/changwon-lululala-night/-guide",
   "pageType": "가게",
   "rule": "B",
   "subject": "창원룰루랄라나이트",
@@ -2447,7 +2447,7 @@
  },
  {
   "file": "pick-bulgwang-hobak-night-guide.png",
-  "pageUrl": "https://c.nolcool.com/bulgwang-hobak-night-guide",
+  "pageUrl": "https://c.nolcool.com/info/bulgwang-hobak-night/-guide",
   "pageType": "가게",
   "rule": "B",
   "subject": "불광동호박나이트",
@@ -2493,7 +2493,7 @@
  },
  {
   "file": "pick-ulsan-champion-night-guide.png",
-  "pageUrl": "https://c.nolcool.com/ulsan-champion-night-guide",
+  "pageUrl": "https://c.nolcool.com/info/ulsan-champion-night/-guide",
   "pageType": "가게",
   "rule": "B",
   "subject": "울산챔피언나이트",

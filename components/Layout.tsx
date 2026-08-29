@@ -7,7 +7,7 @@ import AdContact from './AdContact';
 // 불광동호박나이트는 별개 가게이므로 여기 nav에 넣지 않습니다 (HobakLayout 사용).
 const navItems = [
   { href: '/event', label: '이벤트' },
-  { href: '/first-visit', label: '첫방문' },
+  { href: '/area/first-visit/', label: '첫방문' },
   { href: '/access', label: '오시는길' },
   { href: '/faq', label: 'FAQ' },
   { href: '/review', label: '후기' },
