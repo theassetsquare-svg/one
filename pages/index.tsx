@@ -84,18 +84,11 @@ export default function Home() {
         <meta property="og:title" content={TITLE} key="og:title" />
         <meta property="og:description" content={DESC} key="og:desc" />
         <meta property="og:url" content={`${SITE}/`} key="og:url" />
-        <meta property="og:image" content={OG_IMAGE} key="og:img" />
-        <meta property="og:image:secure_url" content={OG_IMAGE} key="og:imgs" />
-        <meta property="og:image:width" content="1200" key="og:w" />
-        <meta property="og:image:height" content="1200" key="og:h" />
-        <meta property="og:image:type" content="image/png" key="og:t" />
-        <meta property="og:image:alt" content={OG_ALT} key="og:alt" />
         <meta name="thumbnail" content={OG_IMAGE} key="thumb" />
         {/* 1:1 정사각 이미지이므로 summary */}
         <meta name="twitter:card" content="summary" key="tw:card" />
         <meta name="twitter:title" content={TITLE} key="tw:title" />
         <meta name="twitter:description" content={DESC} key="tw:desc" />
-        <meta name="twitter:image" content={OG_IMAGE} key="tw:img" />
         <meta name="twitter:image:alt" content={OG_ALT} key="tw:alt" />
       </Head>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(article) }} />
