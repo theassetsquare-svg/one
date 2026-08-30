@@ -260,6 +260,98 @@ export default function Home() {
         </nav>
       </footer>
       {/* /area-guide-link */}
+      {/* <!-- hub-links:begin --> */}
+      <nav aria-label="전체 페이지 안내" style={{ maxWidth: 900, margin: "0 auto", padding: "18px 20px 30px", borderTop: "1px solid #e5e7eb", fontSize: ".78rem", lineHeight: 2, color: "#6b7280", display: "flex", flexWrap: "wrap", gap: "6px 14px" }}>
+        <a href="/access/">access</a>
+        <a href="/area/ansan-night/">ansan night</a>
+        <a href="/area/bulgwangdong-hobak-night-guide/">bulgwangdong hobak night guide</a>
+        <a href="/area/busan-night/">busan night</a>
+        <a href="/area/changwon-night/">changwon night</a>
+        <a href="/area/daejeon-night/">daejeon night</a>
+        <a href="/area/eunpyeong-night/">eunpyeong night</a>
+        <a href="/area/first-visit/">first visit</a>
+        <a href="/area/gangnam-night/">gangnam night</a>
+        <a href="/area/googlea4fecf0a9f9b8d59/">googlea4fecf0a9f9b8d59</a>
+        <a href="/area/ilsan-night/">ilsan night</a>
+        <a href="/area/sangbong-night/">sangbong night</a>
+        <a href="/area/sillim-night/">sillim night</a>
+        <a href="/area/suwon-chance-dome-night-1/">suwon chance dome night 1</a>
+        <a href="/area/suwon-night/">suwon night</a>
+        <a href="/area/suyu-night/">suyu night</a>
+        <a href="/area/time-guide/">time guide</a>
+        <a href="/area/ulsan-night/">ulsan night</a>
+        <a href="/area/yucheon-night/">yucheon night</a>
+        <a href="/atmosphere/">atmosphere</a>
+        <a href="/contact/">contact</a>
+        <a href="/event/">event</a>
+        <a href="/faq/">faq</a>
+        <a href="/info/ansan-hit-night-1/">ansan hit night 1</a>
+        <a href="/info/ansan-hit-night/">ansan hit night</a>
+        <a href="/info/bucheon-gorae-night/">bucheon gorae night</a>
+        <a href="/info/bulgwang-hobak-night-2/">bulgwang hobak night 2</a>
+        <a href="/info/bulgwang-hobak-night-guide/">bulgwang hobak night guide</a>
+        <a href="/info/bulgwang-hobak-night/">bulgwang hobak night</a>
+        <a href="/info/busan-asiad-night-1/">busan asiad night 1</a>
+        <a href="/info/busan-asiad-night-2/">busan asiad night 2</a>
+        <a href="/info/busan-asiad-night/">busan asiad night</a>
+        <a href="/info/changwon-lululala-night-2/">changwon lululala night 2</a>
+        <a href="/info/changwon-lululala-night-guide/">changwon lululala night guide</a>
+        <a href="/info/changwon-lululala-night/">changwon lululala night</a>
+        <a href="/info/cheonan-korea-night/">cheonan korea night</a>
+        <a href="/info/cheonan-stardome-night/">cheonan stardome night</a>
+        <a href="/info/cheongdam-night-1/">cheongdam night 1</a>
+        <a href="/info/cheongdam-night-2/">cheongdam night 2</a>
+        <a href="/info/cheongdam-night/">cheongdam night</a>
+        <a href="/info/cheongju-hobak-night/">cheongju hobak night</a>
+        <a href="/info/daegu-hobak-night/">daegu hobak night</a>
+        <a href="/info/daejeon-one-night-1/">daejeon one night 1</a>
+        <a href="/info/daejeon-one-night/">daejeon one night</a>
+        <a href="/info/daejeon-seven-night-1/">daejeon seven night 1</a>
+        <a href="/info/daejeon-seven-night-2/">daejeon seven night 2</a>
+        <a href="/info/daejeon-seven-night/">daejeon seven night</a>
+        <a href="/info/dapsimni-miracle-night-2/">dapsimni miracle night 2</a>
+        <a href="/info/dapsimni-miracle-night/">dapsimni miracle night</a>
+        <a href="/info/doksan-gukbingwan-night/">doksan gukbingwan night</a>
+        <a href="/info/gangseo-hobak-night/">gangseo hobak night</a>
+        <a href="/info/gildong-chance-night/">gildong chance night</a>
+        <a href="/info/gumi-hobak-night/">gumi hobak night</a>
+        <a href="/info/guri-hobak-night/">guri hobak night</a>
+        <a href="/info/gwangju-cheomdan-night/">gwangju cheomdan night</a>
+        <a href="/info/gwangju-sangmu-night/">gwangju sangmu night</a>
+        <a href="/info/ilsan-shampoo-night-1/">ilsan shampoo night 1</a>
+        <a href="/info/ilsan-shampoo-night/">ilsan shampoo night</a>
+        <a href="/info/incheon-arabian-night/">incheon arabian night</a>
+        <a href="/info/indeogwon-gukbingwan-night/">indeogwon gukbingwan night</a>
+        <a href="/info/jeju-do-night/">jeju do night</a>
+        <a href="/info/nowon-hobak-night/">nowon hobak night</a>
+        <a href="/info/osan-hobak-night/">osan hobak night</a>
+        <a href="/info/paju-yadang-skydome-night/">paju yadang skydome night</a>
+        <a href="/info/pyeongtaek-hobak-night/">pyeongtaek hobak night</a>
+        <a href="/info/sangbong-hangukgwan-night-1/">sangbong hangukgwan night 1</a>
+        <a href="/info/sangbong-hangukgwan-night/">sangbong hangukgwan night</a>
+        <a href="/info/seongnam-shampoo-night/">seongnam shampoo night</a>
+        <a href="/info/seosan-hobak-night/">seosan hobak night</a>
+        <a href="/info/sillim-grandprix-night-1/">sillim grandprix night 1</a>
+        <a href="/info/sillim-grandprix-night/">sillim grandprix night</a>
+        <a href="/info/sillim-grandprix-night/">sillim grandprix night</a>
+        <a href="/info/suwon-chance-dome-night/">suwon chance dome night</a>
+        <a href="/info/suwon-korea-night/">suwon korea night</a>
+        <a href="/info/suyu-shampoo-night-1/">suyu shampoo night 1</a>
+        <a href="/info/suyu-shampoo-night/">suyu shampoo night</a>
+        <a href="/info/uijeongbu-baekakgwan-night/">uijeongbu baekakgwan night</a>
+        <a href="/info/uijeongbu-hangukgwan-night/">uijeongbu hangukgwan night</a>
+        <a href="/info/ulsan-champion-night-2/">ulsan champion night 2</a>
+        <a href="/info/ulsan-champion-night-guide/">ulsan champion night guide</a>
+        <a href="/info/ulsan-champion-night/">ulsan champion night</a>
+        <a href="/info/ulsan-champion-night/">ulsan champion night</a>
+        <a href="/info/ulsan-newworld-night/">ulsan newworld night</a>
+        <a href="/info/yeongdeungpo-terminal-night/">yeongdeungpo terminal night</a>
+        <a href="/night/">night</a>
+        <a href="/pick/">pick</a>
+        <a href="/review/">review</a>
+        <a href="/story/">story</a>
+      </nav>
+      {/* <!-- hub-links:end --> */}
     </>
   );
 }

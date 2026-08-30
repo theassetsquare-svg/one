@@ -31,4 +31,24 @@ Allow: /
 User-agent: *
 Allow: /
 
+# 공식 문서로 확인된 크롤러
+User-agent: bingbot
+Allow: /
+# 공식 문서로 확인된 크롤러
+User-agent: OAI-SearchBot
+Allow: /
+# 공식 문서로 확인된 크롤러
+User-agent: ChatGPT-User
+Allow: /
+# 공식 문서로 확인된 크롤러
+User-agent: Claude-SearchBot
+Allow: /
+# 공식 문서로 확인된 크롤러
+User-agent: Claude-User
+Allow: /
+# 공식 문서로 확인된 크롤러
+User-agent: Perplexity-User
+Allow: /
+
+
 Sitemap: https://c.nolcool.com/sitemap.xml
