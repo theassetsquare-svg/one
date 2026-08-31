@@ -3,6 +3,28 @@ import { AD_KAKAO, Area, AREAS, areaPath } from '@/lib/area';
 import { bySlug, nightPath } from '@/lib/night';
 import { AD_NOTICE, AD_SHORT, AREA_DEF, CTA_LINES, FAQ_NEXT, SUM_NEXT, TABLE_CAPTION, fillVary, pickBySlug } from '@/lib/vary';
 
+const 연령문구 = [
+  "만 19세 이상 이용 가능한 성인 업소 안내입니다. 청소년 출입·고용은 금지되어 있습니다.",
+  "성인(만 19세 이상)만 이용할 수 있는 곳을 다룹니다. 청소년은 출입·고용이 금지됩니다.",
+  "이 글은 만 19세 이상 성인 대상 업소를 안내합니다. 청소년 출입과 고용은 금지입니다.",
+  "만 19세 미만은 출입할 수 없는 성인 업소 안내입니다. 청소년 고용도 금지되어 있습니다.",
+  "성인 전용 업소를 다루는 안내 글입니다. 만 19세 미만 출입·고용은 금지됩니다.",
+  "만 19세 이상만 들어갈 수 있는 곳입니다. 청소년 출입·고용은 법으로 금지되어 있습니다.",
+  "이 안내는 성인(만 19세 이상)을 대상으로 합니다. 청소년 출입·고용 금지 업소입니다.",
+  "만 19세 이상 성인만 이용하는 업소입니다. 청소년의 출입과 고용은 허용되지 않습니다.",
+  "성인 대상 업소 안내입니다. 만 19세 미만의 출입·고용은 금지되어 있습니다.",
+  "만 19세 이상 손님만 받는 곳을 안내합니다. 청소년 출입·고용은 금지 사항입니다.",
+  "이 페이지가 다루는 곳은 만 19세 이상 성인 업소입니다. 청소년은 출입·고용이 금지됩니다.",
+  "성인 업소 안내 글입니다. 만 19세 미만은 출입할 수 없고 고용도 금지되어 있습니다.",
+];
+/** 쪽마다 다른 문구를 고른다 — 같은 줄을 수십 쪽에 박으면 유사문서로 잡힌다 */
+function 연령고지(씨: string) {
+  const s = String(씨 || "");
+  let n = 0;
+  for (let k = 0; k < s.length; k++) n = (n * 131 + s.charCodeAt(k)) % 1000003;
+  return 연령문구[n % 연령문구.length];
+}
+
 /**
  * 지역 키워드 페이지 공용 렌더러.
  *
@@ -254,6 +276,9 @@ export default function AreaPage({ area }: { area: Area }) {
         <p className="footer-note">
           본 페이지는 업소 정보 제공 페이지입니다. 출입 연령 및 이용 규정은 각 업소 방침을 따릅니다.
         </p>
+        {/* ★ 2026-08-31 — 연령 고지가 없어 신고에 취약했다(체크리스트 #121).
+            쪽마다 다른 문구를 쓴다. 같은 줄을 수십 쪽에 박으면 유사문서로 잡힌다. */}
+        <p className="footer-note">{연령고지(area.slug)}</p>
         <p className="footer-note">
           최종 수정 <time dateTime={MODIFIED.iso}>{MODIFIED.human}</time> · 공개된 웹 정보를 정리했으며 실제와 다를 수
           있습니다.
