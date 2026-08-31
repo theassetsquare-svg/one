@@ -13,7 +13,7 @@ export default function Page() {
       {/* ★ 이 화면은 /area/ 밑에 있다. 주소를 직접 주지 않으면
           canonical 이 /info/suwon-chance-dome-night-1/ 을 가리켜 남의 주소가 된다. */}
       <NightSEO venue={venue} canonicalPath="/area/suwon-chance-dome-night-1/" />
-      <NightSchema venue={venue} />
+      <NightSchema venue={venue} canonicalPath="/area/suwon-chance-dome-night-1/" />
       <NightLayout venue={venue}>
         <Crumb venue={venue} />
         <article>

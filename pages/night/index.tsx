@@ -103,6 +103,20 @@ export default function NightIndex() {
           }}
         />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemList) }} />
+        {/* ★ 2026-08-31 — 이동 경로가 없어 검색 결과에 경로가 안 나왔다(점검표 #72) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                { "@type": "ListItem", position: 1, name: "홈", item: SITE + "/" },
+                { "@type": "ListItem", position: 2, name: "나이트 안내", item: SITE + "/night/" },
+              ],
+            }),
+          }}
+        />
       </Head>
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
@@ -159,7 +173,11 @@ export default function NightIndex() {
         <p>업소별 페이지에서 위치·영업시간·좌석 구성을 확인하세요.</p>
         <AdContact />
         <p className="legal-note">© 2026 나이트 안내 페이지</p>
-      </footer>
+              {/* ★ 2026-08-31 — 연령·관계 고지 (점검표 #121 · #122) */}
+        <p style={{ margin: "10px 0 0", fontSize: 13, lineHeight: 1.7, color: "#9aa0a6" }}>
+          만 19세 이상 이용 가능한 성인 업소 안내입니다. 업소와 제휴 관계가 없는 정보 페이지입니다.
+        </p>
+</footer>
 
       <div className="callbar" role="complementary" aria-label="광고 제휴 문의">
         <span>

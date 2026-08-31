@@ -8,8 +8,10 @@ import { NightVenue, SITE, nightPath } from '@/lib/night';
  *    - openingHoursSpecification: 웹 실사로 확인된 업소만
  *    - typicalAgeRange: 창원룰루랄라나이트 / 대전원나이트 2곳만, "만 27세 이상" 형태 완전문
  */
-export default function NightSchema({ venue }: { venue: NightVenue }) {
-  const url = `${SITE}${nightPath(venue.slug)}`;
+export default function NightSchema({ venue, canonicalPath }: { venue: NightVenue; canonicalPath?: string }) {
+  /* ★ 2026-08-31 — /area/ 밑에 놓인 같은 업소 쪽은 주소가 다르다.
+     주소를 직접 받지 못하면 이동 경로가 남의 주소를 가리킨다. */
+  const url = `${SITE}${canonicalPath ?? nightPath(venue.slug)}`;
   const image = `${SITE}/og/${venue.slug}-og${venue.ogV ?? ""}.png`;
 
   const nightClub: Record<string, unknown> = {
@@ -56,7 +58,7 @@ export default function NightSchema({ venue }: { venue: NightVenue }) {
     '@type': 'BreadcrumbList',
     '@id': `${url}#breadcrumb`,
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '나이트', item: `${SITE}/night` },
+      { '@type': 'ListItem', position: 1, name: '나이트', item: `${SITE}/night/` },
       { '@type': 'ListItem', position: 2, name: venue.nameA, item: url },
     ],
   };
