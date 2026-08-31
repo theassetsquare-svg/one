@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { 슬래시정본 } from '../../lib/canonical';
 import { NightVenue, SITE, nightPath } from '@/lib/night';
 
 /**
@@ -8,12 +9,16 @@ import { NightVenue, SITE, nightPath } from '@/lib/night';
  * 대전 키워드/지오태그)이 박혀 있어 그대로 쓰면 13개 업소 정보가 섞입니다.
  * 그래서 건드리지 않고 별도 컴포넌트로 분리했습니다.
  *
- * canonical 은 트레일링 슬래시 없이 씁니다. 이 호스트(Cloudflare Pages)는
- * `/night/foo/` 요청을 `/night/foo` 로 308 리다이렉트하므로, 슬래시를 붙이면
- * canonical 이 리다이렉트를 가리키게 됩니다.
+ * canonical 은 끝 슬래시를 붙입니다 (2026-08-31 next.config.ts trailingSlash: true).
+ * 예전 주석은 슬래시를 빼라고 했는데, 그때는 이 사이트가 슬래시 없는 쪽을 200 으로
+ * 냈기 때문입니다. 지금은 반대로 슬래시 쪽이 200 입니다.
+ *
+ * ★ 같은 업소 화면이 /area/ 밑에 놓인 쪽도 있습니다(pages/area/suwon-chance-dome-night-1.tsx).
+ *   그런 쪽은 nightPath 가 /info/... 를 내주므로 canonical 이 남의 주소를 가리킵니다.
+ *   그래서 주소를 직접 줄 수 있게 canonicalPath 를 받습니다.
  */
-export default function NightSEO({ venue }: { venue: NightVenue }) {
-  const canonical = `${SITE}${nightPath(venue.slug)}`;
+export default function NightSEO({ venue, canonicalPath }: { venue: NightVenue; canonicalPath?: string }) {
+  const canonical = `${SITE}${슬래시정본(canonicalPath ?? nightPath(venue.slug))}`;
   const image = `${SITE}/og/${venue.slug}-og${venue.ogV ?? ""}.png`;
   const keywords = [
     venue.nameA,

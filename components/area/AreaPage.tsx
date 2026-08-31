@@ -1,6 +1,7 @@
 import PageThumb from '../PageThumb';
 import { AD_KAKAO, Area, AREAS, areaPath } from '@/lib/area';
 import { bySlug, nightPath } from '@/lib/night';
+import { AD_NOTICE, AD_SHORT, AREA_DEF, CTA_LINES, FAQ_NEXT, SUM_NEXT, TABLE_CAPTION, fillVary, pickBySlug } from '@/lib/vary';
 
 /**
  * 지역 키워드 페이지 공용 렌더러.
@@ -82,7 +83,7 @@ function VenueFacts({ area }: { area: Area }) {
   return (
     <div className="nb-wrap">
       <table className="nb-tbl">
-        <caption>{area.kwA} 연결 업소에서 확인된 정보</caption>
+        <caption>{fillVary(pickBySlug(area.slug, TABLE_CAPTION), { A: area.kwA })}</caption>
         <tbody>
           {venue.facts.map((f) => (
             <tr key={f.label}>
@@ -119,11 +120,11 @@ function Cta({ area }: { area: Area }) {
   return (
     <div className="nb-cta">
       <p>
-        {area.kwA} 자리와 인원은 방문 전에 맞춰 두는 편이 좋습니다.{' '}
+        {fillVary(pickBySlug(area.slug, CTA_LINES), { V: area.kwA })}{' '}
         <a href={nightPath(venue.slug)}>{venue.nameA} 안내 페이지</a>에서 확인하세요.
       </p>
       <p>
-        업소 광고·제휴 입점 문의는 카톡 <b className="nb-num">{AD_KAKAO}</b> 로 받습니다. 손님 예약 창구가 아닙니다.
+        {fillVary(pickBySlug(area.slug, AD_NOTICE), { K: AD_KAKAO })}
       </p>
     </div>
   );
@@ -167,7 +168,7 @@ export default function AreaPage({ area }: { area: Area }) {
             {/* [13] AI 인용 블록 */}
             <div className="answer-box" id="nb-answer">
               <p>
-                <strong>{area.kwA}</strong>는 {area.region}의 나이트클럽 밤 문화를 뜻합니다. {area.answerLine}.
+                {fillVary(pickBySlug(area.slug, AREA_DEF), { A: area.kwA, R: area.region })} {area.answerLine}.
               </p>
             </div>
 
@@ -202,7 +203,7 @@ export default function AreaPage({ area }: { area: Area }) {
                   <p>{f.a}</p>
                 </details>
               ))}
-              <p className="nb-next">목록에 없는 내용은 업소 페이지에서 확인하는 편이 정확합니다.</p>
+              <p className="nb-next">{pickBySlug(area.slug, FAQ_NEXT)}</p>
             </section>
 
             <div className="ar-sum">
@@ -215,13 +216,14 @@ export default function AreaPage({ area }: { area: Area }) {
                 <li>
                   {isA && area.contact
                     ? `자리 문의는 ${area.contact.nick} ${area.contact.display}.`
-                    : `업소 광고·제휴 입점 문의는 카톡 ${AD_KAKAO}.`}
+                    : fillVary(pickBySlug(area.slug, AD_SHORT), { K: AD_KAKAO })}
                 </li>
               </ul>
-              <p className="nb-next">가까운 지역도 같은 기준으로 정리해 두었습니다.</p>
+              <p className="nb-next">{pickBySlug(area.slug, SUM_NEXT)}</p>
             </div>
 
-            <aside aria-labelledby="ar-rel-h" className="related">
+            {/* ★ 링크 묶음은 nav 로 (2026-08-30) */}
+            <nav aria-labelledby="ar-rel-h" className="related">
               <h2 id="ar-rel-h">함께 보면 좋은 지역</h2>
               <div className="bento">
                 {picks.map((p) => (
@@ -240,7 +242,7 @@ export default function AreaPage({ area }: { area: Area }) {
                   ? `${area.kwA} 안내는 여기까지입니다. 자리는 ${area.contact.nick} ${area.contact.display} 한 통이면 정리됩니다.`
                   : `${area.kwA} 안내는 여기까지입니다. 남은 것은 업소 페이지에서 자리를 맞추는 일뿐입니다.`}
               </p>
-            </aside>
+            </nav>
           </div>
         </article>
       </main>

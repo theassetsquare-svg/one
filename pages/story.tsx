@@ -27,7 +27,7 @@ export default function Story() {
           {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
           <PageThumb src="/og/story.png" alt="대전원나이트 웨이터 이야기" />
 
-          <PolicyBanner />
+          <PolicyBanner page="story" />
           <section aria-labelledby="why-h">
             <h2 id="why-h">왜 38세 이상인가</h2>
             <p>

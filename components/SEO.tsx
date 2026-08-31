@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { 슬래시정본 } from '../lib/canonical';
 
 const SITE = 'https://c.nolcool.com';
 
@@ -41,7 +42,7 @@ export default function SEO({
   geoPlacename = '대전광역시',
   icbm = '36.3504, 127.3845',
 }: SEOProps) {
-  const canonical = `${SITE}${path}`;
+  const canonical = `${SITE}${슬래시정본(path)}`;
   const image = ogImage || `${SITE}/og/og-search-thumb.png`;
   return (
     <Head>

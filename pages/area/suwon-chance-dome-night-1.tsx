@@ -10,7 +10,9 @@ const venue = bySlug('suwon-chance-dome-night');
 export default function Page() {
   return (
     <>
-      <NightSEO venue={venue} />
+      {/* ★ 이 화면은 /area/ 밑에 있다. 주소를 직접 주지 않으면
+          canonical 이 /info/suwon-chance-dome-night-1/ 을 가리켜 남의 주소가 된다. */}
+      <NightSEO venue={venue} canonicalPath="/area/suwon-chance-dome-night-1/" />
       <NightSchema venue={venue} />
       <NightLayout venue={venue}>
         <Crumb venue={venue} />

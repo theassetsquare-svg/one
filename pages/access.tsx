@@ -27,7 +27,7 @@ export default function Access() {
           {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
           <PageThumb src="/og/access.png" alt="대전원나이트 오시는 길 — 대전 시내·청주·세종 30분 거리 안내" />
 
-          <PolicyBanner />
+          <PolicyBanner page="access" />
           <section aria-labelledby="ac-h">
             <h2 id="ac-h">🚗 위치 및 교통</h2>
             <div className="bento">

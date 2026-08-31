@@ -45,7 +45,7 @@ export default function FAQ() {
           {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
           <PageThumb src="/og/faq.png" alt="대전원나이트 자주 묻는 질문 12가지" />
 
-          <PolicyBanner />
+          <PolicyBanner page="faq" />
           <section aria-labelledby="faq-h">
             <h2 id="faq-h">📋 FAQ</h2>
             {faqs.map((f, i) => (

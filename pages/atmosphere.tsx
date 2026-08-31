@@ -27,7 +27,7 @@ export default function Atmosphere() {
           {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
           <PageThumb src="/og/atmosphere.png" alt="대전원나이트 분위기 — 만 38세 이상 손님 중심 홀" />
 
-          <PolicyBanner />
+          <PolicyBanner page="atmosphere" />
           <section aria-labelledby="atm-h">
             <h2 id="atm-h">🎶 공간 소개</h2>
             <div className="bento">

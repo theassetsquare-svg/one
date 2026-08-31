@@ -870,4 +870,7 @@ const NIGHT_URL_MAP: Record<string, string> = {
   "ulsan-night": "ulsan-night",
   "yucheon-night": "yucheon-night",
 };
-export const nightPath = (slug: string) => `/${NIGHT_URL_MAP[slug] ?? slug}`;
+/* ★ 2026-08-31 — 업소 페이지의 실제 주소는 /info/<slug>/ 다 (pages/info/<slug>.tsx).
+   이 함수가 /<slug> 를 내주어 canonical·내부링크·JSON-LD 가 전부 404 를 가리켰다.
+   같은 사고가 lib/area.ts 에도 있었다. 끝 슬래시는 trailingSlash: true 와 맞춘다. */
+export const nightPath = (slug: string) => `/info/${NIGHT_URL_MAP[slug] ?? slug}/`;

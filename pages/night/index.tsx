@@ -32,7 +32,8 @@ div.callbar b{color:#FFD700}
 .nb-hero p{color:#ccc; max-width:760px; margin:0 auto}
 `;
 
-const canonical = `${SITE}/night`;
+/* ★ 2026-08-31 — trailingSlash: true 로 바뀌어 /night/ 가 200 이다. */
+const canonical = `${SITE}/night/`;
 const OG_IMAGE = `${SITE}/og/night-hub-og.png`;
 const OG_ALT = '나이트 안내 13곳 목록 — 지역별 위치·시간·자리 정리';
 

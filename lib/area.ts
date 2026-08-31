@@ -104,7 +104,12 @@ const NIGHT_URL_MAP: Record<string, string> = {
   "ulsan-night": "ulsan-night",
   "yucheon-night": "yucheon-night",
 };
-export const areaPath = (slug: string) => `/${NIGHT_URL_MAP[slug] ?? slug}`;
+/* ★ 2026-08-31 — 지역 페이지의 실제 주소는 /area/<slug>/ 다 (pages/area/<slug>.tsx).
+   그런데 이 함수가 /<slug> 를 내주고 있어서 canonical·내부링크·JSON-LD 가 모두
+   404 주소를 가리켰다. 네이버에게 "이 문서의 정본은 없는 주소"라고 알려준 셈이라
+   29쪽이 색인될 수 없었다. 사이트맵만 /area/<slug>/ 로 올바랐다.
+   끝 슬래시는 next.config.ts 의 trailingSlash: true 와 맞춘다. */
+export const areaPath = (slug: string) => `/area/${NIGHT_URL_MAP[slug] ?? slug}/`;
 
 export const AREAS: Area[] = [
   // ─────────────────────────────────────────────────────────────

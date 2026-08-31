@@ -27,7 +27,7 @@ export default function Review() {
           {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
           <PageThumb src="/og/review.png" alt="대전원나이트 후기 모음" />
 
-          <PolicyBanner />
+          <PolicyBanner page="review" />
           <section aria-labelledby="rv-h">
             <h2 id="rv-h">💬 왜 단골이 되었나</h2>
             <div className="bento">

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { 슬래시정본 } from '../../lib/canonical';
 import { Area, SITE, areaPath } from '@/lib/area';
 
 /**
@@ -11,7 +12,7 @@ import { Area, SITE, areaPath } from '@/lib/area';
  * 인증 메타태그는 기존 페이지에서 그대로 복사했습니다(지어내지 않음).
  */
 export default function AreaSEO({ area }: { area: Area }) {
-  const canonical = `${SITE}${areaPath(area.slug)}`;
+  const canonical = `${SITE}${슬래시정본(areaPath(area.slug))}`;
   const image = `${SITE}/og/${area.slug}-og.png`;
   const keywords = [area.kwA, area.kwB, area.kwC, `${area.kwA} 위치`, `${area.kwA} 추천`, `${area.kwA} 예약`].join(', ');
 

@@ -27,7 +27,7 @@ export default function FirstVisit() {
           {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
           <PageThumb src="/og/first-visit.png" alt="대전원나이트 첫 방문 가이드" />
 
-          <PolicyBanner />
+          <PolicyBanner page="area/first-visit" />
           <section aria-labelledby="fv-h">
             <h2 id="fv-h">📘 6단계 가이드</h2>
             <div className="bento">

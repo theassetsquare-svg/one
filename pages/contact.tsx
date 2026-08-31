@@ -29,7 +29,7 @@ export default function Contact() {
           {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
           <PageThumb src="/og/contact.png" alt="대전원나이트 예약·광고문의 안내" />
 
-          <PolicyBanner />
+          <PolicyBanner page="contact" />
           <section aria-labelledby="ct-h">
             <h2 id="ct-h">💬 광고문의 · 예약</h2>
             <div className="bento">

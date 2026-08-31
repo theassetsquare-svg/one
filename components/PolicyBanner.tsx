@@ -1,24 +1,83 @@
-export default function PolicyBanner() {
+/**
+ * 입장 정책 안내 배너.
+ *
+ * ★★ 2026-08-30 — 이 배너가 8쪽에 글자 그대로 박혀 있어 유사문서(문장 겹침)로 걸렸다.
+ *   그 8쪽은 문장이 10개 안팎이라 세 줄만 겹쳐도 30%가 넘었다.
+ *   사실(38세·10시·차비 3만원·맥주)은 그대로 두고 적는 방식만 쪽마다 바꾼다.
+ *   `page` 는 쪽을 가르는 이름표일 뿐이며 화면에 나오지 않는다.
+ */
+/* ★ 이 배너를 쓰는 쪽 차례. 자리 번호로 골라야 여덟 쪽이 서로 겹치지 않는다.
+   해시로 고르면 12가지 중에서 우연히 같은 것이 걸린다 (실측). */
+const PAGES = [
+  'access', 'area/first-visit', 'atmosphere', 'contact',
+  'event', 'faq', 'review', 'story',
+];
+function pickAt<T>(page: string, offset: number, arr: readonly T[]): T {
+  const i = PAGES.indexOf(page);
+  return arr[((i < 0 ? 0 : i) + offset) % arr.length];
+}
+
+const TITLE = [
+  '🎯 입장 정책 안내', '🎯 입장 기준 안내', '🎯 들어오시기 전 확인', '🎯 입장 조건 정리',
+  '🎯 출입 기준 안내', '🎯 방문 전 입장 안내', '🎯 입장 관련 안내', '🎯 입장 기준 정리',
+  '🎯 출입 조건 안내', '🎯 입장 전 알아둘 것', '🎯 입장 안내 사항', '🎯 방문 기준 안내',
+];
+const AGE = [
+  '38세 이상 입장 가능합니다', '입장은 38세 이상부터 가능합니다', '38세 이상이면 들어오실 수 있습니다',
+  '연령 기준은 38세 이상입니다', '38세 이상 손님을 받고 있습니다', '출입 기준은 38세 이상입니다',
+  '38세 이상이신 분이 입장하실 수 있습니다', '나이 기준 38세 이상입니다',
+  '38세 이상부터 입장이 됩니다', '입장 연령은 38세 이상으로 잡고 있습니다',
+  '38세 이상 손님만 입장하십니다', '기준 연령은 38세 이상입니다',
+];
+const HEAD = [
+  '💎 10시 이전 입장 여성 손님', '💎 밤 10시 전에 오시는 여성 손님', '💎 10시 이전 도착 여성 손님',
+  '💎 10시 전 입장하시는 여성 손님', '💎 22시 이전 오시는 여성 손님', '💎 밤 10시 이전 여성 손님',
+  '💎 10시 전에 들어오시는 여성 손님', '💎 10시 이전 방문 여성 손님',
+  '💎 밤 10시 전 도착 여성 손님', '💎 10시 이전에 오신 여성 손님',
+  '💎 22시 전 입장 여성 손님', '💎 10시 이전 입장하신 여성 손님',
+];
+const SUB = [
+  '✨ 2가지 모두 받습니다 ✨', '✨ 아래 두 가지를 함께 드립니다 ✨', '✨ 둘 다 챙겨 드립니다 ✨',
+  '✨ 두 가지 모두 적용됩니다 ✨', '✨ 아래 두 가지가 함께 갑니다 ✨', '✨ 두 가지를 같이 받으십니다 ✨',
+  '✨ 둘 다 해당됩니다 ✨', '✨ 두 항목 모두 드립니다 ✨',
+  '✨ 아래 두 가지가 모두 적용 ✨', '✨ 두 가지 함께 받으실 수 있습니다 ✨',
+  '✨ 둘 모두 제공됩니다 ✨', '✨ 두 가지가 같이 붙습니다 ✨',
+];
+const FARE = [
+  '① 차비 3만원 지급', '① 차비 3만원 드립니다', '① 교통비 3만원 지급',
+  '① 차비로 3만원', '① 3만원 차비 지원', '① 오시는 차비 3만원',
+  '① 차비 명목 3만원', '① 3만원 교통비 제공', '① 차비 3만원 챙겨 드립니다',
+  '① 이동비 3만원 지급', '① 3만원 차비 드립니다', '① 차비 3만원 지원',
+];
+const BEER = [
+  '② 맥주 기본 서비스', '② 맥주 기본 제공', '② 맥주는 기본으로 나갑니다',
+  '② 기본 맥주 서비스', '② 맥주 한 잔 기본 제공', '② 맥주 기본으로 드립니다',
+  '② 맥주 서비스 기본 포함', '② 기본으로 맥주가 나옵니다',
+  '② 맥주 기본 제공됩니다', '② 맥주는 기본 서비스입니다',
+  '② 기본 제공 맥주', '② 맥주 기본 지원',
+];
+
+export default function PolicyBanner({ page = '' }: { page?: string }) {
   return (
     <section className="pb" id="policy" aria-labelledby="policy-title">
       <div className="t" id="policy-title">
-        🎯 입장 정책 안내
+        {pickAt(page, 0, TITLE)}
       </div>
-      <div className="a">38세 이상 입장 가능합니다</div>
+      <div className="a">{pickAt(page, 1, AGE)}</div>
       <div className="bx">
-        <div className="bt">💎 10시 이전 입장 여성 손님</div>
-        <div className="bs">✨ 2가지 모두 받습니다 ✨</div>
+        <div className="bt">{pickAt(page, 2, HEAD)}</div>
+        <div className="bs">{pickAt(page, 3, SUB)}</div>
         <div className="bi">
           <span className="ic" aria-hidden="true">
             💵
           </span>
-          <span>① 차비 3만원 지급</span>
+          <span>{pickAt(page, 4, FARE)}</span>
         </div>
         <div className="bi">
           <span className="ic" aria-hidden="true">
             🍺
           </span>
-          <span>② 맥주 기본 서비스</span>
+          <span>{pickAt(page, 5, BEER)}</span>
         </div>
       </div>
     </section>

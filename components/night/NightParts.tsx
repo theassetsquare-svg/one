@@ -1,5 +1,6 @@
 import PageThumb from '../PageThumb';
 import { AD_KAKAO, NightVenue, VENUES, nightPath } from '@/lib/night';
+import { AD_NOTICE, CTA_LINES, INTRO_LINES, fillVary, pickBySlug } from '@/lib/vary';
 
 /** [14] AI 인용 블록. 두 번째 문장은 13개 페이지 전부 다릅니다. */
 export function AnswerBox({ venue }: { venue: NightVenue }) {
@@ -7,7 +8,7 @@ export function AnswerBox({ venue }: { venue: NightVenue }) {
     <>
       <div className="answer-box" id="nb-answer">
         <p>
-          <strong>{venue.nameA}</strong>은(는) {venue.region}에 있는 나이트클럽입니다. {venue.answerLine}.
+          {fillVary(pickBySlug(venue.slug, INTRO_LINES), { V: venue.nameA, R: venue.region })} {venue.answerLine}.
           {venue.ageFull ? ` 출입은 ${venue.ageFull}만 가능합니다.` : ''}
         </p>
       </div>
@@ -50,10 +51,8 @@ export function ClosingCta({ venue }: { venue: NightVenue }) {
   }
   return (
     <div className="nb-cta">
-      <p>{venue.nameA} 자리와 인원은 방문 전에 미리 맞춰 두는 편이 좋습니다.</p>
-      <p>
-        업소 광고·제휴 입점 문의는 카톡 <b className="nb-num">{AD_KAKAO}</b> 로 받습니다. 손님 예약 창구가 아닙니다.
-      </p>
+      <p>{fillVary(pickBySlug(venue.slug, CTA_LINES), { V: venue.nameA })}</p>
+      <p>{fillVary(pickBySlug(venue.slug, AD_NOTICE), { K: AD_KAKAO })}</p>
     </div>
   );
 }
@@ -61,8 +60,9 @@ export function ClosingCta({ venue }: { venue: NightVenue }) {
 /** 같은 /night/ 안에서만 링크합니다. 외부 아웃바운드 0개. */
 export function RelatedNights({ venue }: { venue: NightVenue }) {
   const picks = venue.related.map((s) => VENUES.find((v) => v.slug === s)).filter(Boolean) as NightVenue[];
+  /* ★ 다른 쪽으로 보내는 링크 묶음이라 nav 가 맞는 태그다 (2026-08-30) */
   return (
-    <aside aria-labelledby="nb-rel-h" className="related">
+    <nav aria-labelledby="nb-rel-h" className="related">
       <h2 id="nb-rel-h">함께 보면 좋은 나이트</h2>
       <div className="bento">
         {picks.map((p) => (
@@ -77,7 +77,7 @@ export function RelatedNights({ venue }: { venue: NightVenue }) {
         </a>
       </div>
       <p className="nb-next">{venue.nameA} 안내는 여기까지입니다. 남은 건 전화 한 통뿐입니다.</p>
-    </aside>
+    </nav>
   );
 }
 

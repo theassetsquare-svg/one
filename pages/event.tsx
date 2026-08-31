@@ -27,7 +27,7 @@ export default function Event() {
           {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
           <PageThumb src="/og/event.png" alt="대전원나이트 이벤트 — 차비 3만원 + 맥주 기본 서비스" />
 
-          <PolicyBanner />
+          <PolicyBanner page="event" />
           <section aria-labelledby="ev-h">
             <h2 id="ev-h">🎁 이벤트 상세</h2>
             <div className="bento">

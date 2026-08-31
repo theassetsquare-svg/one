@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { 슬래시정본 } from '../../lib/canonical';
 import { SITE } from '@/lib/pick';
 
 /**
@@ -26,7 +27,7 @@ export default function PickSEO({
   imageAlt: string;
   keywords: string[];
 }) {
-  const canonical = `${SITE}${path}`;
+  const canonical = `${SITE}${슬래시정본(path)}`;
   const img = `${SITE}${image}`;
 
   return (
