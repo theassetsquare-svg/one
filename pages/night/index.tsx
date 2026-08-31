@@ -61,7 +61,7 @@ export default function NightIndex() {
         />
         <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
         {/* ★ 2026-08-25 — 이 허브만 사이트 인증 태그가 빠져 있었다.
-            홈과 가게 페이지에는 다 들어 있는데 여기만 없어서, 전수 점검에서 유일하게 걸렸다.
+            홈과 가게 페이지에는 다 들어 있는데 여기만 없어서, 전수 점검에서 드물게 걸렸다.
             소유 확인 자체는 홈으로 되지만 사이트 안에서 규칙이 어긋나 있으면 안 된다. */}
         <meta name="google-site-verification" content="HJjm7MRxykCQ7d_9L7glaTeeaWrmJIzAKY0BcNcfm88" key="gsv" />
         <meta name="naver-site-verification" content="4c0c71d52261d939278fd1b9725cbd3ffc643045" key="nsv" />
@@ -189,71 +189,71 @@ export default function NightIndex() {
         <h2 style={{ fontSize: "1.05rem", margin: "0 0 14px" }}>나이트 전체 보기 (50곳)</h2>
         <h3 style={{ fontSize: ".95rem", margin: "16px 0 8px", opacity: .75 }}>서울</h3>
         <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(190px,1fr))", gap: "8px 16px", fontSize: ".92rem" }}>
-          <li><a href="/gangseo-hobak-night/">강서호박나이트</a></li>
-          <li><a href="/gildong-chance-night/">길동찬스나이트</a></li>
-          <li><a href="/nowon-hobak-night/">노원호박나이트</a></li>
-          <li><a href="/dapsimni-miracle-night/">답십리미라클나이트</a></li>
-          <li><a href="/doksan-gukbingwan-night/">독산동국빈관나이트</a></li>
+          <li><a href="/info/gangseo-hobak-night/">강서호박나이트</a></li>
+          <li><a href="/info/gildong-chance-night/">길동찬스나이트</a></li>
+          <li><a href="/info/nowon-hobak-night/">노원호박나이트</a></li>
+          <li><a href="/info/dapsimni-miracle-night/">답십리미라클나이트</a></li>
+          <li><a href="/info/doksan-gukbingwan-night/">독산동국빈관나이트</a></li>
           <li><a href="/info/sangbong-hangukgwan-night-1/">상봉동한국관나이트</a></li>
-          <li><a href="/sangbong-hangukgwan-night/">상봉동한국관나이트</a></li>
-          <li><a href="/seongnam-shampoo-night/">성남샴푸나이트</a></li>
+          <li><a href="/info/sangbong-hangukgwan-night/">상봉동한국관나이트</a></li>
+          <li><a href="/info/seongnam-shampoo-night/">성남샴푸나이트</a></li>
           <li><a href="/info/suyu-shampoo-night-1/">수유샴푸나이트</a></li>
-          <li><a href="/suyu-shampoo-night/">수유샴푸나이트</a></li>
+          <li><a href="/info/suyu-shampoo-night/">수유샴푸나이트</a></li>
           <li><a href="/info/sillim-grandprix-night-1/">신림그랑프리나이트</a></li>
-          <li><a href="/sillim-grandprix-night/">신림그랑프리나이트</a></li>
-          <li><a href="/yeongdeungpo-terminal-night/">영등포터미널나이트</a></li>
+          <li><a href="/info/sillim-grandprix-night/">신림그랑프리나이트</a></li>
+          <li><a href="/info/yeongdeungpo-terminal-night/">영등포터미널나이트</a></li>
           <li><a href="/info/cheongdam-night-1/">청담나이트</a></li>
-          <li><a href="/cheongdam-night/">청담나이트</a></li>
+          <li><a href="/info/cheongdam-night/">청담나이트</a></li>
         </ul>
         <h3 style={{ fontSize: ".95rem", margin: "16px 0 8px", opacity: .75 }}>경기·인천</h3>
         <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(190px,1fr))", gap: "8px 16px", fontSize: ".92rem" }}>
-          <li><a href="/guri-hobak-night/">구리호박나이트</a></li>
-          <li><a href="/bucheon-gorae-night/">부천고래나이트</a></li>
-          <li><a href="/suwon-korea-night/">수원코리아나이트</a></li>
+          <li><a href="/info/guri-hobak-night/">구리호박나이트</a></li>
+          <li><a href="/info/bucheon-gorae-night/">부천고래나이트</a></li>
+          <li><a href="/info/suwon-korea-night/">수원코리아나이트</a></li>
           <li><a href="/info/ansan-hit-night-1/">안산히트나이트</a></li>
-          <li><a href="/ansan-hit-night/">안산히트나이트</a></li>
-          <li><a href="/osan-hobak-night/">오산호박나이트</a></li>
-          <li><a href="/uijeongbu-baekakgwan-night/">의정부백악관나이트</a></li>
-          <li><a href="/uijeongbu-hangukgwan-night/">의정부한국관나이트</a></li>
-          <li><a href="/indeogwon-gukbingwan-night/">인덕원국빈관나이트</a></li>
-          <li><a href="/incheon-arabian-night/">인천아라비안나이트</a></li>
+          <li><a href="/info/ansan-hit-night/">안산히트나이트</a></li>
+          <li><a href="/info/osan-hobak-night/">오산호박나이트</a></li>
+          <li><a href="/info/uijeongbu-baekakgwan-night/">의정부백악관나이트</a></li>
+          <li><a href="/info/uijeongbu-hangukgwan-night/">의정부한국관나이트</a></li>
+          <li><a href="/info/indeogwon-gukbingwan-night/">인덕원국빈관나이트</a></li>
+          <li><a href="/info/incheon-arabian-night/">인천아라비안나이트</a></li>
           <li><a href="/info/ilsan-shampoo-night-1/">일산샴푸나이트</a></li>
-          <li><a href="/ilsan-shampoo-night/">일산샴푸나이트</a></li>
-          <li><a href="/pyeongtaek-hobak-night/">평택호박나이트</a></li>
+          <li><a href="/info/ilsan-shampoo-night/">일산샴푸나이트</a></li>
+          <li><a href="/info/pyeongtaek-hobak-night/">평택호박나이트</a></li>
         </ul>
         <h3 style={{ fontSize: ".95rem", margin: "16px 0 8px", opacity: .75 }}>충청</h3>
         <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(190px,1fr))", gap: "8px 16px", fontSize: ".92rem" }}>
           <li><a href="/info/daejeon-seven-night-1/">대전세븐나이트</a></li>
-          <li><a href="/daejeon-seven-night/">대전세븐나이트</a></li>
+          <li><a href="/info/daejeon-seven-night/">대전세븐나이트</a></li>
           <li><a href="/info/daejeon-one-night-1/">대전원나이트</a></li>
-          <li><a href="/daejeon-one-night/">대전원나이트</a></li>
-          <li><a href="/seosan-hobak-night/">서산호박나이트</a></li>
-          <li><a href="/cheonan-stardome-night/">천안스타돔나이트</a></li>
-          <li><a href="/cheonan-korea-night/">천안코리아나이트</a></li>
-          <li><a href="/cheongju-hobak-night/">청주호박나이트</a></li>
+          <li><a href="/info/daejeon-one-night/">대전원나이트</a></li>
+          <li><a href="/info/seosan-hobak-night/">서산호박나이트</a></li>
+          <li><a href="/info/cheonan-stardome-night/">천안스타돔나이트</a></li>
+          <li><a href="/info/cheonan-korea-night/">천안코리아나이트</a></li>
+          <li><a href="/info/cheongju-hobak-night/">청주호박나이트</a></li>
         </ul>
         <h3 style={{ fontSize: ".95rem", margin: "16px 0 8px", opacity: .75 }}>영남</h3>
         <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(190px,1fr))", gap: "8px 16px", fontSize: ".92rem" }}>
-          <li><a href="/gumi-hobak-night/">구미호박나이트</a></li>
-          <li><a href="/daegu-hobak-night/">대구호박나이트</a></li>
+          <li><a href="/info/gumi-hobak-night/">구미호박나이트</a></li>
+          <li><a href="/info/daegu-hobak-night/">대구호박나이트</a></li>
           <li><a href="/info/busan-asiad-night-1/">부산아시아드나이트</a></li>
-          <li><a href="/busan-asiad-night/">부산아시아드나이트</a></li>
-          <li><a href="/ulsan-newworld-night/">울산뉴월드나이트</a></li>
+          <li><a href="/info/busan-asiad-night/">부산아시아드나이트</a></li>
+          <li><a href="/info/ulsan-newworld-night/">울산뉴월드나이트</a></li>
           <li><a href="/info/ulsan-champion-night/">울산챔피언나이트</a></li>
-          <li><a href="/ulsan-champion-night-guide/">울산챔피언나이트</a></li>
+          <li><a href="/info/ulsan-champion-night-guide/">울산챔피언나이트</a></li>
           <li><a href="/info/changwon-lululala-night/">창원룰루랄라나이트</a></li>
-          <li><a href="/changwon-lululala-night-guide/">창원룰루랄라나이트</a></li>
+          <li><a href="/info/changwon-lululala-night-guide/">창원룰루랄라나이트</a></li>
         </ul>
         <h3 style={{ fontSize: ".95rem", margin: "16px 0 8px", opacity: .75 }}>호남·제주</h3>
         <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(190px,1fr))", gap: "8px 16px", fontSize: ".92rem" }}>
-          <li><a href="/gwangju-sangmu-night/">광주상무나이트</a></li>
-          <li><a href="/gwangju-cheomdan-night/">광주첨단나이트</a></li>
-          <li><a href="/jeju-do-night/">제주도나이트</a></li>
+          <li><a href="/info/gwangju-sangmu-night/">광주상무나이트</a></li>
+          <li><a href="/info/gwangju-cheomdan-night/">광주첨단나이트</a></li>
+          <li><a href="/info/jeju-do-night/">제주도나이트</a></li>
         </ul>
         <h3 style={{ fontSize: ".95rem", margin: "16px 0 8px", opacity: .75 }}>그 밖의 지역</h3>
         <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(190px,1fr))", gap: "8px 16px", fontSize: ".92rem" }}>
           <li><a href="/info/bulgwang-hobak-night/">불광동호박나이트</a></li>
-          <li><a href="/bulgwang-hobak-night-guide/">불광동호박나이트</a></li>
+          <li><a href="/info/bulgwang-hobak-night-guide/">불광동호박나이트</a></li>
         </ul>
       </nav>
     </>
