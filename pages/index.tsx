@@ -7,7 +7,7 @@ import { SITE } from '@/lib/pick';
  * ⚠️ 규칙(사용자 지시):
  *   1. 이 페이지에는 다른 페이지로 나가는 본문 링크를 넣지 않습니다.
  *   2. 헤더·푸터·고정 통화바를 렌더하지 않습니다. 글만 보입니다.
- *   3. 업소·업종 관련 단어를 한 글자도 쓰지 않습니다. (제목·메타·본문 전부)
+ *   3. 업소·업종 관련 단어를 한 글자도 쓰지 않습니다. (제목·메타·본문 100%)
  *   4. 본문은 2,000자 이상 단독 성공스토리입니다.
  *
  * 그래서 PickLayout / PickSEO 를 쓰지 않고 Head + 자체 스타일만 씁니다.
@@ -16,7 +16,6 @@ const TITLE = '바닥에서 다시 올라온 1,247일 — 어느 재기의 기�
 const DESC =
   '통장에 43,000원이 남아 있던 겨울부터 다시 자기 이름으로 일하게 되기까지, 한 사람이 1,247일 동안 지킨 규칙과 무너지지 않는 법에 대한 기록입니다.';
 /** 검색 썸네일 — 본문에는 이미지를 넣지 않는 페이지라 og/thumbnail 로만 노출합니다. */
-const OG_IMAGE = `${SITE}/og/home.png`;
 const OG_ALT = '바닥에서 다시 올라온 1,247일 — 어느 재기의 기록 표지';
 
 const CSS = `
@@ -52,7 +51,6 @@ export default function Home() {
     datePublished: '2026-08-19',
     dateModified: '2026-08-19',
     mainEntityOfPage: `${SITE}/`,
-    image: OG_IMAGE,
   };
 
   return (
@@ -84,12 +82,10 @@ export default function Home() {
         <meta property="og:title" content={TITLE} key="og:title" />
         <meta property="og:description" content={DESC} key="og:desc" />
         <meta property="og:url" content={`${SITE}/`} key="og:url" />
-        <meta name="thumbnail" content={OG_IMAGE} key="thumb" />
         {/* 1:1 정사각 이미지이므로 summary */}
         <meta name="twitter:card" content="summary" key="tw:card" />
         <meta name="twitter:title" content={TITLE} key="tw:title" />
         <meta name="twitter:description" content={DESC} key="tw:desc" />
-        <meta name="twitter:image:alt" content={OG_ALT} key="tw:alt" />
       </Head>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(article) }} />
       <style dangerouslySetInnerHTML={{ __html: CSS }} />

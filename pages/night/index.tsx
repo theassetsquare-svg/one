@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import PageThumb from '@/components/PageThumb';
 import AdContact from '@/components/AdContact';
 import { AD_KAKAO, SITE, VENUES, nightPath } from '@/lib/night';
 import { AREAS, areaPath } from '@/lib/area';
@@ -34,7 +33,6 @@ div.callbar b{color:#FFD700}
 
 /* ★ 2026-08-31 — trailingSlash: true 로 바뀌어 /night/ 가 200 이다. */
 const canonical = `${SITE}/night/`;
-const OG_IMAGE = `${SITE}/og/night-hub-og.png`;
 const OG_ALT = '나이트 안내 13곳 목록 — 지역별 위치·시간·자리 정리';
 
 export default function NightIndex() {
@@ -74,13 +72,6 @@ export default function NightIndex() {
         />
         <meta property="og:url" content={canonical} />
         <meta property="og:locale" content="ko_KR" />
-        <meta property="og:image" content={OG_IMAGE} />
-        <meta property="og:image:secure_url" content={OG_IMAGE} />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="1200" />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:alt" content={OG_ALT} />
-        <meta name="thumbnail" content={OG_IMAGE} />
         {/* 1:1 정사각 이미지이므로 summary */}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="나이트 안내 13곳 목록" />
@@ -88,8 +79,6 @@ export default function NightIndex() {
           name="twitter:description"
           content="서울·경기·대전·부산·울산·창원 나이트 13곳의 위치와 영업시간, 좌석 구성을 업소별로 정리한 목록입니다."
         />
-        <meta name="twitter:image" content={OG_IMAGE} />
-        <meta name="twitter:image:alt" content={OG_ALT} />
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
@@ -135,8 +124,6 @@ export default function NightIndex() {
             <p>지역별로 위치와 시간, 자리 구성을 업소마다 따로 정리했습니다.</p>
           </header>
           <div className="container">
-            {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
-            <PageThumb src="/og/night-hub-og.png" alt={OG_ALT} />
 
             <section aria-labelledby="list-h">
               <h2 id="list-h">업소별 안내 페이지</h2>

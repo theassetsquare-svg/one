@@ -1,4 +1,3 @@
-import PageThumb from '@/components/PageThumb';
 import PickSEO from '@/components/pick/PickSEO';
 import PickLayout from '@/components/pick/PickLayout';
 import { Checklist } from '@/components/pick/PickParts';
@@ -38,6 +37,7 @@ export default function PickHub() {
         title={TITLE}
         description={DESC}
         path="/pick"
+        그림없음
         image="/og/pick-hub.png"
         imageAlt="전국 나이트 고르기 40 — 지역별 선택 기준 목록 카드"
         keywords={['전국 나이트', '나이트 고르는 기준', '지역별 나이트', '나이트클럽 목록', '나이트 선택 가이드']}
@@ -57,8 +57,6 @@ export default function PickHub() {
           </header>
 
           <div className="pk-wrap">
-            {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
-            <PageThumb src="/og/pick-hub.png" alt="전국 나이트 고르기 40 — 지역별 선택 기준 목록 카드" />
 
             <p className="pk-lead">
               같은 값을 내도 어디에 앉느냐에 따라 밤이 완전히 달라집니다. 그래서 이 목록은 순위를 매기지 않습니다.

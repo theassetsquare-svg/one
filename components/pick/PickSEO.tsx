@@ -17,6 +17,7 @@ export default function PickSEO({
   image,
   imageAlt,
   keywords,
+  그림없음 = false,
 }: {
   title: string;
   description: string;
@@ -26,6 +27,8 @@ export default function PickSEO({
   image: string;
   imageAlt: string;
   keywords: string[];
+  /** ★ 2026-09-01 — 썸네일은 나이트(가게) 쪽에만. 허브·홈은 true 로 넘겨 그림 표를 뺀다. */
+  그림없음?: boolean;
 }) {
   const canonical = `${SITE}${슬래시정본(path)}`;
   const img = `${SITE}${image}`;
@@ -73,22 +76,29 @@ export default function PickSEO({
       <meta property="og:title" content={title} key="og:title" />
       <meta property="og:description" content={description} key="og:desc" />
       <meta property="og:url" content={canonical} key="og:url" />
-      <meta property="og:image" content={img} key="og:img" />
-      <meta property="og:image:secure_url" content={img} key="og:imgs" />
-      <meta property="og:image:width" content="1200" key="og:w" />
-      <meta property="og:image:height" content="1200" key="og:h" />
-      <meta property="og:image:type" content="image/png" key="og:t" />
-      <meta property="og:image:alt" content={imageAlt} key="og:alt" />
-
-      {/* 네이버 썸네일 후보 — og:image 와 같은 파일 */}
-      <meta name="thumbnail" content={img} key="thumb" />
+      {그림없음 ? null : (
+        <>
+          <meta property="og:image" content={img} key="og:img" />
+          <meta property="og:image:secure_url" content={img} key="og:imgs" />
+          <meta property="og:image:width" content="1200" key="og:w" />
+          <meta property="og:image:height" content="1200" key="og:h" />
+          <meta property="og:image:type" content="image/png" key="og:t" />
+          <meta property="og:image:alt" content={imageAlt} key="og:alt" />
+          {/* 네이버 썸네일 후보 — og:image 와 같은 파일 */}
+          <meta name="thumbnail" content={img} key="thumb" />
+        </>
+      )}
 
       {/* 1:1 정사각 이미지이므로 summary */}
       <meta name="twitter:card" content="summary" key="tw:card" />
       <meta name="twitter:title" content={title} key="tw:title" />
       <meta name="twitter:description" content={description} key="tw:desc" />
-      <meta name="twitter:image" content={img} key="tw:img" />
-      <meta name="twitter:image:alt" content={imageAlt} key="tw:alt" />
+      {그림없음 ? null : (
+        <>
+          <meta name="twitter:image" content={img} key="tw:img" />
+          <meta name="twitter:image:alt" content={imageAlt} key="tw:alt" />
+        </>
+      )}
     </Head>
   );
 }

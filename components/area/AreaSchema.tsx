@@ -12,7 +12,6 @@ const PUBLISHED = '2026-08-15';
 
 export default function AreaSchema({ area }: { area: Area }) {
   const url = `${SITE}${areaPath(area.slug)}`;
-  const image = `${SITE}/og/${area.slug}-og.png`;
   const venue = bySlug(area.venueSlug);
 
   const article: Record<string, unknown> = {
@@ -26,7 +25,6 @@ export default function AreaSchema({ area }: { area: Area }) {
     dateModified: PUBLISHED,
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     url,
-    image,
     about: { '@type': 'Place', name: area.region },
     keywords: [area.kwA, area.kwB, area.kwC].join(', '),
     mentions: [
