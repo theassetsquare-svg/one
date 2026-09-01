@@ -9,7 +9,8 @@
     "start": "next start",
     "generate-images": "node scripts/generate-images.js",
     "thumbs": "node scripts/thumb-render.js",
-    "gates": "node scripts/thumb-gates.js"
+    "gates": "node scripts/thumb-gates.js",
+    "postbuild": "node scripts/thin-names.js"
   },
   "dependencies": {
     "next": "16.2.4",

@@ -174,7 +174,7 @@ function venueCard(file, url, name, slug, bg) {
   };
 }
 
-/** 규칙 D — 지역 페이지. 가게이름을 절대 넣지 않습니다. */
+/** 규칙 D — 지역 페이지. 가게이름을 결코 넣지 않습니다. */
 function areaCard(file, url, region, slug, bg) {
   const ad = byAreaSlug(slug);
   if (ad) {

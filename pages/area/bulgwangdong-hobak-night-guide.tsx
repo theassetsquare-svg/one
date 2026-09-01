@@ -32,7 +32,7 @@ export default function BulgwangdongHobakNight() {
     <>
       <SEO
         title="불광동호박나이트 — 은평구 통일로 730 지하 1층, 저녁 7시~새벽 5시"
-        description="불광동호박나이트 공식 안내. 서울 은평구 통일로 730 지하 1층, 지하철 3호선·6호선 불광역 인근. 영업시간 저녁 7시부터 새벽 5시까지. 예약·룸·단체 모임·길안내 문의는 손흥민 010-2221-1937."
+        description="불광동호박나이트 공식 안내. 서울 은평구 통일로 730 지하 1층, 지하철 3호선·6호선 불광역 인근. 영업시간 저녁 7시부터 새벽 010-2221-1937."
         path="/area/bulgwangdong-hobak-night-guide/"
         ogImage="https://c.nolcool.com/og/bulgwangdong-hobak-night.png"
         ogTitle="불광동호박나이트 — 통일로 730 지하 1층, 예약 010-2221-1937"
@@ -46,7 +46,7 @@ export default function BulgwangdongHobakNight() {
         icbm="37.6106, 126.9296"
       />
       <HobakSchema />
-      <HobakLayout>
+      <HobakLayout 광고쪽>
         <div className="hero">
           <h1>불광동호박나이트</h1>
           <p>서울 은평구 통일로 730 지하 1층 · 저녁 7시 ~ 새벽 5시</p>

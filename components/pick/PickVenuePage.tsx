@@ -12,6 +12,7 @@ import {
   Verdict,
 } from '@/components/pick/PickParts';
 import { VENUES, bySlug, pickPath } from '@/lib/pick';
+import GuideExtra from '@/components/GuideExtra';
 
 /**
  * 40개 업소 "고르는 기준" 페이지.
@@ -65,6 +66,8 @@ export default function PickVenuePage({ slug }: { slug: string }) {
             {venue.sections.map((s) => (
               <Section key={s.id} sec={s} />
             ))}
+
+            <GuideExtra pathname={pickPath(venue.slug)} />
 
             <Verdict venue={venue} />
             <Faq venue={venue} />

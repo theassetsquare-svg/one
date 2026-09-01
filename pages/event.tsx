@@ -10,7 +10,7 @@ export default function Event() {
     <>
       <SEO
         title="대전원나이트 이벤트 — 10시 이전 여성 손님 차비 3만원 + 맥주"
-        description="22시 전에 입장하는 여성 손님께 차비 3만원과 기본 맥주 두 가지를 함께 드리는 가게 이벤트. 한 가지가 아니라 둘 다. 38세 이상 신분증 필수. 카톡 besta12 예약 환영."
+        description="22시 전에 입장하는 여성 손님께 차비 3만원과 기본 맥주 두 가지를 함께 드리는 가게 이벤트. 한 가지가 아니라 둘 다. 38세 이상 신분증 필수. 카톡 환영."
         path="/event"
         ogImage="https://c.nolcool.com/og/event.png"
         ogImageAlt="대전원나이트 이벤트 — 차비 3만원 + 맥주 기본 서비스"

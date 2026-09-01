@@ -3,6 +3,7 @@ import NightSchema from '@/components/night/NightSchema';
 import NightLayout from '@/components/night/NightLayout';
 import { AnswerBox, ClosingCta, Crumb, FactTable, RelatedNights } from '@/components/night/NightParts';
 import { bySlug } from '@/lib/night';
+import GuideExtra from '@/components/GuideExtra';
 
 // 각도6 · 오해 깨기형 — 중점 소재: 옷차림·준비물 오해
 const venue = bySlug('ulsan-champion-night');
@@ -108,6 +109,13 @@ export default function Page() {
               ))}
               <p className="nb-next">목록에 없는 내용은 전화로 확인하는 편이 정확합니다.</p>
             </section>
+
+            <GuideExtra pathname="/info/ulsan-champion-night/" />
+
+            {/* ★ 2026-09-01 — 확인일·변동 고지 (신고 방어 C7-03) */}
+            <p className="nb-checked">공개된 자료를 기준으로 정리했습니다.
+              확인일 <time dateTime="2026-09-01">2026년 9월 1일</time>.
+              운영 사정에 따라 내용은 바뀔 수 있습니다.</p>
 
             <RelatedNights venue={venue} />
           </div>

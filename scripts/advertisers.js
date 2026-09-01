@@ -5,7 +5,7 @@
  * 각 번호는 "자기 가게 페이지" + "자기 지역 페이지" 에서만 허용됩니다.
  * 그 외 전 페이지 = 광고문의 카카오톡 besta12 (전화번호 0).
  *
- * ⚠️ 한 페이지에 2명 이상 나열 절대 금지.
+ * ⚠️ 한 페이지에 2명 이상 나열 결코 금지.
  */
 const ADVERTISERS = [
   { venue: '울산챔피언나이트', venueSlugs: ['ulsan-champion-night'], areaSlugs: ['ulsan-night'], areaName: '울산나이트', nick: '춘자', tel: '010-5653-0069' },

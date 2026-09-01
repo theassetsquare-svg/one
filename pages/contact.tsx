@@ -10,7 +10,7 @@ export default function Contact() {
     <>
       <SEO
         title="대전원나이트 예약·문의 — 광고문의 카톡 아이디 besta12"
-        description="카톡 besta12 한 번이면 예약·VIP룸·5인 이상 단체 모임·길안내·이벤트 문의까지 한 번에. 가게 사정을 가장 잘 아는 직원이 직접 받습니다. 광고문의 카카오톡 아이디: besta12."
+        description="카톡 besta12 한 번이면 예약·VIP룸·5인 이상 단체 모임·길안내·이벤트 문의까지 한 번에. 가게 사정을 가장 잘 아는 직원이 직접 besta12."
         path="/contact"
         ogImage="https://c.nolcool.com/og/contact.png"
         ogImageAlt="대전원나이트 예약·광고문의 안내"

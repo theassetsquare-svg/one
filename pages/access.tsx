@@ -10,7 +10,7 @@ export default function Access() {
     <>
       <SEO
         title="대전원나이트 오시는 길 — 대전 시내·청주·세종 30분, 주차 안내"
-        description="가게는 시내에 있으며 청주·세종에서 자차로 약 30분 거리. 주차장·택시·교통편을 한 번에 정리했습니다. 도착 전 카톡 besta12로 문의하시면 자세히 안내해 드립니다."
+        description="가게는 시내에 있으며 청주·세종에서 자차로 약 30분 거리. 주차장·택시·교통편을 한 번에 정리했습니다. 도착 전 카톡 besta12로 문의하시면 드립니다."
         path="/access"
         ogImage="https://c.nolcool.com/og/access.png"
         ogImageAlt="대전원나이트 오시는 길 — 대전 시내·청주·세종 30분 거리 안내"

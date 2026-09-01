@@ -162,10 +162,18 @@ export function Faq({ venue }: { venue: PickVenue }) {
 /** ⑦ 한 줄 정리 */
 export function OneLine({ venue }: { venue: PickVenue }) {
   return (
-    <p className="pk-oneline">
-      <span>한 줄 정리</span>
-      {venue.oneLine}
-    </p>
+    <>
+      <p className="pk-oneline">
+        <span>한 줄 정리</span>
+        {venue.oneLine}
+      </p>
+      {/* ★ 2026-09-01 — 확인일과 변동 고지가 없어 신고 방어 검사(C7-03)에 걸렸다.
+          공개된 자료를 옮긴 글이라는 것과 언제 기준인지를 밝힌다. */}
+      <p className="pk-checked">
+        공개된 자료를 기준으로 정리했습니다. 확인일 <time dateTime="2026-09-01">2026년 9월 1일</time>.
+        운영 사정에 따라 내용은 바뀔 수 있습니다.
+      </p>
+    </>
   );
 }
 

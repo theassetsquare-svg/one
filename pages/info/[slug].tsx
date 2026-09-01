@@ -4,7 +4,7 @@ import { VENUES } from '@/lib/pick';
 
 /**
  * ★★ 2026-08-29 — 가게 페이지를 /info/ 폴더 안으로 옮겼다.
- *   평면 주소는 색인 0.2%, 폴더 주소는 100% [[index-cause-flat-url-2026-08-28]]
+ *   평면 주소는 색인 0.2%, 폴더 주소는 전부 [[index-cause-flat-url-2026-08-28]]
  */
 export default function VenuePage({ slug }: { slug: string }) {
   return <PickVenuePage slug={slug} />;

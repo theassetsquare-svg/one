@@ -6,7 +6,7 @@ import { REGION_GROUPS, SITE, VENUES, bySlug, pickPath } from '@/lib/pick';
 /** 허브 — 전국 나이트 고르기 40 */
 const TITLE = '전국 나이트 고르기 40 — 지역별 선택 기준 한자리에';
 const DESC =
-  '전국 나이트 40곳을 선택 축으로 정리한 목록입니다. 어떤 사람에게 맞는 홀인지, 가기 전 무엇을 확인해야 하는지 기준으로 나눴습니다. 확인되지 않은 정보는 확인 불가로 남깁니다.';
+  '전국 나이트 40곳을 선택 축으로 정리한 목록입니다. 어떤 사람에게 맞는 홀인지, 가기 전 무엇을 확인해야 하는지 기준으로 나눴습니다. 확인되지 않은 남깁니다.';
 
 export default function PickHub() {
   const itemList = {

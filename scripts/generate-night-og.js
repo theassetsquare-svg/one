@@ -141,7 +141,7 @@ function buildSvg(v) {
   let bandContrast = null;
 
   if (v.group === 'A') {
-    // 하단 60~100% 검은 띠 + 흰 글씨 2줄
+    // 하단 60~전부 검은 띠 + 흰 글씨 2줄
     bandContrast = contrast('#FFFFFF', '#000000');
     const nickFont = 100;
     telFont = fitFont(v.tel, SIZE - 120, 152);

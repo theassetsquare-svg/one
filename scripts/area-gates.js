@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 /**
- * 2차 지역 페이지 게이트 검사기 (정적 산출물 out/ 기준).
+ * 다음 자리 지역 페이지 게이트 검사기 (정적 산출물 out/ 기준).
  * 실행: node scripts/area-gates.js
  */
 const fs = require('fs');

@@ -11,7 +11,7 @@ process.exit(1);
 
 /* eslint-disable @typescript-eslint/no-var-requires */
 /**
- * /night/{지역}-night 13개 2차 페이지 OG 이미지 생성기 — 1200x1200 정사각 PNG.
+ * /night/{지역}-night 13개 다음 자리 페이지 OG 이미지 생성기 — 1200x1200 정사각 PNG.
  *
  * 기존 scripts/generate-images.js 는 손대지 않습니다 (대전원나이트/불광동 전용).
  * 실행: node scripts/generate-area-og.js
@@ -139,7 +139,7 @@ function buildSvg(v) {
   let bandContrast = null;
 
   if (v.group === 'A') {
-    // 하단 60~100% 검은 띠 + 흰 글씨 2줄
+    // 하단 60~전부 검은 띠 + 흰 글씨 2줄
     bandContrast = contrast('#FFFFFF', '#000000');
     const nickFont = 100;
     telFont = fitFont(v.tel, SIZE - 120, 152);
