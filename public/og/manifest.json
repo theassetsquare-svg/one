@@ -2830,13 +2830,17 @@
   "file": "pick-paju-yadang-skydome-night.png",
   "pageUrl": "https://c.nolcool.com/pick/paju-yadang-skydome-night",
   "pageType": "가게",
-  "rule": "B",
+  "rule": "A",
   "subject": "파주야당스카이돔나이트",
-  "advertiser": null,
+  "advertiser": {
+   "nick": "딸기",
+   "tel": "010-3447-0963"
+  },
   "texts": [
    "파주야당스카이돔나이트",
-   "광고문의",
-   "카카오톡 besta12"
+   "딸기",
+   "010-3447-0963",
+   "광고문의 카톡 besta12"
   ],
   "metrics": [
    {
@@ -2849,26 +2853,35 @@
     "hero": false
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 250,
-    "widthPct": 80,
-    "fontSizePx": 255.7,
-    "yScale": 1.079,
+    "text": "딸기",
+    "widthPx": 486,
+    "heightPx": 271.5,
+    "widthPct": 45,
+    "fontSizePx": 300.5,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-3447-0963",
+    "widthPx": 1004.4,
+    "heightPx": 316,
+    "widthPct": 93,
+    "fontSizePx": 125.3,
+    "yScale": 3.472,
     "hero": true
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 130,
-    "widthPct": 75,
-    "fontSizePx": 108.2,
-    "yScale": 1.33,
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
     "hero": false
    }
   ],
-  "hero": "광고문의",
-  "bytes": 10701,
+  "hero": "010-3447-0963",
+  "bytes": 20128,
   "width": 1200,
   "height": 1200
  },

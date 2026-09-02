@@ -18,6 +18,8 @@ const ADVERTISERS = [
   { venue: '부산아시아드나이트', venueSlugs: ['busan-asiad-night'], areaSlugs: [], areaName: null, nick: '새우깡', tel: '010-3614-1056' },
   // ★ lib/pick.ts 에는 contact 로 들어가 있었는데 "유일 기준"인 이 표에만 빠져 있었다(2026-08-24 확인)
   { venue: '대전세븐나이트', venueSlugs: ['daejeon-seven-night'], areaSlugs: [], areaName: null, nick: '영탁', tel: '010-7770-0869' },
+  // 2026-09-02 신규 광고주
+  { venue: '파주야당스카이돔나이트', venueSlugs: ['paju-yadang-skydome-night'], areaSlugs: [], areaName: null, nick: '딸기', tel: '010-3447-0963' },
 ];
 
 const AD_KAKAO = 'besta12';

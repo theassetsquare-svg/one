@@ -1971,6 +1971,7 @@ export const VENUES: PickVenue[] = [
     nameA: '파주야당스카이돔나이트',
     nameB: '파주 야당 스카이돔나이트',
     nameC: '파주 나이트클럽',
+    contact: { nick: '딸기', display: '010-3447-0963', href: 'tel:01034470963', e164: '+82-10-3447-0963' },
     region: '경기 파주시 야당동',
     addressLocality: '파주시',
     addressRegion: '경기도',
