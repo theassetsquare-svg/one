@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="ko-KR">
       <Head>
         <meta charSet="utf-8" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="https://c.nolcool.com/favicon.ico" sizes="any" />
       </Head>
       <body>
         <Main />

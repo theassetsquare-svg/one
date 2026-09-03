@@ -44,9 +44,9 @@ export default function NightSEO({ venue, canonicalPath }: { venue: NightVenue; 
       <link rel="canonical" href={canonical} key="canonical" />
       <link rel="alternate" hrefLang="ko-KR" href={canonical} key="hl:ko" />
       <link rel="alternate" hrefLang="x-default" href={canonical} key="hl:xd" />
-      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" key="fav32" />
-      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" key="fav16" />
-      <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" key="apple" />
+      <link rel="icon" type="image/png" sizes="32x32" href="https://c.nolcool.com/favicon-32x32.png" key="fav32" />
+      <link rel="icon" type="image/png" sizes="16x16" href="https://c.nolcool.com/favicon-16x16.png" key="fav16" />
+      <link rel="apple-touch-icon" href="https://c.nolcool.com/icons/apple-touch-icon.png" key="apple" />
       <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" key="pre1" />
       {/*
         Pretendard 는 렌더 차단 자원입니다. 그대로 두면 폰트가 도착할 때까지 본문 글자가
