@@ -16,6 +16,7 @@ const ADVERTISERS = [
   // 지역 페이지(부산나이트)는 이 가게 페이지가 아니므로 넣지 않는다 — 대표님 지시
   //   "그 페이지 가게이름 페이지에 맞게 광고주 번호를 넣으라"(2026-08-24)
   { venue: '부산아시아드나이트', venueSlugs: ['busan-asiad-night'], areaSlugs: [], areaName: null, nick: '새우깡', tel: '010-3614-1056' },
+  { venue: '성남샴푸나이트', venueSlugs: ['seongnam-shampoo-night'], areaSlugs: [], areaName: null, nick: '이쁜이', tel: '010-3432-4758' },   // 2026-09-04 광고주 등록
   // ★ lib/pick.ts 에는 contact 로 들어가 있었는데 "유일 기준"인 이 표에만 빠져 있었다(2026-08-24 확인)
   { venue: '대전세븐나이트', venueSlugs: ['daejeon-seven-night'], areaSlugs: [], areaName: null, nick: '영탁', tel: '010-7770-0869' },
   // 2026-09-02 신규 광고주

@@ -2662,6 +2662,7 @@ export const VENUES: PickVenue[] = [
   {
     no: 27,
     slug: 'seongnam-shampoo-night',
+    contact: { nick: '이쁜이', display: '010-3432-4758', href: 'tel:01034324758', e164: '+82-10-3432-4758' },
     nameA: '성남샴푸나이트',
     nameB: '성남 샴푸나이트',
     nameC: '중원구 나이트클럽',

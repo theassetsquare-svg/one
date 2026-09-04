@@ -3165,13 +3165,17 @@
   "file": "pick-seongnam-shampoo-night.png",
   "pageUrl": "https://c.nolcool.com/pick/seongnam-shampoo-night",
   "pageType": "가게",
-  "rule": "B",
+  "rule": "A",
   "subject": "성남샴푸나이트",
-  "advertiser": null,
+  "advertiser": {
+   "nick": "이쁜이",
+   "tel": "010-3432-4758"
+  },
   "texts": [
    "성남샴푸나이트",
-   "광고문의",
-   "카카오톡 besta12"
+   "이쁜이",
+   "010-3432-4758",
+   "광고문의 카톡 besta12"
   ],
   "metrics": [
    {
@@ -3184,26 +3188,35 @@
     "hero": false
    },
    {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 250,
-    "widthPct": 80,
-    "fontSizePx": 255.7,
-    "yScale": 1.079,
+    "text": "이쁜이",
+    "widthPx": 486,
+    "heightPx": 178.3,
+    "widthPct": 45,
+    "fontSizePx": 196.8,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-3432-4758",
+    "widthPx": 1004.4,
+    "heightPx": 211.7,
+    "widthPct": 93,
+    "fontSizePx": 126.8,
+    "yScale": 2.298,
     "hero": true
    },
    {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 130,
-    "widthPct": 75,
-    "fontSizePx": 108.2,
-    "yScale": 1.33,
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
     "hero": false
    }
   ],
-  "hero": "광고문의",
-  "bytes": 10515,
+  "hero": "010-3432-4758",
+  "bytes": 17654,
   "width": 1200,
   "height": 1200
  },
