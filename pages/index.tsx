@@ -85,6 +85,8 @@ export default function Home() {
         <meta name="twitter:card" content="summary" key="tw:card" />
         <meta name="twitter:title" content={TITLE} key="tw:title" />
         <meta name="twitter:description" content={DESC} key="tw:desc" />
+        {/* 2026-09-05 AI-100·AI-101 — 홈 head 에만 WebSite·Organization (홈 본문 불변) */}
+        <script type="application/ld+json" key="ld:site" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@graph': [{ '@type': 'WebSite', '@id': `${SITE}/#website`, name: '바닥에서 다시 올라온 1,247일', url: `${SITE}/`, inLanguage: 'ko-KR', publisher: { '@id': `${SITE}/#org` } }, { '@type': 'Organization', '@id': `${SITE}/#org`, name: '놀쿨', url: `${SITE}/` }] }) }} />
       </Head>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(article) }} />
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
