@@ -48,7 +48,6 @@ export default function PickSEO({
       <link rel="alternate" hrefLang="ko-KR" href={canonical} key="hl:ko" />
       <link rel="alternate" hrefLang="x-default" href={canonical} key="hl:xd" />
       <link rel="icon" type="image/png" sizes="32x32" href="https://c.nolcool.com/favicon-32x32.png" key="fav32" />
-      <link rel="icon" type="image/png" sizes="16x16" href="https://c.nolcool.com/favicon-16x16.png" key="fav16" />
       <link rel="apple-touch-icon" href="https://c.nolcool.com/icons/apple-touch-icon.png" key="apple" />
       {/*
         Pretendard 는 렌더 차단 자원입니다. media="print" 로 받아 두고 로드 완료 후 적용합니다.

@@ -74,7 +74,6 @@ export default function SEO({
       <meta name="publisher" content={siteName} key="pub" />
       <link rel="manifest" href="/site.webmanifest" key="manifest" />
       <link rel="icon" type="image/png" sizes="32x32" href="https://c.nolcool.com/favicon-32x32.png" key="fav32" />
-      <link rel="icon" type="image/png" sizes="16x16" href="https://c.nolcool.com/favicon-16x16.png" key="fav16" />
       <link rel="apple-touch-icon" href="https://c.nolcool.com/icons/apple-touch-icon.png" key="apple" />
       <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" key="dns1" />
       <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" key="pre1" />

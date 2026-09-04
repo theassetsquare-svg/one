@@ -118,9 +118,12 @@ export default function Schema({
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          // 홈 항목 제거(H3/G16) — 자기 페이지 1개만 남깁니다.
+          // 2026-09-05 S3 — 네이버 「사이트 이동 경로」 가이드: 넓은 범위 → 구체, 「홈」 같은 일반어 금지 → [사이트 이름 › 이 쪽]
           ...(path !== '/'
-            ? [{ '@type': 'ListItem', position: 1, name: crumb, item: `${SITE}${path}` }]
+            ? [
+                { '@type': 'ListItem', position: 1, name: '바닥에서 다시 올라온 1,247일', item: `${SITE}/` },
+                { '@type': 'ListItem', position: 2, name: crumb, item: `${SITE}${path}` },
+              ]
             : []),
         ],
       },

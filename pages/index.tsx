@@ -76,7 +76,6 @@ export default function Home() {
         <link rel="alternate" hrefLang="ko-KR" href={`${SITE}/`} key="hl:ko" />
         <link rel="alternate" hrefLang="x-default" href={`${SITE}/`} key="hl:xd" />
         <link rel="icon" type="image/png" sizes="32x32" href="https://c.nolcool.com/favicon-32x32.png" key="fav32" />
-        <link rel="icon" type="image/png" sizes="16x16" href="https://c.nolcool.com/favicon-16x16.png" key="fav16" />
         <meta property="og:type" content="article" key="og:type" />
         <meta property="og:locale" content="ko_KR" key="og:locale" />
         <meta property="og:title" content={TITLE} key="og:title" />

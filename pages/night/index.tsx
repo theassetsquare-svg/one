@@ -100,7 +100,7 @@ export default function NightIndex() {
               "@context": "https://schema.org",
               "@type": "BreadcrumbList",
               itemListElement: [
-                { "@type": "ListItem", position: 1, name: "홈", item: SITE + "/" },
+                { "@type": "ListItem", position: 1, name: "바닥에서 다시 올라온 1,247일", item: SITE + "/" },
                 { "@type": "ListItem", position: 2, name: "나이트 안내", item: SITE + "/night/" },
               ],
             }),
@@ -111,7 +111,7 @@ export default function NightIndex() {
 
       <nav aria-label="주요 메뉴">
         <div className="ni">
-          <a href="/night" className="logo">
+          <a href="/night/" className="logo">
             나이트 안내
           </a>
         </div>

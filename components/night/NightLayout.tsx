@@ -160,14 +160,14 @@ export default function NightLayout({ venue, children }: { venue: NightVenue; ch
 
       <nav aria-label="주요 메뉴">
         <div className="ni">
-          <a href="/night" className="logo">
+          <a href="/night/" className="logo">
             나이트 안내
           </a>
           <div className="nl">
             <a href={`${nightPath(venue.slug)}#nb-answer`}>업소 소개</a>
             <a href={`${nightPath(venue.slug)}#nb-access`}>위치</a>
             <a href={`${nightPath(venue.slug)}#nb-contact`}>문의</a>
-            <a href="/night">전체 목록</a>
+            <a href="/night/">전체 목록</a>
           </div>
         </div>
       </nav>
