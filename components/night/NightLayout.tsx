@@ -189,6 +189,7 @@ export default function NightLayout({ venue, children }: { venue: NightVenue; ch
         <AdContact />
         <p className="legal-note">© 2026 {venue.nameA} 안내 페이지</p>
               <p style={{ margin: "8px 0 0", fontSize: 13, lineHeight: 1.7, color: "#9aa0a6" }}>{고지고르기(venue.slug, !!venue.contact)}</p>
+        <p className="cafe-link" style={{ margin: "14px 0 0", fontSize: 14, lineHeight: 1.7 }}><a href="https://nolcool.com/cafe/?utm_source=c&utm_medium=site_link&utm_campaign=cafe" rel="noopener">놀쿨 카페 안내 →</a></p>
 </footer>
 
       {/* 하단 고정 전화바 — 스크롤해도 움직이지 않습니다. 조상 래퍼 없이 최상단에 둡니다. */}

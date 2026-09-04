@@ -84,6 +84,7 @@ export default function PickLayout({
           © 2026 전국 나이트, 고르는 기준 — 특정 업소 소속이 아닌 선택 기준 안내 페이지입니다.
         </p>
               <p style={{ margin: "8px 0 0", fontSize: 13, lineHeight: 1.7, color: "#9aa0a6" }}>{고지고르기(barName ?? null, !!contact)}</p>
+        <p className="cafe-link" style={{ margin: "14px 0 0", fontSize: 14, lineHeight: 1.7 }}><a href="https://nolcool.com/cafe/?utm_source=c&utm_medium=site_link&utm_campaign=cafe" rel="noopener">놀쿨 카페 안내 →</a></p>
 </footer>
 
       {contact ? (

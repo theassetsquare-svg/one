@@ -76,6 +76,7 @@ export default function HobakLayout({
         <AdContact />
         <p className="legal-note">© 2026 불광동호박나이트</p>
               <p style={{ margin: "8px 0 0", fontSize: 13, lineHeight: 1.7, color: "#9aa0a6" }}>{고지고르기("hobak", !!광고쪽)}</p>
+        <p className="cafe-link" style={{ margin: "14px 0 0", fontSize: 14, lineHeight: 1.7 }}><a href="https://nolcool.com/cafe/?utm_source=c&utm_medium=site_link&utm_campaign=cafe" rel="noopener">놀쿨 카페 안내 →</a></p>
 </footer>
 
       {/* 하단 고정 전화바 — 모바일/PC 모두 고정, 스크롤해도 움직이지 않음 */}
