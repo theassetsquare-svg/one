@@ -17,7 +17,7 @@ export default function Atmosphere() {
         ogTitle="대전원나이트 분위기 — 38세+ 동년배 자리"
         ogDesc="음악·자리·손님층·안전 네 가지 한눈에."
       />
-      <Schema path="/atmosphere" crumb="분위기" pageType="WebPage" pageName="분위기 — 38세+ 동년배 자리" />
+      <Schema image="https://c.nolcool.com/og/atmosphere.png" path="/atmosphere" crumb="분위기" pageType="WebPage" pageName="분위기 — 38세+ 동년배 자리" />
       <Layout>
         <div className="hero">
           <h1>대전원나이트 분위기</h1>

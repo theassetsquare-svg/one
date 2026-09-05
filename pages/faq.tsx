@@ -35,7 +35,7 @@ export default function FAQ() {
         ogTitle="대전원나이트 FAQ 12가지"
         ogDesc="입장·여성 혜택·예약·드레스코드 한눈에."
       />
-      <Schema path="/faq" crumb="FAQ" pageType="FAQPage" pageName="자주 묻는 질문 12가지" />
+      <Schema image="https://c.nolcool.com/og/faq.png" path="/faq" crumb="FAQ" pageType="FAQPage" pageName="자주 묻는 질문 12가지" />
       <Layout>
         <div className="hero">
           <h1>대전원나이트 자주 묻는 질문</h1>

@@ -16,6 +16,8 @@ export default function Page() {
         <Crumb venue={venue} />
         <article>
           <header className="nb-hero">
+            {/* 설계도 4장 — 광고주 쪽 상단 「광고」 라벨 (S4 2026-09-05) */}
+            <p className="ad-label" style={{ display: "inline-block", margin: "0 0 10px", padding: "3px 10px", border: "1px solid #c9a227", borderRadius: 4, fontSize: 12, color: "#c9a227", letterSpacing: ".04em" }}>광고</p>
             <h1>청담나이트</h1>
             <p>실제로 들어온 질문만 순서대로 끊어 답했습니다</p>
           </header>

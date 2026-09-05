@@ -17,7 +17,7 @@ export default function Review() {
         ogTitle="대전원나이트 후기 — 단골 진짜 분위기"
         ogDesc="가짜 별점 없음. 38세+ 손님 실제 의견 기반."
       />
-      <Schema path="/review" crumb="후기" pageType="WebPage" pageName="단골 후기" />
+      <Schema image="https://c.nolcool.com/og/review.png" path="/review" crumb="후기" pageType="WebPage" pageName="단골 후기" />
       <Layout>
         <div className="hero">
           <h1>대전원나이트 후기</h1>

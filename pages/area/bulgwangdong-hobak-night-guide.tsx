@@ -48,6 +48,8 @@ export default function BulgwangdongHobakNight() {
       <HobakSchema />
       <HobakLayout 광고쪽>
         <div className="hero">
+          {/* 설계도 4장 — 광고주 쪽 상단 「광고」 라벨 (S4 2026-09-05) */}
+          <p className="ad-label" style={{ display: "inline-block", margin: "0 0 10px", padding: "3px 10px", border: "1px solid #c9a227", borderRadius: 4, fontSize: 12, color: "#c9a227", letterSpacing: ".04em" }}>광고</p>
           <h1>불광동호박나이트</h1>
           <p>서울 은평구 통일로 730 지하 1층 · 저녁 7시 ~ 새벽 5시</p>
         </div>

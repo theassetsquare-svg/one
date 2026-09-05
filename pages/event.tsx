@@ -17,7 +17,7 @@ export default function Event() {
         ogTitle="대전원나이트 이벤트 — 차비 3만원 + 맥주 둘 다"
         ogDesc="10시 이전 입장 여성 손님 두 가지 모두 보장."
       />
-      <Schema path="/event" crumb="이벤트" pageType="WebPage" pageName="이벤트 — 여성 손님 차비 + 맥주" />
+      <Schema image="https://c.nolcool.com/og/event.png" path="/event" crumb="이벤트" pageType="WebPage" pageName="이벤트 — 여성 손님 차비 + 맥주" />
       <Layout>
         <div className="hero">
           <h1>대전원나이트 특별 이벤트</h1>

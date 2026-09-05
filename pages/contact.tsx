@@ -17,7 +17,7 @@ export default function Contact() {
         ogTitle="대전원나이트 광고문의 카톡 아이디 besta12"
         ogDesc="예약·VIP·단체·길안내 웨이터 직접 응대. 카톡 besta12."
       />
-      <Schema path="/contact" crumb="연락처" pageType="ContactPage" pageName="예약·문의" />
+      <Schema image="https://c.nolcool.com/og/contact.png" path="/contact" crumb="연락처" pageType="ContactPage" pageName="예약·문의" />
       <Layout>
         <div className="hero">
           <h1>대전원나이트 예약·광고문의</h1>

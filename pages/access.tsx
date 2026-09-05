@@ -17,7 +17,7 @@ export default function Access() {
         ogTitle="대전원나이트 오시는 길"
         ogDesc="대전 시내 + 청주·세종 30분 거리, 주차·택시 안내."
       />
-      <Schema path="/access" crumb="오시는길" pageType="WebPage" pageName="오시는 길 — 시내·청주·세종 30분" />
+      <Schema image="https://c.nolcool.com/og/access.png" path="/access" crumb="오시는길" pageType="WebPage" pageName="오시는 길 — 시내·청주·세종 30분" />
       <Layout>
         <div className="hero">
           <h1>대전원나이트 오시는 길</h1>

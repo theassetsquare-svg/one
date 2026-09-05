@@ -5,6 +5,8 @@ type SchemaProps = {
   crumb?: string;
   pageType?: 'WebPage' | 'AboutPage' | 'ContactPage' | 'FAQPage' | 'CollectionPage';
   pageName?: string;
+  /** S4(2026-09-05) T-006: 쪽의 og:image 와 같은 그림을 JSON-LD 에도 — 주면 그것을 쓴다 */
+  image?: string;
 };
 
 export default function Schema({
@@ -12,6 +14,7 @@ export default function Schema({
   crumb = '홈',
   pageType = 'WebPage',
   pageName,
+  image,
 }: SchemaProps) {
   const mainSchema = {
     '@context': 'https://schema.org',
@@ -63,7 +66,7 @@ export default function Schema({
           },
         ],
         acceptsReservations: true,
-        image: `${SITE}/og/og-search-thumb.png`,
+        image: image ?? `${SITE}/og/og-search-thumb.png`,
         description:
           '38세 이상 입장. 10시 이전 여성 손님 2가지 모두 받습니다 (차비 3만원 + 맥주 서비스).',
         areaServed: ['대전', '충남', '청주', '세종'],
@@ -75,7 +78,7 @@ export default function Schema({
         url: `${SITE}/`,
         priceRange: '₩₩',
         openingHours: ['Su-Th 20:00-02:30', 'Fr-Sa 20:00-03:30'],
-        image: `${SITE}/og/og-search-thumb.png`,
+        image: image ?? `${SITE}/og/og-search-thumb.png`,
         address: {
           '@type': 'PostalAddress',
           addressLocality: '대전광역시',

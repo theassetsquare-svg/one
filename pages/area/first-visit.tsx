@@ -17,7 +17,7 @@ export default function FirstVisit() {
         ogTitle="대전원나이트 첫 방문 6단계 가이드"
         ogDesc="38세+ 처음 가시는 분께 안내."
       />
-      <Schema path="/area/first-visit/" crumb="첫방문" pageType="WebPage" pageName="첫 방문 6단계 가이드" />
+      <Schema image="https://c.nolcool.com/og/first-visit.png" path="/area/first-visit/" crumb="첫방문" pageType="WebPage" pageName="첫 방문 6단계 가이드" />
       <Layout>
         <div className="hero">
           <h1>대전원나이트 첫 방문 가이드</h1>

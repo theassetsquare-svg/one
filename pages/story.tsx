@@ -17,7 +17,7 @@ export default function Story() {
         ogTitle="대전원나이트 웨이터 이야기 — 38세+ 기준이 된 이유"
         ogDesc="차비 3만원과 맥주를 함께 드리는 이유."
       />
-      <Schema path="/story" crumb="이야기" pageType="AboutPage" pageName="웨이터 이야기" />
+      <Schema image="https://c.nolcool.com/og/story.png" path="/story" crumb="이야기" pageType="AboutPage" pageName="웨이터 이야기" />
       <Layout>
         <div className="hero">
           <h1>대전원나이트 웨이터 이야기</h1>
