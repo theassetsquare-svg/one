@@ -96,7 +96,7 @@ const NIGHT_URL_MAP: Record<string, string> = {
   "sangbong-night": "sangbong-night",
   "sillim-grandprix-night": "sillim-grandprix-night-1",
   "sillim-night": "sillim-night",
-  "suwon-chance-dome-night": "suwon-chance-dome-night-1",
+  "suwon-chance-dome-night": "suwon-chance-dome-night",   /* F3: -1 쪽은 없음(404) — 살아 있는 쪽으로 */
   "suwon-night": "suwon-night",
   "suyu-night": "suyu-night",
   "suyu-shampoo-night": "suyu-shampoo-night-1",

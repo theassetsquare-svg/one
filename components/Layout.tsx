@@ -27,12 +27,12 @@ function 안내고지고르기(씨: unknown) {
 // 대전원나이트 전용 레이아웃.
 // 불광동호박나이트는 별개 가게이므로 여기 nav에 넣지 않습니다 (HobakLayout 사용).
 const navItems = [
-  { href: '/event', label: '이벤트' },
+  { href: '/event/', label: '이벤트' },
   { href: '/area/first-visit/', label: '첫방문' },
-  { href: '/access', label: '오시는길' },
-  { href: '/faq', label: 'FAQ' },
-  { href: '/review', label: '후기' },
-  { href: '/contact', label: '연락처' },
+  { href: '/access/', label: '오시는길' },
+  { href: '/faq/', label: 'FAQ' },
+  { href: '/review/', label: '후기' },
+  { href: '/contact/', label: '연락처' },
 ];
 
 export default function Layout({ children }: { children: ReactNode }) {

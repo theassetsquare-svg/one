@@ -71,21 +71,7 @@ export default function Schema({
           '38세 이상 입장. 10시 이전 여성 손님 2가지 모두 받습니다 (차비 3만원 + 맥주 서비스).',
         areaServed: ['대전', '충남', '청주', '세종'],
       },
-      {
-        '@type': 'LocalBusiness',
-        '@id': `${SITE}/#localbusiness`,
-        name: '대전원나이트',
-        url: `${SITE}/`,
-        priceRange: '₩₩',
-        openingHours: ['Su-Th 20:00-02:30', 'Fr-Sa 20:00-03:30'],
-        image: image ?? `${SITE}/og/og-search-thumb.png`,
-        address: {
-          '@type': 'PostalAddress',
-          addressLocality: '대전광역시',
-          addressRegion: '대전',
-          addressCountry: 'KR',
-        },
-      },
+      /* F3: LocalBusiness 노드 제거 — 업소 노드는 NightClub 하나(점검표 W-068 · 설계도 5장) */
       {
         '@type': 'Organization',
         '@id': `${SITE}/#org`,

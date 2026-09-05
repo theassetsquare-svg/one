@@ -62,8 +62,8 @@ export default function PickLayout({
           {/* 홈 링크 제거(H3) — 사이트명 글자는 남기고 <a> 만 뺍니다. */}
           <span className="logo">전국 나이트, 고르는 기준</span>
           <div className="nl">
-            <a href="/pick">업소 40곳</a>
-            <a href="/pick#pk-list">지역별 보기</a>
+            <a href="/pick/">업소 40곳</a>
+            <a href="/pick/#pk-list">지역별 보기</a>
           </div>
         </div>
       </nav>
