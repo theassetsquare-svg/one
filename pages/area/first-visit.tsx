@@ -45,7 +45,7 @@ export default function FirstVisit() {
               </div>
               <div className="bic">
                 <h3>④ 예약</h3>
-                <p>푸터의 광고문의 카톡 아이디 besta12로 예약 권장. 당일 가능.</p>
+                <p>예약 창구는 따로 안내하지 않습니다. 자리는 방문 당일 현장에서 정합니다.</p>
               </div>
               <div className="bic">
                 <h3>⑤ 주차</h3>

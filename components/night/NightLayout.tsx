@@ -172,7 +172,12 @@ export default function NightLayout({ venue, children }: { venue: NightVenue; ch
         </div>
       </nav>
 
-      <main>{children}</main>
+      <main>
+        {isA && venue.contact ? (
+              <p className="ad-label" style={{ display: "inline-block", margin: "0 0 10px", padding: "3px 10px", border: "1px solid #c9a227", borderRadius: 4, fontSize: 12, color: "#c9a227", letterSpacing: ".04em" }}>광고</p>
+            ) : null}
+        {children}
+      </main>
 
       <footer>
         <p>

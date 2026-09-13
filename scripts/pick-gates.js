@@ -35,7 +35,6 @@ const VENUES = loadVenues();
 // ★광고주 정답표 2026-08-20 — 총 4명. scripts/advertisers.js 와 같은 값입니다.
 const PHONE_ALLOW = {
   '010-5653-0069': 'ulsan-champion-night',
-  '010-7528-4936': 'changwon-lululala-night',
   '010-2221-1937': 'bulgwang-hobak-night',
   '010-5655-4866': 'cheongdam-night',
 };
@@ -277,7 +276,7 @@ for (const p of PAGES) {
   }
 }
 push(
-  'G10 전화번호 허용표 (춘자=울산챔피언 / 로또=창원룰루랄라 / 손흥민=불광동호박 / 펩시맨=청담, 그 외 0)',
+  'G10 전화번호 허용표 (춘자=울산챔피언 / 손흥민=불광동호박 / 펩시맨=청담, 그 외 0)',
   g10fail.length === 0,
   g10fail.slice(0, 5).join(' | ') || '위반 0건 (허브·나머지 36곳 010- 패턴 0)'
 );

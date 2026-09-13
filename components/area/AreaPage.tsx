@@ -64,11 +64,21 @@ const 관계고지문구 = [
   "연락처 카드는 광고입니다. 나머지 설명은 공개된 자료만 옮긴 것입니다.",
   "이 안내에는 담당자 광고가 함께 실려 있습니다. 다른 내용은 공개 자료 기준입니다.",
 ];
-function 관계고지(씨: string) {
+const 비광고관계고지문구 = [
+  "이 페이지는 업소와 광고·제휴 관계가 없습니다. 내용은 공개 자료를 정리한 것입니다.",
+  "업소와 제휴 관계가 없는 안내입니다(미제휴). 설명은 공개된 자료 기준입니다.",
+  "이 쪽에는 업소 광고가 없고, 업소와 제휴하지 않았습니다. 공개 자료만 옮겼습니다.",
+  "업소로부터 대가를 받지 않은 제3자 안내입니다. 내용은 공개 자료 기준입니다.",
+  "업소의 공식 채널이 아니며 제휴 관계가 없습니다. 공개된 자료를 모아 적었습니다.",
+  "미제휴 안내 페이지입니다. 업소와 광고 관계가 없으며 공개 자료를 정리했습니다.",
+];
+function 관계고지(씨: string, 광고쪽: boolean) {
   let n = 0;
   const s = String(씨 ?? '');
   for (let k = 0; k < s.length; k++) n = (n * 131 + s.charCodeAt(k)) % 1000003;
-  return 관계고지문구[n % 관계고지문구.length];
+  /* 2026-09-14 C0 — 광고가 없는 쪽(창원룰루랄라 해지 포함)에 「광고가 실려 있다」를 적으면 사실과 다르다 */
+  const 곳간 = 광고쪽 ? 관계고지문구 : 비광고관계고지문구;
+  return 곳간[n % 곳간.length];
 }
 
 
@@ -251,6 +261,9 @@ export default function AreaPage({ area }: { area: Area }) {
 
         <article>
           <header className="nb-hero">
+            {isA && area.contact ? (
+              <p className="ad-label" style={{ display: "inline-block", margin: "0 0 10px", padding: "3px 10px", border: "1px solid #c9a227", borderRadius: 4, fontSize: 12, color: "#c9a227", letterSpacing: ".04em" }}>광고</p>
+            ) : null}
             <h1>{area.kwA}</h1>
             <p>{area.heroSub}</p>
           </header>
@@ -346,7 +359,7 @@ export default function AreaPage({ area }: { area: Area }) {
         {/* ★ 2026-08-31 — 연령 고지가 없어 신고에 취약했다(체크리스트 #121).
             쪽마다 다른 문구를 쓴다. 같은 줄을 수십 쪽에 박으면 유사문서로 잡힌다. */}
         <p className="footer-note">{연령고지(area.slug)}</p>
-        <p className="footer-note">{관계고지(area.slug)}</p>
+        <p className="footer-note">{관계고지(area.slug, isA && !!area.contact)}</p>
         <p className="footer-note">
           최종 수정 <time dateTime={MODIFIED.iso}>{MODIFIED.human}</time> · 공개된 웹 정보를 정리했으며 실제와 다를 수
           있습니다.

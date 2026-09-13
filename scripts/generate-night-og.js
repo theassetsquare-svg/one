@@ -56,7 +56,7 @@ const pickInk = (bg) => (contrast('#FFFFFF', bg) >= contrast('#111111', bg) ? '#
 // ── 업소 정의 (lib/night.ts 와 동일한 값) ───────────────────────
 const VENUES = [
   { no: 1, slug: 'bulgwang-hobak-night', lines: ['불광동', '호박나이트'], region: '서울 은평구 불광동', bg: '#F2600C', group: 'A', nick: '손흥민', tel: '010-2221-1937' },
-  { no: 2, slug: 'changwon-lululala-night', lines: ['창원', '룰루랄라나이트'], region: '경남 창원 상남동', bg: '#0F4C81', group: 'A', nick: '로또', tel: '010-7528-4936', age: '만 27세 이상' },
+  { no: 2, slug: 'changwon-lululala-night', lines: ['창원', '룰루랄라나이트'], region: '경남 창원 상남동', bg: '#0F4C81', group: 'B', age: '만 27세 이상' }, // 2026-09-13 광고 해지 — 연락처 싣지 않음
   { no: 3, slug: 'ulsan-champion-night', lines: ['울산', '챔피언나이트'], region: '울산 남구 삼산동', bg: '#7A1F4A', group: 'A', nick: '춘자', tel: '010-5653-0069' },
   { no: 4, slug: 'cheongdam-night', lines: ['청담나이트'], region: '서울 강남구 청담동', bg: '#12303B', group: 'A', nick: '펩시맨', tel: '010-5655-4866' },
   { no: 5, slug: 'daejeon-one-night', lines: ['대전', '원나이트'], region: '대전 동구 용전동', bg: '#8C1B1B', group: 'B', age: '만 38세 이상' },

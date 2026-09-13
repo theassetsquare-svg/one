@@ -43,8 +43,8 @@ export default function Story() {
             </p>
             <h3>직통 응대 약속</h3>
             <p>
-              예약·VIP룸·단체 모임 모두 푸터의 광고문의 카톡 아이디 besta12로 바로 연결됩니다. 중간
-              단계 없이 현장 직원이 직접 받습니다.
+              예약·VIP룸·단체 모임은 방문 당일 현장에서 직원에게 직접 묻는 것이 가장 정확합니다.
+              푸터의 카톡 besta12 는 업소 사장님 대상 광고 입점 문의 창구라 손님 예약은 받지 않습니다.
             </p>
           </section>
           <RelatedLinks current="/story" />

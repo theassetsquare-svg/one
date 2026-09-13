@@ -9,7 +9,7 @@
  */
 const ADVERTISERS = [
   { venue: '울산챔피언나이트', venueSlugs: ['ulsan-champion-night'], areaSlugs: ['ulsan-night'], areaName: '울산나이트', nick: '춘자', tel: '010-5653-0069' },
-  { venue: '창원룰루랄라나이트', venueSlugs: ['changwon-lululala-night'], areaSlugs: ['changwon-night'], areaName: '창원나이트', nick: '로또', tel: '010-7528-4936' },
+  // 창원룰루랄라나이트 — 2026-09-13 광고 해지(비광고주). 연락처는 어느 쪽에도 싣지 않는다.
   { venue: '불광동호박나이트', venueSlugs: ['bulgwang-hobak-night', 'bulgwangdong-hobak-night'], areaSlugs: ['eunpyeong-night'], areaName: '은평나이트', nick: '손흥민', tel: '010-2221-1937' },
   { venue: '청담나이트', venueSlugs: ['cheongdam-night'], areaSlugs: ['gangnam-night'], areaName: '강남나이트', nick: '펩시맨', tel: '010-5655-4866' },
   { venue: '답십리미라클나이트', venueSlugs: ['dapsimni-miracle-night'], areaSlugs: [], areaName: null, nick: '유재석', tel: '010-8156-6558' },
