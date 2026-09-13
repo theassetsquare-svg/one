@@ -135,11 +135,11 @@ export const VENUES: NightVenue[] = [
   {
     no: 2,
     slug: 'changwon-lululala-night',
+ogV: '-v2',
     nameA: '창원룰루랄라나이트',
     nameB: '창원 룰루랄라나이트',
     nameC: '창원 나이트클럽',
-    group: 'A',
-    contact: { nick: '로또', display: '010-7528-4936', href: 'tel:01075284936', e164: '+82-10-7528-4936' },
+    group: 'B',
     addressLocality: '창원시 성산구',
     addressRegion: '경상남도',
     streetAddress: '상남동 22-4 지하 3층',
@@ -150,7 +150,7 @@ export const VENUES: NightVenue[] = [
     title: '창원룰루랄라나이트 찾는 이유 넷 상남동 지하 3층',
     description:
       '창원룰루랄라나이트에 사람이 다시 오는 이유를 넷으로 끊어 정리했습니다. 만 27세 이상 기준부터 상남동 지하 3층 홀 구조까지, 가기 전에 알아둘 담았습니다.',
-    ogAlt: '창원룰루랄라나이트 경남 창원 상남동 지하 3층 예약 안내 카드',
+    ogAlt: '창원룰루랄라나이트 · 광고문의 · 카톡 besta12',
     ogBg: '#0F4C81',
     ogRegion: '경남 창원 상남동',
     answerLine:
@@ -161,7 +161,7 @@ export const VENUES: NightVenue[] = [
       { label: '출입 연령', value: '만 27세 이상' },
       { label: '영업일', value: '월요일~토요일, 공휴일 전날과 공휴일' },
       { label: '업종', value: '성인 나이트클럽' },
-      { label: '예약·문의', value: '로또 010-7528-4936' },
+      { label: '예약·문의', value: '카카오톡 besta12' },
     ],
     faqs: [
       {
@@ -186,7 +186,7 @@ export const VENUES: NightVenue[] = [
       },
       {
         q: '창원룰루랄라나이트 예약은 어떻게 하나요',
-        a: '로또 010-7528-4936으로 전화하면 됩니다. 인원과 도착 시간을 알려주면 자리를 맞춰 잡아 줍니다.',
+        a: '카카오톡 besta12 로 전화하면 됩니다. 인원과 도착 시간을 알려주면 자리를 맞춰 잡아 줍니다.',
       },
     ],
     related: ['busan-asiad-night', 'ulsan-champion-night', 'daejeon-seven-night'],
@@ -607,7 +607,8 @@ export const VENUES: NightVenue[] = [
     nameA: '수원찬스돔나이트',
     nameB: '수원 찬스돔나이트',
     nameC: '수원 나이트클럽',
-    group: 'B',
+    group: 'A',
+    contact: { nick: '박찬호', display: '010-7117-5077', href: 'tel:01071175077', e164: '+82-10-7117-5077' },
     addressLocality: '수원시 권선구',
     addressRegion: '경기도',
     streetAddress: '권선로 673',

@@ -489,6 +489,7 @@ export const VENUES: PickVenue[] = [
     addressLocality: '수원시 권선구',
     addressRegion: '경기도',
     streetAddress: '권선로 673 (권선동 1019-9)',
+    contact: { nick: '박찬호', display: '010-7117-5077', href: 'tel:01071175077', e164: '+82-10-7117-5077' },
     openingHours: { spec: [{ days: ALL, opens: '18:00', closes: '04:00' }], humanText: '저녁 6시 ~ 새벽 4시' },
     axis: '저녁 6시에 문을 열어 초저녁부터 자리를 잡을 수 있는 곳',
     title: '수원찬스돔나이트, 초저녁부터 앉는 사람 기준',
@@ -1083,6 +1084,7 @@ export const VENUES: PickVenue[] = [
   {
     no: 11,
     slug: 'changwon-lululala-night-guide',
+ogV: '-v2',
     nameA: '창원룰루랄라나이트',
     nameB: '창원 룰루랄라나이트',
     nameC: '창원 나이트클럽',
@@ -1090,13 +1092,12 @@ export const VENUES: PickVenue[] = [
     addressLocality: '창원시 성산구',
     addressRegion: '경상남도',
     streetAddress: '상남동 22-4 지하 3층',
-    contact: { nick: '로또', display: '010-7528-4936', href: 'tel:01075284936', e164: '+82-10-7528-4936' },
     ageFull: '만 27세 이상',
     axis: '출입이 만 27세 이상이고 지하 3층 한 층을 통째로 쓰는 곳',
     title: '창원룰루랄라나이트, 상남동 지하 3층 조건',
     description:
       '창원룰루랄라나이트는 상남동 지하 3층에 있고 출입은 만 27세 이상입니다. 영업일과 연령 기준이 분명해 계산이 단순합니다. 확인된 정보와 체크 세 정리했습니다.',
-    ogAlt: '창원룰루랄라나이트 경남 창원 상남동 지하 3층 예약 안내 카드',
+    ogAlt: '창원룰루랄라나이트 · 광고문의 · 카톡 besta12',
     ogLines: ['창원', '룰루랄라나이트'],
     ogRegion: '경남 창원 상남동',
     answer3: [
@@ -1113,7 +1114,7 @@ export const VENUES: PickVenue[] = [
       { label: '출입 연령', value: '만 27세 이상' },
       { label: '영업일', value: '월요일~토요일, 공휴일 전날과 공휴일' },
       { label: '업종', value: '성인 나이트클럽' },
-      { label: '예약·문의', value: '로또 010-7528-4936' },
+      { label: '예약·문의', value: '카카오톡 besta12' },
     ],
     sections: [
       {
@@ -1173,12 +1174,12 @@ export const VENUES: PickVenue[] = [
       },
       {
         q: '창원룰루랄라나이트 예약은 어떻게 하나요',
-        a: '로또 010-7528-4936으로 전화하면 됩니다. 인원과 도착 시간만 알려 주면 자리를 맞춰 줍니다.',
+        a: '카카오톡 besta12 로 전화하면 됩니다. 인원과 도착 시간만 알려 주면 자리를 맞춰 줍니다.',
       },
     ],
     oneLine: '연령 기준이 분명한 자리를 원한다면 계산이 가장 단순해집니다.',
     related: ['ulsan-champion-night-guide', 'busan-asiad-night', 'daegu-hobak-night'],
-    llmsLine: '경남 창원시 성산구 상남동 22-4 지하 3층. 만 27세 이상 출입. 예약 로또 010-7528-4936.',
+    llmsLine: '경남 창원시 성산구 상남동 22-4 지하 3층. 만 27세 이상 출입. 예약 카카오톡 besta12.',
   },
   {
     no: 12,

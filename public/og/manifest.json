@@ -640,13 +640,13 @@
   "rule": "A",
   "subject": "창원룰루랄라나이트",
   "advertiser": {
-   "nick": "로또",
-   "tel": "010-7528-4936"
+   "nick": null,
+   "tel": null
   },
   "texts": [
    "창원룰루랄라나이트",
-   "로또",
-   "010-7528-4936",
+   "담당자",
+   "카카오톡 besta12",
    "광고문의 카톡 besta12"
   ],
   "metrics": [
@@ -660,7 +660,7 @@
     "hero": false
    },
    {
-    "text": "로또",
+    "text": "담당자",
     "widthPx": 486,
     "heightPx": 217.7,
     "widthPct": 45,
@@ -669,7 +669,7 @@
     "hero": false
    },
    {
-    "text": "010-7528-4936",
+    "text": "카카오톡 besta12",
     "widthPx": 1004.4,
     "heightPx": 255.8,
     "widthPct": 93,
@@ -687,7 +687,7 @@
     "hero": false
    }
   ],
-  "hero": "010-7528-4936",
+  "hero": "카카오톡 besta12",
   "bytes": 17711,
   "width": 1200,
   "height": 1200
@@ -1316,13 +1316,13 @@
   "rule": "D-A",
   "subject": "창원나이트",
   "advertiser": {
-   "nick": "로또",
-   "tel": "010-7528-4936"
+   "nick": null,
+   "tel": null
   },
   "texts": [
    "창원나이트",
-   "로또",
-   "010-7528-4936",
+   "담당자",
+   "카카오톡 besta12",
    "광고문의 카톡 besta12"
   ],
   "metrics": [
@@ -1336,7 +1336,7 @@
     "hero": false
    },
    {
-    "text": "로또",
+    "text": "담당자",
     "widthPx": 486,
     "heightPx": 217.7,
     "widthPct": 45,
@@ -1345,7 +1345,7 @@
     "hero": false
    },
    {
-    "text": "010-7528-4936",
+    "text": "카카오톡 besta12",
     "widthPx": 1004.4,
     "heightPx": 255.8,
     "widthPct": 93,
@@ -1363,7 +1363,7 @@
     "hero": false
    }
   ],
-  "hero": "010-7528-4936",
+  "hero": "카카오톡 besta12",
   "bytes": 17399,
   "width": 1200,
   "height": 1200
