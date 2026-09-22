@@ -33,47 +33,47 @@ export default function Page() {
             </p>
 
             <section aria-labelledby="h2-1">
-              <h2 id="h2-1">첫째, 창원룰루랄라나이트는 연령이 정리돼 있습니다</h2>
+              <h2 id="h2-1">첫째, 창원룰루랄라나이트는 입장 연령 기준이 명확합니다</h2>
               <p>
                 출입 기준이 만 27세 이상으로 정해져 있다는 건 생각보다 큰 차이를 만듭니다. 홀 안 나이대가 고르면
                 고르는 음악도, 말이 통하는 속도도 달라집니다. 나이대가 너무 벌어진 곳에서는 옆 테이블과 리듬이 안
                 맞아 어색해지는 경우가 흔합니다. 창원 룰루랄라나이트를 다시 찾는 사람들이 가장 먼저 꼽는 게 이
                 부분입니다. 기준이 있는 홀은 그만큼 예측이 됩니다.
               </p>
-              <p className="nb-next">그다음으로 자주 나오는 이야기는 공간 자체입니다.</p>
+              <p className="nb-next">이어서 많이 언급되는 대목은 건물과 층 구조입니다.</p>
             </section>
 
             <section aria-labelledby="h2-2">
-              <h2 id="h2-2">둘째, 지하 3층이라는 구조가 주는 것</h2>
+              <h2 id="h2-2">둘째, 지하 3층에 자리한 배치의 특징</h2>
               <p>
                 지하 깊숙한 층에 자리한 홀은 소리가 밖으로 새지 않습니다. 그래서 볼륨을 올려도 부담이 적고, 안에서
                 들리는 소리는 더 두껍습니다. 층을 내려가는 동안 바깥 소음이 끊기는 것도 나이트에서는 꽤 중요한
                 장치입니다. 계단이나 승강기를 지나면서 사람의 기분이 한 번 전환되기 때문입니다. 보통 지상층 홀보다
                 안이 어둡게 유지되는 것도 같은 이유입니다.
               </p>
-              <p className="nb-next">공간이 정해지면 그 안에서 사람이 어떻게 움직이는지가 남습니다.</p>
+              <p className="nb-next">층과 위치를 파악했다면 그다음 관심사는 내부에서의 동선입니다.</p>
             </section>
 
             <section aria-labelledby="h2-3">
-              <h2 id="h2-3">셋째, 창원룰루랄라나이트의 자리 선택 폭</h2>
+              <h2 id="h2-3">셋째, 창원룰루랄라나이트의 좌석 선택 범위</h2>
               <p>
                 무대 앞과 가장자리는 완전히 다른 밤이 됩니다. 무대 앞은 조명과 소리를 정면으로 맞고, 가장자리는 한
                 겹 물러나 대화가 가능합니다. 통로 쪽은 사람이 계속 지나가 시야가 넓은 대신 어수선합니다. 같은 홀
                 안에서도 어디에 앉느냐로 밤의 결이 갈립니다. 다시 오는 사람들은 대체로 지난번에 앉았던 자리를
                 기억해 두었다가 그대로 요청합니다.
               </p>
-              <p className="nb-next">넷째 이유는 언제 가느냐에 달려 있습니다.</p>
+              <p className="nb-next">마지막 갈래는 방문 시점에 따라 달라집니다.</p>
             </section>
 
             <section aria-labelledby="h2-4">
-              <h2 id="h2-4">넷째, 요일마다 온도가 다릅니다</h2>
+              <h2 id="h2-4">넷째, 요일별 분위기 차이가 뚜렷합니다</h2>
               <p>
                 월요일부터 토요일까지 열고 공휴일 전날과 공휴일에도 문을 엽니다. 평일 초저녁은 대체로 여유롭고,
                 금요일과 토요일 열한 시 전후는 가장 두껍습니다. 사람이 몰리는 시간에 오면 열기는 확실하지만 자리
                 옮기기가 어렵습니다. 반대로 한가한 날에 오면 홀 전체를 골라 앉을 수 있습니다. 같은 창원 나이트클럽
                 이라도 요일을 바꾸면 다른 곳처럼 느껴집니다.
               </p>
-              <p className="nb-next">이제 남은 건 어디로 가야 하는지입니다.</p>
+              <p className="nb-next">여기까지 정리했다면 남은 물음은 위치입니다.</p>
             </section>
 
             <section aria-labelledby="h2-5" id="nb-access">
@@ -84,7 +84,7 @@ export default function Page() {
                 대부분 버스나 차로 움직이는데, 상남동 상권 자체가 목적지라 길을 잃을 일은 별로 없습니다.
               </p>
               <FactTable venue={venue} />
-              <p className="nb-next">자리를 확실히 하려면 도착 전에 한 통 걸어 두는 게 낫습니다.</p>
+              <p className="nb-next">자리를 확보하려면 출발 전 전화 한 통으로 예약을 남겨 두면 됩니다.</p>
             </section>
 
             <section aria-labelledby="h2-6" id="nb-contact">
@@ -96,19 +96,19 @@ export default function Page() {
                 수월해집니다.
               </p>
               <ClosingCta venue={venue} />
-              <p className="nb-next">아래 질문 목록에서 자주 걸리는 부분을 먼저 확인해 보세요.</p>
+              <p className="nb-next">다음 문답에서 헷갈리기 쉬운 대목을 먼저 짚어 보시기 바랍니다.</p>
             </section>
 
             <section aria-labelledby="h2-faq">
               <h2 id="h2-faq">자주 나오는 질문</h2>
-              <p>창원 룰루랄라나이트를 두고 실제로 자주 들어오는 항목만 모았습니다.</p>
+              <p>창원 룰루랄라나이트에 관해 실제 문의가 많았던 내용만 추렸습니다.</p>
               {venue.faqs.map((f) => (
                 <details className="faq" key={f.q}>
                   <summary>{f.q}</summary>
                   <p>{f.a}</p>
                 </details>
               ))}
-              <p className="nb-next">답이 없는 항목은 전화로 물어보는 편이 정확합니다.</p>
+              <p className="nb-next">여기에 없는 내용은 전화 문의로 확인하실 수 있습니다.</p>
             </section>
 
             <RelatedNights venue={venue} />
