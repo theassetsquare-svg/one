@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { 슬래시정본 } from '../../lib/canonical';
-import { Area, SITE, areaPath } from '@/lib/area';
+import { Area, SITE, areaPath, areaAdCard } from '@/lib/area';
+import { bySlug } from '@/lib/night';
 
 /**
  * /night/{지역}-night 전용 head.
@@ -13,7 +14,9 @@ import { Area, SITE, areaPath } from '@/lib/area';
  */
 export default function AreaSEO({ area }: { area: Area }) {
   const canonical = `${SITE}${슬래시정본(areaPath(area.slug))}`;
-  const image = `${SITE}/og/${area.slug}-og.png`;
+  const card = areaAdCard(area);
+  const image = card ? `${SITE}${card}` : null;
+  const imageAlt = card && area.contact ? ['광고', bySlug(area.venueSlug).nameA, area.contact.nick, area.contact.display].join(' · ') : '';
   const keywords = [area.kwA, area.kwB, area.kwC, `${area.kwA} 위치`, `${area.kwA} 추천`, `${area.kwA} 예약`].join(', ');
 
   return (
@@ -55,6 +58,17 @@ export default function AreaSEO({ area }: { area: Area }) {
       <meta property="og:title" content={area.title} key="og:title" />
       <meta property="og:description" content={area.description} key="og:desc" />
       <meta property="og:url" content={canonical} key="og:url" />
+      {image ? (
+        <>
+          <meta property="og:image" content={image} key="og:img" />
+          <meta property="og:image:width" content="1200" key="og:w" />
+          <meta property="og:image:height" content="1200" key="og:h" />
+          <meta property="og:image:type" content="image/png" key="og:t" />
+          <meta property="og:image:alt" content={imageAlt} key="og:alt" />
+          <meta name="twitter:image" content={image} key="tw:img" />
+          <meta name="twitter:image:alt" content={imageAlt} key="tw:alt" />
+        </>
+      ) : null}
 
 
       {/* 1:1 정사각 이미지이므로 summary */}

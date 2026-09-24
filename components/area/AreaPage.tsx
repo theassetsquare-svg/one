@@ -1,4 +1,4 @@
-import { AD_KAKAO, Area, AREAS, areaPath } from '@/lib/area';
+import { AD_KAKAO, Area, AREAS, areaPath, areaAdCard } from '@/lib/area';
 import { bySlug, nightPath } from '@/lib/night';
 import { AD_NOTICE, AD_SHORT, AREA_DEF, CTA_LINES, FAQ_NEXT, SUM_NEXT, TABLE_CAPTION, fillVary, pickBySlug } from '@/lib/vary';
 
@@ -267,6 +267,11 @@ export default function AreaPage({ area }: { area: Area }) {
             <h1>{area.kwA}</h1>
             <p>{area.heroSub}</p>
           </header>
+          {areaAdCard(area) && area.contact ? (
+            <figure style={{ margin: "0 auto 18px", maxWidth: 420 }}>
+              <img src={areaAdCard(area) as string} alt={['광고', bySlug(area.venueSlug).nameA, area.contact.nick, area.contact.display].join(' · ')} width={1200} height={1200} decoding="async" style={{ width: "100%", height: "auto", borderRadius: 12, display: "block" }} />
+            </figure>
+          ) : null}
 
           <div className="container">
             {/* [13] AI 인용 블록 */}

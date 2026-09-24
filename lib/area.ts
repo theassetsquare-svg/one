@@ -1590,3 +1590,10 @@ export const areaBySlug = (slug: string): Area => {
   if (!a) throw new Error(`unknown area slug: ${slug}`);
   return a;
 };
+
+/**
+ * 2026-09-24 대표님 지시 — 「전화바 번호가 광고주면 썸네일도 그 광고주」.
+ * 광고주 지역 쪽(group A + contact)은 그 광고주 표준 4줄 카드를 og·본문 첫 그림·JSON-LD image 에 같이 쓴다.
+ * (2026-09-01 「가게 쪽 말고는 그림 없음」 규칙을 대신한다 — 그림이 없어 네이버 썸네일이 비었다.)
+ */
+export const areaAdCard = (a: Area): string | null => (a.group === 'A' && a.contact ? `/og/${a.slug}-og-ad0924.png` : null);

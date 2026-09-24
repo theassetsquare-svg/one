@@ -1,4 +1,4 @@
-import { Area, SITE, areaPath } from '@/lib/area';
+import { Area, SITE, areaPath, areaAdCard } from '@/lib/area';
 import { bySlug, nightPath } from '@/lib/night';
 
 /**
@@ -39,6 +39,7 @@ export default function AreaSchema({ area }: { area: Area }) {
       },
     ],
   };
+  if (areaAdCard(area)) article.image = `${SITE}${areaAdCard(area)}`;
   if (area.group === 'A' && area.contact) {
     article.mainEntity = {
       '@type': 'ContactPoint',

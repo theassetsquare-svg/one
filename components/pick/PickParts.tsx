@@ -65,6 +65,9 @@ export function Crumb({ venue }: { venue: PickVenue }) {
 export function AnswerBox({ venue }: { venue: PickVenue }) {
   return (
     <>
+      {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다.
+          2026-09-24: 첫 h2(핵심 3줄) 앞으로 올림 — 카드가 본문 맨 위 그림이어야 한다(광고주 세트 ①). */}
+      <PageThumb src={`/og/pick-${venue.slug}${venue.ogV ?? ""}.png`} alt={venue.ogAlt} />
       <div className="pk-answer" id="pk-answer">
         <h2>핵심 3줄</h2>
         <ol>
@@ -73,8 +76,6 @@ export function AnswerBox({ venue }: { venue: PickVenue }) {
           ))}
         </ol>
       </div>
-      {/* og:image 와 동일한 파일 — 네이버 썸네일 후보로 본문에 실제 노출합니다. */}
-      <PageThumb src={`/og/pick-${venue.slug}${venue.ogV ?? ""}.png`} alt={venue.ogAlt} />
     </>
   );
 }
