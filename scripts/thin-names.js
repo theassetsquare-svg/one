@@ -34,6 +34,10 @@ function 가림(html) {
     .replace(/<footer[\s\S]*?<\/footer>/gi, (m) => ' '.repeat(m.length))
     .replace(/<nav[\s\S]*?<\/nav>/gi, (m) => ' '.repeat(m.length))
     .replace(/<script[\s\S]*?<\/script>/gi, (m) => ' '.repeat(m.length))
+    /* FAQ 답은 구조화 자료(FAQPage)와 글자가 같아야 한다 — 보이는 답만 덜면 쪽 검사 「표시-FAQ답불일치」(2026-09-27 열셋14-2 c) */
+    .replace(/<section[^>]*h2-faq[\s\S]*?<\/section>/gi, (m) => ' '.repeat(m.length))
+    .replace(/<details[\s\S]*?<\/details>/gi, (m) => ' '.repeat(m.length))
+    .replace(/<section class="qa"[\s\S]*?<\/section>/gi, (m) => ' '.repeat(m.length))   /* 정적 쪽 FAQ 틀(section.qa) */
     .replace(/<[^>]+>/g, (m) => ' '.repeat(m.length));
 }
 
