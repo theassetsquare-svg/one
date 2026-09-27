@@ -4117,3 +4117,29 @@ export const REGION_GROUPS: { id: string; label: string; slugs: string[] }[] = [
     slugs: ['gwangju-sangmu-night', 'gwangju-cheomdan-night', 'jeju-do-night'],
   },
 ];
+
+/**
+ * 가게 장부(naver-watch data/shops/*.json)에서 영업시간이 「확인됨」인 곳만 — 2026-09-27 열셋14-2 c.
+ * 여기 없는 곳은 사실 표 · 구조화 자료 · 아래 한 줄에 영업시간을 적지 않는다(0순위 6 「모르는 사실은 줄을 뺀다」).
+ * 값은 장부 글자 그대로(쪽 검사 「사실-장부불일치」 잣대).
+ */
+export const HOURS_LEDGER: Record<string, string> = {
+  'busan-asiad-night': '월~토 오후 7시~새벽 5시 · 일요일 정기휴무',
+  'cheongdam-night': '월~토 오후 6시~새벽 5시 · 일요일 정기휴무',
+  'changwon-lululala-night-guide': '매일 오후 7시~새벽 5시',
+  'dapsimni-miracle-night': '매일 오후 7시~새벽 5시',
+  'paju-yadang-skydome-night': '화~목·일 오후 7시~새벽 3시 30분 · 금토 오후 7시~새벽 4시 30분 · 월요일 정기휴무',
+};
+
+/** 위 장부 글을 구조화 자료(openingHoursSpecification)로 옮긴 것 — 장부에 없는 요일·시각은 넣지 않는다. */
+const MON_SAT = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+export const HOURS_SPEC: Record<string, { days: string[]; opens: string; closes: string }[]> = {
+  'busan-asiad-night': [{ days: MON_SAT, opens: '19:00', closes: '05:00' }],
+  'cheongdam-night': [{ days: MON_SAT, opens: '18:00', closes: '05:00' }],
+  'changwon-lululala-night-guide': [{ days: ALL, opens: '19:00', closes: '05:00' }],
+  'dapsimni-miracle-night': [{ days: ALL, opens: '19:00', closes: '05:00' }],
+  'paju-yadang-skydome-night': [
+    { days: ['Tuesday', 'Wednesday', 'Thursday', 'Sunday'], opens: '19:00', closes: '03:30' },
+    { days: ['Friday', 'Saturday'], opens: '19:00', closes: '04:30' },
+  ],
+};

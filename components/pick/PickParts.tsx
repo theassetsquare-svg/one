@@ -1,5 +1,5 @@
 import PageThumb from '../PageThumb';
-import { AD_KAKAO, PickSection, PickVenue, VENUES, pickPath } from '@/lib/pick';
+import { AD_KAKAO, HOURS_LEDGER, PickSection, PickVenue, VENUES, pickPath } from '@/lib/pick';
 
 /* ★★ 2026-08-30 — 아래 문구들이 40쪽에 글자 그대로 박혀 있어 유사문서로 걸렸다.
    (실측: c/info 두 쪽 문장 겹침 15%) 가게 주소로 문구를 골라 쪽마다 달라지게 한다.
@@ -87,7 +87,11 @@ export function FactTable({ venue }: { venue: PickVenue }) {
       <table className="pk-tbl">
         <caption>{`${venue.nameA} — ${pickBy(venue.slug, CAPTION)}`}</caption>
         <tbody>
-          {venue.facts.map((f) => (
+          {venue.facts
+            /* 영업시간: 장부에서 확인된 곳만 장부 값으로 · 나머지는 줄을 뺀다(2026-09-27 열셋14-2 c · 0순위 6) */
+            .filter((f) => f.label !== '영업시간' || !!HOURS_LEDGER[venue.slug])
+            .map((f) => (f.label === '영업시간' ? { ...f, value: HOURS_LEDGER[venue.slug] } : f))
+            .map((f) => (
             <tr key={f.label}>
               <th scope="row">{f.label}</th>
               <td>{f.value}</td>

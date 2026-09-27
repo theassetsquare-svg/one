@@ -1,4 +1,4 @@
-import { PickVenue, SITE, pickPath } from '@/lib/pick';
+import { HOURS_SPEC, PickVenue, SITE, pickPath } from '@/lib/pick';
 
 /**
  * /pick/* 구조화 데이터 3종 — NightClub / FAQPage / BreadcrumbList.
@@ -30,8 +30,9 @@ export default function PickSchema({ venue }: { venue: PickVenue }) {
     address,
   };
   if (venue.contact) nightClub.telephone = venue.contact.e164;
-  if (venue.openingHours) {
-    nightClub.openingHoursSpecification = venue.openingHours.spec.map((s) => ({
+  /* 영업시간은 장부에서 확인된 곳만 · 장부 글을 옮긴 HOURS_SPEC 으로(2026-09-27 열셋14-2 c · 사이트 자료의 시각은 장부와 다를 수 있다) */
+  if (HOURS_SPEC[venue.slug]) {
+    nightClub.openingHoursSpecification = HOURS_SPEC[venue.slug].map((s) => ({
       '@type': 'OpeningHoursSpecification',
       dayOfWeek: s.days,
       opens: s.opens,

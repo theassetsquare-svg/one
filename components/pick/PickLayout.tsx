@@ -99,7 +99,7 @@ export default function PickLayout({
         </div>
       ) : (
         <div className="pkbar" role="complementary" aria-label="광고문의">
-          <a href={AD_KAKAO_URL} rel="noopener">
+          <a href={AD_KAKAO_URL} rel="nofollow noopener">
             <span aria-hidden="true">💬</span>
             광고문의 카카오톡 <b>{AD_KAKAO}</b>
           </a>

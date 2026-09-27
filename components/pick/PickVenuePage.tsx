@@ -11,7 +11,7 @@ import {
   Section,
   Verdict,
 } from '@/components/pick/PickParts';
-import { VENUES, bySlug, pickPath } from '@/lib/pick';
+import { HOURS_LEDGER, VENUES, bySlug, pickPath } from '@/lib/pick';
 import GuideExtra from '@/components/GuideExtra';
 
 /**
@@ -23,7 +23,7 @@ import GuideExtra from '@/components/GuideExtra';
 export default function PickVenuePage({ slug }: { slug: string }) {
   const venue = bySlug(slug);
   const footerLines = [venue.nameA, venue.region];
-  if (venue.openingHours) footerLines.push(venue.openingHours.humanText);
+  if (HOURS_LEDGER[venue.slug]) footerLines.push(HOURS_LEDGER[venue.slug]);   /* 장부에서 확인된 영업시간만(2026-09-27 열셋14-2 c) */
   if (venue.ageFull) footerLines.push(`출입 ${venue.ageFull}`);
 
   const keywords = [
