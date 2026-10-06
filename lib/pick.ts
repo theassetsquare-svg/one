@@ -92,6 +92,8 @@ export const VENUES: PickVenue[] = [
     nameA: '신림그랑프리나이트',
     nameB: '신림 그랑프리나이트',
     nameC: '관악구 나이트클럽',
+    contact: { nick: '쌍코피', display: '010-7352-1606', href: 'tel:01073521606', e164: '+82-10-7352-1606' },
+    ogV: '-ad1007',   // 2026-10-07 새 광고주 쌍코피 — 표준 4줄 카드(새 파일 이름)
     region: '서울 관악구 신림동',
     addressLocality: '관악구',
     addressRegion: '서울특별시',
@@ -100,7 +102,7 @@ export const VENUES: PickVenue[] = [
     title: '신림그랑프리나이트, 자리부터 정하는 사람',
     description:
       '신림그랑프리나이트를 고를지 말지는 좌석 구성에서 갈립니다. 홀·룸·부스가 한 건물에 있어 일행 성격에 따라 답이 달라집니다. 확인된 주소와 가기 전 정리했습니다.',
-    ogAlt: '신림그랑프리나이트 서울 관악구 신림로 340 선택 기준 안내 카드',
+    ogAlt: '광고 · 신림그랑프리나이트 · 쌍코피 · 010-7352-1606',
     ogLines: ['신림', '그랑프리나이트'],
     ogRegion: '서울 관악구 신림동',
     answer3: [

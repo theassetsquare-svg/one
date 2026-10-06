@@ -322,7 +322,7 @@ export default function AreaPage({ area }: { area: Area }) {
                 </li>
                 <li>
                   {isA && area.contact
-                    ? `자리 문의는 ${area.contact.nick} ${area.contact.display}.`
+                    ? (area.telBrief ? `자리 문의는 ${area.contact.nick}에게 전화로 하면 됩니다.` : `자리 문의는 ${area.contact.nick} ${area.contact.display}.`)
                     : fillVary(pickBySlug(area.slug, AD_SHORT), { K: AD_KAKAO })}
                 </li>
               </ul>

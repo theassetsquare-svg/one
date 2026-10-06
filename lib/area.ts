@@ -42,6 +42,8 @@ export type Area = {
   kwC: string;
   group: AreaGroup;
   contact?: { nick: string; display: string; href: string };
+  /** 참이면 본문 목록 줄에서는 번호 없이 닉네임만(쪽의 번호 글자 3번까지 — 신고 방어 C2-15). 없으면 전과 같다. */
+  telBrief?: boolean;
   /** 본문·JSON-LD about 지역 표기 */
   region: string;
   /** OG 카드 지역 표기 */
@@ -669,7 +671,9 @@ export const AREAS: Area[] = [
     kwA: '신림나이트',
     kwB: '신림 나이트',
     kwC: '신림 나이트클럽',
-    group: 'B',
+    group: 'A',
+    contact: { nick: '쌍코피', display: '010-7352-1606', href: 'tel:01073521606' },
+    telBrief: true,
     region: '서울 관악구 신림동',
     ogRegion: '서울 관악구',
     angle: 3,
