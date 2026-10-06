@@ -2827,6 +2827,65 @@
   "height": 1200
  },
  {
+  "file": "pick-paju-yadang-skydome-night-1.png",
+  "pageUrl": "https://c.nolcool.com/pick/paju-yadang-skydome-night-1",
+  "pageType": "가게",
+  "rule": "A",
+  "subject": "파주야당스카이돔나이트",
+  "advertiser": {
+   "nick": "딸기",
+   "tel": "010-3447-0963"
+  },
+  "texts": [
+   "파주야당스카이돔나이트",
+   "딸기",
+   "010-3447-0963",
+   "광고문의 카톡 besta12"
+  ],
+  "metrics": [
+   {
+    "text": "파주야당스카이돔나이트",
+    "widthPx": 648,
+    "heightPx": 61.9,
+    "widthPct": 60,
+    "fontSizePx": 68.4,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "딸기",
+    "widthPx": 486,
+    "heightPx": 271.5,
+    "widthPct": 45,
+    "fontSizePx": 300.5,
+    "yScale": 1,
+    "hero": false
+   },
+   {
+    "text": "010-3447-0963",
+    "widthPx": 1004.4,
+    "heightPx": 316,
+    "widthPct": 93,
+    "fontSizePx": 125.3,
+    "yScale": 3.472,
+    "hero": true
+   },
+   {
+    "text": "광고문의 카톡 besta12",
+    "widthPx": 594,
+    "heightPx": 57.1,
+    "widthPct": 55,
+    "fontSizePx": 63,
+    "yScale": 1,
+    "hero": false
+   }
+  ],
+  "hero": "010-3447-0963",
+  "bytes": 20128,
+  "width": 1200,
+  "height": 1200
+ },
+ {
   "file": "pick-guri-hobak-night.png",
   "pageUrl": "https://c.nolcool.com/pick/guri-hobak-night",
   "pageType": "가게",
