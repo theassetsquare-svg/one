@@ -2584,65 +2584,6 @@
   "height": 1200
  },
  {
-  "file": "pick-dapsimni-miracle-night.png",
-  "pageUrl": "https://c.nolcool.com/pick/dapsimni-miracle-night",
-  "pageType": "가게",
-  "rule": "A",
-  "subject": "답십리미라클나이트",
-  "advertiser": {
-   "nick": "유재석",
-   "tel": "010-8156-6558"
-  },
-  "texts": [
-   "답십리미라클나이트",
-   "유재석",
-   "010-8156-6558",
-   "광고문의 카톡 besta12"
-  ],
-  "metrics": [
-   {
-    "text": "답십리미라클나이트",
-    "widthPx": 648,
-    "heightPx": 76.2,
-    "widthPct": 60,
-    "fontSizePx": 84.1,
-    "yScale": 1,
-    "hero": false
-   },
-   {
-    "text": "유재석",
-    "widthPx": 486,
-    "heightPx": 175.8,
-    "widthPct": 45,
-    "fontSizePx": 194.6,
-    "yScale": 1,
-    "hero": false
-   },
-   {
-    "text": "010-8156-6558",
-    "widthPx": 1004.4,
-    "heightPx": 208.9,
-    "widthPct": 93,
-    "fontSizePx": 128.4,
-    "yScale": 2.24,
-    "hero": true
-   },
-   {
-    "text": "광고문의 카톡 besta12",
-    "widthPx": 594,
-    "heightPx": 57.1,
-    "widthPct": 55,
-    "fontSizePx": 63,
-    "yScale": 1,
-    "hero": false
-   }
-  ],
-  "hero": "010-8156-6558",
-  "bytes": 16976,
-  "width": 1200,
-  "height": 1200
- },
- {
   "file": "pick-gangseo-hobak-night.png",
   "pageUrl": "https://c.nolcool.com/pick/gangseo-hobak-night",
   "pageType": "가게",
