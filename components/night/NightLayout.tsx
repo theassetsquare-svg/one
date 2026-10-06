@@ -193,7 +193,7 @@ export default function NightLayout({ venue, children }: { venue: NightVenue; ch
         ) : null}
         <AdContact />
         <p className="legal-note">© 2026 {venue.nameA} 안내 페이지</p>
-              <p style={{ margin: "8px 0 0", fontSize: 13, lineHeight: 1.7, color: "#9aa0a6" }}>{고지고르기(venue.slug, !!venue.contact)}</p>
+              <p style={{ margin: "8px 0 0", fontSize: 13, lineHeight: 1.7, color: "#9aa0a6" }}>{고지고르기(venue.slug, !!venue.contact)}{venue.adNote ? ' ' + venue.adNote : ''}</p>
         <p className="cafe-link" style={{ margin: "14px 0 0", fontSize: 14, lineHeight: 1.7 }}><a href="https://nolcool.com/cafe/?utm_source=c&utm_medium=site_link&utm_campaign=cafe" rel="noopener">놀쿨 카페 안내 →</a></p>
 </footer>
 

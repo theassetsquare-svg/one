@@ -38,6 +38,8 @@ export type NightVenue = {
   contact?: { nick: string; display: string; href: string; e164: string };
   /** 썸네일을 바꿨을 때 캐시를 피하려고 붙이는 판 번호. 없으면 기존 파일명 그대로. */
   ogV?: string;
+  /** 광고주 쪽 고지 줄 뒤에 붙는 한 줄(광고 · 업소 제공 정보 · 확인일 · 바뀔 수 있음). 있을 때만 그린다. */
+  adNote?: string;
   /** JSON-LD address */
   addressLocality: string;
   addressRegion: string;
@@ -379,7 +381,10 @@ export const VENUES: NightVenue[] = [
     nameA: '신림그랑프리나이트',
     nameB: '신림 그랑프리나이트',
     nameC: '신림동 나이트클럽',
-    group: 'B',
+    group: 'A',
+    contact: { nick: '쌍코피', display: '010-7352-1606', href: 'tel:01073521606', e164: '+82-10-7352-1606' },
+    ogV: '-ad1007',   // 2026-10-07 새 광고주 쌍코피 — 표준 4줄 카드(새 파일 이름)
+    adNote: '쌍코피 연락처는 광고 · 업소 제공 정보입니다(확인일 2026-10-06). 운영 사정에 따라 바뀔 수 있으니 방문 전에 전화로 확인하십시오.',
     addressLocality: '관악구',
     addressRegion: '서울특별시',
     streetAddress: '신림로 340',
@@ -390,7 +395,7 @@ export const VENUES: NightVenue[] = [
     title: '신림그랑프리나이트 남다른 이유 신림로 르네상스',
     description:
       '신림그랑프리나이트가 흔한 나이트와 어디서 갈리는지 구조로 짚었습니다. 신림로 340 르네상스 복합쇼핑몰 안 홀과 룸·부스 구성을 비교해 정리했습니다.',
-    ogAlt: '신림그랑프리나이트 서울 관악구 신림로 르네상스 홀 안내 카드',
+    ogAlt: '광고 · 신림그랑프리나이트 · 쌍코피 · 010-7352-1606',
     ogBg: '#1D5E3F',
     ogRegion: '서울 관악구 신림동',
     answerLine: '신림로 340, 신림동 1422-5 르네상스 복합쇼핑몰 안에 있으며 홀과 별도로 룸·부스가 나뉘어 있습니다',
@@ -400,6 +405,7 @@ export const VENUES: NightVenue[] = [
       { label: '가장 가까운 역', value: '2호선 신림역 인근' },
       { label: '좌석 구성', value: '홀 · 룸 · 부스' },
       { label: '업종', value: '나이트클럽 · 무도장' },
+      { label: '예약·문의', value: '쌍코피 010-7352-1606' },
     ],
     faqs: [
       {
