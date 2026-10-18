@@ -201,7 +201,7 @@ export default function NightIndex() {
           <li><a href="/info/ansan-hit-night-1/">안산히트나이트</a></li>
           <li><a href="/info/ansan-hit-night/">안산히트나이트</a></li>
           <li><a href="/info/osan-hobak-night/">오산호박나이트</a></li>
-          <li><a href="/info/uijeongbu-baekakgwan-night/">의정부백악관나이트</a></li>
+          <li><a href="/info/uijeongbu-baekakgwan-night-1/">의정부백악관나이트</a></li>
           <li><a href="/info/uijeongbu-hangukgwan-night/">의정부한국관나이트</a></li>
           <li><a href="/info/indeogwon-gukbingwan-night/">인덕원국빈관나이트</a></li>
           <li><a href="/info/incheon-arabian-night/">인천아라비안나이트</a></li>
