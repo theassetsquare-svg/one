@@ -10,7 +10,7 @@ const OUT = path.join(__dirname, '..', 'out');
 const AREAS = [
   ['eunpyeong-night', '은평나이트', '은평 나이트', '은평 나이트클럽', 'bulgwang-hobak-night', 11, 'A'],
   ['changwon-night', '창원나이트', '창원 나이트', '창원 나이트클럽', 'changwon-lululala-night', 12, 'A'],
-  ['ulsan-night', '울산나이트', '울산 나이트', '울산 나이트클럽', 'ulsan-champion-night', 13, 'A'],
+  ['ulsan-night', '울산나이트', '울산 나이트', '울산 나이트클럽', 'ulsan-champion-night', 13, 'B'],
   ['gangnam-night', '강남나이트', '강남 나이트', '강남 나이트클럽', 'cheongdam-night', 1, 'A'],
   ['daejeon-night', '대전나이트', '대전 나이트', '대전 나이트클럽', 'daejeon-one-night', 2, 'B'],
   ['sillim-night', '신림나이트', '신림 나이트', '신림 나이트클럽', 'sillim-grandprix-night', 3, 'B'],

@@ -201,8 +201,7 @@ export const VENUES: NightVenue[] = [
     nameA: '울산챔피언나이트',
     nameB: '울산 챔피언나이트',
     nameC: '울산 나이트클럽',
-    group: 'A',
-    contact: { nick: '춘자', display: '010-5653-0069', href: 'tel:01056530069', e164: '+82-10-5653-0069' },
+    group: 'B',
     addressLocality: '남구',
     addressRegion: '울산광역시',
     streetAddress: '정동로 75 (삼산동 1559-17)',
@@ -221,7 +220,7 @@ export const VENUES: NightVenue[] = [
       { label: '주소', value: '울산광역시 남구 삼산동 1559-17 (정동로 75)' },
       { label: '지역', value: '울산 남구 삼산동 번화가' },
       { label: '업종', value: '나이트클럽 · 무도장' },
-      { label: '예약·문의', value: '춘자 010-5653-0069' },
+      { label: '문의', value: '광고문의 카카오톡 besta12' },
     ],
     faqs: [
       {
@@ -246,7 +245,7 @@ export const VENUES: NightVenue[] = [
       },
       {
         q: '울산챔피언나이트 예약은 어떻게 하나요',
-        a: '춘자 010-5653-0069로 전화하면 됩니다. 인원과 도착 시간을 말하면 자리를 미리 잡아 둡니다.',
+        a: '연락처는 이 페이지 아래 광고문의 칸(카카오톡 besta12)에서 확인하실 수 있습니다. 인원과 도착 시간을 말하면 자리를 미리 잡아 둡니다.',
       },
     ],
     related: ['busan-asiad-night', 'changwon-lululala-night', 'daejeon-one-night'],

@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { 슬래시정본 } from '../../lib/canonical';
 import { Area, SITE, areaPath, areaAdCard } from '@/lib/area';
+import { 카드찾기 } from '@/lib/thumb';
 import { bySlug } from '@/lib/night';
 
 /**
@@ -15,8 +16,9 @@ import { bySlug } from '@/lib/night';
 export default function AreaSEO({ area }: { area: Area }) {
   const canonical = `${SITE}${슬래시정본(areaPath(area.slug))}`;
   const card = areaAdCard(area);
-  const image = card ? `${SITE}${card}` : null;
-  const imageAlt = card && area.contact ? ['광고', bySlug(area.venueSlug).nameA, area.contact.nick, area.contact.display].join(' · ') : '';
+  const 표카드 = card ? undefined : 카드찾기(areaPath(area.slug));   /* [전체67-1 11-01] 광고주 카드가 없는 쪽은 카드 표의 광고문의 카드 */
+  const image = card ? `${SITE}${card}` : 표카드 ? `${SITE}${표카드.file}` : null;
+  const imageAlt = card && area.contact ? ['광고', bySlug(area.venueSlug).nameA, area.contact.nick, area.contact.display].join(' · ') : 표카드 ? 표카드.alt : '';
   const keywords = [area.kwA, area.kwB, area.kwC, `${area.kwA} 위치`, `${area.kwA} 추천`, `${area.kwA} 예약`].join(', ');
 
   return (

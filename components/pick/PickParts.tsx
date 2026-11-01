@@ -1,4 +1,4 @@
-import PageThumb from '../PageThumb';
+import PageThumb from '../MapThumb';   /* [전체67-1 11-01] 카드 표(lib/thumb-map.json)가 먼저 · 없으면 준 src 그대로 */
 import { AD_KAKAO, HOURS_LEDGER, PickSection, PickVenue, VENUES, pickPath } from '@/lib/pick';
 
 /* ★★ 2026-08-30 — 아래 문구들이 40쪽에 글자 그대로 박혀 있어 유사문서로 걸렸다.

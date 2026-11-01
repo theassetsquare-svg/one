@@ -1,0 +1,29 @@
+{
+ "_설명": "2026-09-24 썸네일 19곳 — 쪽 경로 → 그 쪽만의 카드(og·본문 첫 그림·JSON-LD image 같은 파일). 만든 곳 naver-watch/scripts/thumb/apply-thumbs.mjs",
+ "쪽": {
+  "/area/ulsan-night/": {
+   "file": "/og/t-c-area-ulsan-night-993b903c.png",
+   "alt": "울산나이트 여러 번 · 광고문의 · 카톡 besta12"
+  },
+  "/info/ulsan-champion-night-2/": {
+   "file": "/og/t-c-info-ulsan-champion-night-2-07a6e93c.png",
+   "alt": "울산챔피언나이트 · 광고문의 · 카톡 besta12"
+  },
+  "/info/ulsan-champion-night-guide/": {
+   "file": "/og/t-c-info-ulsan-champion-night-guide-76220642.png",
+   "alt": "울산챔피언나이트 · 광고문의 · 카톡 besta12"
+  },
+  "/info/ulsan-champion-night/": {
+   "file": "/og/t-c-info-ulsan-champion-night-54a223c4.png",
+   "alt": "울산챔피언나이트 · 광고문의 · 카톡 besta12"
+  },
+  "/info/ulsan-champion-night-3/": {
+   "file": "/og/t-c-info-ulsan-champion-night-3-7935893f.png",
+   "alt": "울산챔피언나이트 · 광고문의 · 카톡 besta12"
+  },
+  "/info/bupyeong-kiss-night-1/": {
+   "file": "/og/t-c-info-bupyeong-kiss-night-1-05da9e72.png",
+   "alt": "부평키스나이트 · 광고문의 · 카톡 besta12"
+  }
+ }
+}

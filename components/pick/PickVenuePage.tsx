@@ -12,6 +12,7 @@ import {
   Verdict,
 } from '@/components/pick/PickParts';
 import { HOURS_LEDGER, VENUES, bySlug, pickPath } from '@/lib/pick';
+import { 카드찾기 } from '@/lib/thumb';
 import GuideExtra from '@/components/GuideExtra';
 
 /**
@@ -36,14 +37,15 @@ export default function PickVenuePage({ slug }: { slug: string }) {
     `${venue.nameA} 기준`,
   ];
 
+  const 표카드 = 카드찾기(pickPath(venue.slug));   /* [전체67-1 11-01] 카드 표가 먼저 · 없으면 옛 이름 */
   return (
     <>
       <PickSEO
         title={venue.title}
         description={venue.description}
         path={pickPath(venue.slug)}
-        image={`/og/pick-${venue.slug}${venue.ogV ?? ""}.png`}
-        imageAlt={venue.ogAlt}
+        image={표카드 ? 표카드.file : `/og/pick-${venue.slug}${venue.ogV ?? ""}.png`}
+        imageAlt={표카드 ? 표카드.alt : venue.ogAlt}
         keywords={keywords}
       />
       <PickSchema venue={venue} />

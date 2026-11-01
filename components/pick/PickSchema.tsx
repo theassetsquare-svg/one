@@ -1,4 +1,5 @@
 import { HOURS_SPEC, PickVenue, SITE, pickPath } from '@/lib/pick';
+import { 카드찾기 } from '@/lib/thumb';
 
 /**
  * /pick/* 구조화 데이터 3종 — NightClub / FAQPage / BreadcrumbList.
@@ -11,7 +12,8 @@ import { HOURS_SPEC, PickVenue, SITE, pickPath } from '@/lib/pick';
  */
 export default function PickSchema({ venue }: { venue: PickVenue }) {
   const url = `${SITE}${pickPath(venue.slug)}`;
-  const image = `${SITE}/og/pick-${venue.slug}${venue.ogV ?? ""}.png`;
+  const 표카드 = 카드찾기(pickPath(venue.slug));
+  const image = 표카드 ? `${SITE}${표카드.file}` : `${SITE}/og/pick-${venue.slug}${venue.ogV ?? ""}.png`;
 
   const address: Record<string, unknown> = { '@type': 'PostalAddress', addressCountry: 'KR' };
   if (venue.streetAddress) address.streetAddress = venue.streetAddress;

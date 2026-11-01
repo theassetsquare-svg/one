@@ -1,4 +1,5 @@
 import { NightVenue, SITE, nightPath } from '@/lib/night';
+import { 카드찾기 } from '@/lib/thumb';
 
 /**
  * /night/* 전용 구조화 데이터 3종 — NightClub / FAQPage / BreadcrumbList.
@@ -12,7 +13,8 @@ export default function NightSchema({ venue, canonicalPath }: { venue: NightVenu
   /* ★ 2026-08-31 — /area/ 밑에 놓인 같은 업소 쪽은 주소가 다르다.
      주소를 직접 받지 못하면 이동 경로가 남의 주소를 가리킨다. */
   const url = `${SITE}${canonicalPath ?? nightPath(venue.slug)}`;
-  const image = `${SITE}/og/${venue.slug}-og${venue.ogV ?? ""}.png`;
+  const 표카드 = 카드찾기(canonicalPath ?? nightPath(venue.slug));
+  const image = 표카드 ? `${SITE}${표카드.file}` : `${SITE}/og/${venue.slug}-og${venue.ogV ?? ""}.png`;
 
   const nightClub: Record<string, unknown> = {
     '@context': 'https://schema.org',

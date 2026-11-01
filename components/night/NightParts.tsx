@@ -1,4 +1,4 @@
-import PageThumb from '../PageThumb';
+import PageThumb from '../MapThumb';   /* [전체67-1 11-01] 카드 표(lib/thumb-map.json)가 먼저 · 없으면 준 src 그대로 */
 import { AD_KAKAO, NightVenue, VENUES, nightPath } from '@/lib/night';
 import { AD_NOTICE, CTA_LINES, INTRO_LINES, fillVary, pickBySlug } from '@/lib/vary';
 

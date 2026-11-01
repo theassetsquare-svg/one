@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { 슬래시정본 } from '../../lib/canonical';
 import { NightVenue, SITE, nightPath } from '@/lib/night';
+import { 카드찾기 } from '@/lib/thumb';
 
 /**
  * /night/* 전용 head.
@@ -19,7 +20,9 @@ import { NightVenue, SITE, nightPath } from '@/lib/night';
  */
 export default function NightSEO({ venue, canonicalPath }: { venue: NightVenue; canonicalPath?: string }) {
   const canonical = `${SITE}${슬래시정본(canonicalPath ?? nightPath(venue.slug))}`;
-  const image = `${SITE}/og/${venue.slug}-og${venue.ogV ?? ""}.png`;
+  const 표카드 = 카드찾기(canonicalPath ?? nightPath(venue.slug));   /* [전체67-1 11-01] 카드 표가 먼저 · 없으면 옛 이름 */
+  const image = 표카드 ? `${SITE}${표카드.file}` : `${SITE}/og/${venue.slug}-og${venue.ogV ?? ""}.png`;
+  const imageAlt = 표카드 ? 표카드.alt : venue.ogAlt;
   const keywords = [
     venue.nameA,
     venue.nameB,
@@ -79,7 +82,7 @@ export default function NightSEO({ venue, canonicalPath }: { venue: NightVenue; 
       <meta property="og:image:width" content="1200" key="og:w" />
       <meta property="og:image:height" content="1200" key="og:h" />
       <meta property="og:image:type" content="image/png" key="og:t" />
-      <meta property="og:image:alt" content={venue.ogAlt} key="og:alt" />
+      <meta property="og:image:alt" content={imageAlt} key="og:alt" />
 
       {/* 네이버 썸네일 후보 — og:image 와 같은 파일 */}
       <meta name="thumbnail" content={image} key="thumb" />
@@ -89,7 +92,7 @@ export default function NightSEO({ venue, canonicalPath }: { venue: NightVenue; 
       <meta name="twitter:title" content={venue.title} key="tw:title" />
       <meta name="twitter:description" content={venue.description} key="tw:desc" />
       <meta name="twitter:image" content={image} key="tw:img" />
-      <meta name="twitter:image:alt" content={venue.ogAlt} key="tw:alt" />
+      <meta name="twitter:image:alt" content={imageAlt} key="tw:alt" />
     </Head>
   );
 }

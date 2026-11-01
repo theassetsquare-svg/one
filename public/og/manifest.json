@@ -693,65 +693,6 @@
   "height": 1200
  },
  {
-  "file": "ulsan-champion-night-og.png",
-  "pageUrl": "https://c.nolcool.com/night/ulsan-champion-night",
-  "pageType": "가게",
-  "rule": "A",
-  "subject": "울산챔피언나이트",
-  "advertiser": {
-   "nick": "춘자",
-   "tel": "010-5653-0069"
-  },
-  "texts": [
-   "울산챔피언나이트",
-   "춘자",
-   "010-5653-0069",
-   "광고문의 카톡 besta12"
-  ],
-  "metrics": [
-   {
-    "text": "울산챔피언나이트",
-    "widthPx": 648,
-    "heightPx": 85.4,
-    "widthPct": 60,
-    "fontSizePx": 94.3,
-    "yScale": 1,
-    "hero": false
-   },
-   {
-    "text": "춘자",
-    "widthPx": 486,
-    "heightPx": 257.2,
-    "widthPct": 45,
-    "fontSizePx": 284.7,
-    "yScale": 1,
-    "hero": false
-   },
-   {
-    "text": "010-5653-0069",
-    "widthPx": 1004.4,
-    "heightPx": 300,
-    "widthPct": 93,
-    "fontSizePx": 124.3,
-    "yScale": 3.322,
-    "hero": true
-   },
-   {
-    "text": "광고문의 카톡 besta12",
-    "widthPx": 594,
-    "heightPx": 57.1,
-    "widthPct": 55,
-    "fontSizePx": 63,
-    "yScale": 1,
-    "hero": false
-   }
-  ],
-  "hero": "010-5653-0069",
-  "bytes": 20713,
-  "width": 1200,
-  "height": 1200
- },
- {
   "file": "cheongdam-night-og.png",
   "pageUrl": "https://c.nolcool.com/night/cheongdam-night",
   "pageType": "가게",
@@ -1365,65 +1306,6 @@
   ],
   "hero": "카카오톡 besta12",
   "bytes": 17399,
-  "width": 1200,
-  "height": 1200
- },
- {
-  "file": "ulsan-night-og.png",
-  "pageUrl": "https://c.nolcool.com/night/ulsan-night",
-  "pageType": "지역",
-  "rule": "D-A",
-  "subject": "울산나이트",
-  "advertiser": {
-   "nick": "춘자",
-   "tel": "010-5653-0069"
-  },
-  "texts": [
-   "울산나이트",
-   "춘자",
-   "010-5653-0069",
-   "광고문의 카톡 besta12"
-  ],
-  "metrics": [
-   {
-    "text": "울산나이트",
-    "widthPx": 648,
-    "heightPx": 137.1,
-    "widthPct": 60,
-    "fontSizePx": 151.3,
-    "yScale": 1,
-    "hero": false
-   },
-   {
-    "text": "춘자",
-    "widthPx": 486,
-    "heightPx": 257.2,
-    "widthPct": 45,
-    "fontSizePx": 284.7,
-    "yScale": 1,
-    "hero": false
-   },
-   {
-    "text": "010-5653-0069",
-    "widthPx": 1004.4,
-    "heightPx": 300,
-    "widthPct": 93,
-    "fontSizePx": 124.3,
-    "yScale": 3.322,
-    "hero": true
-   },
-   {
-    "text": "광고문의 카톡 besta12",
-    "widthPx": 594,
-    "heightPx": 57.1,
-    "widthPct": 55,
-    "fontSizePx": 63,
-    "yScale": 1,
-    "hero": false
-   }
-  ],
-  "hero": "010-5653-0069",
-  "bytes": 20236,
   "width": 1200,
   "height": 1200
  },
@@ -2488,52 +2370,6 @@
   ],
   "hero": "광고문의",
   "bytes": 10375,
-  "width": 1200,
-  "height": 1200
- },
- {
-  "file": "pick-ulsan-champion-night-guide.png",
-  "pageUrl": "https://c.nolcool.com/pick/ulsan-champion-night-guide",
-  "pageType": "가게",
-  "rule": "B",
-  "subject": "울산챔피언나이트",
-  "advertiser": null,
-  "texts": [
-   "울산챔피언나이트",
-   "광고문의",
-   "카카오톡 besta12"
-  ],
-  "metrics": [
-   {
-    "text": "울산챔피언나이트",
-    "widthPx": 648,
-    "heightPx": 85.4,
-    "widthPct": 60,
-    "fontSizePx": 94.3,
-    "yScale": 1,
-    "hero": false
-   },
-   {
-    "text": "광고문의",
-    "widthPx": 864,
-    "heightPx": 250,
-    "widthPct": 80,
-    "fontSizePx": 255.7,
-    "yScale": 1.079,
-    "hero": true
-   },
-   {
-    "text": "카카오톡 besta12",
-    "widthPx": 810,
-    "heightPx": 130,
-    "widthPct": 75,
-    "fontSizePx": 108.2,
-    "yScale": 1.33,
-    "hero": false
-   }
-  ],
-  "hero": "광고문의",
-  "bytes": 11746,
   "width": 1200,
   "height": 1200
  },

@@ -1,4 +1,5 @@
 import { Area, SITE, areaPath, areaAdCard } from '@/lib/area';
+import { 카드찾기 } from '@/lib/thumb';
 import { bySlug, nightPath } from '@/lib/night';
 
 /**
@@ -40,6 +41,7 @@ export default function AreaSchema({ area }: { area: Area }) {
     ],
   };
   if (areaAdCard(area)) article.image = `${SITE}${areaAdCard(area)}`;
+  else { const 표카드 = 카드찾기(areaPath(area.slug)); if (표카드) article.image = `${SITE}${표카드.file}`; }   /* [전체67-1 11-01] 카드 표의 광고문의 카드 */
   if (area.group === 'A' && area.contact) {
     article.mainEntity = {
       '@type': 'ContactPoint',

@@ -1,4 +1,5 @@
 import { AD_KAKAO, Area, AREAS, areaPath, areaAdCard } from '@/lib/area';
+import { 카드찾기 } from '@/lib/thumb';
 import { bySlug, nightPath } from '@/lib/night';
 import { AD_NOTICE, AD_SHORT, AREA_DEF, CTA_LINES, FAQ_NEXT, SUM_NEXT, TABLE_CAPTION, fillVary, pickBySlug } from '@/lib/vary';
 
@@ -232,6 +233,7 @@ function Cta({ area }: { area: Area }) {
 }
 
 export default function AreaPage({ area }: { area: Area }) {
+  const 표카드 = areaAdCard(area) && area.contact ? undefined : 카드찾기(areaPath(area.slug));   /* [전체67-1 11-01] 광고주 카드가 없는 쪽은 카드 표의 광고문의 카드(og 와 같은 파일) */
   const isA = area.group === 'A';
   const venue = bySlug(area.venueSlug);
   const picks = area.related.map((s) => AREAS.find((a) => a.slug === s)).filter(Boolean) as Area[];
@@ -270,6 +272,10 @@ export default function AreaPage({ area }: { area: Area }) {
           {areaAdCard(area) && area.contact ? (
             <figure style={{ margin: "0 auto 18px", maxWidth: 420 }}>
               <img src={areaAdCard(area) as string} alt={['광고', bySlug(area.venueSlug).nameA, area.contact.nick, area.contact.display].join(' · ')} width={1200} height={1200} decoding="async" style={{ width: "100%", height: "auto", borderRadius: 12, display: "block" }} />
+            </figure>
+          ) : 표카드 ? (
+            <figure style={{ margin: "0 auto 18px", maxWidth: 420 }}>
+              <img src={표카드.file} alt={표카드.alt} width={1200} height={1200} decoding="async" style={{ width: "100%", height: "auto", borderRadius: 12, display: "block" }} />
             </figure>
           ) : null}
 
