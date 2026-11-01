@@ -83,7 +83,8 @@ export default function Page() {
                 없습니다.
               </p>
               <FactTable venue={venue} />
-              <p className="way-samsan-1559">등록 주소는 울산광역시 남구 삼산동 1559-17, 도로명으로는 정동로 75이고 무도장 업종으로 등록된 대형 홀입니다.</p>
+              <p className="way-samsan-1559">등록 주소는 울산광역시 남구 삼산동 1559-17, 도로명으로는 정동로 75입니다.</p>
+              <p className="hall-kind-mudojang">등록된 업종은 나이트클럽과 무도장 둘 다이고, 안은 대형 홀 구조입니다.</p>
               <p className="nb-next">자리를 확실히 하고 싶다면 도착 전에 연락해 두는 편이 좋습니다.</p>
             </section>
 
@@ -91,9 +92,9 @@ export default function Page() {
               <h2 id="h2-6">삼산동 홀 예약과 문의 방법</h2>
               <p>
                 예약이 반드시 필요한 건 아니지만, 인원이 많거나 원하는 자리가 분명하면 미리 잡는 쪽이 유리합니다.
-                전화로 인원과 도착 시간만 말하면 됩니다. 혼자 가도 자리를 안 준다는 이야기 역시 사실이 아닙니다.
+                광고문의 창구에 인원과 도착 시간만 남기면 됩니다. 혼자 가도 자리를 안 준다는 이야기 역시 사실이 아닙니다.
                 웨이터가 자리와 합석을 정리해 주기 때문입니다. 이곳에 대해 굳어진 이야기들은 대체로 이
-                한 통으로 정리됩니다.
+                문의 한 번으로 정리됩니다.
               </p>
               <ClosingCta venue={venue} />
               <p className="nb-next">남은 오해는 아래 질문 목록에서 확인해 보세요.</p>
@@ -108,7 +109,7 @@ export default function Page() {
                   <p>{f.a}</p>
                 </details>
               ))}
-              <p className="nb-next">목록에 없는 내용은 전화로 확인하는 편이 정확합니다.</p>
+              <p className="nb-next">목록에 없는 내용은 광고문의 창구에 물어보는 쪽이 정확합니다.</p>
             </section>
 
             <GuideExtra pathname="/info/ulsan-champion-night/" />
