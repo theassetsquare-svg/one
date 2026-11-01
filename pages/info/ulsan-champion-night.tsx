@@ -75,7 +75,7 @@ export default function Page() {
             </section>
 
             <section aria-labelledby="h2-5" id="nb-access">
-              <h2 id="h2-5">찾아가는 위치</h2>
+              <h2 id="h2-5">삼산동 정동로 75 찾아가는 길</h2>
               <p>
                 울산광역시 남구 삼산동 1559-17, 정동로 75입니다. 삼산동 번화가 한복판이라 주변에 식당과 술집이
                 밀집해 있습니다. 저녁을 먹고 걸어서 넘어오기 좋은 자리입니다. 울산은 도시철도가 없어 대부분 버스나
@@ -83,11 +83,12 @@ export default function Page() {
                 없습니다.
               </p>
               <FactTable venue={venue} />
+              <p className="way-samsan-1559">등록 주소는 울산광역시 남구 삼산동 1559-17, 도로명으로는 정동로 75이고 무도장 업종으로 등록된 대형 홀입니다.</p>
               <p className="nb-next">자리를 확실히 하고 싶다면 도착 전에 연락해 두는 편이 좋습니다.</p>
             </section>
 
             <section aria-labelledby="h2-6" id="nb-contact">
-              <h2 id="h2-6">예약과 문의</h2>
+              <h2 id="h2-6">삼산동 홀 예약과 문의 방법</h2>
               <p>
                 예약이 반드시 필요한 건 아니지만, 인원이 많거나 원하는 자리가 분명하면 미리 잡는 쪽이 유리합니다.
                 전화로 인원과 도착 시간만 말하면 됩니다. 혼자 가도 자리를 안 준다는 이야기 역시 사실이 아닙니다.
