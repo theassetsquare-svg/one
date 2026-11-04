@@ -178,8 +178,8 @@ export default function NightIndex() {
         <h3 style={{ fontSize: ".95rem", margin: "16px 0 8px", opacity: .75 }}>서울</h3>
         <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(190px,1fr))", gap: "8px 16px", fontSize: ".92rem" }}>
           <li><a href="/info/gangseo-hobak-night-3/">강서호박나이트</a></li>
-          <li><a href="/info/gildong-chance-night/">길동찬스나이트</a></li>
-          <li><a href="/info/nowon-hobak-night/">노원호박나이트</a></li>
+          <li><a href="/info/gildong-chance-night-2/">길동찬스나이트</a></li>
+          <li><a href="/info/nowon-hobak-night-2/">노원호박나이트</a></li>
           <li><a href="/info/dapsimni-miracle-night/">답십리미라클나이트</a></li>
           <li><a href="/info/doksan-gukbingwan-night-5/">독산동국빈관나이트</a></li>
           <li><a href="/info/sangbong-hangukgwan-night-1/">상봉동한국관나이트</a></li>
@@ -204,10 +204,10 @@ export default function NightIndex() {
           <li><a href="/info/uijeongbu-baekakgwan-night-1/">의정부백악관나이트</a></li>
           <li><a href="/info/uijeongbu-hangukgwan-night-1/">의정부한국관나이트</a></li>
           <li><a href="/info/indeogwon-gukbingwan-night/">인덕원국빈관나이트</a></li>
-          <li><a href="/info/incheon-arabian-night/">인천아라비안나이트</a></li>
+          <li><a href="/info/incheon-arabian-night-2/">인천아라비안나이트</a></li>
           <li><a href="/info/ilsan-shampoo-night-1/">일산샴푸나이트</a></li>
           <li><a href="/info/ilsan-shampoo-night/">일산샴푸나이트</a></li>
-          <li><a href="/info/pyeongtaek-hobak-night/">평택호박나이트</a></li>
+          <li><a href="/info/pyeongtaek-hobak-night-2/">평택호박나이트</a></li>
         </ul>
         <h3 style={{ fontSize: ".95rem", margin: "16px 0 8px", opacity: .75 }}>충청</h3>
         <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(190px,1fr))", gap: "8px 16px", fontSize: ".92rem" }}>
@@ -235,8 +235,8 @@ export default function NightIndex() {
         <h3 style={{ fontSize: ".95rem", margin: "16px 0 8px", opacity: .75 }}>호남·제주</h3>
         <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(190px,1fr))", gap: "8px 16px", fontSize: ".92rem" }}>
           <li><a href="/info/gwangju-sangmu-night/">광주상무나이트</a></li>
-          <li><a href="/info/gwangju-cheomdan-night/">광주첨단나이트</a></li>
-          <li><a href="/info/jeju-do-night/">제주도나이트</a></li>
+          <li><a href="/info/gwangju-cheomdan-night-2/">광주첨단나이트</a></li>
+          <li><a href="/info/jeju-do-night-2/">제주도나이트</a></li>
         </ul>
         <h3 style={{ fontSize: ".95rem", margin: "16px 0 8px", opacity: .75 }}>그 밖의 지역</h3>
         <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(190px,1fr))", gap: "8px 16px", fontSize: ".92rem" }}>

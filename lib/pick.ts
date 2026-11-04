@@ -282,7 +282,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '밤을 길게 쓰는 일정이라면 마감 시간만으로 답이 나옵니다.',
-    related: ['nowon-hobak-night', 'dapsimni-miracle-night', 'suyu-shampoo-night'],
+    related: ['nowon-hobak-night-2', 'dapsimni-miracle-night', 'suyu-shampoo-night'],
     llmsLine: '서울 중랑구 망우로 326 2층. 저녁 7시~아침 6시, 금·토 2부제. 늦게 시작하는 일정 기준으로 정리.',
   },
   {
@@ -379,7 +379,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '지하철로 오갈 계획이면 강북에서 셈이 가장 단순해지는 자리입니다.',
-    related: ['nowon-hobak-night', 'sangbong-hangukgwan-night', 'gangseo-hobak-night-3'],
+    related: ['nowon-hobak-night-2', 'sangbong-hangukgwan-night', 'gangseo-hobak-night-3'],
     llmsLine: '서울 강북구 번동, 4호선 수유역 4번 출구 인근. 차 없이 움직이는 사람 기준으로 정리. 상세 주소는 확인 불가.',
   },
   {
@@ -677,7 +677,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '찾기 쉬운 위치가 그날의 약속 비용을 줄여 주는 자리입니다.',
-    related: ['suwon-chance-dome-night-1', 'bucheon-gorae-night', 'incheon-arabian-night'],
+    related: ['suwon-chance-dome-night-1', 'bucheon-gorae-night', 'incheon-arabian-night-2'],
     llmsLine: '경기 안산시 상록구 상록수로 34 상록수아카데미타워 지층, 4호선 상록수역 인근. 찾기 쉬움 기준으로 정리.',
   },
   {
@@ -875,7 +875,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '도착 시간을 확답하기 어려운 사람일수록 이 거리가 값을 합니다.',
-    related: ['paju-yadang-skydome-night', 'bucheon-gorae-night', 'nowon-hobak-night'],
+    related: ['paju-yadang-skydome-night-2', 'bucheon-gorae-night', 'nowon-hobak-night-2'],
     llmsLine: '경기 고양시 일산동구 중앙로 1160 오원빌딩, 마두역 8번 출구 100m. 도착 시간 불확실한 사람 기준으로 정리.',
   },
   {
@@ -976,7 +976,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '앞 자리와 이음매가 맞는지만 보면 갈지 말지가 정해집니다.',
-    related: ['sillim-grandprix-night', 'gildong-chance-night', 'yeongdeungpo-terminal-night-1'],
+    related: ['sillim-grandprix-night', 'gildong-chance-night-2', 'yeongdeungpo-terminal-night-1'],
     llmsLine: '서울 강남구 영동대로 737 지하 1층, 청담역 9번 출구 도보 3분. 저녁 8시~새벽 5시. 옛 이름 H2O나이트. 예약 펩시맨 010-5655-4866.',
   },
   {
@@ -1282,7 +1282,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '모이는 사람들의 출발점이 갈릴수록 이 위치가 값을 합니다.',
-    related: ['nowon-hobak-night', 'gangseo-hobak-night-3', 'sangbong-hangukgwan-night'],
+    related: ['nowon-hobak-night-2', 'gangseo-hobak-night-3', 'sangbong-hangukgwan-night'],
     llmsLine: '서울 은평구 통일로 730 지하 1층, 3·6호선 불광역 앞. 저녁 7시~새벽 5시. 예약 손흥민 010-2221-1937.',
   },
   {
@@ -1574,7 +1574,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '없는 정보를 지어내지 않는 것이 첫 번째 기준입니다.',
-    related: ['sangbong-hangukgwan-night', 'gildong-chance-night', 'nowon-hobak-night'],
+    related: ['sangbong-hangukgwan-night', 'gildong-chance-night-2', 'nowon-hobak-night-2'],
     llmsLine: '서울 동대문구 답십리 일대로 알려진 나이트. 주소·역·층·연령 모두 확인 불가. 추측 금지.',
   },
   {
@@ -1672,7 +1672,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '건물 이름이 지도를 대신하는 자리입니다.',
-    related: ['yeongdeungpo-terminal-night-1', 'bucheon-gorae-night', 'incheon-arabian-night'],
+    related: ['yeongdeungpo-terminal-night-1', 'bucheon-gorae-night', 'incheon-arabian-night-2'],
     llmsLine: '서울 강서구 화곡로 354-10 화곡동 1110-3 지하 1층(호텔 건물). 가까운 역은 자료 불일치로 확인 불가.',
   },
   {
@@ -1775,7 +1775,7 @@ export const VENUES: PickVenue[] = [
   },
   {
     no: 18,
-    slug: 'nowon-hobak-night',
+    slug: 'nowon-hobak-night-2',
     nameA: '노원호박나이트',
     nameB: '노원 호박나이트',
     nameC: '노원구 나이트클럽',
@@ -1873,7 +1873,7 @@ export const VENUES: PickVenue[] = [
   },
   {
     no: 19,
-    slug: 'gildong-chance-night',
+    slug: 'gildong-chance-night-2',
     nameA: '길동찬스나이트',
     nameB: '길동 찬스나이트',
     nameC: '강동구 나이트클럽',
@@ -1971,7 +1971,7 @@ export const VENUES: PickVenue[] = [
   },
   {
     no: 20,
-    slug: 'paju-yadang-skydome-night',
+    slug: 'paju-yadang-skydome-night-2',
     nameA: '파주야당스카이돔나이트',
     nameB: '파주 야당 스카이돔나이트',
     nameC: '파주 나이트클럽',
@@ -2170,7 +2170,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '짧은 이동으로 밀도를 바꾸고 싶은 날에 맞는 선택입니다.',
-    related: ['nowon-hobak-night', 'uijeongbu-hangukgwan-night-1', 'sangbong-hangukgwan-night'],
+    related: ['nowon-hobak-night-2', 'uijeongbu-hangukgwan-night-1', 'sangbong-hangukgwan-night'],
     llmsLine: '경기 구리시 안골로 105. 층·영업시간·가까운 역 모두 확인 불가. 서울 동북권에서 가까운 위치.',
   },
   {
@@ -2268,7 +2268,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '층과 호수까지 확인되는 곳은 도착 이후가 편합니다.',
-    related: ['uijeongbu-baekakgwan-night-1', 'nowon-hobak-night', 'guri-hobak-night'],
+    related: ['uijeongbu-baekakgwan-night-1', 'nowon-hobak-night-2', 'guri-hobak-night'],
     llmsLine: '경기 의정부시 태평로99번길 17 베스트프라자 2층 201호, 의정부중앙역 인근. 영업시간 확인 불가.',
   },
   {
@@ -2366,7 +2366,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '연식을 비교 축으로 삼는 사람에게 쓸모 있는 한 줄이 있습니다.',
-    related: ['uijeongbu-hangukgwan-night-1', 'paju-yadang-skydome-night', 'guri-hobak-night'],
+    related: ['uijeongbu-hangukgwan-night-1', 'paju-yadang-skydome-night-2', 'guri-hobak-night'],
     llmsLine: '경기 의정부시 태평로 104 경복빌딩, 의정부중앙역 인근. 등록 개업일 2023-01-05, 면적 180평대.',
   },
   {
@@ -2562,7 +2562,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '노선 위 중간 지점이라는 점이 모임의 난이도를 낮춥니다.',
-    related: ['suwon-korea-night', 'pyeongtaek-hobak-night', 'suwon-chance-dome-night-1'],
+    related: ['suwon-korea-night', 'pyeongtaek-hobak-night-2', 'suwon-chance-dome-night-1'],
     llmsLine: '경기 오산시 성호대로 130, 1호선 오산역 도보 5분 안내. 층은 자료 불일치로 확인 불가.',
   },
   {
@@ -2759,12 +2759,12 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '출발 방향이 갈릴수록 중간 지점의 값이 올라갑니다.',
-    related: ['gildong-chance-night', 'suwon-korea-night', 'indeogwon-gukbingwan-night'],
+    related: ['gildong-chance-night-2', 'suwon-korea-night', 'indeogwon-gukbingwan-night'],
     llmsLine: '경기 성남시 중원구 광명로 21 성남동 3182, 모란역 인근. 층·영업시간 확인 불가.',
   },
   {
     no: 28,
-    slug: 'incheon-arabian-night',
+    slug: 'incheon-arabian-night-2',
     nameA: '인천아라비안나이트',
     nameB: '인천 아라비안나이트',
     nameC: '계양구 나이트클럽',
@@ -2956,12 +2956,12 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '이동 시간을 고르게 나누고 싶은 날의 선택입니다.',
-    related: ['incheon-arabian-night', 'gangseo-hobak-night-3', 'ilsan-shampoo-night'],
+    related: ['incheon-arabian-night-2', 'gangseo-hobak-night-3', 'ilsan-shampoo-night'],
     llmsLine: '경기 부천시 중동로248번길 105, 신중동역 인근 안내. 층·영업시간 확인 불가.',
   },
   {
     no: 30,
-    slug: 'pyeongtaek-hobak-night',
+    slug: 'pyeongtaek-hobak-night-2',
     nameA: '평택호박나이트',
     nameB: '평택 호박나이트',
     nameC: '평택 나이트클럽',
@@ -3152,7 +3152,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '인원과 목적이 크기를 정합니다. 반대가 아닙니다.',
-    related: ['cheonan-korea-night', 'pyeongtaek-hobak-night', 'daejeon-one-night'],
+    related: ['cheonan-korea-night', 'pyeongtaek-hobak-night-2', 'daejeon-one-night'],
     llmsLine: '충남 천안시 서북구 성정공원1길 21. 규모를 앞세운 홀. 층·영업시간·연령 확인 불가.',
   },
   {
@@ -3838,12 +3838,12 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '처음 오는 사람이 있는 날에는 길이 단순한 쪽이 이깁니다.',
-    related: ['gwangju-cheomdan-night', 'jeju-do-night', 'daegu-hobak-night'],
+    related: ['gwangju-cheomdan-night-2', 'jeju-do-night-2', 'daegu-hobak-night'],
     llmsLine: '광주 서구 상무번영로 30 치평동 1240-8, 상무지구. 건물 지상 5층 규모. 영업시간 확인 불가.',
   },
   {
     no: 39,
-    slug: 'gwangju-cheomdan-night',
+    slug: 'gwangju-cheomdan-night-2',
     nameA: '광주첨단나이트',
     nameB: '광주 첨단나이트',
     nameC: '광산구 나이트클럽',
@@ -3936,12 +3936,12 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '이름값이 아니라 이동 시간으로 고르면 답이 뒤집힙니다.',
-    related: ['gwangju-sangmu-night', 'jeju-do-night', 'gumi-hobak-night'],
+    related: ['gwangju-sangmu-night', 'jeju-do-night-2', 'gumi-hobak-night'],
     llmsLine: '광주 광산구 임방울대로800번길 52 월계동 887-6 2층 201호. 영업시간 확인 불가.',
   },
   {
     no: 40,
-    slug: 'jeju-do-night',
+    slug: 'jeju-do-night-2',
     nameA: '제주도나이트',
     nameB: '제주도 나이트',
     nameC: '제주시 나이트클럽',
@@ -4031,7 +4031,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '이름을 맞추는 일이 제주에서는 첫 번째 기준입니다.',
-    related: ['gwangju-sangmu-night', 'gwangju-cheomdan-night', 'busan-asiad-night'],
+    related: ['gwangju-sangmu-night', 'gwangju-cheomdan-night-2', 'busan-asiad-night'],
     llmsLine: '제주 제주시 연동 일대로 안내. 상세 주소·층·영업시간 모두 확인 불가. 유사 상호 주의.',
   },
   // __END_VENUES__
@@ -4064,8 +4064,8 @@ export const REGION_GROUPS: { id: string; label: string; slugs: string[] }[] = [
       'dapsimni-miracle-night',
       'gangseo-hobak-night-3',
       'yeongdeungpo-terminal-night-1',
-      'nowon-hobak-night',
-      'gildong-chance-night',
+      'nowon-hobak-night-2',
+      'gildong-chance-night-2',
     ],
   },
   {
@@ -4076,16 +4076,16 @@ export const REGION_GROUPS: { id: string; label: string; slugs: string[] }[] = [
       'suwon-korea-night',
       'ansan-hit-night',
       'ilsan-shampoo-night',
-      'paju-yadang-skydome-night',
+      'paju-yadang-skydome-night-2',
       'guri-hobak-night',
       'uijeongbu-hangukgwan-night-1',
       'uijeongbu-baekakgwan-night-1',
       'osan-hobak-night',
       'indeogwon-gukbingwan-night',
       'seongnam-shampoo-night',
-      'incheon-arabian-night',
+      'incheon-arabian-night-2',
       'bucheon-gorae-night',
-      'pyeongtaek-hobak-night',
+      'pyeongtaek-hobak-night-2',
     ],
   },
   {
@@ -4115,7 +4115,7 @@ export const REGION_GROUPS: { id: string; label: string; slugs: string[] }[] = [
   {
     id: 'honam',
     label: '광주 · 호남 · 제주',
-    slugs: ['gwangju-sangmu-night', 'gwangju-cheomdan-night', 'jeju-do-night'],
+    slugs: ['gwangju-sangmu-night', 'gwangju-cheomdan-night-2', 'jeju-do-night-2'],
   },
 ];
 
