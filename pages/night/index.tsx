@@ -197,7 +197,7 @@ export default function NightIndex() {
         <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(190px,1fr))", gap: "8px 16px", fontSize: ".92rem" }}>
           <li><a href="/info/guri-hobak-night/">구리호박나이트</a></li>
           <li><a href="/info/bucheon-gorae-night/">부천고래나이트</a></li>
-          <li><a href="/info/suwon-korea-night/">수원코리아나이트</a></li>
+          <li><a href="/info/suwon-korea-night-2/">수원코리아나이트</a></li>
           <li><a href="/info/ansan-hit-night-1/">안산히트나이트</a></li>
           <li><a href="/info/ansan-hit-night/">안산히트나이트</a></li>
           <li><a href="/info/osan-hobak-night/">오산호박나이트</a></li>
@@ -215,7 +215,7 @@ export default function NightIndex() {
           <li><a href="/info/daejeon-seven-night/">대전세븐나이트</a></li>
           <li><a href="/info/daejeon-one-night-1/">대전원나이트</a></li>
           <li><a href="/info/daejeon-one-night/">대전원나이트</a></li>
-          <li><a href="/info/seosan-hobak-night/">서산호박나이트</a></li>
+          <li><a href="/info/seosan-hobak-night-2/">서산호박나이트</a></li>
           <li><a href="/info/cheonan-stardome-night-3/">천안스타돔나이트</a></li>
           <li><a href="/info/cheonan-korea-night/">천안코리아나이트</a></li>
           <li><a href="/info/cheongju-hobak-night-3/">청주호박나이트</a></li>

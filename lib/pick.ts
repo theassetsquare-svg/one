@@ -579,7 +579,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '몇 시에 닫는지보다 몇 시에 여는지가 중요한 사람에게 맞습니다.',
-    related: ['suwon-korea-night', 'osan-hobak-night', 'seongnam-shampoo-night'],
+    related: ['suwon-korea-night-2', 'osan-hobak-night', 'seongnam-shampoo-night'],
     llmsLine: '경기 수원시 권선구 권선로 673. 저녁 6시~새벽 4시. 초저녁 입장 기준으로 자리 고르는 법 정리.',
   },
   {
@@ -2371,7 +2371,7 @@ export const VENUES: PickVenue[] = [
   },
   {
     no: 24,
-    slug: 'suwon-korea-night',
+    slug: 'suwon-korea-night-2',
     nameA: '수원코리아나이트',
     nameB: '수원 코리아나이트',
     nameC: '팔달구 나이트클럽',
@@ -2562,7 +2562,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '노선 위 중간 지점이라는 점이 모임의 난이도를 낮춥니다.',
-    related: ['suwon-korea-night', 'pyeongtaek-hobak-night-2', 'suwon-chance-dome-night-1'],
+    related: ['suwon-korea-night-2', 'pyeongtaek-hobak-night-2', 'suwon-chance-dome-night-1'],
     llmsLine: '경기 오산시 성호대로 130, 1호선 오산역 도보 5분 안내. 층은 자료 불일치로 확인 불가.',
   },
   {
@@ -2660,7 +2660,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '위치보다 운영 여부가 먼저인 자리입니다.',
-    related: ['doksan-gukbingwan-night-5', 'seongnam-shampoo-night', 'suwon-korea-night'],
+    related: ['doksan-gukbingwan-night-5', 'seongnam-shampoo-night', 'suwon-korea-night-2'],
     llmsLine: '경기 안양시 동안구 흥안대로 524 삼우프라자 지하 1층(기록). 폐업·재건축 자료 혼재로 운영 여부 확인 불가.',
   },
   {
@@ -2759,7 +2759,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '출발 방향이 갈릴수록 중간 지점의 값이 올라갑니다.',
-    related: ['gildong-chance-night-2', 'suwon-korea-night', 'indeogwon-gukbingwan-night'],
+    related: ['gildong-chance-night-2', 'suwon-korea-night-2', 'indeogwon-gukbingwan-night'],
     llmsLine: '경기 성남시 중원구 광명로 21 성남동 3182, 모란역 인근. 층·영업시간 확인 불가.',
   },
   {
@@ -3054,7 +3054,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '지상층과 규모를 함께 원한다면 드문 조합입니다.',
-    related: ['osan-hobak-night', 'cheonan-stardome-night-3', 'suwon-korea-night'],
+    related: ['osan-hobak-night', 'cheonan-stardome-night-3', 'suwon-korea-night-2'],
     llmsLine: '경기 평택시 중앙로 16 평택동 69-8 2~3층, 평택역 인근. 지상 두 개 층 구조.',
   },
   {
@@ -3250,7 +3250,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '길 찾는 부담을 줄이는 것이 그날 약속을 지키는 방법입니다.',
-    related: ['cheonan-stardome-night-3', 'cheongju-hobak-night-3', 'seosan-hobak-night'],
+    related: ['cheonan-stardome-night-3', 'cheongju-hobak-night-3', 'seosan-hobak-night-2'],
     llmsLine: '충남 천안시 서북구 차돌들길 7 쌍용1동 210-8, 1호선 쌍용역 인근. 층·영업시간 확인 불가.',
   },
   {
@@ -3450,7 +3450,7 @@ export const VENUES: PickVenue[] = [
   },
   {
     no: 35,
-    slug: 'seosan-hobak-night',
+    slug: 'seosan-hobak-night-2',
     nameA: '서산호박나이트',
     nameB: '서산 호박나이트',
     nameC: '서산 나이트클럽',
@@ -4073,7 +4073,7 @@ export const REGION_GROUPS: { id: string; label: string; slugs: string[] }[] = [
     label: '경기 · 인천',
     slugs: [
       'suwon-chance-dome-night-1',
-      'suwon-korea-night',
+      'suwon-korea-night-2',
       'ansan-hit-night',
       'ilsan-shampoo-night',
       'paju-yadang-skydome-night-2',
@@ -4097,7 +4097,7 @@ export const REGION_GROUPS: { id: string; label: string; slugs: string[] }[] = [
       'cheonan-stardome-night-3',
       'cheonan-korea-night',
       'cheongju-hobak-night-3',
-      'seosan-hobak-night',
+      'seosan-hobak-night-2',
     ],
   },
   {
