@@ -189,7 +189,7 @@ export default function NightIndex() {
           <li><a href="/info/suyu-shampoo-night/">수유샴푸나이트</a></li>
           <li><a href="/info/sillim-grandprix-night-1/">신림그랑프리나이트</a></li>
           <li><a href="/info/sillim-grandprix-night/">신림그랑프리나이트</a></li>
-          <li><a href="/info/yeongdeungpo-terminal-night/">영등포터미널나이트</a></li>
+          <li><a href="/info/yeongdeungpo-terminal-night-1/">영등포터미널나이트</a></li>
           <li><a href="/info/cheongdam-night-1/">청담나이트</a></li>
           <li><a href="/info/cheongdam-night/">청담나이트</a></li>
         </ul>
@@ -202,7 +202,7 @@ export default function NightIndex() {
           <li><a href="/info/ansan-hit-night/">안산히트나이트</a></li>
           <li><a href="/info/osan-hobak-night/">오산호박나이트</a></li>
           <li><a href="/info/uijeongbu-baekakgwan-night-1/">의정부백악관나이트</a></li>
-          <li><a href="/info/uijeongbu-hangukgwan-night/">의정부한국관나이트</a></li>
+          <li><a href="/info/uijeongbu-hangukgwan-night-1/">의정부한국관나이트</a></li>
           <li><a href="/info/indeogwon-gukbingwan-night/">인덕원국빈관나이트</a></li>
           <li><a href="/info/incheon-arabian-night/">인천아라비안나이트</a></li>
           <li><a href="/info/ilsan-shampoo-night-1/">일산샴푸나이트</a></li>
@@ -226,7 +226,7 @@ export default function NightIndex() {
           <li><a href="/info/daegu-hobak-night/">대구호박나이트</a></li>
           <li><a href="/info/busan-asiad-night-1/">부산아시아드나이트</a></li>
           <li><a href="/info/busan-asiad-night/">부산아시아드나이트</a></li>
-          <li><a href="/info/ulsan-newworld-night/">울산뉴월드나이트</a></li>
+          <li><a href="/info/ulsan-newworld-night-1/">울산뉴월드나이트</a></li>
           <li><a href="/info/ulsan-champion-night/">울산챔피언나이트</a></li>
           <li><a href="/info/ulsan-champion-night-guide/">울산챔피언나이트</a></li>
           <li><a href="/info/changwon-lululala-night/">창원룰루랄라나이트</a></li>
