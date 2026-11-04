@@ -177,11 +177,11 @@ export default function NightIndex() {
         <h2 style={{ fontSize: "1.05rem", margin: "0 0 14px" }}>나이트 전체 보기 (50곳)</h2>
         <h3 style={{ fontSize: ".95rem", margin: "16px 0 8px", opacity: .75 }}>서울</h3>
         <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(190px,1fr))", gap: "8px 16px", fontSize: ".92rem" }}>
-          <li><a href="/info/gangseo-hobak-night/">강서호박나이트</a></li>
+          <li><a href="/info/gangseo-hobak-night-3/">강서호박나이트</a></li>
           <li><a href="/info/gildong-chance-night/">길동찬스나이트</a></li>
           <li><a href="/info/nowon-hobak-night/">노원호박나이트</a></li>
           <li><a href="/info/dapsimni-miracle-night/">답십리미라클나이트</a></li>
-          <li><a href="/info/doksan-gukbingwan-night/">독산동국빈관나이트</a></li>
+          <li><a href="/info/doksan-gukbingwan-night-5/">독산동국빈관나이트</a></li>
           <li><a href="/info/sangbong-hangukgwan-night-1/">상봉동한국관나이트</a></li>
           <li><a href="/info/sangbong-hangukgwan-night/">상봉동한국관나이트</a></li>
           <li><a href="/info/seongnam-shampoo-night/">성남샴푸나이트</a></li>
@@ -218,7 +218,7 @@ export default function NightIndex() {
           <li><a href="/info/seosan-hobak-night/">서산호박나이트</a></li>
           <li><a href="/info/cheonan-stardome-night-3/">천안스타돔나이트</a></li>
           <li><a href="/info/cheonan-korea-night/">천안코리아나이트</a></li>
-          <li><a href="/info/cheongju-hobak-night/">청주호박나이트</a></li>
+          <li><a href="/info/cheongju-hobak-night-3/">청주호박나이트</a></li>
         </ul>
         <h3 style={{ fontSize: ".95rem", margin: "16px 0 8px", opacity: .75 }}>영남</h3>
         <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(190px,1fr))", gap: "8px 16px", fontSize: ".92rem" }}>
