@@ -287,7 +287,7 @@
  },
  {
   "file": "faq.png",
-  "pageUrl": "https://c.nolcool.com/faq",
+  "pageUrl": "https://c.nolcool.com/faq-3",
   "pageType": "가게",
   "rule": "own",
   "subject": "대전원나이트",
@@ -2328,7 +2328,7 @@
   "height": 1200
  },
  {
-  "file": "pick-bulgwang-hobak-night-guide.png",
+  "file": "pick-bulgwang-hobak-night-guide-3.png",
   "pageUrl": "https://c.nolcool.com/pick/bulgwang-hobak-night-guide",
   "pageType": "가게",
   "rule": "B",
@@ -3195,7 +3195,7 @@
   "height": 1200
  },
  {
-  "file": "pick-cheonan-stardome-night.png",
+  "file": "pick-cheonan-stardome-night-3.png",
   "pageUrl": "https://c.nolcool.com/pick/cheonan-stardome-night",
   "pageType": "가게",
   "rule": "B",

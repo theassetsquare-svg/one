@@ -1081,12 +1081,12 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '앉기 전에 나이대를 알고 싶은 사람에게 맞는 기준입니다.',
-    related: ['daejeon-seven-night', 'cheongju-hobak-night', 'cheonan-stardome-night'],
+    related: ['daejeon-seven-night', 'cheongju-hobak-night', 'cheonan-stardome-night-3'],
     llmsLine: '대전 동구 용전동 복합터미널 인근. 만 38세 이상 출입. 일~목 20:00~02:30, 금·토 20:00~03:30.',
   },
   {
     no: 11,
-    slug: 'changwon-lululala-night-guide',
+    slug: 'changwon-lululala-night-guide-3',
     ogV: '-ad0924',   // 2026-09-24 광고주 복구 — 로또 표준 4줄 카드(새 파일 이름)
     contact: { nick: '로또', display: '010-7528-4936', href: 'tel:01075284936', e164: '+82-10-7528-4936' },
     nameA: '창원룰루랄라나이트',
@@ -1187,7 +1187,7 @@ export const VENUES: PickVenue[] = [
   },
   {
     no: 12,
-    slug: 'bulgwang-hobak-night-guide',
+    slug: 'bulgwang-hobak-night-guide-3',
     nameA: '불광동호박나이트',
     nameB: '불광동 호박나이트',
     nameC: '은평구 나이트클럽',
@@ -1380,7 +1380,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '이미 삼산동에 있다면 이동 비용이 0에 가까운 선택입니다.',
-    related: ['ulsan-newworld-night', 'busan-asiad-night', 'changwon-lululala-night-guide'],
+    related: ['ulsan-newworld-night', 'busan-asiad-night', 'changwon-lululala-night-guide-3'],
     llmsLine: '울산 남구 삼산동 1559-17 정동로 75, 삼산동 번화가. 광고문의 카카오톡 besta12.',
   },
   {
@@ -3054,12 +3054,12 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '지상층과 규모를 함께 원한다면 드문 조합입니다.',
-    related: ['osan-hobak-night', 'cheonan-stardome-night', 'suwon-korea-night'],
+    related: ['osan-hobak-night', 'cheonan-stardome-night-3', 'suwon-korea-night'],
     llmsLine: '경기 평택시 중앙로 16 평택동 69-8 2~3층, 평택역 인근. 지상 두 개 층 구조.',
   },
   {
     no: 31,
-    slug: 'cheonan-stardome-night',
+    slug: 'cheonan-stardome-night-3',
     nameA: '천안스타돔나이트',
     nameB: '천안 스타돔나이트',
     nameC: '천안 나이트클럽',
@@ -3250,7 +3250,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '길 찾는 부담을 줄이는 것이 그날 약속을 지키는 방법입니다.',
-    related: ['cheonan-stardome-night', 'cheongju-hobak-night', 'seosan-hobak-night'],
+    related: ['cheonan-stardome-night-3', 'cheongju-hobak-night', 'seosan-hobak-night'],
     llmsLine: '충남 천안시 서북구 차돌들길 7 쌍용1동 210-8, 1호선 쌍용역 인근. 층·영업시간 확인 불가.',
   },
   {
@@ -3544,7 +3544,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '시간이 확인되는 곳은 계획의 질부터 달라집니다.',
-    related: ['cheonan-korea-night', 'cheongju-hobak-night', 'cheonan-stardome-night'],
+    related: ['cheonan-korea-night', 'cheongju-hobak-night', 'cheonan-stardome-night-3'],
     llmsLine: '충남 서산시 읍내1로 35 서부상가 지하 1층 101호. 매일 저녁 7시~새벽 5시.',
   },
   {
@@ -3740,7 +3740,7 @@ export const VENUES: PickVenue[] = [
       },
     ],
     oneLine: '상권이 하나로 모인 도시에서는 거리보다 취향이 기준입니다.',
-    related: ['daegu-hobak-night', 'ulsan-newworld-night', 'changwon-lululala-night-guide'],
+    related: ['daegu-hobak-night', 'ulsan-newworld-night', 'changwon-lululala-night-guide-3'],
     llmsLine: '경북 구미시 원평동 산업로 일대. 상세 번지·층·영업시간 확인 불가.',
   },
   {
@@ -4059,7 +4059,7 @@ export const REGION_GROUPS: { id: string; label: string; slugs: string[] }[] = [
       'sangbong-hangukgwan-night',
       'suyu-shampoo-night',
       'cheongdam-night',
-      'bulgwang-hobak-night-guide',
+      'bulgwang-hobak-night-guide-3',
       'doksan-gukbingwan-night',
       'dapsimni-miracle-night',
       'gangseo-hobak-night',
@@ -4094,7 +4094,7 @@ export const REGION_GROUPS: { id: string; label: string; slugs: string[] }[] = [
     slugs: [
       'daejeon-one-night',
       'daejeon-seven-night',
-      'cheonan-stardome-night',
+      'cheonan-stardome-night-3',
       'cheonan-korea-night',
       'cheongju-hobak-night',
       'seosan-hobak-night',
@@ -4105,7 +4105,7 @@ export const REGION_GROUPS: { id: string; label: string; slugs: string[] }[] = [
     label: '부산 · 영남',
     slugs: [
       'busan-asiad-night',
-      'changwon-lululala-night-guide',
+      'changwon-lululala-night-guide-3',
       'ulsan-champion-night-guide',
       'ulsan-newworld-night',
       'daegu-hobak-night',

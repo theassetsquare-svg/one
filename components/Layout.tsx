@@ -30,7 +30,7 @@ const navItems = [
   { href: '/event/', label: '이벤트' },
   { href: '/area/first-visit/', label: '첫방문' },
   { href: '/access/', label: '오시는길' },
-  { href: '/faq/', label: 'FAQ' },
+  { href: '/faq-3/', label: 'FAQ' },
   { href: '/review/', label: '후기' },
   { href: '/contact/', label: '연락처' },
 ];

@@ -45,7 +45,7 @@ const OWN_PAGES = [
   { file: 'event.png', url: '/event', topic: '이벤트 안내' },
   { file: 'first-visit.png', url: '/area/first-visit/', topic: '첫 방문 안내' },
   { file: 'access.png', url: '/access', topic: '오시는 길' },
-  { file: 'faq.png', url: '/faq', topic: '자주 묻는 질문' },
+  { file: 'faq.png', url: '/faq-3', topic: '자주 묻는 질문' },
   { file: 'review.png', url: '/review', topic: '방문 후기' },
   { file: 'contact.png', url: '/contact', topic: '예약 문의' },
   { file: 'atmosphere.png', url: '/atmosphere', topic: '홀 분위기' },

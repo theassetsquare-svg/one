@@ -8,7 +8,7 @@ const ALL: Record<string, Related> = {
   '/atmosphere': { href: '/atmosphere/', label: '분위기', hint: '음악·자리·손님층' },
   '/area/first-visit/': { href: '/area/first-visit/', label: '첫 방문', hint: '6단계 가이드' },
   '/access': { href: '/access/', label: '오시는 길', hint: '시내·청주·세종·주차' },
-  '/faq': { href: '/faq/', label: 'FAQ', hint: '자주 묻는 12가지' },
+  '/faq-3': { href: '/faq-3/', label: 'FAQ', hint: '자주 묻는 12가지' },
   '/review': { href: '/review/', label: '후기', hint: '단골 진짜 분위기' },
   '/contact': { href: '/contact/', label: '예약·문의', hint: '예약·VIP·단체·길안내' },
 };

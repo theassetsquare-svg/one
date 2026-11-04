@@ -216,7 +216,7 @@ export default function NightIndex() {
           <li><a href="/info/daejeon-one-night-1/">대전원나이트</a></li>
           <li><a href="/info/daejeon-one-night/">대전원나이트</a></li>
           <li><a href="/info/seosan-hobak-night/">서산호박나이트</a></li>
-          <li><a href="/info/cheonan-stardome-night/">천안스타돔나이트</a></li>
+          <li><a href="/info/cheonan-stardome-night-3/">천안스타돔나이트</a></li>
           <li><a href="/info/cheonan-korea-night/">천안코리아나이트</a></li>
           <li><a href="/info/cheongju-hobak-night/">청주호박나이트</a></li>
         </ul>
@@ -230,7 +230,7 @@ export default function NightIndex() {
           <li><a href="/info/ulsan-champion-night/">울산챔피언나이트</a></li>
           <li><a href="/info/ulsan-champion-night-guide/">울산챔피언나이트</a></li>
           <li><a href="/info/changwon-lululala-night/">창원룰루랄라나이트</a></li>
-          <li><a href="/info/changwon-lululala-night-guide/">창원룰루랄라나이트</a></li>
+          <li><a href="/info/changwon-lululala-night-guide-3/">창원룰루랄라나이트</a></li>
         </ul>
         <h3 style={{ fontSize: ".95rem", margin: "16px 0 8px", opacity: .75 }}>호남·제주</h3>
         <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(190px,1fr))", gap: "8px 16px", fontSize: ".92rem" }}>
@@ -241,7 +241,7 @@ export default function NightIndex() {
         <h3 style={{ fontSize: ".95rem", margin: "16px 0 8px", opacity: .75 }}>그 밖의 지역</h3>
         <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(190px,1fr))", gap: "8px 16px", fontSize: ".92rem" }}>
           <li><a href="/info/bulgwang-hobak-night/">불광동호박나이트</a></li>
-          <li><a href="/info/bulgwang-hobak-night-guide/">불광동호박나이트</a></li>
+          <li><a href="/info/bulgwang-hobak-night-guide-3/">불광동호박나이트</a></li>
         </ul>
       </nav>
     </>

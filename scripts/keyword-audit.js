@@ -9,7 +9,7 @@ const PAGES = [
   '/atmosphere',
   '/area/first-visit/',
   '/access',
-  '/faq',
+  '/faq-3',
   '/review',
   '/contact',
 ];
